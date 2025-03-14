@@ -70,8 +70,8 @@
     <script>
         let categoriesData = [];
 
-        // Update the fetch URL to use the raw GitHub content URL or your hosting URL
-        fetch('https://YOUR_HOSTING_URL/categories_coded.json')
+        // Update with your actual GitHub username
+        fetch('https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories_coded.json')
             .then(response => response.json())
             .then(data => {
                 categoriesData = data;
