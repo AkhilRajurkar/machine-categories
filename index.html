@@ -105,10 +105,55 @@
         let categoriesData = [];
         let currentLanguage = 'en';
         
+        // Add UI translations
+        const translations = {
+            en: {
+                title: 'Machine Categories Browser',
+                mainCategories: 'Main Categories',
+                subcategories: 'Subcategories',
+                subSubcategories: 'Sub-subcategories',
+                selectMain: 'Select a main category',
+                selectSub: 'Select a subcategory',
+                loading: 'Loading categories...',
+                error: 'Error loading categories. Please try again later.'
+            },
+            de: {
+                title: 'Maschinenkategorien Browser',
+                mainCategories: 'Hauptkategorien',
+                subcategories: 'Unterkategorien',
+                subSubcategories: 'Unter-Unterkategorien',
+                selectMain: 'Wählen Sie eine Hauptkategorie',
+                selectSub: 'Wählen Sie eine Unterkategorie',
+                loading: 'Kategorien werden geladen...',
+                error: 'Fehler beim Laden der Kategorien. Bitte versuchen Sie es später erneut.'
+            }
+        };
+
+        function updateUILanguage() {
+            const t = translations[currentLanguage];
+            document.title = t.title;
+            document.querySelector('h1').textContent = t.title;
+            document.querySelectorAll('h2')[0].textContent = t.mainCategories;
+            document.querySelectorAll('h2')[1].textContent = t.subcategories;
+            document.querySelectorAll('h2')[2].textContent = t.subSubcategories;
+            
+            // Update empty messages if they're showing
+            const subcat = document.getElementById('subcategories');
+            if (subcat.querySelector('.empty-message')) {
+                subcat.innerHTML = `<div class="empty-message">${t.selectMain}</div>`;
+            }
+            
+            const subsubcat = document.getElementById('subsubcategories');
+            if (subsubcat.querySelector('.empty-message')) {
+                subsubcat.innerHTML = `<div class="empty-message">${t.selectSub}</div>`;
+            }
+        }
+
         function switchLanguage(lang) {
             currentLanguage = lang;
             document.getElementById('en-btn').classList.toggle('active', lang === 'en');
             document.getElementById('de-btn').classList.toggle('active', lang === 'de');
+            updateUILanguage();
             loadCategories();
         }
         
@@ -148,9 +193,11 @@
                 </div>
             `).join('');
 
-            // Clear other sections
-            document.getElementById('subcategories').innerHTML = '<div class="empty-message">Select a main category</div>';
-            document.getElementById('subsubcategories').innerHTML = '<div class="empty-message">Select a subcategory</div>';
+            const t = translations[currentLanguage];
+            document.getElementById('subcategories').innerHTML = 
+                `<div class="empty-message">${t.selectMain}</div>`;
+            document.getElementById('subsubcategories').innerHTML = 
+                `<div class="empty-message">${t.selectSub}</div>`;
         }
 
         function selectMainCategory(code) {
