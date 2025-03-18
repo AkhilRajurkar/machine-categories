@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .category-section {
+            flex: 1;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        .category-item {
+            cursor: pointer;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .category-item:hover {
+            background-color: #e0e0e0;
+        }
+        .selected {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .code {
+            color: #666;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .empty-message {
+            color: #666;
+            font-style: italic;
+        }
+        .error-message {
+            color: #ff0000;
+            padding: 20px;
+            background-color: #ffe6e6;
+            border-radius: 4px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .loading {
+            color: #666;
+            padding: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Machine Categories Browser</h1>
+    <div class="container">
+        <div class="category-section">
+            <h2>Main Categories</h2>
+            <div id="main-categories"></div>
+        </div>
+        <div class="category-section">
+            <h2>Subcategories</h2>
+            <div id="subcategories"></div>
+        </div>
+        <div class="category-section">
+            <h2>Sub-subcategories</h2>
+            <div id="subsubcategories"></div>
+        </div>
+    </div>
+
+    <script>
+        let categoriesData = [];
+        const loadingMessage = '<div class="loading">Loading categories...</div>';
+        const errorMessage = '<div class="error-message">Error loading categories. Please try again later.</div>';
+
+        // Show loading message
+        document.getElementById('main-categories').innerHTML = loadingMessage;
+
+        // For GitHub Pages deployment
+        const isGitHubPages = window.location.hostname.includes('github.io');
+        const apiUrl = isGitHubPages 
+            ? 'https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories.json'
+            : '/api/categories';
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                categoriesData = data;
+                displayMainCategories();
+            })
+            .catch(error => {
+                console.error('Error loading categories:', error);
+                document.getElementById('main-categories').innerHTML = errorMessage;
+            });
+
+        function displayMainCategories() {
+            const container = document.getElementById('main-categories');
+            container.innerHTML = categoriesData.map(category => `
+                <div class="category-item" onclick="selectMainCategory('${category.code}')">
+                    ${category.name} <span class="code">${category.code}</span>
+                </div>
+            `).join('');
+
+            // Clear other sections
+            document.getElementById('subcategories').innerHTML = '<div class="empty-message">Select a main category</div>';
+            document.getElementById('subsubcategories').innerHTML = '<div class="empty-message">Select a subcategory</div>';
+        }
+
+        function selectMainCategory(code) {
+            // Clear previous selection
+            clearSelection('main-categories');
+            
+            // Add selection to clicked item
+            const selectedCategory = categoriesData.find(cat => cat.code === code);
+            highlightSelected(`[onclick="selectMainCategory('${code}')"]`);
+            
+            // Display subcategories
+            const container = document.getElementById('subcategories');
+            container.innerHTML = selectedCategory.subcategories.map(subcat => `
+                <div class="category-item" onclick="selectSubCategory('${code}', '${subcat.code}')">
+                    ${subcat.name} <span class="code">${subcat.code}</span>
+                </div>
+            `).join('');
+
+            // Clear sub-subcategories
+            document.getElementById('subsubcategories').innerHTML = '<div class="empty-message">Select a subcategory</div>';
+        }
+
+        function selectSubCategory(mainCode, subCode) {
+            // Clear previous selection
+            clearSelection('subcategories');
+            
+            // Add selection to clicked item
+            highlightSelected(`[onclick="selectSubCategory('${mainCode}', '${subCode}')"]`);
+            
+            // Find the selected categories
+            const mainCategory = categoriesData.find(cat => cat.code === mainCode);
+            const subCategory = mainCategory.subcategories.find(sub => sub.code === subCode);
+            
+            // Display sub-subcategories
+            const container = document.getElementById('subsubcategories');
+            if (subCategory.subSubcategories && subCategory.subSubcategories.length > 0) {
+                container.innerHTML = subCategory.subSubcategories.map(subsub => `
+                    <div class="category-item">
+                        ${subsub.name} <span class="code">${subsub.code}</span>
+                    </div>
+                `).join('');
+            } else {
+                container.innerHTML = '<div class="empty-message">No sub-subcategories available</div>';
+            }
+        }
+
+        function clearSelection(containerId) {
+            const items = document.getElementById(containerId).getElementsByClassName('category-item');
+            Array.from(items).forEach(item => item.classList.remove('selected'));
+        }
+
+        function highlightSelected(selector) {
+            const element = document.querySelector(selector);
+            if (element) {
+                element.classList.add('selected');
+            }
+        }
+    </script>
+</body>
+</html> 
