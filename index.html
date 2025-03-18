@@ -48,6 +48,20 @@
             color: #666;
             font-style: italic;
         }
+        .error-message {
+            color: #ff0000;
+            padding: 20px;
+            background-color: #ffe6e6;
+            border-radius: 4px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .loading {
+            color: #666;
+            padding: 20px;
+            text-align: center;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -69,15 +83,28 @@
 
     <script>
         let categoriesData = [];
+        const loadingMessage = '<div class="loading">Loading categories...</div>';
+        const errorMessage = '<div class="error-message">Error loading categories. Please try again later.</div>';
 
-        // Update with your actual GitHub username
-        fetch('https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories_coded.json')
+        // Show loading message
+        document.getElementById('main-categories').innerHTML = loadingMessage;
+
+        // For GitHub Pages deployment
+        const isGitHubPages = window.location.hostname.includes('github.io');
+        const apiUrl = isGitHubPages 
+            ? 'https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories.json'
+            : '/api/categories';
+
+        fetch(apiUrl)
             .then(response => response.json())
             .then(data => {
                 categoriesData = data;
                 displayMainCategories();
             })
-            .catch(error => console.error('Error loading categories:', error));
+            .catch(error => {
+                console.error('Error loading categories:', error);
+                document.getElementById('main-categories').innerHTML = errorMessage;
+            });
 
         function displayMainCategories() {
             const container = document.getElementById('main-categories');
