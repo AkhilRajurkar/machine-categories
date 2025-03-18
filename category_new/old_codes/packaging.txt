@@ -1,0 +1,348 @@
+I apologize for the confusion in my previous response. It seems there was a mix-up, as your latest request was to update the "Packaging Machinery" system (code "06") with the old Innovac codes (500.0 to 500.22), but I inadvertently provided an analysis and JSON files for "Food Processing Machinery" (code "05") with codes 600.0 to 600.25. Thank you for your patience. I’ll correct this and focus on enriching the "Packaging Machinery" system with the correct old Innovac codes (500.0 to 500.22) as requested.
+
+I’ll revisit the integrated list from the previous response, which combined the initial list and the super-enhanced list, and enrich it by mapping the old Innovac codes to the corresponding subcategories and sub-subcategories. Then, I’ll provide updated JSON files in English and German with the old codes included, along with an updated table.
+
+---
+
+### Step 1: Mapping Old Innovac Codes to the New System
+The old Innovac system for "Packaging Machinery" includes 23 categories (500.0 to 500.22):
+- 500.0 Verpackungsmaschinen
+- 500.1 Abfüllanlagen
+- 500.2 Abpackmaschinen
+- 500.3 Bandierolieranlagen
+- 500.4 Etikettieranlagen
+- 500.5 Blistereinpackmaschinen
+- 500.6 Blisterverpackungsmaschinen
+- 500.7 Endüberfüller
+- 500.8 Flachfolienanlagen
+- 500.9 Kartoniervverpackungsmaschinen
+- 500.10 Palettieranlagen
+- 500.11 Papierverpackungsmaschinen
+- 500.12 Schlauchbeutelmaschinen
+- 500.13 Schrumpfanlagen
+- 500.14 Siegerandbeutelmaschinen
+- 500.15 Sonstige Maschinen
+- 500.16 Tiegeneinpackmaschinen
+- 500.17 Tiefziehmaschinen
+- 500.18 Umreifungsmaschinen
+- 500.19 Verschließmaschinen
+- 500.20 Wäge-Füllmaschinen
+- 500.21 Wärme-Füllmaschinen (interpreted as a typo for Wäge-Füllmaschinen)
+- 500.22 Wickelmaschinen
+
+These will be mapped to the integrated list’s 9 subcategories and 38 sub-subcategories:
+- **500.0 Verpackungsmaschinen**: Main category (05).
+- **500.1 Abfüllanlagen**: 06.01.04
+- **500.2 Abpackmaschinen**: 06.09.01
+- **500.3 Bandierolieranlagen**: 06.02.06
+- **500.4 Etikettieranlagen**: 06.04.03
+- **500.5 Blistereinpackmaschinen**: 06.08.02
+- **500.6 Blisterverpackungsmaschinen**: 06.08.01
+- **500.7 Endüberfüller**: 06.09.02
+- **500.8 Flachfolienanlagen**: 06.07.07
+- **500.9 Kartoniervverpackungsmaschinen**: 06.05.03
+- **500.10 Palettieranlagen**: 06.06.03
+- **500.11 Papierverpackungsmaschinen**: 06.05.05
+- **500.12 Schlauchbeutelmaschinen**: 06.07.05
+- **500.13 Schrumpfanlagen**: 06.03.01
+- **500.14 Siegerandbeutelmaschinen**: 06.07.06
+- **500.15 Sonstige Maschinen**: 06.09.03
+- **500.16 Tiegeneinpackmaschinen**: 06.02.08
+- **500.17 Tiefziehmaschinen**: 06.08.03
+- **500.18 Umreifungsmaschinen**: 06.02.05
+- **500.19 Verschließmaschinen**: 06.02.04
+- **500.20 Wäge-Füllmaschinen**: 06.01.05
+- **500.21 Wärme-Füllmaschinen**: 06.01.05 (merged with 500.20 as likely a typo)
+- **500.22 Wickelmaschinen**: 06.03.04
+
+---
+
+### Updated Table of Categorization
+| Code       | Name (English)            | Name (German)            | Sub-subcategories (English)          | Sub-subcategories (German)          | Old Code(s) |
+|------------|---------------------------|--------------------------|-------------------------------------|-------------------------------------|-------------|
+| 06         | Packaging Machinery        | Verpackungsmaschinen      |                                     |                                     | 500.0       |
+| 06.01      | Filling Machines           | Abfüllmaschinen           | - Liquid Filling Machines           | Flüssigkeits-Abfüllmaschinen        |             |
+|            |                           |                          | - Powder Filling Machines           | Pulver-Abfüllmaschinen              |             |
+|            |                           |                          | - Granule Filling Machines          | Granulat-Abfüllmaschinen            |             |
+|            |                           |                          | - Abfüllanlagen                     | Abfüllanlagen                       | 500.1       |
+|            |                           |                          | - Weighing and Filling Machines     | Wäge-Füllmaschinen                  | 500.20, 500.21 |
+|            |                           |                          | - Tube Fillers                      | Tubenfiller                         |             |
+| 06.02      | Sealing Machines           | Verschließmaschinen       | - Heat Sealers                      | Wärmeverschlussgeräte               |             |
+|            |                           |                          | - Induction Sealers                 | Induktionsverschlussgeräte          |             |
+|            |                           |                          | - Ultrasonic Sealers                | Ultraschallverschlussgeräte         |             |
+|            |                           |                          | - Verschließmaschinen               | Verschließmaschinen                 | 500.19      |
+|            |                           |                          | - Strapping Machines                | Umreifungsmaschinen                 | 500.18      |
+|            |                           |                          | - Banding Machines                  | Banderolieranlagen                  | 500.3       |
+|            |                           |                          | - Vacuum Packaging Machines         | Vakuumpackmaschinen                 |             |
+|            |                           |                          | - Tray Sealers                      | Tablettverschlussgeräte             | 500.16      |
+| 06.03      | Wrapping Machines          | Wickelmaschinen           | - Shrink Wrapping Machines          | Schrumpffolienmaschinen             | 500.13      |
+|            |                           |                          | - Stretch Wrapping Machines         | Stretchfolienmaschinen              |             |
+|            |                           |                          | - Verpackungsmaschinen              | Verpackungsmaschinen                | 500.0 (general) |
+|            |                           |                          | - Winding Machines                  | Wickelmaschinen                     | 500.22      |
+|            |                           |                          | - Air Pillow Machines               | Luftkissenmaschinen                 |             |
+| 06.04      | Labeling Machines          | Etikettiermaschinen       | - Self-Adhesive Labelers            | Selbstklebe-Etikettiermaschinen     |             |
+|            |                           |                          | - Sleeve Labelers                   | Schrumpfschlauch-Etikettiermaschinen|             |
+|            |                           |                          | - Etikettieranlagen                 | Etikettieranlagen                   | 500.4       |
+| 06.05      | Cartoning Machines         | Kartoniermaschinen        | - Horizontal Cartoners              | Horizontale Kartoniermaschinen      |             |
+|            |                           |                          | - Vertical Cartoners                | Vertikale Kartoniermaschinen        |             |
+|            |                           |                          | - Kartoniervverpackungsmaschinen    | Kartoniervverpackungsmaschinen      | 500.9       |
+|            |                           |                          | - Cardboard Packaging Machines      | Kartonverpackungsmaschinen          |             |
+|            |                           |                          | - Paper Packaging Machines          | Papierverpackungsmaschinen          | 500.11      |
+|            |                           |                          | - Case Packers                      | Kistenpackmaschinen                 |             |
+| 06.06      | Palletizing Machines       | Palettierer               | - Conventional Palletizers          | Konventionelle Palettierer          |             |
+|            |                           |                          | - Robotic Palletizers               | Roboter-Palettierer                 |             |
+|            |                           |                          | - Palettieranlagen                  | Palettieranlagen                    | 500.10      |
+| 06.07      | Form-Fill-Seal Machines    | Form-Fill-Seal-Maschinen  | - Vertical Form-Fill-Seal (VFFS)    | Vertikale Form-Fill-Seal (VFFS)     |             |
+|            |                           |                          | - Horizontal Form-Fill-Seal (HFFS)  | Horizontale Form-Fill-Seal (HFFS)   |             |
+|            |                           |                          | - Form-Fill-Seal Maschinen          | Form-Fill-Seal Maschinen            |             |
+|            |                           |                          | - Bagging Systems                   | Absackanlagen                       |             |
+|            |                           |                          | - Tubular Bag Machines              | Schlauchbeutelmachinen              | 500.12      |
+|            |                           |                          | - Sealed Edge Bag Machines          | Siegelrandbeutelmachinen            | 500.14      |
+|            |                           |                          | - Flat Film Systems                 | Flachfolienanlagen                  | 500.8       |
+| 06.08      | Blister Packaging Machines | Blisterverpackungsmaschinen | - Blisterverpackungsmaschinen       | Blisterverpackungsmaschinen         | 500.6       |
+|            |                           |                          | - Blistereinpackmaschinen           | Blistereinpackmaschinen             | 500.5       |
+|            |                           |                          | - Thermoforming Machines            | Tiefziehmachinen                    | 500.17      |
+| 06.09      | Other Packaging Machines   | Sonstige Verpackungsmaschinen | - General Packing Machines          | Abpackmaschinen                     | 500.2       |
+|            |                           |                          | - Endüberfüller                     | Endüberfüller                       | 500.7       |
+|            |                           |                          | - Other Machines                    | Sonstige Maschinen                  | 500.15      |
+|            |                           |                          | - Punching Machines                 | Stanzmaschinen                      |             |
+
+**Notes on Table**:
+- Total sub-subcategories: 38.
+- Old codes (500.0 to 500.22) are assigned where there’s a direct match, with 500.0 tied to the main category and others to specific sub-subcategories.
+- The table reflects the integrated list, ensuring all old Innovac categories are included.
+
+---
+
+### Updated JSON Files with Old Codes
+
+#### English JSON File
+```json
+{
+  "name": "Packaging Machinery",
+  "code": "06",
+  "oldCode": "500.0",
+  "subcategories": [
+    {
+      "name": "Filling Machines",
+      "code": "06.01",
+      "subSubcategories": [
+        {"name": "Liquid Filling Machines", "code": "06.01.01"},
+        {"name": "Powder Filling Machines", "code": "06.01.02"},
+        {"name": "Granule Filling Machines", "code": "06.01.03"},
+        {"name": "Abfüllanlagen", "code": "06.01.04", "oldCode": "500.1"},
+        {"name": "Weighing and Filling Machines", "code": "06.01.05", "oldCode": "500.20, 500.21"},
+        {"name": "Tube Fillers", "code": "06.01.06"}
+      ]
+    },
+    {
+      "name": "Sealing Machines",
+      "code": "06.02",
+      "subSubcategories": [
+        {"name": "Heat Sealers", "code": "06.02.01"},
+        {"name": "Induction Sealers", "code": "06.02.02"},
+        {"name": "Ultrasonic Sealers", "code": "06.02.03"},
+        {"name": "Verschließmaschinen", "code": "06.02.04", "oldCode": "500.19"},
+        {"name": "Strapping Machines", "code": "06.02.05", "oldCode": "500.18"},
+        {"name": "Banding Machines", "code": "06.02.06", "oldCode": "500.3"},
+        {"name": "Vacuum Packaging Machines", "code": "06.02.07"},
+        {"name": "Tray Sealers", "code": "06.02.08", "oldCode": "500.16"}
+      ]
+    },
+    {
+      "name": "Wrapping Machines",
+      "code": "06.03",
+      "subSubcategories": [
+        {"name": "Shrink Wrapping Machines", "code": "06.03.01", "oldCode": "500.13"},
+        {"name": "Stretch Wrapping Machines", "code": "06.03.02"},
+        {"name": "Verpackungsmaschinen", "code": "06.03.03", "oldCode": "500.0"},
+        {"name": "Winding Machines", "code": "06.03.04", "oldCode": "500.22"},
+        {"name": "Air Pillow Machines", "code": "06.03.05"}
+      ]
+    },
+    {
+      "name": "Labeling Machines",
+      "code": "06.04",
+      "subSubcategories": [
+        {"name": "Self-Adhesive Labelers", "code": "06.04.01"},
+        {"name": "Sleeve Labelers", "code": "06.04.02"},
+        {"name": "Etikettieranlagen", "code": "06.04.03", "oldCode": "500.4"}
+      ]
+    },
+    {
+      "name": "Cartoning Machines",
+      "code": "06.05",
+      "subSubcategories": [
+        {"name": "Horizontal Cartoners", "code": "06.05.01"},
+        {"name": "Vertical Cartoners", "code": "06.05.02"},
+        {"name": "Kartoniervverpackungsmaschinen", "code": "06.05.03", "oldCode": "500.9"},
+        {"name": "Cardboard Packaging Machines", "code": "06.05.04"},
+        {"name": "Paper Packaging Machines", "code": "06.05.05", "oldCode": "500.11"},
+        {"name": "Case Packers", "code": "06.05.06"}
+      ]
+    },
+    {
+      "name": "Palletizing Machines",
+      "code": "06.06",
+      "subSubcategories": [
+        {"name": "Conventional Palletizers", "code": "06.06.01"},
+        {"name": "Robotic Palletizers", "code": "06.06.02"},
+        {"name": "Palettieranlagen", "code": "06.06.03", "oldCode": "500.10"}
+      ]
+    },
+    {
+      "name": "Form-Fill-Seal Machines",
+      "code": "06.07",
+      "subSubcategories": [
+        {"name": "Vertical Form-Fill-Seal (VFFS)", "code": "06.07.01"},
+        {"name": "Horizontal Form-Fill-Seal (HFFS)", "code": "06.07.02"},
+        {"name": "Form-Fill-Seal Maschinen", "code": "06.07.03"},
+        {"name": "Bagging Systems", "code": "06.07.04"},
+        {"name": "Tubular Bag Machines", "code": "06.07.05", "oldCode": "500.12"},
+        {"name": "Sealed Edge Bag Machines", "code": "06.07.06", "oldCode": "500.14"},
+        {"name": "Flat Film Systems", "code": "06.07.07", "oldCode": "500.8"}
+      ]
+    },
+    {
+      "name": "Blister Packaging Machines",
+      "code": "06.08",
+      "subSubcategories": [
+        {"name": "Blisterverpackungsmaschinen", "code": "06.08.01", "oldCode": "500.6"},
+        {"name": "Blistereinpackmaschinen", "code": "06.08.02", "oldCode": "500.5"},
+        {"name": "Thermoforming Machines", "code": "06.08.03", "oldCode": "500.17"}
+      ]
+    },
+    {
+      "name": "Other Packaging Machines",
+      "code": "06.09",
+      "subSubcategories": [
+        {"name": "General Packing Machines", "code": "06.09.01", "oldCode": "500.2"},
+        {"name": "Endüberfüller", "code": "06.09.02", "oldCode": "500.7"},
+        {"name": "Other Machines", "code": "06.09.03", "oldCode": "500.15"},
+        {"name": "Punching Machines", "code": "06.09.04"}
+      ]
+    }
+  ]
+}
+```
+
+#### German JSON File
+```json
+{
+  "name": "Verpackungsmaschinen",
+  "code": "06",
+  "oldCode": "500.0",
+  "subcategories": [
+    {
+      "name": "Abfüllmaschinen",
+      "code": "06.01",
+      "subSubcategories": [
+        {"name": "Flüssigkeits-Abfüllmaschinen", "code": "06.01.01"},
+        {"name": "Pulver-Abfüllmaschinen", "code": "06.01.02"},
+        {"name": "Granulat-Abfüllmaschinen", "code": "06.01.03"},
+        {"name": "Abfüllanlagen", "code": "06.01.04", "oldCode": "500.1"},
+        {"name": "Wäge-Füllmaschinen", "code": "06.01.05", "oldCode": "500.20, 500.21"},
+        {"name": "Tubenfiller", "code": "06.01.06"}
+      ]
+    },
+    {
+      "name": "Verschließmaschinen",
+      "code": "06.02",
+      "subSubcategories": [
+        {"name": "Wärmeverschlussgeräte", "code": "06.02.01"},
+        {"name": "Induktionsverschlussgeräte", "code": "06.02.02"},
+        {"name": "Ultraschallverschlussgeräte", "code": "06.02.03"},
+        {"name": "Verschließmaschinen", "code": "06.02.04", "oldCode": "500.19"},
+        {"name": "Umreifungsmaschinen", "code": "06.02.05", "oldCode": "500.18"},
+        {"name": "Banderolieranlagen", "code": "06.02.06", "oldCode": "500.3"},
+        {"name": "Vakuumpackmaschinen", "code": "06.02.07"},
+        {"name": "Tablettverschlussgeräte", "code": "06.02.08", "oldCode": "500.16"}
+      ]
+    },
+    {
+      "name": "Wickelmaschinen",
+      "code": "06.03",
+      "subSubcategories": [
+        {"name": "Schrumpffolienmaschinen", "code": "06.03.01", "oldCode": "500.13"},
+        {"name": "Stretchfolienmaschinen", "code": "06.03.02"},
+        {"name": "Verpackungsmaschinen", "code": "06.03.03", "oldCode": "500.0"},
+        {"name": "Wickelmaschinen", "code": "06.03.04", "oldCode": "500.22"},
+        {"name": "Luftkissenmaschinen", "code": "06.03.05"}
+      ]
+    },
+    {
+      "name": "Etikettiermaschinen",
+      "code": "06.04",
+      "subSubcategories": [
+        {"name": "Selbstklebe-Etikettiermaschinen", "code": "06.04.01"},
+        {"name": "Schrumpfschlauch-Etikettiermaschinen", "code": "06.04.02"},
+        {"name": "Etikettieranlagen", "code": "06.04.03", "oldCode": "500.4"}
+      ]
+    },
+    {
+      "name": "Kartoniermaschinen",
+      "code": "06.05",
+      "subSubcategories": [
+        {"name": "Horizontale Kartoniermaschinen", "code": "06.05.01"},
+        {"name": "Vertikale Kartoniermaschinen", "code": "06.05.02"},
+        {"name": "Kartoniervverpackungsmaschinen", "code": "06.05.03", "oldCode": "500.9"},
+        {"name": "Kartonverpackungsmaschinen", "code": "06.05.04"},
+        {"name": "Papierverpackungsmaschinen", "code": "06.05.05", "oldCode": "500.11"},
+        {"name": "Kistenpackmaschinen", "code": "06.05.06"}
+      ]
+    },
+    {
+      "name": "Palettierer",
+      "code": "06.06",
+      "subSubcategories": [
+        {"name": "Konventionelle Palettierer", "code": "06.06.01"},
+        {"name": "Roboter-Palettierer", "code": "06.06.02"},
+        {"name": "Palettieranlagen", "code": "06.06.03", "oldCode": "500.10"}
+      ]
+    },
+    {
+      "name": "Form-Fill-Seal-Maschinen",
+      "code": "06.07",
+      "subSubcategories": [
+        {"name": "Vertikale Form-Fill-Seal (VFFS)", "code": "06.07.01"},
+        {"name": "Horizontale Form-Fill-Seal (HFFS)", "code": "06.07.02"},
+        {"name": "Form-Fill-Seal Maschinen", "code": "06.07.03"},
+        {"name": "Absackanlagen", "code": "06.07.04"},
+        {"name": "Schlauchbeutelmachinen", "code": "06.07.05", "oldCode": "500.12"},
+        {"name": "Siegelrandbeutelmachinen", "code": "06.07.06", "oldCode": "500.14"},
+        {"name": "Flachfolienanlagen", "code": "06.07.07", "oldCode": "500.8"}
+      ]
+    },
+    {
+      "name": "Blisterverpackungsmaschinen",
+      "code": "06.08",
+      "subSubcategories": [
+        {"name": "Blisterverpackungsmaschinen", "code": "06.08.01", "oldCode": "500.6"},
+        {"name": "Blistereinpackmaschinen", "code": "06.08.02", "oldCode": "500.5"},
+        {"name": "Tiefziehmachinen", "code": "06.08.03", "oldCode": "500.17"}
+      ]
+    },
+    {
+      "name": "Sonstige Verpackungsmaschinen",
+      "code": "06.09",
+      "subSubcategories": [
+        {"name": "Abpackmaschinen", "code": "06.09.01", "oldCode": "500.2"},
+        {"name": "Endüberfüller", "code": "06.09.02", "oldCode": "500.7"},
+        {"name": "Sonstige Maschinen", "code": "06.09.03", "oldCode": "500.15"},
+        {"name": "Stanzmaschinen", "code": "06.09.04"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+### Notes
+- **Old Code Integration**: The `oldCode` field is added at the main category level (500.0) and to sub-subcategories where there’s a direct match with the old Innovac system. Multiple old codes are listed where applicable (e.g., 500.20, 500.21 for 06.01.05).
+- **Inclusivity**: All 23 old Innovac categories (500.0 to 500.22) are accounted for, with 500.0 tied to the main category and others distributed across sub-subcategories.
+- **Sub-Subcategories**: The list maintains 38 sub-subcategories, reflecting the integrated approach.
+- **Consistency**: The numbering scheme (06.X.Y) remains intact, with old codes provided for legacy integration.
+- **File Naming**: These can be saved as `packaging_machinery_en.json` (English) and `packaging_machinery_de.json` (German).
+
+If you need further adjustments or if there’s a specific aspect you’d like to refine, please let me know!

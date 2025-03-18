@@ -1,13 +1,48 @@
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 import json
 from tqdm import tqdm
 
 class JsonToWordConverter:
     def __init__(self):
-        self.document = Document()
-        self.current_level = 0
+        self.document = None
         
+    def create_heading(self, text, level=1):
+        heading = self.document.add_heading('', level=level)
+        run = heading.add_run(text)
+        run.font.size = Pt(14 - level)
+        run.font.color.rgb = RGBColor(0, 0, 0)
+        
+    def add_category(self, category):
+        # Add main category
+        self.create_heading(f"{category['code']} - {category['name']}", 1)
+        
+        # Add subcategories
+        for subcategory in category.get('subcategories', []):
+            self.create_heading(f"{subcategory['code']} - {subcategory['name']}", 2)
+            
+            # Add sub-subcategories
+            for sub_sub in subcategory.get('subSubcategories', []):
+                self.create_heading(f"{sub_sub['code']} - {sub_sub['name']}", 3)
+                
+        self.document.add_paragraph()  # Add spacing between categories
+        
+    def convert(self, data, output_file):
+        self.document = Document()
+        
+        # Add title
+        title = self.document.add_heading('Machine Categories', 0)
+        title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        
+        # Process each category
+        for category in data['categories']:
+            if category:  # Check if category data exists
+                self.add_category(category)
+        
+        # Save the document
+        self.document.save(output_file)
+
     def format_heading(self, level):
         """Format heading based on level"""
         if level == 0:
@@ -68,7 +103,7 @@ class JsonToWordConverter:
         for key, value in tqdm(data_dict.items(), desc="Converting"):
             self.add_item(key, value, level)
 
-    def convert(self, input_json_path, output_docx_path):
+    def convert_json(self, input_json_path, output_docx_path):
         """Convert JSON file to Word document"""
         # Read JSON file
         with open(input_json_path, 'r', encoding='utf-8') as f:

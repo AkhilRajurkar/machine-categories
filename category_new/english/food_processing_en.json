@@ -1,0 +1,189 @@
+{
+    "name": "Food Processing Machinery",
+    "code": "05",
+    "subcategories": [
+        {
+            "name": "Bakery Equipment",
+            "code": "05.01",
+            "subSubcategories": [
+                {"name": "Dough Mixers", "code": "05.01.01"},
+                {"name": "Dough Dividers", "code": "05.01.02"},
+                {"name": "Deck Ovens", "code": "05.01.03"},
+                {"name": "Rack Ovens", "code": "05.01.04"},
+                {"name": "Proofing Cabinets", "code": "05.01.05"},
+                {"name": "Baking Ovens", "code": "05.01.06"},
+                {"name": "Bread Slicers", "code": "05.01.07"}
+            ]
+        },
+        {
+            "name": "Meat Processing",
+            "code": "05.02",
+            "subSubcategories": [
+                {"name": "Meat Grinders", "code": "05.02.01"},
+                {"name": "Meat Slicers", "code": "05.02.02"},
+                {"name": "Sausage Fillers", "code": "05.02.03"},
+                {"name": "Meat Mixers", "code": "05.02.04"},
+                {"name": "Smoking Equipment", "code": "05.02.05"}
+            ]
+        },
+        {
+            "name": "Beverage Production",
+            "code": "05.03",
+            "subSubcategories": [
+                {"name": "Mash Tuns", "code": "05.03.01"},
+                {"name": "Fermentation Tanks", "code": "05.03.02"},
+                {"name": "Filling & Canning Lines", "code": "05.03.03"},
+                {"name": "Pasteurizers", "code": "05.03.04"},
+                {"name": "Filter Processing Machines", "code": "05.03.05"}
+            ]
+        },
+        {
+            "name": "Dairy Equipment",
+            "code": "05.04",
+            "subSubcategories": [
+                {"name": "Milk Pasteurizers", "code": "05.04.01"},
+                {"name": "Cheese Making Equipment", "code": "05.04.02"},
+                {"name": "Cream Separators", "code": "05.04.03"},
+                {"name": "Butter Churns", "code": "05.04.04"}
+            ]
+        },
+        {
+            "name": "Confectionery Machines",
+            "code": "05.05",
+            "subSubcategories": [
+                {"name": "Chocolate Tempering Machines", "code": "05.05.01"},
+                {"name": "Candy Making Machines", "code": "05.05.02"}
+            ]
+        },
+        {
+            "name": "Fruit & Vegetable Processing",
+            "code": "05.06",
+            "subSubcategories": [
+                {"name": "Washing Machines", "code": "05.06.01"},
+                {"name": "Peeling Machines", "code": "05.06.02"},
+                {"name": "Cutting & Dicing Machines", "code": "05.06.03"}
+            ]
+        },
+        {
+            "name": "Food Packaging",
+            "code": "05.07",
+            "subSubcategories": [
+                {"name": "Vacuum Packaging Machines", "code": "05.07.01"},
+                {"name": "Modified Atmosphere Packaging", "code": "05.07.02"},
+                {"name": "Filling Machines", "code": "05.07.03"}
+            ]
+        },
+        {
+            "name": "Refrigeration & Cooling",
+            "code": "05.08",
+            "subSubcategories": [
+                {"name": "Chillers", "code": "05.08.01"},
+                {"name": "Cooling Towers", "code": "05.08.02"},
+                {"name": "Cold Rooms", "code": "05.08.03"},
+                {"name": "Display Coolers", "code": "05.08.04"},
+                {"name": "Ice Machines", "code": "05.08.05"}
+            ]
+        },
+        {
+            "name": "Coffee, Tea, and Tobacco Processing",
+            "code": "05.09",
+            "subSubcategories": [
+                {"name": "Coffee Machines", "code": "05.09.01"},
+                {"name": "Tea Processing Machines", "code": "05.09.02"},
+                {"name": "Tobacco Processing Machines", "code": "05.09.03"}
+            ]
+        },
+        {
+            "name": "Snack Food Production",
+            "code": "05.10",
+            "subSubcategories": [
+                {"name": "Potato Chip Machines", "code": "05.10.01"},
+                {"name": "Popcorn Machines", "code": "05.10.02"}
+            ]
+        },
+        {
+            "name": "Kitchen Equipment",
+            "code": "05.11",
+            "subSubcategories": [
+                {"name": "Cooking Ranges", "code": "05.11.01"},
+                {"name": "Refrigerators", "code": "05.11.02"}
+            ]
+        },
+        {
+            "name": "Mixing and Blending Equipment",
+            "code": "05.12",
+            "subSubcategories": [
+                {"name": "Mixers", "code": "05.12.01"},
+                {"name": "Blenders", "code": "05.12.02"},
+                {"name": "Mixing Machines", "code": "05.12.03"}
+            ]
+        },
+        {
+            "name": "Storage and Handling Equipment",
+            "code": "05.13",
+            "subSubcategories": [
+                {"name": "Storage Racks", "code": "05.13.01"},
+                {"name": "Conveyors", "code": "05.13.02"}
+            ]
+        },
+        {
+            "name": "Pasta and Noodle Production",
+            "code": "05.14",
+            "subSubcategories": [
+                {"name": "Pasta Extruders", "code": "05.14.01"}
+            ]
+        },
+        {
+            "name": "Cleaning and Sanitation Equipment",
+            "code": "05.15",
+            "subSubcategories": [
+                {"name": "Cleaning Machines", "code": "05.15.01"},
+                {"name": "Sanitation Systems", "code": "05.15.02"}
+            ]
+        },
+        {
+            "name": "Sorting and Sifting Equipment",
+            "code": "05.16",
+            "subSubcategories": [
+                {"name": "Sifting Machines", "code": "05.16.01"},
+                {"name": "Sorting Machines", "code": "05.16.02"}
+            ]
+        },
+        {
+            "name": "Dryers",
+            "code": "05.17",
+            "subSubcategories": [
+                {"name": "Industrial Dryers", "code": "05.17.01"}
+            ]
+        },
+        {
+            "name": "Weighing and Measuring Equipment",
+            "code": "05.18",
+            "subSubcategories": [
+                {"name": "Scales", "code": "05.18.01"},
+                {"name": "Measuring Devices", "code": "05.18.02"}
+            ]
+        },
+        {
+            "name": "Oil and Fat Processing",
+            "code": "05.19",
+            "subSubcategories": [
+                {"name": "Oil Presses", "code": "05.19.01"}
+            ]
+        },
+        {
+            "name": "Dairy By-Product Processing",
+            "code": "05.20",
+            "subSubcategories": [
+                {"name": "Whey Processing Machines", "code": "05.20.01"}
+            ]
+        },
+        {
+            "name": "Miscellaneous Food Processing Machines",
+            "code": "05.21",
+            "subSubcategories": [
+                {"name": "General Purpose Machines", "code": "05.21.01"}
+            ]
+        }
+    ]
+}

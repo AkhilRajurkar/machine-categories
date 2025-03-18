@@ -1,0 +1,216 @@
+{
+    "name": "Metalworking Machinery",
+    "code": "01",
+    "subcategories": [
+      {
+        "name": "Machining Centers",
+        "code": "01.01",
+        "subSubcategories": [
+          { "name": "Vertical CNC Machining Centers", "code": "01.01.01" },
+          { "name": "Horizontal CNC Machining Centers", "code": "01.01.02" },
+          { "name": "Universal CNC Machining Centers", "code": "01.01.03" },
+          { "name": "Manual Machining Centers", "code": "01.01.04" }
+        ]
+      },
+      {
+        "name": "Milling Machines",
+        "code": "01.02",
+        "subSubcategories": [
+          { "name": "CNC Milling Machines", "code": "01.02.01" },
+          { "name": "Manual Milling Machines", "code": "01.02.02" },
+          { "name": "Planing Machines", "code": "01.02.03" }
+        ]
+      },
+      {
+        "name": "Lathes",
+        "code": "01.03",
+        "subSubcategories": [
+          { "name": "Horizontal CNC Lathes", "code": "01.03.01" },
+          { "name": "Vertical CNC Lathes", "code": "01.03.02" },
+          { "name": "Manual Lead & Feed Spindle Lathes", "code": "01.03.03" },
+          { "name": "Turret Lathes", "code": "01.03.04" },
+          { "name": "Centering & End Processing Machines", "code": "01.03.05" }
+        ]
+      },
+      {
+        "name": "Grinding Machines",
+        "code": "01.04",
+        "subSubcategories": [
+          { "name": "Surface Grinding Machines", "code": "01.04.01" },
+          { "name": "External Cylindrical Grinding Machines", "code": "01.04.02" },
+          { "name": "Internal Cylindrical Grinding Machines", "code": "01.04.03" },
+          { "name": "Tool & Cutter Grinding Machines", "code": "01.04.04" },
+          { "name": "Centerless Grinding Machines", "code": "01.04.05" }
+        ]
+      },
+      {
+        "name": "Drilling & Boring Machines",
+        "code": "01.05",
+        "subSubcategories": [
+          { "name": "Radial Drilling Machines", "code": "01.05.01" },
+          { "name": "Column Drilling Machines", "code": "01.05.02" },
+          { "name": "Horizontal Boring Mills", "code": "01.05.03" },
+          { "name": "Vertical Boring Mills", "code": "01.05.04" }
+        ]
+      },
+      {
+        "name": "EDM Machines",
+        "code": "01.06",
+        "subSubcategories": [
+          { "name": "Wire EDM Machines", "code": "01.06.01" },
+          { "name": "Sinker EDM Machines", "code": "01.06.02" },
+          { "name": "EDM Drilling Machines", "code": "01.06.03" }
+        ]
+      },
+      {
+        "name": "Sawing & Cutting Machines",
+        "code": "01.07",
+        "subSubcategories": [
+          { "name": "Horizontal Band Saws", "code": "01.07.01" },
+          { "name": "Vertical Band Saws", "code": "01.07.02" },
+          { "name": "Circular Saws", "code": "01.07.03" },
+          { "name": "Hack Saws", "code": "01.07.04" }
+        ]
+      },
+      {
+        "name": "Welding Equipment",
+        "code": "01.08",
+        "subSubcategories": [
+          { "name": "MIG/MAG Welding Machines", "code": "01.08.01" },
+          { "name": "TIG Welding Machines", "code": "01.08.02" },
+          { "name": "Stick Welding Machines", "code": "01.08.03" },
+          { "name": "Spot Welding Machines", "code": "01.08.04" },
+          { "name": "Seam Welding Machines", "code": "01.08.05" },
+          { "name": "Welding Robots", "code": "01.08.06" },
+          { "name": "Welding Accessories", "code": "01.08.07" }
+        ]
+      },
+      {
+        "name": "Presses",
+        "code": "01.09",
+        "subSubcategories": [
+          { "name": "Mechanical Presses", "code": "01.09.01" },
+          { "name": "Hydraulic Presses", "code": "01.09.02" },
+          { "name": "Pneumatic Presses", "code": "01.09.03" },
+          { "name": "Forging Presses", "code": "01.09.04" },
+          { "name": "Punching Presses", "code": "01.09.05" },
+          { "name": "Impact, Pulling, and Ramming Machines", "code": "01.09.06" }
+        ]
+      },
+      {
+        "name": "Gear Machining",
+        "code": "01.10",
+        "subSubcategories": [
+          { "name": "Gear Hobbing Machines", "code": "01.10.01" },
+          { "name": "Gear Shaping Machines", "code": "01.10.02" },
+          { "name": "Gear Grinding Machines", "code": "01.10.03" }
+        ]
+      },
+      {
+        "name": "Wire Processing",
+        "code": "01.11",
+        "subSubcategories": [
+          { "name": "Wire Drawing Machines", "code": "01.11.01" },
+          { "name": "Wire Twisting Machines", "code": "01.11.02" },
+          { "name": "Wire Cutting & Stripping Machines", "code": "01.11.03" },
+          { "name": "Wire Bending Machines", "code": "01.11.04" },
+          { "name": "Wire Mesh Machines", "code": "01.11.05" },
+          { "name": "Wire Winding Machines", "code": "01.11.06" }
+        ]
+      },
+      {
+        "name": "Surface Cleaning",
+        "code": "01.12",
+        "subSubcategories": [
+          { "name": "Sandblasting Machines", "code": "01.12.01" },
+          { "name": "Shot Blasting Machines", "code": "01.12.02" },
+          { "name": "Ultrasonic Cleaning Systems", "code": "01.12.03" },
+          { "name": "Solvent Cleaning Systems", "code": "01.12.04" }
+        ]
+      },
+      {
+        "name": "Surface Coating",
+        "code": "01.13",
+        "subSubcategories": [
+          { "name": "Powder Coating Systems", "code": "01.13.01" },
+          { "name": "Paint Systems", "code": "01.13.02" },
+          { "name": "Electroplating Systems", "code": "01.13.03" },
+          { "name": "Anodizing Systems", "code": "01.13.04" }
+        ]
+      },
+      {
+        "name": "Surface Finishing",
+        "code": "01.14",
+        "subSubcategories": [
+          { "name": "Polishing Machines", "code": "01.14.01" },
+          { "name": "Deburring Machines", "code": "01.14.02" },
+          { "name": "Furnaces", "code": "01.14.03" }
+        ]
+      },
+      {
+        "name": "Other Metalworking Machines",
+        "code": "01.15",
+        "subSubcategories": [
+          { "name": "Honing Machines", "code": "01.15.01" },
+          { "name": "Lapping Machines", "code": "01.15.02" },
+          { "name": "Broaching Machines", "code": "01.15.03" },
+          { "name": "Straightening Machines", "code": "01.15.04" },
+          { "name": "Die-Casting Machines", "code": "01.15.05" },
+          { "name": "Casting Machines", "code": "01.15.06" },
+          { "name": "Pipe Processing Machines", "code": "01.15.07" },
+          { "name": "Transfer Machines", "code": "01.15.08" },
+          { "name": "Balancing Machines", "code": "01.15.09" },
+          { "name": "Thread Processing Machines", "code": "01.15.10" },
+          { "name": "Forging Machines", "code": "01.15.11" },
+          { "name": "Slotting Machines", "code": "01.15.12" },
+          { "name": "Engraving Machines", "code": "01.15.13" }
+        ]
+      },
+      {
+        "name": "Measuring and Inspection Equipment",
+        "code": "01.16",
+        "subSubcategories": [
+          { "name": "Coordinate Measuring Machines (CMM)", "code": "01.16.01" },
+          { "name": "Optical Inspection Systems", "code": "01.16.02" },
+          { "name": "Surface Roughness Testers", "code": "01.16.03" }
+        ]
+      },
+      {
+        "name": "Additive Manufacturing Equipment",
+        "code": "01.17",
+        "subSubcategories": [
+          { "name": "3D Metal Printers", "code": "01.17.01" },
+          { "name": "Metal Deposition Machines", "code": "01.17.02" }
+        ]
+      },
+      {
+        "name": "Sheet Metal Cutting",
+        "code": "01.18",
+        "subSubcategories": [
+          { "name": "Laser Cutting Machines", "code": "01.18.01" },
+          { "name": "Plasma Cutting Machines", "code": "01.18.02" },
+          { "name": "Waterjet Cutting Machines", "code": "01.18.03" },
+          { "name": "Shears", "code": "01.18.04" },
+          { "name": "CNC Punching Machines", "code": "01.18.05" }
+        ]
+      },
+      {
+        "name": "Sheet Metal Forming",
+        "code": "01.19",
+        "subSubcategories": [
+          { "name": "Press Brakes", "code": "01.19.01" },
+          { "name": "Plate Rolling Machines", "code": "01.19.02" },
+          { "name": "CNC Punching Machines", "code": "01.19.03" },
+          { "name": "Mechanical Punching Machines", "code": "01.19.04" }
+        ]
+      },
+      {
+        "name": "Sheet Metal Bending",
+        "code": "01.20",
+        "subSubcategories": [
+          { "name": "Swing-Beam Bending Machines", "code": "01.20.01" },
+          { "name": "Profile Bending Machines", "code": "01.20.02" }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,2550 @@
+[
+  {
+    "name": "Food Processing Machinery",
+    "code": "05",
+    "subcategories": [
+      {
+        "name": "Bakery Equipment",
+        "code": "05.01",
+        "subSubcategories": [
+          {
+            "name": "Dough Mixers",
+            "code": "05.01.01"
+          },
+          {
+            "name": "Dough Dividers",
+            "code": "05.01.02"
+          },
+          {
+            "name": "Deck Ovens",
+            "code": "05.01.03"
+          },
+          {
+            "name": "Rack Ovens",
+            "code": "05.01.04"
+          },
+          {
+            "name": "Proofing Cabinets",
+            "code": "05.01.05"
+          },
+          {
+            "name": "Baking Ovens",
+            "code": "05.01.06"
+          },
+          {
+            "name": "Bread Slicers",
+            "code": "05.01.07"
+          }
+        ]
+      },
+      {
+        "name": "Meat Processing",
+        "code": "05.02",
+        "subSubcategories": [
+          {
+            "name": "Meat Grinders",
+            "code": "05.02.01"
+          },
+          {
+            "name": "Meat Slicers",
+            "code": "05.02.02"
+          },
+          {
+            "name": "Sausage Fillers",
+            "code": "05.02.03"
+          },
+          {
+            "name": "Meat Mixers",
+            "code": "05.02.04"
+          },
+          {
+            "name": "Smoking Equipment",
+            "code": "05.02.05"
+          }
+        ]
+      },
+      {
+        "name": "Beverage Production",
+        "code": "05.03",
+        "subSubcategories": [
+          {
+            "name": "Mash Tuns",
+            "code": "05.03.01"
+          },
+          {
+            "name": "Fermentation Tanks",
+            "code": "05.03.02"
+          },
+          {
+            "name": "Filling & Canning Lines",
+            "code": "05.03.03"
+          },
+          {
+            "name": "Pasteurizers",
+            "code": "05.03.04"
+          },
+          {
+            "name": "Filter Processing Machines",
+            "code": "05.03.05"
+          }
+        ]
+      },
+      {
+        "name": "Dairy Equipment",
+        "code": "05.04",
+        "subSubcategories": [
+          {
+            "name": "Milk Pasteurizers",
+            "code": "05.04.01"
+          },
+          {
+            "name": "Cheese Making Equipment",
+            "code": "05.04.02"
+          },
+          {
+            "name": "Cream Separators",
+            "code": "05.04.03"
+          },
+          {
+            "name": "Butter Churns",
+            "code": "05.04.04"
+          }
+        ]
+      },
+      {
+        "name": "Confectionery Machines",
+        "code": "05.05",
+        "subSubcategories": [
+          {
+            "name": "Chocolate Tempering Machines",
+            "code": "05.05.01"
+          },
+          {
+            "name": "Candy Making Machines",
+            "code": "05.05.02"
+          }
+        ]
+      },
+      {
+        "name": "Fruit & Vegetable Processing",
+        "code": "05.06",
+        "subSubcategories": [
+          {
+            "name": "Washing Machines",
+            "code": "05.06.01"
+          },
+          {
+            "name": "Peeling Machines",
+            "code": "05.06.02"
+          },
+          {
+            "name": "Cutting & Dicing Machines",
+            "code": "05.06.03"
+          }
+        ]
+      },
+      {
+        "name": "Food Packaging",
+        "code": "05.07",
+        "subSubcategories": [
+          {
+            "name": "Vacuum Packaging Machines",
+            "code": "05.07.01"
+          },
+          {
+            "name": "Modified Atmosphere Packaging",
+            "code": "05.07.02"
+          },
+          {
+            "name": "Filling Machines",
+            "code": "05.07.03"
+          }
+        ]
+      },
+      {
+        "name": "Refrigeration & Cooling",
+        "code": "05.08",
+        "subSubcategories": [
+          {
+            "name": "Chillers",
+            "code": "05.08.01"
+          },
+          {
+            "name": "Cooling Towers",
+            "code": "05.08.02"
+          },
+          {
+            "name": "Cold Rooms",
+            "code": "05.08.03"
+          },
+          {
+            "name": "Display Coolers",
+            "code": "05.08.04"
+          },
+          {
+            "name": "Ice Machines",
+            "code": "05.08.05"
+          }
+        ]
+      },
+      {
+        "name": "Coffee, Tea, and Tobacco Processing",
+        "code": "05.09",
+        "subSubcategories": [
+          {
+            "name": "Coffee Machines",
+            "code": "05.09.01"
+          },
+          {
+            "name": "Tea Processing Machines",
+            "code": "05.09.02"
+          },
+          {
+            "name": "Tobacco Processing Machines",
+            "code": "05.09.03"
+          }
+        ]
+      },
+      {
+        "name": "Snack Food Production",
+        "code": "05.10",
+        "subSubcategories": [
+          {
+            "name": "Potato Chip Machines",
+            "code": "05.10.01"
+          },
+          {
+            "name": "Popcorn Machines",
+            "code": "05.10.02"
+          }
+        ]
+      },
+      {
+        "name": "Kitchen Equipment",
+        "code": "05.11",
+        "subSubcategories": [
+          {
+            "name": "Cooking Ranges",
+            "code": "05.11.01"
+          },
+          {
+            "name": "Refrigerators",
+            "code": "05.11.02"
+          }
+        ]
+      },
+      {
+        "name": "Mixing and Blending Equipment",
+        "code": "05.12",
+        "subSubcategories": [
+          {
+            "name": "Mixers",
+            "code": "05.12.01"
+          },
+          {
+            "name": "Blenders",
+            "code": "05.12.02"
+          },
+          {
+            "name": "Mixing Machines",
+            "code": "05.12.03"
+          }
+        ]
+      },
+      {
+        "name": "Storage and Handling Equipment",
+        "code": "05.13",
+        "subSubcategories": [
+          {
+            "name": "Storage Racks",
+            "code": "05.13.01"
+          },
+          {
+            "name": "Conveyors",
+            "code": "05.13.02"
+          }
+        ]
+      },
+      {
+        "name": "Pasta and Noodle Production",
+        "code": "05.14",
+        "subSubcategories": [
+          {
+            "name": "Pasta Extruders",
+            "code": "05.14.01"
+          }
+        ]
+      },
+      {
+        "name": "Cleaning and Sanitation Equipment",
+        "code": "05.15",
+        "subSubcategories": [
+          {
+            "name": "Cleaning Machines",
+            "code": "05.15.01"
+          },
+          {
+            "name": "Sanitation Systems",
+            "code": "05.15.02"
+          }
+        ]
+      },
+      {
+        "name": "Sorting and Sifting Equipment",
+        "code": "05.16",
+        "subSubcategories": [
+          {
+            "name": "Sifting Machines",
+            "code": "05.16.01"
+          },
+          {
+            "name": "Sorting Machines",
+            "code": "05.16.02"
+          }
+        ]
+      },
+      {
+        "name": "Dryers",
+        "code": "05.17",
+        "subSubcategories": [
+          {
+            "name": "Industrial Dryers",
+            "code": "05.17.01"
+          }
+        ]
+      },
+      {
+        "name": "Weighing and Measuring Equipment",
+        "code": "05.18",
+        "subSubcategories": [
+          {
+            "name": "Scales",
+            "code": "05.18.01"
+          },
+          {
+            "name": "Measuring Devices",
+            "code": "05.18.02"
+          }
+        ]
+      },
+      {
+        "name": "Oil and Fat Processing",
+        "code": "05.19",
+        "subSubcategories": [
+          {
+            "name": "Oil Presses",
+            "code": "05.19.01"
+          }
+        ]
+      },
+      {
+        "name": "Dairy By-Product Processing",
+        "code": "05.20",
+        "subSubcategories": [
+          {
+            "name": "Whey Processing Machines",
+            "code": "05.20.01"
+          }
+        ]
+      },
+      {
+        "name": "Miscellaneous Food Processing Machines",
+        "code": "05.21",
+        "subSubcategories": [
+          {
+            "name": "General Purpose Machines",
+            "code": "05.21.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Construction Machinery",
+    "code": "08",
+    "subcategories": [
+      {
+        "name": "Earth Moving Equipment",
+        "code": "08.01",
+        "subSubcategories": [
+          {
+            "name": "Crawler Excavators",
+            "code": "08.01.01"
+          },
+          {
+            "name": "Wheeled Excavators",
+            "code": "08.01.02"
+          },
+          {
+            "name": "Skid Steer Loaders",
+            "code": "08.01.03"
+          },
+          {
+            "name": "Wheel Loaders",
+            "code": "08.01.04"
+          },
+          {
+            "name": "Bulldozers",
+            "code": "08.01.05"
+          },
+          {
+            "name": "Graders",
+            "code": "08.01.06"
+          },
+          {
+            "name": "Rammers",
+            "code": "08.01.07"
+          },
+          {
+            "name": "Vibrating Plates",
+            "code": "08.01.08"
+          }
+        ]
+      },
+      {
+        "name": "Road Construction",
+        "code": "08.02",
+        "subSubcategories": [
+          {
+            "name": "Asphal Pavers",
+            "code": "08.02.01"
+          },
+          {
+            "name": "Road Rollers",
+            "code": "08.02.02"
+          },
+          {
+            "name": "Cold Milling Machines",
+            "code": "08.02.03"
+          }
+        ]
+      },
+      {
+        "name": "Lifting Equipment",
+        "code": "08.03",
+        "subSubcategories": [
+          {
+            "name": "Crawler Cranes",
+            "code": "08.03.01"
+          },
+          {
+            "name": "Truck Cranes",
+            "code": "08.03.02"
+          },
+          {
+            "name": "Tower Cranes",
+            "code": "08.03.03"
+          },
+          {
+            "name": "Forklifts",
+            "code": "08.03.04"
+          },
+          {
+            "name": "Aerial Work Platforms",
+            "code": "08.03.05"
+          }
+        ]
+      },
+      {
+        "name": "Concrete Equipment",
+        "code": "08.04",
+        "subSubcategories": [
+          {
+            "name": "Concrete Mixers",
+            "code": "08.04.01"
+          },
+          {
+            "name": "Concrete Pumps",
+            "code": "08.04.02"
+          },
+          {
+            "name": "Concrete Batching Plants",
+            "code": "08.04.03"
+          },
+          {
+            "name": "Scaffoldings",
+            "code": "08.04.04"
+          },
+          {
+            "name": "Shuttering",
+            "code": "08.04.05"
+          }
+        ]
+      },
+      {
+        "name": "Drilling Equipment",
+        "code": "08.05",
+        "subSubcategories": [
+          {
+            "name": "Pile Drivers",
+            "code": "08.05.01"
+          },
+          {
+            "name": "Rotary Drilling Rigs",
+            "code": "08.05.02"
+          }
+        ]
+      },
+      {
+        "name": "Stone Processing",
+        "code": "08.06",
+        "subSubcategories": [
+          {
+            "name": "Bridge Saws",
+            "code": "08.06.01"
+          },
+          {
+            "name": "Wire Saws",
+            "code": "08.06.02"
+          },
+          {
+            "name": "Stone Polishing Machines",
+            "code": "08.06.03"
+          },
+          {
+            "name": "Stone Engraving Machines",
+            "code": "08.06.04"
+          },
+          {
+            "name": "CNC Stone Machining Centers",
+            "code": "08.06.05"
+          },
+          {
+            "name": "Stone Splitters",
+            "code": "08.06.06"
+          }
+        ]
+      },
+      {
+        "name": "Municipal Equipment",
+        "code": "08.07",
+        "subSubcategories": [
+          {
+            "name": "Street Sweepers",
+            "code": "08.07.01"
+          },
+          {
+            "name": "Scrubber-Dryers",
+            "code": "08.07.02"
+          },
+          {
+            "name": "Garbage Trucks",
+            "code": "08.07.03"
+          },
+          {
+            "name": "Recycling Vehicles",
+            "code": "08.07.04"
+          },
+          {
+            "name": "Snow Plows",
+            "code": "08.07.05"
+          },
+          {
+            "name": "Snow Blowers",
+            "code": "08.07.06"
+          },
+          {
+            "name": "Asphal Patching Machines",
+            "code": "08.07.07"
+          },
+          {
+            "name": "Crack Fillers",
+            "code": "08.07.08"
+          },
+          {
+            "name": "Tree Care Equipment",
+            "code": "08.07.09"
+          }
+        ]
+      },
+      {
+        "name": "Demolition and Recycling Equipment",
+        "code": "08.08",
+        "subSubcategories": [
+          {
+            "name": "Demolition Excavators",
+            "code": "08.08.01"
+          },
+          {
+            "name": "Crushers",
+            "code": "08.08.02"
+          },
+          {
+            "name": "Screens",
+            "code": "08.08.03"
+          },
+          {
+            "name": "Landfill Compactors",
+            "code": "08.08.04"
+          }
+        ]
+      },
+      {
+        "name": "Transport Equipment",
+        "code": "08.09",
+        "subSubcategories": [
+          {
+            "name": "Trailers",
+            "code": "08.09.01"
+          },
+          {
+            "name": "Tippers",
+            "code": "08.09.02"
+          },
+          {
+            "name": "Containers",
+            "code": "08.09.03"
+          },
+          {
+            "name": "Dump Trucks",
+            "code": "08.09.04"
+          },
+          {
+            "name": "Concrete Trucks",
+            "code": "08.09.05"
+          }
+        ]
+      },
+      {
+        "name": "Building Material Production",
+        "code": "08.10",
+        "subSubcategories": [
+          {
+            "name": "Crushing Plants",
+            "code": "08.10.01"
+          },
+          {
+            "name": "Brick Making Machines",
+            "code": "08.10.02"
+          },
+          {
+            "name": "Cement Plants",
+            "code": "08.10.03"
+          },
+          {
+            "name": "Asphal Plants",
+            "code": "08.10.04"
+          }
+        ]
+      },
+      {
+        "name": "Specialized Construction Equipment",
+        "code": "08.11",
+        "subSubcategories": [
+          {
+            "name": "Bridge Construction Equipment",
+            "code": "08.11.01"
+          },
+          {
+            "name": "Tunneling Equipment",
+            "code": "08.11.02"
+          },
+          {
+            "name": "Pipeline Equipment",
+            "code": "08.11.03"
+          }
+        ]
+      },
+      {
+        "name": "Utilities and Support Equipment",
+        "code": "08.12",
+        "subSubcategories": [
+          {
+            "name": "Compressors",
+            "code": "08.12.01"
+          },
+          {
+            "name": "Generators",
+            "code": "08.12.02"
+          },
+          {
+            "name": "Hand Tools",
+            "code": "08.12.03"
+          },
+          {
+            "name": "Power Tools",
+            "code": "08.12.04"
+          },
+          {
+            "name": "Presses",
+            "code": "08.12.05"
+          }
+        ]
+      },
+      {
+        "name": "Finishing and Surface Preparation",
+        "code": "08.13",
+        "subSubcategories": [
+          {
+            "name": "Plastering Machines",
+            "code": "08.13.01"
+          },
+          {
+            "name": "Grinding Machines",
+            "code": "08.13.02"
+          },
+          {
+            "name": "Polishing Machines",
+            "code": "08.13.03"
+          },
+          {
+            "name": "Painting Machines",
+            "code": "08.13.04"
+          }
+        ]
+      },
+      {
+        "name": "Cutting Technology",
+        "code": "08.14",
+        "subSubcategories": [
+          {
+            "name": "Sawing Machines",
+            "code": "08.14.01"
+          },
+          {
+            "name": "Shearing Machines",
+            "code": "08.14.02"
+          },
+          {
+            "name": "Plasma Cutters",
+            "code": "08.14.03"
+          },
+          {
+            "name": "Laser Cutters",
+            "code": "08.14.04"
+          }
+        ]
+      },
+      {
+        "name": "Other Machines",
+        "code": "08.15",
+        "subSubcategories": [
+          {
+            "name": "Miscellaneous Machines",
+            "code": "08.15.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Metalworking Machinery",
+    "code": "01",
+    "subcategories": [
+      {
+        "name": "Machining Centers",
+        "code": "01.01",
+        "subSubcategories": [
+          {
+            "name": "Vertical CNC Machining Centers",
+            "code": "01.01.01"
+          },
+          {
+            "name": "Horizontal CNC Machining Centers",
+            "code": "01.01.02"
+          },
+          {
+            "name": "Universal CNC Machining Centers",
+            "code": "01.01.03"
+          },
+          {
+            "name": "Manual Machining Centers",
+            "code": "01.01.04"
+          }
+        ]
+      },
+      {
+        "name": "Milling Machines",
+        "code": "01.02",
+        "subSubcategories": [
+          {
+            "name": "CNC Milling Machines",
+            "code": "01.02.01"
+          },
+          {
+            "name": "Manual Milling Machines",
+            "code": "01.02.02"
+          },
+          {
+            "name": "Planing Machines",
+            "code": "01.02.03"
+          }
+        ]
+      },
+      {
+        "name": "Lathes",
+        "code": "01.03",
+        "subSubcategories": [
+          {
+            "name": "Horizontal CNC Lathes",
+            "code": "01.03.01"
+          },
+          {
+            "name": "Vertical CNC Lathes",
+            "code": "01.03.02"
+          },
+          {
+            "name": "Manual Lead & Feed Spindle Lathes",
+            "code": "01.03.03"
+          },
+          {
+            "name": "Turret Lathes",
+            "code": "01.03.04"
+          },
+          {
+            "name": "Centering & End Processing Machines",
+            "code": "01.03.05"
+          }
+        ]
+      },
+      {
+        "name": "Grinding Machines",
+        "code": "01.04",
+        "subSubcategories": [
+          {
+            "name": "Surface Grinding Machines",
+            "code": "01.04.01"
+          },
+          {
+            "name": "External Cylindrical Grinding Machines",
+            "code": "01.04.02"
+          },
+          {
+            "name": "Internal Cylindrical Grinding Machines",
+            "code": "01.04.03"
+          },
+          {
+            "name": "Tool & Cutter Grinding Machines",
+            "code": "01.04.04"
+          },
+          {
+            "name": "Centerless Grinding Machines",
+            "code": "01.04.05"
+          }
+        ]
+      },
+      {
+        "name": "Drilling & Boring Machines",
+        "code": "01.05",
+        "subSubcategories": [
+          {
+            "name": "Radial Drilling Machines",
+            "code": "01.05.01"
+          },
+          {
+            "name": "Column Drilling Machines",
+            "code": "01.05.02"
+          },
+          {
+            "name": "Horizontal Boring Mills",
+            "code": "01.05.03"
+          },
+          {
+            "name": "Vertical Boring Mills",
+            "code": "01.05.04"
+          }
+        ]
+      },
+      {
+        "name": "EDM Machines",
+        "code": "01.06",
+        "subSubcategories": [
+          {
+            "name": "Wire EDM Machines",
+            "code": "01.06.01"
+          },
+          {
+            "name": "Sinker EDM Machines",
+            "code": "01.06.02"
+          },
+          {
+            "name": "EDM Drilling Machines",
+            "code": "01.06.03"
+          }
+        ]
+      },
+      {
+        "name": "Sawing & Cutting Machines",
+        "code": "01.07",
+        "subSubcategories": [
+          {
+            "name": "Horizontal Band Saws",
+            "code": "01.07.01"
+          },
+          {
+            "name": "Vertical Band Saws",
+            "code": "01.07.02"
+          },
+          {
+            "name": "Circular Saws",
+            "code": "01.07.03"
+          },
+          {
+            "name": "Hack Saws",
+            "code": "01.07.04"
+          }
+        ]
+      },
+      {
+        "name": "Welding Equipment",
+        "code": "01.08",
+        "subSubcategories": [
+          {
+            "name": "MIG/MAG Welding Machines",
+            "code": "01.08.01"
+          },
+          {
+            "name": "TIG Welding Machines",
+            "code": "01.08.02"
+          },
+          {
+            "name": "Stick Welding Machines",
+            "code": "01.08.03"
+          },
+          {
+            "name": "Spot Welding Machines",
+            "code": "01.08.04"
+          },
+          {
+            "name": "Seam Welding Machines",
+            "code": "01.08.05"
+          },
+          {
+            "name": "Welding Robots",
+            "code": "01.08.06"
+          },
+          {
+            "name": "Welding Accessories",
+            "code": "01.08.07"
+          }
+        ]
+      },
+      {
+        "name": "Presses",
+        "code": "01.09",
+        "subSubcategories": [
+          {
+            "name": "Mechanical Presses",
+            "code": "01.09.01"
+          },
+          {
+            "name": "Hydraulic Presses",
+            "code": "01.09.02"
+          },
+          {
+            "name": "Pneumatic Presses",
+            "code": "01.09.03"
+          },
+          {
+            "name": "Forging Presses",
+            "code": "01.09.04"
+          },
+          {
+            "name": "Punching Presses",
+            "code": "01.09.05"
+          },
+          {
+            "name": "Impact, Pulling, and Ramming Machines",
+            "code": "01.09.06"
+          }
+        ]
+      },
+      {
+        "name": "Gear Machining",
+        "code": "01.10",
+        "subSubcategories": [
+          {
+            "name": "Gear Hobbing Machines",
+            "code": "01.10.01"
+          },
+          {
+            "name": "Gear Shaping Machines",
+            "code": "01.10.02"
+          },
+          {
+            "name": "Gear Grinding Machines",
+            "code": "01.10.03"
+          }
+        ]
+      },
+      {
+        "name": "Wire Processing",
+        "code": "01.11",
+        "subSubcategories": [
+          {
+            "name": "Wire Drawing Machines",
+            "code": "01.11.01"
+          },
+          {
+            "name": "Wire Twisting Machines",
+            "code": "01.11.02"
+          },
+          {
+            "name": "Wire Cutting & Stripping Machines",
+            "code": "01.11.03"
+          },
+          {
+            "name": "Wire Bending Machines",
+            "code": "01.11.04"
+          },
+          {
+            "name": "Wire Mesh Machines",
+            "code": "01.11.05"
+          },
+          {
+            "name": "Wire Winding Machines",
+            "code": "01.11.06"
+          }
+        ]
+      },
+      {
+        "name": "Surface Cleaning",
+        "code": "01.12",
+        "subSubcategories": [
+          {
+            "name": "Sandblasting Machines",
+            "code": "01.12.01"
+          },
+          {
+            "name": "Shot Blasting Machines",
+            "code": "01.12.02"
+          },
+          {
+            "name": "Ultrasonic Cleaning Systems",
+            "code": "01.12.03"
+          },
+          {
+            "name": "Solvent Cleaning Systems",
+            "code": "01.12.04"
+          }
+        ]
+      },
+      {
+        "name": "Surface Coating",
+        "code": "01.13",
+        "subSubcategories": [
+          {
+            "name": "Powder Coating Systems",
+            "code": "01.13.01"
+          },
+          {
+            "name": "Paint Systems",
+            "code": "01.13.02"
+          },
+          {
+            "name": "Electroplating Systems",
+            "code": "01.13.03"
+          },
+          {
+            "name": "Anodizing Systems",
+            "code": "01.13.04"
+          }
+        ]
+      },
+      {
+        "name": "Surface Finishing",
+        "code": "01.14",
+        "subSubcategories": [
+          {
+            "name": "Polishing Machines",
+            "code": "01.14.01"
+          },
+          {
+            "name": "Deburring Machines",
+            "code": "01.14.02"
+          },
+          {
+            "name": "Furnaces",
+            "code": "01.14.03"
+          }
+        ]
+      },
+      {
+        "name": "Other Metalworking Machines",
+        "code": "01.15",
+        "subSubcategories": [
+          {
+            "name": "Honing Machines",
+            "code": "01.15.01"
+          },
+          {
+            "name": "Lapping Machines",
+            "code": "01.15.02"
+          },
+          {
+            "name": "Broaching Machines",
+            "code": "01.15.03"
+          },
+          {
+            "name": "Straightening Machines",
+            "code": "01.15.04"
+          },
+          {
+            "name": "Die-Casting Machines",
+            "code": "01.15.05"
+          },
+          {
+            "name": "Casting Machines",
+            "code": "01.15.06"
+          },
+          {
+            "name": "Pipe Processing Machines",
+            "code": "01.15.07"
+          },
+          {
+            "name": "Transfer Machines",
+            "code": "01.15.08"
+          },
+          {
+            "name": "Balancing Machines",
+            "code": "01.15.09"
+          },
+          {
+            "name": "Thread Processing Machines",
+            "code": "01.15.10"
+          },
+          {
+            "name": "Forging Machines",
+            "code": "01.15.11"
+          },
+          {
+            "name": "Slotting Machines",
+            "code": "01.15.12"
+          },
+          {
+            "name": "Engraving Machines",
+            "code": "01.15.13"
+          }
+        ]
+      },
+      {
+        "name": "Measuring and Inspection Equipment",
+        "code": "01.16",
+        "subSubcategories": [
+          {
+            "name": "Coordinate Measuring Machines (CMM)",
+            "code": "01.16.01"
+          },
+          {
+            "name": "Optical Inspection Systems",
+            "code": "01.16.02"
+          },
+          {
+            "name": "Surface Roughness Testers",
+            "code": "01.16.03"
+          }
+        ]
+      },
+      {
+        "name": "Additive Manufacturing Equipment",
+        "code": "01.17",
+        "subSubcategories": [
+          {
+            "name": "3D Metal Printers",
+            "code": "01.17.01"
+          },
+          {
+            "name": "Metal Deposition Machines",
+            "code": "01.17.02"
+          }
+        ]
+      },
+      {
+        "name": "Sheet Metal Cutting",
+        "code": "01.18",
+        "subSubcategories": [
+          {
+            "name": "Laser Cutting Machines",
+            "code": "01.18.01"
+          },
+          {
+            "name": "Plasma Cutting Machines",
+            "code": "01.18.02"
+          },
+          {
+            "name": "Waterjet Cutting Machines",
+            "code": "01.18.03"
+          },
+          {
+            "name": "Shears",
+            "code": "01.18.04"
+          },
+          {
+            "name": "CNC Punching Machines",
+            "code": "01.18.05"
+          }
+        ]
+      },
+      {
+        "name": "Sheet Metal Forming",
+        "code": "01.19",
+        "subSubcategories": [
+          {
+            "name": "Press Brakes",
+            "code": "01.19.01"
+          },
+          {
+            "name": "Plate Rolling Machines",
+            "code": "01.19.02"
+          },
+          {
+            "name": "CNC Punching Machines",
+            "code": "01.19.03"
+          },
+          {
+            "name": "Mechanical Punching Machines",
+            "code": "01.19.04"
+          }
+        ]
+      },
+      {
+        "name": "Sheet Metal Bending",
+        "code": "01.20",
+        "subSubcategories": [
+          {
+            "name": "Swing-Beam Bending Machines",
+            "code": "01.20.01"
+          },
+          {
+            "name": "Profile Bending Machines",
+            "code": "01.20.02"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Woodworking Machinery",
+    "code": "2",
+    "subcategories": [
+      {
+        "name": "Saws",
+        "code": "2.1",
+        "subSubcategories": [
+          {
+            "name": "Circular Saws",
+            "code": "2.1.1"
+          },
+          {
+            "name": "Band Saws",
+            "code": "2.1.2"
+          },
+          {
+            "name": "Panel Saws",
+            "code": "2.1.3"
+          },
+          {
+            "name": "Miter Saws",
+            "code": "2.1.4"
+          },
+          {
+            "name": "Jig Saws",
+            "code": "2.1.5"
+          },
+          {
+            "name": "Sawmills",
+            "code": "2.1.6"
+          },
+          {
+            "name": "Table Saws",
+            "code": "2.1.7"
+          },
+          {
+            "name": "Radial Arm Saws",
+            "code": "2.1.8"
+          }
+        ]
+      },
+      {
+        "name": "Planers & Thicknessers",
+        "code": "2.2",
+        "subSubcategories": [
+          {
+            "name": "Surface Planers",
+            "code": "2.2.1"
+          },
+          {
+            "name": "Thickness Planers",
+            "code": "2.2.2"
+          },
+          {
+            "name": "Combination Planers",
+            "code": "2.2.3"
+          },
+          {
+            "name": "Combined Machines",
+            "code": "2.2.4"
+          },
+          {
+            "name": "Moulding Planers",
+            "code": "2.2.5"
+          }
+        ]
+      },
+      {
+        "name": "CNC Woodworking Machines",
+        "code": "2.3",
+        "subSubcategories": [
+          {
+            "name": "CNC Milling Machines",
+            "code": "2.3.1"
+          },
+          {
+            "name": "CNC Machining Centers",
+            "code": "2.3.2"
+          },
+          {
+            "name": "Window Manufacturing Machines",
+            "code": "2.3.3"
+          },
+          {
+            "name": "Door Manufacturing Machines",
+            "code": "2.3.4"
+          },
+          {
+            "name": "CNC Routers",
+            "code": "2.3.5"
+          }
+        ]
+      },
+      {
+        "name": "Grinding Machines",
+        "code": "2.4",
+        "subSubcategories": [
+          {
+            "name": "Belt Sanders",
+            "code": "2.4.1"
+          },
+          {
+            "name": "Disc Sanders",
+            "code": "2.4.2"
+          },
+          {
+            "name": "Wide Belt Sanders",
+            "code": "2.4.3"
+          },
+          {
+            "name": "Edge Sanders",
+            "code": "2.4.4"
+          },
+          {
+            "name": "Sharpening Machines",
+            "code": "2.4.5"
+          },
+          {
+            "name": "Brushing Machines",
+            "code": "2.4.6"
+          },
+          {
+            "name": "Structuring Machines",
+            "code": "2.4.7"
+          }
+        ]
+      },
+      {
+        "name": "Drilling Machines",
+        "code": "2.5",
+        "subSubcategories": [
+          {
+            "name": "Single Spindle Drills",
+            "code": "2.5.1"
+          },
+          {
+            "name": "Multi-Spindle Drills",
+            "code": "2.5.2"
+          },
+          {
+            "name": "Dowel Drills",
+            "code": "2.5.3"
+          },
+          {
+            "name": "Boring Machines",
+            "code": "2.5.4"
+          }
+        ]
+      },
+      {
+        "name": "Edge Banding Machines",
+        "code": "2.6",
+        "subSubcategories": [
+          {
+            "name": "Manual Edge Banders",
+            "code": "2.6.1"
+          },
+          {
+            "name": "Automatic Edge Banders",
+            "code": "2.6.2"
+          },
+          {
+            "name": "Postforming Machines",
+            "code": "2.6.3"
+          },
+          {
+            "name": "Wrapping Machines",
+            "code": "2.6.4"
+          }
+        ]
+      },
+      {
+        "name": "Joinery Machines",
+        "code": "2.7",
+        "subSubcategories": [
+          {
+            "name": "Mortising Machines",
+            "code": "2.7.1"
+          },
+          {
+            "name": "Tenoning Machines",
+            "code": "2.7.2"
+          },
+          {
+            "name": "Table Routers",
+            "code": "2.7.3"
+          },
+          {
+            "name": "Double-End Profilers",
+            "code": "2.7.4"
+          },
+          {
+            "name": "Carpentry Machines",
+            "code": "2.7.5"
+          },
+          {
+            "name": "Shapers",
+            "code": "2.7.6"
+          }
+        ]
+      },
+      {
+        "name": "Wood Lathes",
+        "code": "2.8",
+        "subSubcategories": [
+          {
+            "name": "Manual Lathes",
+            "code": "2.8.1"
+          },
+          {
+            "name": "CNC Lathes",
+            "code": "2.8.2"
+          },
+          {
+            "name": "Automatic Turning Machines",
+            "code": "2.8.3"
+          }
+        ]
+      },
+      {
+        "name": "Wood Presses",
+        "code": "2.9",
+        "subSubcategories": [
+          {
+            "name": "Veneer Presses",
+            "code": "2.9.1"
+          },
+          {
+            "name": "Membrane Presses",
+            "code": "2.9.2"
+          },
+          {
+            "name": "Veneer Manufacturing Machines",
+            "code": "2.9.3"
+          },
+          {
+            "name": "Glue Spreaders",
+            "code": "2.9.4"
+          },
+          {
+            "name": "Laminating Machines",
+            "code": "2.9.5"
+          }
+        ]
+      },
+      {
+        "name": "Dust Extraction Systems",
+        "code": "2.10",
+        "subSubcategories": [
+          {
+            "name": "Filter Systems",
+            "code": "2.10.1"
+          },
+          {
+            "name": "Ventilation & Extraction",
+            "code": "2.10.2"
+          },
+          {
+            "name": "Dust Collectors",
+            "code": "2.10.3"
+          }
+        ]
+      },
+      {
+        "name": "Material Handling and Automation",
+        "code": "2.11",
+        "subSubcategories": [
+          {
+            "name": "Conveyor Systems",
+            "code": "2.11.1"
+          },
+          {
+            "name": "Pallet Manufacturing Machines",
+            "code": "2.11.2"
+          },
+          {
+            "name": "Stacking & Destacking Machines",
+            "code": "2.11.3"
+          },
+          {
+            "name": "Feed Units",
+            "code": "2.11.4"
+          },
+          {
+            "name": "Beam Processing Systems",
+            "code": "2.11.5"
+          }
+        ]
+      },
+      {
+        "name": "Finishing and Coating Machines",
+        "code": "2.12",
+        "subSubcategories": [
+          {
+            "name": "Finishing Machines",
+            "code": "2.12.1"
+          },
+          {
+            "name": "Painting Systems",
+            "code": "2.12.2"
+          },
+          {
+            "name": "Spray Booths",
+            "code": "2.12.3"
+          }
+        ]
+      },
+      {
+        "name": "Auxiliary Equipment",
+        "code": "2.13",
+        "subSubcategories": [
+          {
+            "name": "Heating Systems",
+            "code": "2.13.1"
+          },
+          {
+            "name": "Dryers",
+            "code": "2.13.2"
+          },
+          {
+            "name": "Optimization Systems",
+            "code": "2.13.3"
+          },
+          {
+            "name": "Stops & Aids",
+            "code": "2.13.4"
+          }
+        ]
+      },
+      {
+        "name": "Recycling and Waste Management",
+        "code": "2.14",
+        "subSubcategories": [
+          {
+            "name": "Wood Chippers",
+            "code": "2.14.1"
+          },
+          {
+            "name": "Briquetting Machines",
+            "code": "2.14.2"
+          }
+        ]
+      },
+      {
+        "name": "Heavy Machinery",
+        "code": "2.15",
+        "subSubcategories": [
+          {
+            "name": "Processing Lines",
+            "code": "2.15.1"
+          },
+          {
+            "name": "Particle Board Manufacturing",
+            "code": "2.15.2"
+          },
+          {
+            "name": "Wood Drying Kilns",
+            "code": "2.15.3"
+          }
+        ]
+      },
+      {
+        "name": "Other Woodworking Machines",
+        "code": "2.16",
+        "subSubcategories": [
+          {
+            "name": "Finger Jointing Systems",
+            "code": "2.16.1"
+          },
+          {
+            "name": "Trimming Machines",
+            "code": "2.16.2"
+          },
+          {
+            "name": "Nailers & Staplers",
+            "code": "2.16.3"
+          },
+          {
+            "name": "Clamping Machines",
+            "code": "2.16.4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Printing & Graphics Equipment",
+    "code": "07",
+    "subcategories": [
+      {
+        "name": "Printing Presses",
+        "code": "07.01",
+        "subSubcategories": [
+          {
+            "name": "Offset Presses",
+            "code": "07.01.01"
+          },
+          {
+            "name": "Digital Presses",
+            "code": "07.01.02"
+          },
+          {
+            "name": "Flexographic Presses",
+            "code": "07.01.03"
+          },
+          {
+            "name": "Gravure Presses",
+            "code": "07.01.04"
+          },
+          {
+            "name": "Screen Printing Machines",
+            "code": "07.01.05"
+          },
+          {
+            "name": "Sheet-Fed Presses",
+            "code": "07.01.06"
+          },
+          {
+            "name": "Web Presses",
+            "code": "07.01.07"
+          },
+          {
+            "name": "Wide Format Printers",
+            "code": "07.01.08"
+          },
+          {
+            "name": "Label Printing Machines",
+            "code": "07.01.09"
+          },
+          {
+            "name": "3D Printers",
+            "code": "07.01.10"
+          },
+          {
+            "name": "Letterpress Presses",
+            "code": "07.01.11"
+          },
+          {
+            "name": "Pad Printing Machines",
+            "code": "07.01.12"
+          }
+        ]
+      },
+      {
+        "name": "Prepress Equipment",
+        "code": "07.02",
+        "subSubcategories": [
+          {
+            "name": "Plate Making Machines",
+            "code": "07.02.01"
+          },
+          {
+            "name": "Exposers",
+            "code": "07.02.02"
+          },
+          {
+            "name": "Proofing Systems",
+            "code": "07.02.03"
+          },
+          {
+            "name": "Film Processors",
+            "code": "07.02.04"
+          },
+          {
+            "name": "CTP Systems",
+            "code": "07.02.05"
+          },
+          {
+            "name": "Image Setters",
+            "code": "07.02.06"
+          }
+        ]
+      },
+      {
+        "name": "Postpress Equipment",
+        "code": "07.03",
+        "subSubcategories": [
+          {
+            "name": "Guillotine Cutters",
+            "code": "07.03.01"
+          },
+          {
+            "name": "Folding Machines",
+            "code": "07.03.02"
+          },
+          {
+            "name": "Perfect Binders",
+            "code": "07.03.03"
+          },
+          {
+            "name": "Saddle Stitchers",
+            "code": "07.03.04"
+          },
+          {
+            "name": "Laminating Machines",
+            "code": "07.03.05"
+          },
+          {
+            "name": "Stitching Machines",
+            "code": "07.03.06"
+          },
+          {
+            "name": "Trimming Machines",
+            "code": "07.03.07"
+          },
+          {
+            "name": "Collating Machines",
+            "code": "07.03.08"
+          },
+          {
+            "name": "Die Cutting Machines",
+            "code": "07.03.09"
+          },
+          {
+            "name": "Creasing Machines",
+            "code": "07.03.10"
+          },
+          {
+            "name": "Bookbinding Machines",
+            "code": "07.03.11"
+          },
+          {
+            "name": "Envelope Inserting Machines",
+            "code": "07.03.12"
+          },
+          {
+            "name": "Stackers",
+            "code": "07.03.13"
+          }
+        ]
+      },
+      {
+        "name": "Paper & Film Processing",
+        "code": "07.04",
+        "subSubcategories": [
+          {
+            "name": "Paper Cutting Machines",
+            "code": "07.04.01"
+          },
+          {
+            "name": "Paper Folding Machines",
+            "code": "07.04.02"
+          },
+          {
+            "name": "Film Extruders",
+            "code": "07.04.03"
+          },
+          {
+            "name": "Film Slitters",
+            "code": "07.04.04"
+          },
+          {
+            "name": "Roll Slitters",
+            "code": "07.04.05"
+          },
+          {
+            "name": "Cross Cutters",
+            "code": "07.04.06"
+          },
+          {
+            "name": "Bag Making Machines",
+            "code": "07.04.07"
+          },
+          {
+            "name": "Further Processing Machines",
+            "code": "07.04.08"
+          }
+        ]
+      },
+      {
+        "name": "Packaging Machines",
+        "code": "07.05",
+        "subSubcategories": [
+          {
+            "name": "Carton Folding Machines",
+            "code": "07.05.01"
+          },
+          {
+            "name": "Labeling Machines",
+            "code": "07.05.02"
+          },
+          {
+            "name": "Wrapping Machines",
+            "code": "07.05.03"
+          },
+          {
+            "name": "Sealing Machines",
+            "code": "07.05.04"
+          },
+          {
+            "name": "Box Making Machines",
+            "code": "07.05.05"
+          }
+        ]
+      },
+      {
+        "name": "Ink and Coating Systems",
+        "code": "07.06",
+        "subSubcategories": [
+          {
+            "name": "Ink Mixing Systems",
+            "code": "07.06.01"
+          },
+          {
+            "name": "UV Curing Systems",
+            "code": "07.06.02"
+          },
+          {
+            "name": "Coating Machines",
+            "code": "07.06.03"
+          },
+          {
+            "name": "Varnishing Units",
+            "code": "07.06.04"
+          }
+        ]
+      },
+      {
+        "name": "Material Handling Equipment",
+        "code": "07.07",
+        "subSubcategories": [
+          {
+            "name": "Palletizers",
+            "code": "07.07.01"
+          },
+          {
+            "name": "Conveyors",
+            "code": "07.07.02"
+          },
+          {
+            "name": "Stacking Robots",
+            "code": "07.07.03"
+          }
+        ]
+      },
+      {
+        "name": "Other Printing & Graphics Equipment",
+        "code": "07.08",
+        "subSubcategories": [
+          {
+            "name": "Reprographic Machines",
+            "code": "07.08.01"
+          },
+          {
+            "name": "Miscellaneous Equipment",
+            "code": "07.08.02"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Packaging Machinery",
+    "code": "06",
+    "subcategories": [
+      {
+        "name": "Filling Machines",
+        "code": "06.01",
+        "subSubcategories": [
+          {
+            "name": "Liquid Filling Machines",
+            "code": "06.01.01"
+          },
+          {
+            "name": "Powder Filling Machines",
+            "code": "06.01.02"
+          },
+          {
+            "name": "Granule Filling Machines",
+            "code": "06.01.03"
+          },
+          {
+            "name": "Abfüllanlagen",
+            "code": "06.01.04",
+            "oldCode": "500.1"
+          },
+          {
+            "name": "Weighing and Filling Machines",
+            "code": "06.01.05",
+            "oldCode": "500.20, 500.21"
+          },
+          {
+            "name": "Tube Fillers",
+            "code": "06.01.06"
+          }
+        ]
+      },
+      {
+        "name": "Sealing Machines",
+        "code": "06.02",
+        "subSubcategories": [
+          {
+            "name": "Heat Sealers",
+            "code": "06.02.01"
+          },
+          {
+            "name": "Induction Sealers",
+            "code": "06.02.02"
+          },
+          {
+            "name": "Ultrasonic Sealers",
+            "code": "06.02.03"
+          },
+          {
+            "name": "Verschließmaschinen",
+            "code": "06.02.04",
+            "oldCode": "500.19"
+          },
+          {
+            "name": "Strapping Machines",
+            "code": "06.02.05",
+            "oldCode": "500.18"
+          },
+          {
+            "name": "Banding Machines",
+            "code": "06.02.06",
+            "oldCode": "500.3"
+          },
+          {
+            "name": "Vacuum Packaging Machines",
+            "code": "06.02.07"
+          },
+          {
+            "name": "Tray Sealers",
+            "code": "06.02.08",
+            "oldCode": "500.16"
+          }
+        ]
+      },
+      {
+        "name": "Wrapping Machines",
+        "code": "06.03",
+        "subSubcategories": [
+          {
+            "name": "Shrink Wrapping Machines",
+            "code": "06.03.01",
+            "oldCode": "500.13"
+          },
+          {
+            "name": "Stretch Wrapping Machines",
+            "code": "06.03.02"
+          },
+          {
+            "name": "Verpackungsmaschinen",
+            "code": "06.03.03",
+            "oldCode": "500.0"
+          },
+          {
+            "name": "Winding Machines",
+            "code": "06.03.04",
+            "oldCode": "500.22"
+          },
+          {
+            "name": "Air Pillow Machines",
+            "code": "06.03.05"
+          }
+        ]
+      },
+      {
+        "name": "Labeling Machines",
+        "code": "06.04",
+        "subSubcategories": [
+          {
+            "name": "Self-Adhesive Labelers",
+            "code": "06.04.01"
+          },
+          {
+            "name": "Sleeve Labelers",
+            "code": "06.04.02"
+          },
+          {
+            "name": "Etikettieranlagen",
+            "code": "06.04.03",
+            "oldCode": "500.4"
+          }
+        ]
+      },
+      {
+        "name": "Cartoning Machines",
+        "code": "06.05",
+        "subSubcategories": [
+          {
+            "name": "Horizontal Cartoners",
+            "code": "06.05.01"
+          },
+          {
+            "name": "Vertical Cartoners",
+            "code": "06.05.02"
+          },
+          {
+            "name": "Kartoniervverpackungsmaschinen",
+            "code": "06.05.03",
+            "oldCode": "500.9"
+          },
+          {
+            "name": "Cardboard Packaging Machines",
+            "code": "06.05.04"
+          },
+          {
+            "name": "Paper Packaging Machines",
+            "code": "06.05.05",
+            "oldCode": "500.11"
+          },
+          {
+            "name": "Case Packers",
+            "code": "06.05.06"
+          }
+        ]
+      },
+      {
+        "name": "Palletizing Machines",
+        "code": "06.06",
+        "subSubcategories": [
+          {
+            "name": "Conventional Palletizers",
+            "code": "06.06.01",
+            "oldCode": "500.10"
+          },
+          {
+            "name": "Robotic Palletizers",
+            "code": "06.06.02"
+          },
+          {
+            "name": "Palettieranlagen",
+            "code": "06.06.03",
+            "oldCode": "500.10"
+          }
+        ]
+      },
+      {
+        "name": "Form-Fill-Seal Machines",
+        "code": "06.07",
+        "subSubcategories": [
+          {
+            "name": "Vertical Form-Fill-Seal (VFFS)",
+            "code": "06.07.01"
+          },
+          {
+            "name": "Horizontal Form-Fill-Seal (HFFS)",
+            "code": "06.07.02"
+          },
+          {
+            "name": "Form-Fill-Seal Maschinen",
+            "code": "06.07.03"
+          },
+          {
+            "name": "Bagging Systems",
+            "code": "06.07.04"
+          },
+          {
+            "name": "Tubular Bag Machines",
+            "code": "06.07.05",
+            "oldCode": "500.12"
+          },
+          {
+            "name": "Sealed Edge Bag Machines",
+            "code": "06.07.06",
+            "oldCode": "500.14"
+          },
+          {
+            "name": "Flat Film Systems",
+            "code": "06.07.07",
+            "oldCode": "500.8"
+          }
+        ]
+      },
+      {
+        "name": "Blister Packaging Machines",
+        "code": "06.08",
+        "subSubcategories": [
+          {
+            "name": "Blisterverpackungsmaschinen",
+            "code": "06.08.01",
+            "oldCode": "500.6"
+          },
+          {
+            "name": "Blistereinpackmaschinen",
+            "code": "06.08.02",
+            "oldCode": "500.5"
+          },
+          {
+            "name": "Thermoforming Machines",
+            "code": "06.08.03",
+            "oldCode": "500.17"
+          }
+        ]
+      },
+      {
+        "name": "Other Packaging Machines",
+        "code": "06.09",
+        "subSubcategories": [
+          {
+            "name": "General Packing Machines",
+            "code": "06.09.01",
+            "oldCode": "500.2"
+          },
+          {
+            "name": "Endüberfüller",
+            "code": "06.09.02",
+            "oldCode": "500.7"
+          },
+          {
+            "name": "Other Machines",
+            "code": "06.09.03",
+            "oldCode": "500.15"
+          },
+          {
+            "name": "Punching Machines",
+            "code": "06.09.04"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Textile Machinery",
+    "code": "04",
+    "subcategories": [
+      {
+        "name": "Spinning Machines",
+        "code": "04.01",
+        "subSubcategories": [
+          {
+            "name": "Ring Spinning Machines",
+            "code": "04.01.01"
+          },
+          {
+            "name": "Open-End Spinning Machines",
+            "code": "04.01.02"
+          },
+          {
+            "name": "Rotor Spinning Machines",
+            "code": "04.01.03"
+          }
+        ]
+      },
+      {
+        "name": "Weaving Machines",
+        "code": "04.02",
+        "subSubcategories": [
+          {
+            "name": "Air Jet Looms",
+            "code": "04.02.01"
+          },
+          {
+            "name": "Rapier Looms",
+            "code": "04.02.02"
+          },
+          {
+            "name": "Projectile Looms",
+            "code": "04.02.03"
+          }
+        ]
+      },
+      {
+        "name": "Knitting Machines",
+        "code": "04.03",
+        "subSubcategories": [
+          {
+            "name": "Warp Knitting Machines",
+            "code": "04.03.01"
+          },
+          {
+            "name": "Circular Knitting Machines",
+            "code": "04.03.02"
+          },
+          {
+            "name": "Flat Knitting Machines",
+            "code": "04.03.03"
+          }
+        ]
+      },
+      {
+        "name": "Dyeing & Finishing Machines",
+        "code": "04.04",
+        "subSubcategories": [
+          {
+            "name": "Fabric Dyeing Machines",
+            "code": "04.04.01"
+          },
+          {
+            "name": "Yarn Dyeing Machines",
+            "code": "04.04.02"
+          },
+          {
+            "name": "Printing Machines",
+            "code": "04.04.03"
+          },
+          {
+            "name": "Calenders",
+            "code": "04.04.04"
+          },
+          {
+            "name": "Sanforizing Machines",
+            "code": "04.04.05"
+          },
+          {
+            "name": "Stretching Frames",
+            "code": "04.04.06"
+          }
+        ]
+      },
+      {
+        "name": "Nonwoven Machines",
+        "code": "04.05",
+        "subSubcategories": [
+          {
+            "name": "Spunbond Systems",
+            "code": "04.05.01"
+          },
+          {
+            "name": "Meltblown Systems",
+            "code": "04.05.02"
+          }
+        ]
+      },
+      {
+        "name": "Sewing & Garment Machines",
+        "code": "04.06",
+        "subSubcategories": [
+          {
+            "name": "Straight Stitch Machines",
+            "code": "04.06.01"
+          },
+          {
+            "name": "Overlock Machines",
+            "code": "04.06.02"
+          },
+          {
+            "name": "Straight Knife Cutters",
+            "code": "04.06.03"
+          },
+          {
+            "name": "Band Knife Cutters",
+            "code": "04.06.04"
+          },
+          {
+            "name": "Embroidery Machines",
+            "code": "04.06.05"
+          },
+          {
+            "name": "Quilting Machines",
+            "code": "04.06.06"
+          }
+        ]
+      },
+      {
+        "name": "Textile Testing Equipment",
+        "code": "04.07",
+        "subSubcategories": []
+      },
+      {
+        "name": "Winding & Twisting Machines",
+        "code": "04.08",
+        "subSubcategories": []
+      },
+      {
+        "name": "Ironing Machines",
+        "code": "04.09",
+        "subSubcategories": []
+      },
+      {
+        "name": "Texturing Machines",
+        "code": "04.10",
+        "subSubcategories": []
+      },
+      {
+        "name": "Textile Cleaning Machines",
+        "code": "04.11",
+        "subSubcategories": []
+      },
+      {
+        "name": "Other Textile Machines",
+        "code": "04.12",
+        "subSubcategories": [
+          {
+            "name": "Hot Air Welding Machines",
+            "code": "04.12.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plastic & Rubber Machinery",
+    "code": "03",
+    "subcategories": [
+      {
+        "name": "Injection Molding Machines",
+        "code": "03.01",
+        "subSubcategories": [
+          {
+            "name": "Horizontal Injection Molders",
+            "code": "03.01.01"
+          },
+          {
+            "name": "Vertical Injection Molders",
+            "code": "03.01.02"
+          },
+          {
+            "name": "All-Electric Injection Molders",
+            "code": "03.01.03"
+          }
+        ]
+      },
+      {
+        "name": "Extrusion Machines",
+        "code": "03.02",
+        "subSubcategories": [
+          {
+            "name": "Pipe Extruders",
+            "code": "03.02.01"
+          },
+          {
+            "name": "Profile Extruders",
+            "code": "03.02.02"
+          },
+          {
+            "name": "Film Extruders",
+            "code": "03.02.03"
+          },
+          {
+            "name": "Rubber Extruders",
+            "code": "03.02.04"
+          }
+        ]
+      },
+      {
+        "name": "Blow Molding Machines",
+        "code": "03.03",
+        "subSubcategories": [
+          {
+            "name": "Extrusion Blow Molders",
+            "code": "03.03.01"
+          },
+          {
+            "name": "Injection Blow Molders",
+            "code": "03.03.02"
+          },
+          {
+            "name": "Stretch Blow Molders",
+            "code": "03.03.03"
+          }
+        ]
+      },
+      {
+        "name": "Window Production Machinery",
+        "code": "03.04",
+        "subSubcategories": []
+      },
+      {
+        "name": "Mills",
+        "code": "03.05",
+        "subSubcategories": [
+          {
+            "name": "Calenders",
+            "code": "03.05.01"
+          },
+          {
+            "name": "Rolling Mills",
+            "code": "03.05.02"
+          },
+          {
+            "name": "Mixers",
+            "code": "03.05.03"
+          }
+        ]
+      },
+      {
+        "name": "Heating & Cooling Units",
+        "code": "03.06",
+        "subSubcategories": [
+          {
+            "name": "Heaters",
+            "code": "03.06.01"
+          },
+          {
+            "name": "Coolers",
+            "code": "03.06.02"
+          },
+          {
+            "name": "Dryers",
+            "code": "03.06.03"
+          }
+        ]
+      },
+      {
+        "name": "Spare Parts, Tools, Devices",
+        "code": "03.07",
+        "subSubcategories": [
+          {
+            "name": "Molds",
+            "code": "03.07.01"
+          },
+          {
+            "name": "Tools",
+            "code": "03.07.02"
+          }
+        ]
+      },
+      {
+        "name": "Peripheral Devices",
+        "code": "03.08",
+        "subSubcategories": [
+          {
+            "name": "Handling Equipment",
+            "code": "03.08.01"
+          },
+          {
+            "name": "Robots",
+            "code": "03.08.02"
+          }
+        ]
+      },
+      {
+        "name": "Polyurethane Processing Machinery",
+        "code": "03.09",
+        "subSubcategories": []
+      },
+      {
+        "name": "Presses",
+        "code": "03.10",
+        "subSubcategories": [
+          {
+            "name": "Hydraulic Presses",
+            "code": "03.10.01"
+          },
+          {
+            "name": "Mechanical Presses",
+            "code": "03.10.02"
+          }
+        ]
+      },
+      {
+        "name": "Printing Machinery",
+        "code": "03.11",
+        "subSubcategories": []
+      },
+      {
+        "name": "Processing- and Subsequent Machines",
+        "code": "03.12",
+        "subSubcategories": [
+          {
+            "name": "Film Processing Machines",
+            "code": "03.12.01"
+          },
+          {
+            "name": "Finishing",
+            "code": "03.12.02"
+          },
+          {
+            "name": "Decorating",
+            "code": "03.12.03"
+          },
+          {
+            "name": "Winders",
+            "code": "03.12.04"
+          }
+        ]
+      },
+      {
+        "name": "Quality Assurance Equipment",
+        "code": "03.13",
+        "subSubcategories": [
+          {
+            "name": "Measurement Equipment",
+            "code": "03.13.01"
+          },
+          {
+            "name": "Testing Equipment",
+            "code": "03.13.02"
+          }
+        ]
+      },
+      {
+        "name": "Reprocessing & Recycling Equipment",
+        "code": "03.14",
+        "subSubcategories": [
+          {
+            "name": "Agglomerators",
+            "code": "03.14.01"
+          },
+          {
+            "name": "Granulators",
+            "code": "03.14.02"
+          }
+        ]
+      },
+      {
+        "name": "Rubber Processing Machinery",
+        "code": "03.15",
+        "subSubcategories": []
+      },
+      {
+        "name": "Thermoforming Machinery",
+        "code": "03.16",
+        "subSubcategories": [
+          {
+            "name": "Vacuum Forming Machines",
+            "code": "03.16.01"
+          },
+          {
+            "name": "Deep Drawing Machines",
+            "code": "03.16.02"
+          }
+        ]
+      },
+      {
+        "name": "Welding Machinery",
+        "code": "03.17",
+        "subSubcategories": []
+      },
+      {
+        "name": "Miscellaneous Equipment",
+        "code": "03.18",
+        "subSubcategories": []
+      },
+      {
+        "name": "Other Plastic Processing Machinery",
+        "code": "03.19",
+        "subSubcategories": [
+          {
+            "name": "Complete Production Lines",
+            "code": "03.19.01"
+          },
+          {
+            "name": "Other Machines",
+            "code": "03.19.02"
+          }
+        ]
+      }
+    ]
+  }
+]

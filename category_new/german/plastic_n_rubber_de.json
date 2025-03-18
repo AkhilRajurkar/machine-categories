@@ -1,0 +1,148 @@
+{
+    "name": "Plastik- und Gummimaschinerie",
+    "code": "03",
+    "subcategories": [
+      {
+        "name": "Sprizgiessmaschienen",
+        "code": "03.01",
+        "subSubcategories": [
+          {"name": "Horizontale Sprizgiessmaschienen", "code": "03.01.01"},
+          {"name": "Vertikale Sprizgiessmaschienen", "code": "03.01.02"},
+          {"name": "All-Elektrische Sprizgiessmaschienen", "code": "03.01.03"}
+        ]
+      },
+      {
+        "name": "Extruder und Extrusionsanlagen",
+        "code": "03.02",
+        "subSubcategories": [
+          {"name": "Rohr Extruder", "code": "03.02.01"},
+          {"name": "Profil Extruder", "code": "03.02.02"},
+          {"name": "Film Extruder", "code": "03.02.03"},
+          {"name": "Gummi Extruder", "code": "03.02.04"}
+        ]
+      },
+      {
+        "name": "Blasformmaschienen",
+        "code": "03.03",
+        "subSubcategories": [
+          {"name": "Extrusions-Blasformmaschienen", "code": "03.03.01"},
+          {"name": "Sprizgiess-Blasformmaschienen", "code": "03.03.02"},
+          {"name": "Streck-Blasformmaschienen", "code": "03.03.03"}
+        ]
+      },
+      {
+        "name": "Fensterbau Maschines",
+        "code": "03.04",
+        "subSubcategories": []
+      },
+      {
+        "name": "Mühlen",
+        "code": "03.05",
+        "subSubcategories": [
+          {"name": "Kalander", "code": "03.05.01"},
+          {"name": "Walzwerke", "code": "03.05.02"},
+          {"name": "Mischer", "code": "03.05.03"}
+        ]
+      },
+      {
+        "name": "Heiz- und Kühleinrichtungen",
+        "code": "03.06",
+        "subSubcategories": [
+          {"name": "Heizgeräte", "code": "03.06.01"},
+          {"name": "Kühler", "code": "03.06.02"},
+          {"name": "Trockner", "code": "03.06.03"}
+        ]
+      },
+      {
+        "name": "Ersatzteile, Werkzeuge und Geräte",
+        "code": "03.07",
+        "subSubcategories": [
+          {"name": "Formen", "code": "03.07.01"},
+          {"name": "Werkzeuge", "code": "03.07.02"}
+        ]
+      },
+      {
+        "name": "Peripheriegeräte",
+        "code": "03.08",
+        "subSubcategories": [
+          {"name": "Handling-Ausrüstung", "code": "03.08.01"},
+          {"name": "Roboter", "code": "03.08.02"}
+        ]
+      },
+      {
+        "name": "Polyurethanverarbeitungsmaschinen",
+        "code": "03.09",
+        "subSubcategories": []
+      },
+      {
+        "name": "Pressen",
+        "code": "03.10",
+        "subSubcategories": [
+          {"name": "Hydraulische Pressen", "code": "03.10.01"},
+          {"name": "Mechanische Pressen", "code": "03.10.02"}
+        ]
+      },
+      {
+        "name": "Druckmaschinerie",
+        "code": "03.11",
+        "subSubcategories": []
+      },
+      {
+        "name": "Verarbeitungs- und Folgemaschinen",
+        "code": "03.12",
+        "subSubcategories": [
+          {"name": "Folienverarbeitungsmaschinen", "code": "03.12.01"},
+          {"name": "Veredelung", "code": "03.12.02"},
+          {"name": "Dekorieren", "code": "03.12.03"},
+          {"name": "Winder", "code": "03.12.04"}
+        ]
+      },
+      {
+        "name": "Qualitätssicherungsausrüstung",
+        "code": "03.13",
+        "subSubcategories": [
+          {"name": "Messausrüstung", "code": "03.13.01"},
+          {"name": "Prüfausrüstung", "code": "03.13.02"}
+        ]
+      },
+      {
+        "name": "Aufbereitungs- und Recyclingausrüstung",
+        "code": "03.14",
+        "subSubcategories": [
+          {"name": "Agglomeratoren", "code": "03.14.01"},
+          {"name": "Granulatoren", "code": "03.14.02"}
+        ]
+      },
+      {
+        "name": "Gummiverarbeitungsmaschinen",
+        "code": "03.15",
+        "subSubcategories": []
+      },
+      {
+        "name": "Thermformmaschinerie",
+        "code": "03.16",
+        "subSubcategories": [
+          {"name": "Vakuumbildungsmaschinen", "code": "03.16.01"},
+          {"name": "Tiefziehmaschinen", "code": "03.16.02"}
+        ]
+      },
+      {
+        "name": "Schweissmaschinerie",
+        "code": "03.17",
+        "subSubcategories": []
+      },
+      {
+        "name": "Verschiedene Ausrüstung",
+        "code": "03.18",
+        "subSubcategories": []
+      },
+      {
+        "name": "Sonstige Plastikverarbeitungsmaschinerie",
+        "code": "03.19",
+        "subSubcategories": [
+          {"name": "Komplette Produktionslinien", "code": "03.19.01"},
+          {"name": "Sonstige Maschines", "code": "03.19.02"}
+        ]
+      }
+    ]
+}

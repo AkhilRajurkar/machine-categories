@@ -1,0 +1,105 @@
+{
+    "name": "Verpackungsmaschinen",
+    "code": "06",
+    "subcategories": [
+      {
+        "name": "Abfüllmaschinen",
+        "code": "06.01",
+        "subSubcategories": [
+          {"name": "Flüssigkeits-Abfüllmaschinen", "code": "06.01.01"},
+          {"name": "Pulver-Abfüllmaschinen", "code": "06.01.02"},
+          {"name": "Granulat-Abfüllmaschinen", "code": "06.01.03"},
+          {"name": "Abfüllanlagen", "code": "06.01.04", "oldCode": "500.1"},
+          {"name": "Wäge-Füllmaschinen", "code": "06.01.05", "oldCode": "500.20, 500.21"},
+          {"name": "Tubenfiller", "code": "06.01.06"}
+        ]
+      },
+      {
+        "name": "Verschließmaschinen",
+        "code": "06.02",
+        "subSubcategories": [
+          {"name": "Wärmeverschlussgeräte", "code": "06.02.01"},
+          {"name": "Induktionsverschlussgeräte", "code": "06.02.02"},
+          {"name": "Ultraschallverschlussgeräte", "code": "06.02.03"},
+          {"name": "Verschließmaschinen", "code": "06.02.04", "oldCode": "500.19"},
+          {"name": "Umreifungsmaschinen", "code": "06.02.05", "oldCode": "500.18"},
+          {"name": "Banderolieranlagen", "code": "06.02.06", "oldCode": "500.3"},
+          {"name": "Vakuumpackmaschinen", "code": "06.02.07"},
+          {"name": "Tablettverschlussgeräte", "code": "06.02.08", "oldCode": "500.16"}
+        ]
+      },
+      {
+        "name": "Wickelmaschinen",
+        "code": "06.03",
+        "subSubcategories": [
+          {"name": "Schrumpffolienmaschinen", "code": "06.03.01", "oldCode": "500.13"},
+          {"name": "Stretchfolienmaschinen", "code": "06.03.02"},
+          {"name": "Verpackungsmaschinen", "code": "06.03.03", "oldCode": "500.0"},
+          {"name": "Wickelmaschinen", "code": "06.03.04", "oldCode": "500.22"},
+          {"name": "Luftkissenmaschinen", "code": "06.03.05"}
+        ]
+      },
+      {
+        "name": "Etikettiermaschinen",
+        "code": "06.04",
+        "subSubcategories": [
+          {"name": "Selbstklebe-Etikettiermaschinen", "code": "06.04.01"},
+          {"name": "Schrumpfschlauch-Etikettiermaschinen", "code": "06.04.02"},
+          {"name": "Etikettieranlagen", "code": "06.04.03", "oldCode": "500.4"}
+        ]
+      },
+      {
+        "name": "Kartoniermaschinen",
+        "code": "06.05",
+        "subSubcategories": [
+          {"name": "Horizontale Kartoniermaschinen", "code": "06.05.01"},
+          {"name": "Vertikale Kartoniermaschinen", "code": "06.05.02"},
+          {"name": "Kartoniervverpackungsmaschinen", "code": "06.05.03", "oldCode": "500.9"},
+          {"name": "Kartonverpackungsmaschinen", "code": "06.05.04"},
+          {"name": "Papierverpackungsmaschinen", "code": "06.05.05", "oldCode": "500.11"},
+          {"name": "Kistenpackmaschinen", "code": "06.05.06"}
+        ]
+      },
+      {
+        "name": "Palettierer",
+        "code": "06.06",
+        "subSubcategories": [
+          {"name": "Konventionelle Palettierer", "code": "06.06.01", "oldCode": "500.10"},
+          {"name": "Roboter-Palettierer", "code": "06.06.02"},
+          {"name": "Palettieranlagen", "code": "06.06.03", "oldCode": "500.10"}
+        ]
+      },
+      {
+        "name": "Form-Fill-Seal-Maschinen",
+        "code": "06.07",
+        "subSubcategories": [
+          {"name": "Vertikale Form-Fill-Seal (VFFS)", "code": "06.07.01"},
+          {"name": "Horizontale Form-Fill-Seal (HFFS)", "code": "06.07.02"},
+          {"name": "Form-Fill-Seal Maschinen", "code": "06.07.03"},
+          {"name": "Absackanlagen", "code": "06.07.04"},
+          {"name": "Schlauchbeutelmachinen", "code": "06.07.05", "oldCode": "500.12"},
+          {"name": "Siegelrandbeutelmachinen", "code": "06.07.06", "oldCode": "500.14"},
+          {"name": "Flachfolienanlagen", "code": "06.07.07", "oldCode": "500.8"}
+        ]
+      },
+      {
+        "name": "Blisterverpackungsmaschinen",
+        "code": "06.08",
+        "subSubcategories": [
+          {"name": "Blisterverpackungsmaschinen", "code": "06.08.01", "oldCode": "500.6"},
+          {"name": "Blistereinpackmaschinen", "code": "06.08.02", "oldCode": "500.5"},
+          {"name": "Tiefziehmachinen", "code": "06.08.03", "oldCode": "500.17"}
+        ]
+      },
+      {
+        "name": "Sonstige Verpackungsmaschinen",
+        "code": "06.09",
+        "subSubcategories": [
+          {"name": "Abpackmaschinen", "code": "06.09.01", "oldCode": "500.2"},
+          {"name": "Endüberfüller", "code": "06.09.02", "oldCode": "500.7"},
+          {"name": "Sonstige Maschinen", "code": "06.09.03", "oldCode": "500.15"},
+          {"name": "Stanzmaschinen", "code": "06.09.04"}
+        ]
+      }
+    ]
+}

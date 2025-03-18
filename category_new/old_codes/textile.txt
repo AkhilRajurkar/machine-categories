@@ -1,0 +1,347 @@
+### Key Points
+- Research suggests the enriched list for textile machinery includes all subcategories from the old Innovac system, with 15 items mapped using their original codes (700.0 to 700.14).
+- It seems likely that the super enhanced system has 24 sub-subcategories, covering a wide range of machine types, now enriched with old Innovac codes for integration.
+
+---
+
+### Enrichment with Old Innovac Codes
+To integrate the new system with the old Innovac system, we have enriched the JSON files by adding the corresponding old codes (700.0 to 700.14) to each subcategory and sub-subcategory where applicable. The old Innovac system provided a list of textile machinery categories, with 700.0 as the general category and 700.1 to 700.14 as specific machine types. These codes are now included alongside the new codes (04.XX) to ensure compatibility and traceability with the legacy system.
+
+### English JSON File with Old Codes
+Below is the final JSON file for the textile machinery categorization system in English, including both new codes (04.XX) and old Innovac codes (700.X):
+
+```json
+{
+  "name": "Textile Machinery",
+  "code": "04",
+  "old_code": "700.0",
+  "subcategories": [
+    {
+      "name": "Spinning Machines",
+      "code": "04.01",
+      "old_code": "700.8",
+      "subSubcategories": [
+        { "name": "Ring Spinning Machines", "code": "04.01.01", "old_code": "700.8" },
+        { "name": "Open-End Spinning Machines", "code": "04.01.02", "old_code": "700.8" },
+        { "name": "Rotor Spinning Machines", "code": "04.01.03", "old_code": "700.8" }
+      ]
+    },
+    {
+      "name": "Weaving Machines",
+      "code": "04.02",
+      "old_code": "700.14",
+      "subSubcategories": [
+        { "name": "Air Jet Looms", "code": "04.02.01", "old_code": "700.14" },
+        { "name": "Rapier Looms", "code": "04.02.02", "old_code": "700.14" },
+        { "name": "Projectile Looms", "code": "04.02.03", "old_code": "700.14" }
+      ]
+    },
+    {
+      "name": "Knitting Machines",
+      "code": "04.03",
+      "old_code": "700.11",
+      "subSubcategories": [
+        { "name": "Warp Knitting Machines", "code": "04.03.01", "old_code": "700.4" },
+        { "name": "Circular Knitting Machines", "code": "04.03.02", "old_code": "700.11" },
+        { "name": "Flat Knitting Machines", "code": "04.03.03", "old_code": "700.11" }
+      ]
+    },
+    {
+      "name": "Dyeing & Finishing Machines",
+      "code": "04.04",
+      "old_code": "700.3",
+      "subSubcategories": [
+        { "name": "Fabric Dyeing Machines", "code": "04.04.01", "old_code": "700.3" },
+        { "name": "Yarn Dyeing Machines", "code": "04.04.02", "old_code": "700.3" },
+        { "name": "Printing Machines", "code": "04.04.03", "old_code": "700.2" },
+        { "name": "Calenders", "code": "04.04.04", "old_code": "700.3" },
+        { "name": "Sanforizing Machines", "code": "04.04.05", "old_code": "700.3" },
+        { "name": "Stretching Frames", "code": "04.04.06", "old_code": "700.7" }
+      ]
+    },
+    {
+      "name": "Nonwoven Machines",
+      "code": "04.05",
+      "old_code": null,
+      "subSubcategories": [
+        { "name": "Spunbond Systems", "code": "04.05.01", "old_code": null },
+        { "name": "Meltblown Systems", "code": "04.05.02", "old_code": null }
+      ]
+    },
+    {
+      "name": "Sewing & Garment Machines",
+      "code": "04.06",
+      "old_code": "700.5",
+      "subSubcategories": [
+        { "name": "Straight Stitch Machines", "code": "04.06.01", "old_code": "700.5" },
+        { "name": "Overlock Machines", "code": "04.06.02", "old_code": "700.5" },
+        { "name": "Straight Knife Cutters", "code": "04.06.03", "old_code": "700.6" },
+        { "name": "Band Knife Cutters", "code": "04.06.04", "old_code": "700.6" },
+        { "name": "Embroidery Machines", "code": "04.06.05", "old_code": "700.10" },
+        { "name": "Quilting Machines", "code": "04.06.06", "old_code": "700.9" }
+      ]
+    },
+    {
+      "name": "Textile Testing Equipment",
+      "code": "04.07",
+      "old_code": null,
+      "subSubcategories": []
+    },
+    {
+      "name": "Winding & Twisting Machines",
+      "code": "04.08",
+      "old_code": null,
+      "subSubcategories": []
+    },
+    {
+      "name": "Ironing Machines",
+      "code": "04.09",
+      "old_code": "700.1",
+      "subSubcategories": []
+    },
+    {
+      "name": "Texturing Machines",
+      "code": "04.10",
+      "old_code": "700.13",
+      "subSubcategories": []
+    },
+    {
+      "name": "Textile Cleaning Machines",
+      "code": "04.11",
+      "old_code": "700.12",
+      "subSubcategories": []
+    },
+    {
+      "name": "Other Textile Machines",
+      "code": "04.12",
+      "old_code": null,
+      "subSubcategories": [
+        { "name": "Hot Air Welding Machines", "code": "04.12.01", "old_code": null }
+      ]
+    }
+  ]
+}
+```
+
+### German JSON File with Old Codes
+Below is the final JSON file for the textile machinery categorization system in German, including both new codes (04.XX) and old Innovac codes (700.X):
+
+```json
+{
+  "name": "Textilmaschine",
+  "code": "04",
+  "old_code": "700.0",
+  "subcategories": [
+    {
+      "name": "Spinnmaschine",
+      "code": "04.01",
+      "old_code": "700.8",
+      "subSubcategories": [
+        { "name": "Ringspinnmaschine", "code": "04.01.01", "old_code": "700.8" },
+        { "name": "Open-End-Spinnmaschine", "code": "04.01.02", "old_code": "700.8" },
+        { "name": "Rotorsspinnmaschine", "code": "04.01.03", "old_code": "700.8" }
+      ]
+    },
+    {
+      "name": "Webmaschine",
+      "code": "04.02",
+      "old_code": "700.14",
+      "subSubcategories": [
+        { "name": "Luftdüsenwebstühle", "code": "04.02.01", "old_code": "700.14" },
+        { "name": "Greiferwebstühle", "code": "04.02.02", "old_code": "700.14" },
+        { "name": "Projektilwebstühle", "code": "04.02.03", "old_code": "700.14" }
+      ]
+    },
+    {
+      "name": "Strickmaschine",
+      "code": "04.03",
+      "old_code": "700.11",
+      "subSubcategories": [
+        { "name": "Kettenwirkmaschine", "code": "04.03.01", "old_code": "700.4" },
+        { "name": "Rundstrickmaschine", "code": "04.03.02", "old_code": "700.11" },
+        { "name": "Flachstrickmaschine", "code": "04.03.03", "old_code": "700.11" }
+      ]
+    },
+    {
+      "name": "Färbe- und Veredelungsmaschine",
+      "code": "04.04",
+      "old_code": "700.3",
+      "subSubcategories": [
+        { "name": "Stoffärbemaschine", "code": "04.04.01", "old_code": "700.3" },
+        { "name": "Garnfärbemaschine", "code": "04.04.02", "old_code": "700.3" },
+        { "name": "Druckmaschine", "code": "04.04.03", "old_code": "700.2" },
+        { "name": "Kalander", "code": "04.04.04", "old_code": "700.3" },
+        { "name": "Sanforisiermaschine", "code": "04.04.05", "old_code": "700.3" },
+        { "name": "Spannrahmen", "code": "04.04.06", "old_code": "700.7" }
+      ]
+    },
+    {
+      "name": "Vliesstoffmaschine",
+      "code": "04.05",
+      "old_code": null,
+      "subSubcategories": [
+        { "name": "Spunbond-Systeme", "code": "04.05.01", "old_code": null },
+        { "name": "Meltblown-Systeme", "code": "04.05.02", "old_code": null }
+      ]
+    },
+    {
+      "name": "Näh- und Bekleidungsmaschine",
+      "code": "04.06",
+      "old_code": "700.5",
+      "subSubcategories": [
+        { "name": "Geradstichmaschine", "code": "04.06.01", "old_code": "700.5" },
+        { "name": "Overlockmaschine", "code": "04.06.02", "old_code": "700.5" },
+        { "name": "Gerade Messerschneidemaschine", "code": "04.06.03", "old_code": "700.6" },
+        { "name": "Bandmesser-Schneidemaschine", "code": "04.06.04", "old_code": "700.6" },
+        { "name": "Stickmaschine", "code": "04.06.05", "old_code": "700.10" },
+        { "name": "Steppmaschine", "code": "04.06.06", "old_code": "700.9" }
+      ]
+    },
+    {
+      "name": "Textilprüfgerät",
+      "code": "04.07",
+      "old_code": null,
+      "subSubcategories": []
+    },
+    {
+      "name": "Wickel- und Zwirnmaschine",
+      "code": "04.08",
+      "old_code": null,
+      "subSubcategories": []
+    },
+    {
+      "name": "Bügelmaschine",
+      "code": "04.09",
+      "old_code": "700.1",
+      "subSubcategories": []
+    },
+    {
+      "name": "Texturiermaschine",
+      "code": "04.10",
+      "old_code": "700.13",
+      "subSubcategories": []
+    },
+    {
+      "name": "Textilreinigungsmaschine",
+      "code": "04.11",
+      "old_code": "700.12",
+      "subSubcategories": []
+    },
+    {
+      "name": "Sonstige Textilmaschine",
+      "code": "04.12",
+      "old_code": null,
+      "subSubcategories": [
+        { "name": "Heissluft-Schweissmaschine", "code": "04.12.01", "old_code": null }
+      ]
+    }
+  ]
+}
+```
+
+### Table with Old Codes
+Below is the final list of subcategories and sub-subcategories in a table format, numbered according to the new system (04.XX) and enriched with the old Innovac codes (700.X) where applicable:
+
+| Main Category | Code | Old Code | Subcategory | Subcategory Code | Old Code | Sub-subcategory | Sub-subcategory Code | Old Code |
+|---------------|------|----------|-------------|------------------|----------|-----------------|----------------------|----------|
+| Textile Machinery | 04 | 700.0 | Spinning Machines | 04.01 | 700.8 | Ring Spinning Machines | 04.01.01 | 700.8 |
+| | | | | | | Open-End Spinning Machines | 04.01.02 | 700.8 |
+| | | | | | | Rotor Spinning Machines | 04.01.03 | 700.8 |
+| | | | Weaving Machines | 04.02 | 700.14 | Air Jet Looms | 04.02.01 | 700.14 |
+| | | | | | | Rapier Looms | 04.02.02 | 700.14 |
+| | | | | | | Projectile Looms | 04.02.03 | 700.14 |
+| | | | Knitting Machines | 04.03 | 700.11 | Warp Knitting Machines | 04.03.01 | 700.4 |
+| | | | | | | Circular Knitting Machines | 04.03.02 | 700.11 |
+| | | | | | | Flat Knitting Machines | 04.03.03 | 700.11 |
+| | | | Dyeing & Finishing Machines | 04.04 | 700.3 | Fabric Dyeing Machines | 04.04.01 | 700.3 |
+| | | | | | | Yarn Dyeing Machines | 04.04.02 | 700.3 |
+| | | | | | | Printing Machines | 04.04.03 | 700.2 |
+| | | | | | | Calenders | 04.04.04 | 700.3 |
+| | | | | | | Sanforizing Machines | 04.04.05 | 700.3 |
+| | | | | | | Stretching Frames | 04.04.06 | 700.7 |
+| | | | Nonwoven Machines | 04.05 | null | Spunbond Systems | 04.05.01 | null |
+| | | | | | | Meltblown Systems | 04.05.02 | null |
+| | | | Sewing & Garment Machines | 04.06 | 700.5 | Straight Stitch Machines | 04.06.01 | 700.5 |
+| | | | | | | Overlock Machines | 04.06.02 | 700.5 |
+| | | | | | | Straight Knife Cutters | 04.06.03 | 700.6 |
+| | | | | | | Band Knife Cutters | 04.06.04 | 700.6 |
+| | | | | | | Embroidery Machines | 04.06.05 | 700.10 |
+| | | | | | | Quilting Machines | 04.06.06 | 700.9 |
+| | | | Textile Testing Equipment | 04.07 | null | - | - | - |
+| | | | Winding & Twisting Machines | 04.08 | null | - | - | - |
+| | | | Ironing Machines | 04.09 | 700.1 | - | - | - |
+| | | | Texturing Machines | 04.10 | 700.13 | - | - | - |
+| | | | Textile Cleaning Machines | 04.11 | 700.12 | - | - | - |
+| | | | Other Textile Machines | 04.12 | null | Hot Air Welding Machines | 04.12.01 | null |
+
+---
+
+### Detailed Analysis of Textile Machinery Categorization System
+
+Our enhanced categorization system for textile machinery, developed for a business reselling used machinery across Europe, has been enriched with old Innovac codes (700.0 to 700.14) to ensure integration with the legacy system. This analysis, conducted at 05:45 AM PDT on Tuesday, March 18, 2025, aims to verify inclusivity and count the number of sub-subcategories in the super enhanced system. Below, we detail the methodology, findings, and implications.
+
+#### System Overview
+The enriched system for "Textile Machinery" (code "04", old code "700.0") includes 12 subcategories, each with sub-subcategories where applicable, designed to incorporate the old Innovac system and align with industry platforms. The subcategories are:
+
+- Spinning Machines (04.01, old code 700.8)
+- Weaving Machines (04.02, old code 700.14)
+- Knitting Machines (04.03, old code 700.11)
+- Dyeing & Finishing Machines (04.04, old code 700.3)
+- Nonwoven Machines (04.05, old code null)
+- Sewing & Garment Machines (04.06, old code 700.5)
+- Textile Testing Equipment (04.07, old code null)
+- Winding & Twisting Machines (04.08, old code null)
+- Ironing Machines (04.09, old code 700.1)
+- Texturing Machines (04.10, old code 700.13)
+- Textile Cleaning Machines (04.11, old code 700.12)
+- Other Textile Machines (04.12, old code null)
+
+This structure ensures coverage of key textile processes, with old codes added for integration.
+
+#### Methodology for Inclusivity Check
+We mapped each old Innovac subcategory (700.1 to 700.14) to the new system, assigning the corresponding old code to subcategories and sub-subcategories where applicable. The old system's items are:
+
+- 700.1: Bügelmaschine (Ironing Machines)
+- 700.2: Druckmaschine (Printing Machines)
+- 700.3: Farbeanlage (Dyeing Plants)
+- 700.4: Kettenwirkmaschine (Warp Knitting Machines)
+- 700.5: Nähmaschine (Sewing Machines)
+- 700.6: Schneidemaschine (Cutting Machines)
+- 700.7: Spannrahmen (Stretching Frames)
+- 700.8: Spinnmaschine (Spinning Machines)
+- 700.9: Steppmaschine (Quilting Machines)
+- 700.10: Stickmaschine (Embroidery Machines)
+- 700.11: Strickmaschine (Knitting Machines)
+- 700.12: Textilreinigungsmaschine (Textile Cleaning Machines)
+- 700.13: Texturiermaschine (Texturing Machines)
+- 700.14: Webmaschine (Weaving Machines)
+
+The mapping confirms all items are included, with old codes integrated as shown in the table.
+
+#### Number of Sub-Subcategories in Super Enhanced System
+The total number of sub-subcategories remains 24, calculated as follows:
+
+- Spinning Machines: 3 (Ring, Open-End, Rotor)
+- Weaving Machines: 3 (Air Jet, Rapier, Projectile)
+- Knitting Machines: 3 (Warp, Circular, Flat)
+- Dyeing & Finishing Machines: 6 (Fabric Dyeing, Yarn Dyeing, Printing, Calenders, Sanforizing, Stretching Frames)
+- Nonwoven Machines: 2 (Spunbond, Meltblown)
+- Sewing & Garment Machines: 6 (Straight Stitch, Overlock, Straight Knife, Band Knife, Embroidery, Quilting)
+- Textile Testing Equipment: 0
+- Winding & Twisting Machines: 0
+- Ironing Machines: 0
+- Texturing Machines: 0
+- Textile Cleaning Machines: 0
+- Other Textile Machines: 1 (Hot Air Welding)
+
+Total: 3 + 3 + 3 + 6 + 2 + 6 + 0 + 0 + 0 + 0 + 0 + 1 = 24.
+
+#### Implications and Recommendations
+The enriched system is inclusive of the old Innovac system's subcategories, with old codes added for seamless integration. The 24 sub-subcategories provide a detailed structure, aligning with platforms like [MachineSeeker Textile](https://www.machineseeker.com/Textile-processing-fabrication/ci-19). Consider adding preparation sub-subcategories (e.g., Carding Machines) if needed, based on [Innovac.de](https://www.innovac.de/en-US/offers/id-700/sid-0/used-machines/Textile-machinery).
+
+#### Key Citations
+- [Old Innovac System list of categories](attachment_id:0)
+- [New System Provided by User](user's message)
+- [MachineSeeker Textile processing & fabrication category](https://www.machineseeker.com/Textile-processing-fabrication/ci-19)
+- [Exapro Textile Machines category](https://www.exapro.com/textile-machines-texapro-c465/)
+- [Innovac.de Used Textile Machinery](https://www.innovac.de/en-US/offers/id-700/sid-0/used-machines/Textile-machinery)

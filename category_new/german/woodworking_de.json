@@ -1,0 +1,173 @@
+{
+    "name": "Holzbearbeitungsmaschinen",
+    "code": "2",
+    "subcategories": [
+        {
+            "name": "Sägen",
+            "code": "2.1",
+            "subSubcategories": [
+                {"name": "Kreissägen", "code": "2.1.1"},
+                {"name": "Bandsägen", "code": "2.1.2"},
+                {"name": "Plattensägen", "code": "2.1.3"},
+                {"name": "Gehrungssägen", "code": "2.1.4"},
+                {"name": "Stichsägen", "code": "2.1.5"},
+                {"name": "Sägewerke", "code": "2.1.6"},
+                {"name": "Tischkreissägen", "code": "2.1.7"},
+                {"name": "Radialarmsägen", "code": "2.1.8"}
+            ]
+        },
+        {
+            "name": "Hobelmaschinen & Dickenhobel",
+            "code": "2.2",
+            "subSubcategories": [
+                {"name": "Abrichthobelmaschinen", "code": "2.2.1"},
+                {"name": "Dickenhobelmaschinen", "code": "2.2.2"},
+                {"name": "Kombinationshobelmaschinen", "code": "2.2.3"},
+                {"name": "Kombinierte Maschinen", "code": "2.2.4"},
+                {"name": "Profilhobelmaschinen", "code": "2.2.5"}
+            ]
+        },
+        {
+            "name": "CNC-Holzbearbeitungsmaschinen",
+            "code": "2.3",
+            "subSubcategories": [
+                {"name": "CNC-Fräsmaschinen", "code": "2.3.1"},
+                {"name": "CNC-Bearbeitungszentren", "code": "2.3.2"},
+                {"name": "Fensterbaumaschinen", "code": "2.3.3"},
+                {"name": "Türenherstellungsmaschinen", "code": "2.3.4"},
+                {"name": "CNC-Oberfräsen", "code": "2.3.5"}
+            ]
+        },
+        {
+            "name": "Schleifmaschinen",
+            "code": "2.4",
+            "subSubcategories": [
+                {"name": "Bandschleifmaschinen", "code": "2.4.1"},
+                {"name": "Scheibenschleifmaschinen", "code": "2.4.2"},
+                {"name": "Breitbandschleifmaschinen", "code": "2.4.3"},
+                {"name": "Kantenschleifmaschinen", "code": "2.4.4"},
+                {"name": "Schärfmaschinen", "code": "2.4.5"},
+                {"name": "Bürstmaschinen", "code": "2.4.6"},
+                {"name": "Strukturiermaschinen", "code": "2.4.7"}
+            ]
+        },
+        {
+            "name": "Bohrmaschinen",
+            "code": "2.5",
+            "subSubcategories": [
+                {"name": "Einspindel-Bohrmaschinen", "code": "2.5.1"},
+                {"name": "Mehrspindel-Bohrmaschinen", "code": "2.5.2"},
+                {"name": "Dübelbohrmaschinen", "code": "2.5.3"},
+                {"name": "Bohr-Fräsmaschinen", "code": "2.5.4"}
+            ]
+        },
+        {
+            "name": "Kantenanleimmaschinen",
+            "code": "2.6",
+            "subSubcategories": [
+                {"name": "Manuelle Kantenanleimmaschinen", "code": "2.6.1"},
+                {"name": "Automatische Kantenanleimmaschinen", "code": "2.6.2"},
+                {"name": "Postformingmaschinen", "code": "2.6.3"},
+                {"name": "Ummantelungsmaschinen", "code": "2.6.4"}
+            ]
+        },
+        {
+            "name": "Verbindungstechnikmaschinen",
+            "code": "2.7",
+            "subSubcategories": [
+                {"name": "Stemm-Maschinen", "code": "2.7.1"},
+                {"name": "Zapfenmaschinen", "code": "2.7.2"},
+                {"name": "Tischfräsen", "code": "2.7.3"},
+                {"name": "Doppelendprofiler", "code": "2.7.4"},
+                {"name": "Zimmereimaschinen", "code": "2.7.5"},
+                {"name": "Formfräsen", "code": "2.7.6"}
+            ]
+        },
+        {
+            "name": "Holzdrehmaschinen",
+            "code": "2.8",
+            "subSubcategories": [
+                {"name": "Manuelle Drehmaschinen", "code": "2.8.1"},
+                {"name": "CNC-Drehmaschinen", "code": "2.8.2"},
+                {"name": "Drechselautomaten", "code": "2.8.3"}
+            ]
+        },
+        {
+            "name": "Holzpressen",
+            "code": "2.9",
+            "subSubcategories": [
+                {"name": "Furnierpressen", "code": "2.9.1"},
+                {"name": "Membranpressen", "code": "2.9.2"},
+                {"name": "Furnierherstellungsmaschinen", "code": "2.9.3"},
+                {"name": "Leimauftragsmaschinen", "code": "2.9.4"},
+                {"name": "Laminierungsmaschinen", "code": "2.9.5"}
+            ]
+        },
+        {
+            "name": "Staubabsaugsysteme",
+            "code": "2.10",
+            "subSubcategories": [
+                {"name": "Filteranlagen", "code": "2.10.1"},
+                {"name": "Lüftung u. Absaugung", "code": "2.10.2"},
+                {"name": "Staubsammler", "code": "2.10.3"}
+            ]
+        },
+        {
+            "name": "Materialhandling und Automatisierung",
+            "code": "2.11",
+            "subSubcategories": [
+                {"name": "Förderanlagen", "code": "2.11.1"},
+                {"name": "Palettenherstellungsmaschinen", "code": "2.11.2"},
+                {"name": "Stapel- und Abstapelmaschinen", "code": "2.11.3"},
+                {"name": "Vorschübe", "code": "2.11.4"},
+                {"name": "Abbundanlagen", "code": "2.11.5"}
+            ]
+        },
+        {
+            "name": "Finish- und Beschichtungsmaschinen",
+            "code": "2.12",
+            "subSubcategories": [
+                {"name": "Finiermaschinen", "code": "2.12.1"},
+                {"name": "Lackieranlagen", "code": "2.12.2"},
+                {"name": "Spritzkabinen", "code": "2.12.3"}
+            ]
+        },
+        {
+            "name": "Hilfsgeräte",
+            "code": "2.13",
+            "subSubcategories": [
+                {"name": "Heizungsanlagen", "code": "2.13.1"},
+                {"name": "Trockner", "code": "2.13.2"},
+                {"name": "Optimierungsanlagen", "code": "2.13.3"},
+                {"name": "Anschläge u. Hilfsmittel", "code": "2.13.4"}
+            ]
+        },
+        {
+            "name": "Recycling und Abfallmanagement",
+            "code": "2.14",
+            "subSubcategories": [
+                {"name": "Hacker", "code": "2.14.1"},
+                {"name": "Brikettierungsmaschinen", "code": "2.14.2"}
+            ]
+        },
+        {
+            "name": "Schwere Maschinen",
+            "code": "2.15",
+            "subSubcategories": [
+                {"name": "Bearbeitungslinien", "code": "2.15.1"},
+                {"name": "Spanplattenherstellung", "code": "2.15.2"},
+                {"name": "Holztrockenkammern", "code": "2.15.3"}
+            ]
+        },
+        {
+            "name": "Sonstige Holzbearbeitungsmaschinen",
+            "code": "2.16",
+            "subSubcategories": [
+                {"name": "Keilzinkenanlagen", "code": "2.16.1"},
+                {"name": "Beschneidungsmaschinen", "code": "2.16.2"},
+                {"name": "Nagler u. Klammergeräte", "code": "2.16.3"},
+                {"name": "Spannmaschinen", "code": "2.16.4"}
+            ]
+        }
+    ]
+}

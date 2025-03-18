@@ -1,0 +1,173 @@
+{
+    "name": "Woodworking Machinery",
+    "code": "2",
+    "subcategories": [
+        {
+            "name": "Saws",
+            "code": "2.1",
+            "subSubcategories": [
+                {"name": "Circular Saws", "code": "2.1.1"},
+                {"name": "Band Saws", "code": "2.1.2"},
+                {"name": "Panel Saws", "code": "2.1.3"},
+                {"name": "Miter Saws", "code": "2.1.4"},
+                {"name": "Jig Saws", "code": "2.1.5"},
+                {"name": "Sawmills", "code": "2.1.6"},
+                {"name": "Table Saws", "code": "2.1.7"},
+                {"name": "Radial Arm Saws", "code": "2.1.8"}
+            ]
+        },
+        {
+            "name": "Planers & Thicknessers",
+            "code": "2.2",
+            "subSubcategories": [
+                {"name": "Surface Planers", "code": "2.2.1"},
+                {"name": "Thickness Planers", "code": "2.2.2"},
+                {"name": "Combination Planers", "code": "2.2.3"},
+                {"name": "Combined Machines", "code": "2.2.4"},
+                {"name": "Moulding Planers", "code": "2.2.5"}
+            ]
+        },
+        {
+            "name": "CNC Woodworking Machines",
+            "code": "2.3",
+            "subSubcategories": [
+                {"name": "CNC Milling Machines", "code": "2.3.1"},
+                {"name": "CNC Machining Centers", "code": "2.3.2"},
+                {"name": "Window Manufacturing Machines", "code": "2.3.3"},
+                {"name": "Door Manufacturing Machines", "code": "2.3.4"},
+                {"name": "CNC Routers", "code": "2.3.5"}
+            ]
+        },
+        {
+            "name": "Grinding Machines",
+            "code": "2.4",
+            "subSubcategories": [
+                {"name": "Belt Sanders", "code": "2.4.1"},
+                {"name": "Disc Sanders", "code": "2.4.2"},
+                {"name": "Wide Belt Sanders", "code": "2.4.3"},
+                {"name": "Edge Sanders", "code": "2.4.4"},
+                {"name": "Sharpening Machines", "code": "2.4.5"},
+                {"name": "Brushing Machines", "code": "2.4.6"},
+                {"name": "Structuring Machines", "code": "2.4.7"}
+            ]
+        },
+        {
+            "name": "Drilling Machines",
+            "code": "2.5",
+            "subSubcategories": [
+                {"name": "Single Spindle Drills", "code": "2.5.1"},
+                {"name": "Multi-Spindle Drills", "code": "2.5.2"},
+                {"name": "Dowel Drills", "code": "2.5.3"},
+                {"name": "Boring Machines", "code": "2.5.4"}
+            ]
+        },
+        {
+            "name": "Edge Banding Machines",
+            "code": "2.6",
+            "subSubcategories": [
+                {"name": "Manual Edge Banders", "code": "2.6.1"},
+                {"name": "Automatic Edge Banders", "code": "2.6.2"},
+                {"name": "Postforming Machines", "code": "2.6.3"},
+                {"name": "Wrapping Machines", "code": "2.6.4"}
+            ]
+        },
+        {
+            "name": "Joinery Machines",
+            "code": "2.7",
+            "subSubcategories": [
+                {"name": "Mortising Machines", "code": "2.7.1"},
+                {"name": "Tenoning Machines", "code": "2.7.2"},
+                {"name": "Table Routers", "code": "2.7.3"},
+                {"name": "Double-End Profilers", "code": "2.7.4"},
+                {"name": "Carpentry Machines", "code": "2.7.5"},
+                {"name": "Shapers", "code": "2.7.6"}
+            ]
+        },
+        {
+            "name": "Wood Lathes",
+            "code": "2.8",
+            "subSubcategories": [
+                {"name": "Manual Lathes", "code": "2.8.1"},
+                {"name": "CNC Lathes", "code": "2.8.2"},
+                {"name": "Automatic Turning Machines", "code": "2.8.3"}
+            ]
+        },
+        {
+            "name": "Wood Presses",
+            "code": "2.9",
+            "subSubcategories": [
+                {"name": "Veneer Presses", "code": "2.9.1"},
+                {"name": "Membrane Presses", "code": "2.9.2"},
+                {"name": "Veneer Manufacturing Machines", "code": "2.9.3"},
+                {"name": "Glue Spreaders", "code": "2.9.4"},
+                {"name": "Laminating Machines", "code": "2.9.5"}
+            ]
+        },
+        {
+            "name": "Dust Extraction Systems",
+            "code": "2.10",
+            "subSubcategories": [
+                {"name": "Filter Systems", "code": "2.10.1"},
+                {"name": "Ventilation & Extraction", "code": "2.10.2"},
+                {"name": "Dust Collectors", "code": "2.10.3"}
+            ]
+        },
+        {
+            "name": "Material Handling and Automation",
+            "code": "2.11",
+            "subSubcategories": [
+                {"name": "Conveyor Systems", "code": "2.11.1"},
+                {"name": "Pallet Manufacturing Machines", "code": "2.11.2"},
+                {"name": "Stacking & Destacking Machines", "code": "2.11.3"},
+                {"name": "Feed Units", "code": "2.11.4"},
+                {"name": "Beam Processing Systems", "code": "2.11.5"}
+            ]
+        },
+        {
+            "name": "Finishing and Coating Machines",
+            "code": "2.12",
+            "subSubcategories": [
+                {"name": "Finishing Machines", "code": "2.12.1"},
+                {"name": "Painting Systems", "code": "2.12.2"},
+                {"name": "Spray Booths", "code": "2.12.3"}
+            ]
+        },
+        {
+            "name": "Auxiliary Equipment",
+            "code": "2.13",
+            "subSubcategories": [
+                {"name": "Heating Systems", "code": "2.13.1"},
+                {"name": "Dryers", "code": "2.13.2"},
+                {"name": "Optimization Systems", "code": "2.13.3"},
+                {"name": "Stops & Aids", "code": "2.13.4"}
+            ]
+        },
+        {
+            "name": "Recycling and Waste Management",
+            "code": "2.14",
+            "subSubcategories": [
+                {"name": "Wood Chippers", "code": "2.14.1"},
+                {"name": "Briquetting Machines", "code": "2.14.2"}
+            ]
+        },
+        {
+            "name": "Heavy Machinery",
+            "code": "2.15",
+            "subSubcategories": [
+                {"name": "Processing Lines", "code": "2.15.1"},
+                {"name": "Particle Board Manufacturing", "code": "2.15.2"},
+                {"name": "Wood Drying Kilns", "code": "2.15.3"}
+            ]
+        },
+        {
+            "name": "Other Woodworking Machines",
+            "code": "2.16",
+            "subSubcategories": [
+                {"name": "Finger Jointing Systems", "code": "2.16.1"},
+                {"name": "Trimming Machines", "code": "2.16.2"},
+                {"name": "Nailers & Staplers", "code": "2.16.3"},
+                {"name": "Clamping Machines", "code": "2.16.4"}
+            ]
+        }
+    ]
+}

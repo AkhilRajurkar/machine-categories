@@ -62,10 +62,30 @@
             text-align: center;
             font-style: italic;
         }
+        .language-selector {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .language-selector button {
+            padding: 8px 16px;
+            margin-left: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .language-selector button.active {
+            background-color: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
     </style>
 </head>
 <body>
     <h1>Machine Categories Browser</h1>
+    <div class="language-selector">
+        <button onclick="switchLanguage('en')" id="en-btn" class="active">English</button>
+        <button onclick="switchLanguage('de')" id="de-btn">Deutsch</button>
+    </div>
     <div class="container">
         <div class="category-section">
             <h2>Main Categories</h2>
@@ -83,28 +103,42 @@
 
     <script>
         let categoriesData = [];
-        const loadingMessage = '<div class="loading">Loading categories...</div>';
-        const errorMessage = '<div class="error-message">Error loading categories. Please try again later.</div>';
+        let currentLanguage = 'en';
+        
+        function switchLanguage(lang) {
+            currentLanguage = lang;
+            document.getElementById('en-btn').classList.toggle('active', lang === 'en');
+            document.getElementById('de-btn').classList.toggle('active', lang === 'de');
+            loadCategories();
+        }
+        
+        function loadCategories() {
+            const loadingMessage = '<div class="loading">Loading categories...</div>';
+            const errorMessage = '<div class="error-message">Error loading categories. Please try again later.</div>';
 
-        // Show loading message
-        document.getElementById('main-categories').innerHTML = loadingMessage;
+            // Show loading message
+            document.getElementById('main-categories').innerHTML = loadingMessage;
 
-        // For GitHub Pages deployment
-        const isGitHubPages = window.location.hostname.includes('github.io');
-        const apiUrl = isGitHubPages 
-            ? 'https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories.json'
-            : '/api/categories';
+            // For GitHub Pages deployment
+            const isGitHubPages = window.location.hostname.includes('github.io');
+            const apiUrl = isGitHubPages 
+                ? `https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories_${currentLanguage}.json`
+                : `/api/categories/${currentLanguage}`;
 
-        fetch(apiUrl)
-            .then(response => response.json())
-            .then(data => {
-                categoriesData = data;
-                displayMainCategories();
-            })
-            .catch(error => {
-                console.error('Error loading categories:', error);
-                document.getElementById('main-categories').innerHTML = errorMessage;
-            });
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    categoriesData = data;
+                    displayMainCategories();
+                })
+                .catch(error => {
+                    console.error('Error loading categories:', error);
+                    document.getElementById('main-categories').innerHTML = errorMessage;
+                });
+        }
+
+        // Initial load
+        loadCategories();
 
         function displayMainCategories() {
             const container = document.getElementById('main-categories');

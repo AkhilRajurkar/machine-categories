@@ -1,0 +1,406 @@
+### Key Points
+- Research suggests the final JSON versions for plastic and rubber machinery include 19 subcategories and 34 sub-subcategories, with old Innovac system codes integrated where applicable.
+- It seems likely that all 31 entries from the old Innovac system are covered, with English and German translations for European markets.
+- The evidence leans toward comprehensive coverage, with an unexpected detail being the inclusion of "Münzen" (translated as "coins"), likely a typo under "Other Plastic Processing Machinery."
+
+### Final JSON Versions with Old Codes
+
+The final JSON versions for the categorization system for plastic and rubber machinery are provided below in both English and German, each with their respective codes and integrated old Innovac system codes where applicable. These versions ensure your business can maintain comprehensive coverage for reselling used machinery across Europe.
+
+#### English JSON File
+This version uses standard industry terms, such as "Injection Molding Machines" and "Extrusion Machines," with sub-subcategories like "Horizontal Injection Molders" and "Pipe Extruders." Each category includes the old system code for integration purposes.
+
+```json
+{
+  "name": "Plastic & Rubber Machinery",
+  "code": "03",
+  "old_code": ["400 0"],
+  "subcategories": [
+    {
+      "name": "Injection Molding Machines",
+      "code": "03.01",
+      "old_code": ["400 25"],
+      "subSubcategories": [
+        {"name": "Horizontal Injection Molders", "code": "03.01.01"},
+        {"name": "Vertical Injection Molders", "code": "03.01.02"},
+        {"name": "All-Electric Injection Molders", "code": "03.01.03"}
+      ]
+    },
+    {
+      "name": "Extrusion Machines",
+      "code": "03.02",
+      "old_code": ["400 7"],
+      "subSubcategories": [
+        {"name": "Pipe Extruders", "code": "03.02.01"},
+        {"name": "Profile Extruders", "code": "03.02.02"},
+        {"name": "Film Extruders", "code": "03.02.03"},
+        {"name": "Rubber Extruders", "code": "03.02.04"}
+      ]
+    },
+    {
+      "name": "Blow Molding Machines",
+      "code": "03.03",
+      "old_code": ["400 5"],
+      "subSubcategories": [
+        {"name": "Extrusion Blow Molders", "code": "03.03.01"},
+        {"name": "Injection Blow Molders", "code": "03.03.02"},
+        {"name": "Stretch Blow Molders", "code": "03.03.03"}
+      ]
+    },
+    {
+      "name": "Window Production Machinery",
+      "code": "03.04",
+      "old_code": ["400 8"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Mills",
+      "code": "03.05",
+      "old_code": ["400 15"],
+      "subSubcategories": [
+        {"name": "Calenders", "code": "03.05.01"},
+        {"name": "Rolling Mills", "code": "03.05.02"},
+        {"name": "Mixers", "code": "03.05.03", "old_code": ["400 17"]}
+      ]
+    },
+    {
+      "name": "Heating & Cooling Units",
+      "code": "03.06",
+      "old_code": ["400 14"],
+      "subSubcategories": [
+        {"name": "Heaters", "code": "03.06.01"},
+        {"name": "Coolers", "code": "03.06.02"},
+        {"name": "Dryers", "code": "03.06.03", "old_code": ["400 28"]}
+      ]
+    },
+    {
+      "name": "Spare Parts, Tools, Devices",
+      "code": "03.07",
+      "old_code": ["400 10"],
+      "subSubcategories": [
+        {"name": "Molds", "code": "03.07.01"},
+        {"name": "Tools", "code": "03.07.02"}
+      ]
+    },
+    {
+      "name": "Peripheral Devices",
+      "code": "03.08",
+      "old_code": ["400 13", "400 19"],
+      "subSubcategories": [
+        {"name": "Handling Equipment", "code": "03.08.01"},
+        {"name": "Robots", "code": "03.08.02"}
+      ]
+    },
+    {
+      "name": "Polyurethane Processing Machinery",
+      "code": "03.09",
+      "old_code": ["400 20"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Presses",
+      "code": "03.10",
+      "old_code": ["400 21"],
+      "subSubcategories": [
+        {"name": "Hydraulic Presses", "code": "03.10.01"},
+        {"name": "Mechanical Presses", "code": "03.10.02"}
+      ]
+    },
+    {
+      "name": "Printing Machinery",
+      "code": "03.11",
+      "old_code": ["400 6"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Processing- and Subsequent Machines",
+      "code": "03.12",
+      "old_code": ["400 4"],
+      "subSubcategories": [
+        {"name": "Film Processing Machines", "code": "03.12.01", "old_code": ["400 9"]},
+        {"name": "Finishing", "code": "03.12.02", "old_code": ["400 29"]},
+        {"name": "Decorating", "code": "03.12.03", "old_code": ["400 29"]},
+        {"name": "Winders", "code": "03.12.04", "old_code": ["400 30"]}
+      ]
+    },
+    {
+      "name": "Quality Assurance Equipment",
+      "code": "03.13",
+      "old_code": ["400 22"],
+      "subSubcategories": [
+        {"name": "Measurement Equipment", "code": "03.13.01"},
+        {"name": "Testing Equipment", "code": "03.13.02"}
+      ]
+    },
+    {
+      "name": "Reprocessing & Recycling Equipment",
+      "code": "03.14",
+      "old_code": ["400 3"],
+      "subSubcategories": [
+        {"name": "Agglomerators", "code": "03.14.01", "old_code": ["400 2"]},
+        {"name": "Granulators", "code": "03.14.02", "old_code": ["400 11"]}
+      ]
+    },
+    {
+      "name": "Rubber Processing Machinery",
+      "code": "03.15",
+      "old_code": ["400 12"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Thermoforming Machinery",
+      "code": "03.16",
+      "old_code": ["400 26"],
+      "subSubcategories": [
+        {"name": "Vacuum Forming Machines", "code": "03.16.01"},
+        {"name": "Deep Drawing Machines", "code": "03.16.02", "old_code": ["400 27"]}
+      ]
+    },
+    {
+      "name": "Welding Machinery",
+      "code": "03.17",
+      "old_code": ["400 23"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Miscellaneous Equipment",
+      "code": "03.18",
+      "subSubcategories": []
+    },
+    {
+      "name": "Other Plastic Processing Machinery",
+      "code": "03.19",
+      "old_code": ["400 1", "400 16", "400 18", "400 24"],
+      "subSubcategories": [
+        {"name": "Complete Production Lines", "code": "03.19.01", "old_code": ["400 16"]},
+        {"name": "Other Machines", "code": "03.19.02", "old_code": ["400 1", "400 18", "400 24"]}
+      ]
+    }
+  ]
+}
+```
+
+#### German JSON File
+This version uses translated terms, such as "Sprizgiessmaschienen" for Injection Molding Machines and "Extruder u. Extrusionsanlagen" for Extrusion Machines, with the same integration of old system codes.
+
+```json
+{
+  "name": "Plastik- und Gummimaschinerie",
+  "code": "03",
+  "old_code": ["400 0"],
+  "subcategories": [
+    {
+      "name": "Sprizgiessmaschienen",
+      "code": "03.01",
+      "old_code": ["400 25"],
+      "subSubcategories": [
+        {"name": "Horizontale Sprizgiessmaschienen", "code": "03.01.01"},
+        {"name": "Vertikale Sprizgiessmaschienen", "code": "03.01.02"},
+        {"name": "All-Elektrische Sprizgiessmaschienen", "code": "03.01.03"}
+      ]
+    },
+    {
+      "name": "Extruder und Extrusionsanlagen",
+      "code": "03.02",
+      "old_code": ["400 7"],
+      "subSubcategories": [
+        {"name": "Rohr Extruder", "code": "03.02.01"},
+        {"name": "Profil Extruder", "code": "03.02.02"},
+        {"name": "Film Extruder", "code": "03.02.03"},
+        {"name": "Gummi Extruder", "code": "03.02.04"}
+      ]
+    },
+    {
+      "name": "Blasformmaschienen",
+      "code": "03.03",
+      "old_code": ["400 5"],
+      "subSubcategories": [
+        {"name": "Extrusions-Blasformmaschienen", "code": "03.03.01"},
+        {"name": "Sprizgiess-Blasformmaschienen", "code": "03.03.02"},
+        {"name": "Streck-Blasformmaschienen", "code": "03.03.03"}
+      ]
+    },
+    {
+      "name": "Fensterbau Maschines",
+      "code": "03.04",
+      "old_code": ["400 8"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Mühlen",
+      "code": "03.05",
+      "old_code": ["400 15"],
+      "subSubcategories": [
+        {"name": "Kalander", "code": "03.05.01"},
+        {"name": "Walzwerke", "code": "03.05.02"},
+        {"name": "Mischer", "code": "03.05.03", "old_code": ["400 17"]}
+      ]
+    },
+    {
+      "name": "Heiz- und Kühleinrichtungen",
+      "code": "03.06",
+      "old_code": ["400 14"],
+      "subSubcategories": [
+        {"name": "Heizgeräte", "code": "03.06.01"},
+        {"name": "Kühler", "code": "03.06.02"},
+        {"name": "Trockner", "code": "03.06.03", "old_code": ["400 28"]}
+      ]
+    },
+    {
+      "name": "Ersatzteile, Werkzeuge und Geräte",
+      "code": "03.07",
+      "old_code": ["400 10"],
+      "subSubcategories": [
+        {"name": "Formen", "code": "03.07.01"},
+        {"name": "Werkzeuge", "code": "03.07.02"}
+      ]
+    },
+    {
+      "name": "Peripheriegeräte",
+      "code": "03.08",
+      "old_code": ["400 13", "400 19"],
+      "subSubcategories": [
+        {"name": "Handling-Ausrüstung", "code": "03.08.01"},
+        {"name": "Roboter", "code": "03.08.02"}
+      ]
+    },
+    {
+      "name": "Polyurethanverarbeitungsmaschinen",
+      "code": "03.09",
+      "old_code": ["400 20"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Pressen",
+      "code": "03.10",
+      "old_code": ["400 21"],
+      "subSubcategories": [
+        {"name": "Hydraulische Pressen", "code": "03.10.01"},
+        {"name": "Mechanische Pressen", "code": "03.10.02"}
+      ]
+    },
+    {
+      "name": "Druckmaschinerie",
+      "code": "03.11",
+      "old_code": ["400 6"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Verarbeitungs- und Folgemaschinen",
+      "code": "03.12",
+      "old_code": ["400 4"],
+      "subSubcategories": [
+        {"name": "Folienverarbeitungsmaschinen", "code": "03.12.01", "old_code": ["400 9"]},
+        {"name": "Veredelung", "code": "03.12.02", "old_code": ["400 29"]},
+        {"name": "Dekorieren", "code": "03.12.03", "old_code": ["400 29"]},
+        {"name": "Winder", "code": "03.12.04", "old_code": ["400 30"]}
+      ]
+    },
+    {
+      "name": "Qualitätssicherungsausrüstung",
+      "code": "03.13",
+      "old_code": ["400 22"],
+      "subSubcategories": [
+        {"name": "Messausrüstung", "code": "03.13.01"},
+        {"name": "Prüfausrüstung", "code": "03.13.02"}
+      ]
+    },
+    {
+      "name": "Aufbereitungs- und Recyclingausrüstung",
+      "code": "03.14",
+      "old_code": ["400 3"],
+      "subSubcategories": [
+        {"name": "Agglomeratoren", "code": "03.14.01", "old_code": ["400 2"]},
+        {"name": "Granulatoren", "code": "03.14.02", "old_code": ["400 11"]}
+      ]
+    },
+    {
+      "name": "Gummiverarbeitungsmaschinen",
+      "code": "03.15",
+      "old_code": ["400 12"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Thermformmaschinerie",
+      "code": "03.16",
+      "old_code": ["400 26"],
+      "subSubcategories": [
+        {"name": "Vakuumbildungsmaschinen", "code": "03.16.01"},
+        {"name": "Tiefziehmaschinen", "code": "03.16.02", "old_code": ["400 27"]}
+      ]
+    },
+    {
+      "name": "Schweissmaschinerie",
+      "code": "03.17",
+      "old_code": ["400 23"],
+      "subSubcategories": []
+    },
+    {
+      "name": "Verschiedene Ausrüstung",
+      "code": "03.18",
+      "subSubcategories": []
+    },
+    {
+      "name": "Sonstige Plastikverarbeitungsmaschinerie",
+      "code": "03.19",
+      "old_code": ["400 1", "400 16", "400 18", "400 24"],
+      "subSubcategories": [
+        {"name": "Komplette Produktionslinien", "code": "03.19.01", "old_code": ["400 16"]},
+        {"name": "Sonstige Maschines", "code": "03.19.02", "old_code": ["400 1", "400 18", "400 24"]}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+### Detailed Mapping Table of Old Innovac System to New System
+
+The following table summarizes the mapping from the old Innovac system to the new super-enhanced system, including where the old codes are integrated into the JSON files. The old system codes are based on the attached image, which lists 31 entries with codes from `400 0` to `400 30`, where the second column number represents the subcategory index.
+
+| Old System Code | Old System Category (English)        | New System Category/ Sub-subcategory | New System Code | Notes |
+|-----------------|---------------------------------------|--------------------------------------|-----------------|-------|
+| 400 0           | Plastic processing                   | Main category                        | 03              | Main category mapping |
+| 400 1           | Extraction systems                    | Other Machines                       | 03.19.02        | Under Other Plastic Processing Machinery |
+| 400 2           | Agglomerators                         | Agglomerators                        | 03.14.01        | Sub-subcategory under Reprocessing & Recycling Equipment |
+| 400 3           | Processing plants and recycling       | Reprocessing & Recycling Equipment   | 03.14           | General category mapping |
+| 400 4           | Processing, machining, and follow-up machines | Processing- and Subsequent Machines | 03.12           | General category mapping |
+| 400 5           | Blow molding machines                 | Blow Molding Machines                | 03.03           | Direct subcategory mapping |
+| 400 6           | Printing machines                     | Printing Machinery                   | 03.11           | Direct subcategory mapping |
+| 400 7           | Extruders and extrusion systems       | Extrusion Machines                   | 03.02           | Direct subcategory mapping |
+| 400 8           | Window construction machines          | Window Production Machinery          | 03.04           | Direct subcategory mapping |
+| 400 9           | Film processing machines              | Film Processing Machines             | 03.12.01        | Sub-subcategory under Processing- and Subsequent Machines |
+| 400 10          | Molds and tools                       | Spare Parts, Tools, Devices          | 03.07           | Direct subcategory mapping |
+| 400 11          | Granulation systems                   | Granulators                          | 03.14.02        | Sub-subcategory under Reprocessing & Recycling Equipment |
+| 400 12          | Rubber processing machines            | Rubber Processing Machinery          | 03.15           | Direct subcategory mapping |
+| 400 13          | Handling equipment and robots         | Peripheral Devices                   | 03.08           | Direct subcategory mapping |
+| 400 14          | Heating and cooling equipment         | Heating & Cooling Units              | 03.06           | Direct subcategory mapping |
+| 400 15          | Calenders and rolling mills           | Mills                                | 03.05           | Direct subcategory mapping, includes Calenders and Rolling Mills |
+| 400 16          | Complete production lines             | Complete Production Lines            | 03.19.01        | Sub-subcategory under Other Plastic Processing Machinery |
+| 400 17          | Mixers                                | Mixers                               | 03.05.03        | Sub-subcategory under Mills |
+| 400 18          | Coins                                 | Other Machines                       | 03.19.02        | Sub-subcategory under Other Plastic Processing Machinery, likely a typo |
+| 400 19          | Peripheral equipment                  | Peripheral Devices                   | 03.08           | Additional mapping to Peripheral Devices |
+| 400 20          | Polyurethane processing machines      | Polyurethane Processing Machinery    | 03.09           | Direct subcategory mapping |
+| 400 21          | Presses                               | Presses                              | 03.10           | Direct subcategory mapping |
+| 400 22          | Quality control machines              | Quality Assurance Equipment          | 03.13           | Direct subcategory mapping |
+| 400 23          | Welding machines                      | Welding Machinery                    | 03.17           | Direct subcategory mapping |
+| 400 24          | Other machines                        | Other Machines                       | 03.19.02        | Sub-subcategory under Other Plastic Processing Machinery |
+| 400 25          | Injection molding machines            | Injection Molding Machines           | 03.01           | Direct subcategory mapping |
+| 400 26          | Thermoforming                         | Thermoforming Machinery              | 03.16           | Direct subcategory mapping |
+| 400 27          | Deep drawing machines                 | Deep Drawing Machines                | 03.16.02        | Sub-subcategory under Thermoforming Machinery |
+| 400 28          | Dryers                                | Dryers                               | 03.06.03        | Sub-subcategory under Heating & Cooling Units |
+| 400 29          | Finishing, decorating, printing, marking | Finishing, Decorating               | 03.12.02, 03.12.03 | Split across sub-subcategories, printing handled by 03.11 |
+| 400 30          | Winders                               | Winders                              | 03.12.04        | Sub-subcategory under Processing- and Subsequent Machines |
+
+#### Comprehensive Analysis
+This analysis confirms that the JSON files integrate the old Innovac system codes effectively, mapping all 31 entries to the new super-enhanced system with 19 subcategories and 34 sub-subcategories. The "old_code" field allows seamless integration with legacy systems, ensuring no data is lost. The inclusion of "Coins" (400 18, "Münzen") as a potential typo under "Other Machines" highlights the need for validation, but its presence maintains completeness.
+
+#### Conclusion
+The final JSON versions, enriched with old Innovac system codes, provide a comprehensive framework with 19 subcategories and 34 sub-subcategories, aligning with industry standards and supporting English and German markets for reselling used machinery across Europe. The evidence supports full coverage and successful integration.
+
+#### Key Citations
+- [Used plastic processing machinery for sale - plastic process equipment](https://www.machineseeker.com/Plastics-processing-machinery/ci-14)
+- [Plastic and Rubber Machinery Exapro](https://www.exapro.com/plastic-rubber-c11/)
+- [Plastics and Rubber Machinery Bidspotter](https://www.bidspotter.com/en-us/for-sale/plastics-and-rubber-machinery)
+- [Plastic machinery types](https://www.market-prospects.com/articles/plastic-machinery-of-plastics-industry)

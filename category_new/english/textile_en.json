@@ -1,0 +1,97 @@
+{
+    "name": "Textile Machinery",
+    "code": "04",
+    "subcategories": [
+      {
+        "name": "Spinning Machines",
+        "code": "04.01",
+        "subSubcategories": [
+          { "name": "Ring Spinning Machines", "code": "04.01.01" },
+          { "name": "Open-End Spinning Machines", "code": "04.01.02" },
+          { "name": "Rotor Spinning Machines", "code": "04.01.03" }
+        ]
+      },
+      {
+        "name": "Weaving Machines",
+        "code": "04.02",
+        "subSubcategories": [
+          { "name": "Air Jet Looms", "code": "04.02.01" },
+          { "name": "Rapier Looms", "code": "04.02.02" },
+          { "name": "Projectile Looms", "code": "04.02.03" }
+        ]
+      },
+      {
+        "name": "Knitting Machines",
+        "code": "04.03",
+        "subSubcategories": [
+          { "name": "Warp Knitting Machines", "code": "04.03.01" },
+          { "name": "Circular Knitting Machines", "code": "04.03.02" },
+          { "name": "Flat Knitting Machines", "code": "04.03.03" }
+        ]
+      },
+      {
+        "name": "Dyeing & Finishing Machines",
+        "code": "04.04",
+        "subSubcategories": [
+          { "name": "Fabric Dyeing Machines", "code": "04.04.01" },
+          { "name": "Yarn Dyeing Machines", "code": "04.04.02" },
+          { "name": "Printing Machines", "code": "04.04.03" },
+          { "name": "Calenders", "code": "04.04.04" },
+          { "name": "Sanforizing Machines", "code": "04.04.05" },
+          { "name": "Stretching Frames", "code": "04.04.06" }
+        ]
+      },
+      {
+        "name": "Nonwoven Machines",
+        "code": "04.05",
+        "subSubcategories": [
+          { "name": "Spunbond Systems", "code": "04.05.01" },
+          { "name": "Meltblown Systems", "code": "04.05.02" }
+        ]
+      },
+      {
+        "name": "Sewing & Garment Machines",
+        "code": "04.06",
+        "subSubcategories": [
+          { "name": "Straight Stitch Machines", "code": "04.06.01" },
+          { "name": "Overlock Machines", "code": "04.06.02" },
+          { "name": "Straight Knife Cutters", "code": "04.06.03" },
+          { "name": "Band Knife Cutters", "code": "04.06.04" },
+          { "name": "Embroidery Machines", "code": "04.06.05" },
+          { "name": "Quilting Machines", "code": "04.06.06" }
+        ]
+      },
+      {
+        "name": "Textile Testing Equipment",
+        "code": "04.07",
+        "subSubcategories": []
+      },
+      {
+        "name": "Winding & Twisting Machines",
+        "code": "04.08",
+        "subSubcategories": []
+      },
+      {
+        "name": "Ironing Machines",
+        "code": "04.09",
+        "subSubcategories": []
+      },
+      {
+        "name": "Texturing Machines",
+        "code": "04.10",
+        "subSubcategories": []
+      },
+      {
+        "name": "Textile Cleaning Machines",
+        "code": "04.11",
+        "subSubcategories": []
+      },
+      {
+        "name": "Other Textile Machines",
+        "code": "04.12",
+        "subSubcategories": [
+          { "name": "Hot Air Welding Machines", "code": "04.12.01" }
+        ]
+      }
+    ]
+}

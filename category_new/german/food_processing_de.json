@@ -1,0 +1,189 @@
+{
+    "name": "Nahrungsmittelmachinen",
+    "code": "05",
+    "subcategories": [
+        {
+            "name": "Bäckereimaschinerie",
+            "code": "05.01",
+            "subSubcategories": [
+                {"name": "Teigmischer", "code": "05.01.01"},
+                {"name": "Teigteiler", "code": "05.01.02"},
+                {"name": "Deckbacköfen", "code": "05.01.03"},
+                {"name": "Rackbacköfen", "code": "05.01.04"},
+                {"name": "Gärungsschränke", "code": "05.01.05"},
+                {"name": "Backöfen", "code": "05.01.06"},
+                {"name": "Brot-Schneidemaschinen", "code": "05.01.07"}
+            ]
+        },
+        {
+            "name": "Fleischverarbeitungsmaschinen",
+            "code": "05.02",
+            "subSubcategories": [
+                {"name": "Fleischwolf", "code": "05.02.01"},
+                {"name": "Fleischschneider", "code": "05.02.02"},
+                {"name": "Wurstfüller", "code": "05.02.03"},
+                {"name": "Fleischmischer", "code": "05.02.04"},
+                {"name": "Rauchereianlagen", "code": "05.02.05"}
+            ]
+        },
+        {
+            "name": "Getränkeproduktion",
+            "code": "05.03",
+            "subSubcategories": [
+                {"name": "Maischebottiche", "code": "05.03.01"},
+                {"name": "Gärbehälter", "code": "05.03.02"},
+                {"name": "Abfüll- und Konservierungsanlagen", "code": "05.03.03"},
+                {"name": "Pasteurisatoren", "code": "05.03.04"},
+                {"name": "Filterverarbeitungsmachinen", "code": "05.03.05"}
+            ]
+        },
+        {
+            "name": "Milchverarbeitungsmaschinen",
+            "code": "05.04",
+            "subSubcategories": [
+                {"name": "Milchpasteurisatoren", "code": "05.04.01"},
+                {"name": "Käseherstellungsausrüstung", "code": "05.04.02"},
+                {"name": "Cremeseparatoren", "code": "05.04.03"},
+                {"name": "Butterstampfer", "code": "05.04.04"}
+            ]
+        },
+        {
+            "name": "Konfektionsmaschinen",
+            "code": "05.05",
+            "subSubcategories": [
+                {"name": "Schokoladen-Temperiermaschinen", "code": "05.05.01"},
+                {"name": "Bonbonherstellungsmaschinen", "code": "05.05.02"}
+            ]
+        },
+        {
+            "name": "Obst- und Gemüseverarbeitung",
+            "code": "05.06",
+            "subSubcategories": [
+                {"name": "Waschmaschinen", "code": "05.06.01"},
+                {"name": "Schälmaschinen", "code": "05.06.02"},
+                {"name": "Schneide- und Würfelmaschinen", "code": "05.06.03"}
+            ]
+        },
+        {
+            "name": "Lebensmittelverpackung",
+            "code": "05.07",
+            "subSubcategories": [
+                {"name": "Vakuumverpackungsmaschinen", "code": "05.07.01"},
+                {"name": "Modifizierte Atmosphärenverpackung", "code": "05.07.02"},
+                {"name": "Abfüllmaschinen", "code": "05.07.03"}
+            ]
+        },
+        {
+            "name": "Kühl- und Gefriertechnik",
+            "code": "05.08",
+            "subSubcategories": [
+                {"name": "Kühlanlagen", "code": "05.08.01"},
+                {"name": "Kühltürme", "code": "05.08.02"},
+                {"name": "Kühlräume", "code": "05.08.03"},
+                {"name": "Ausstellungs-Kühlgeräte", "code": "05.08.04"},
+                {"name": "Eismaschinen", "code": "05.08.05"}
+            ]
+        },
+        {
+            "name": "Kaffee-, Tee- und Tabakverarbeitung",
+            "code": "05.09",
+            "subSubcategories": [
+                {"name": "Kaffeemaschinen", "code": "05.09.01"},
+                {"name": "Teeverarbeitungsmaschinen", "code": "05.09.02"},
+                {"name": "Tabakverarbeitungsmaschinen", "code": "05.09.03"}
+            ]
+        },
+        {
+            "name": "Snack-Lebensmittelproduktion",
+            "code": "05.10",
+            "subSubcategories": [
+                {"name": "Pommes-Chip-Maschinen", "code": "05.10.01"},
+                {"name": "Popcornmaschinen", "code": "05.10.02"}
+            ]
+        },
+        {
+            "name": "Küchenausrüstung",
+            "code": "05.11",
+            "subSubcategories": [
+                {"name": "Kochfelder", "code": "05.11.01"},
+                {"name": "Kühlschränke", "code": "05.11.02"}
+            ]
+        },
+        {
+            "name": "Misch- und Mischgeräte",
+            "code": "05.12",
+            "subSubcategories": [
+                {"name": "Mischer", "code": "05.12.01"},
+                {"name": "Blender", "code": "05.12.02"},
+                {"name": "Mischmaschinen", "code": "05.12.03"}
+            ]
+        },
+        {
+            "name": "Lager- und Handhabungsgeräte",
+            "code": "05.13",
+            "subSubcategories": [
+                {"name": "Lagerregale", "code": "05.13.01"},
+                {"name": "Förderbänder", "code": "05.13.02"}
+            ]
+        },
+        {
+            "name": "Pasta- und Nudelproduktion",
+            "code": "05.14",
+            "subSubcategories": [
+                {"name": "Pastenextruder", "code": "05.14.01"}
+            ]
+        },
+        {
+            "name": "Reinigungs- und Sanitärgeräte",
+            "code": "05.15",
+            "subSubcategories": [
+                {"name": "Reinigungsmaschinen", "code": "05.15.01"},
+                {"name": "Sanitäranlagen", "code": "05.15.02"}
+            ]
+        },
+        {
+            "name": "Sortier- und Siebgeräte",
+            "code": "05.16",
+            "subSubcategories": [
+                {"name": "Siebmaschinen", "code": "05.16.01"},
+                {"name": "Sortiermaschinen", "code": "05.16.02"}
+            ]
+        },
+        {
+            "name": "Trockner",
+            "code": "05.17",
+            "subSubcategories": [
+                {"name": "Industrielle Trockner", "code": "05.17.01"}
+            ]
+        },
+        {
+            "name": "Wiege- und Messgeräte",
+            "code": "05.18",
+            "subSubcategories": [
+                {"name": "Waagen", "code": "05.18.01"},
+                {"name": "Messgeräte", "code": "05.18.02"}
+            ]
+        },
+        {
+            "name": "Öl- und Fettverarbeitung",
+            "code": "05.19",
+            "subSubcategories": [
+                {"name": "Ölpressen", "code": "05.19.01"}
+            ]
+        },
+        {
+            "name": "Milchnebenproduktverarbeitung",
+            "code": "05.20",
+            "subSubcategories": [
+                {"name": "Molke-Maschinen", "code": "05.20.01"}
+            ]
+        },
+        {
+            "name": "Sonstige Nahrungsmittelmachinen",
+            "code": "05.21",
+            "subSubcategories": [
+                {"name": "Allgemeine Maschinen", "code": "05.21.01"}
+            ]
+        }
+    ]
+}
