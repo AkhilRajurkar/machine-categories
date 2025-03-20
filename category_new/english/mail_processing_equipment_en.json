@@ -1,0 +1,67 @@
+{
+    "name": "Mail Processing Equipment",
+    "code": "22",
+    "subcategories": [
+      {
+        "name": "Sorting Machines",
+        "code": "22.01",
+        "subSubcategories": [
+          {"name": "Automatic Sorting Machines", "code": "22.01.1"},
+          {"name": "Manual Sorting Machines", "code": "22.01.2"},
+          {"name": "OCR Sorting Machines", "code": "22.01.3"},
+          {"name": "Barcode Sorting Machines", "code": "22.01.4"},
+          {"name": "Conveyor Systems for Mail Processing", "code": "22.01.5"},
+          {"name": "Mail Opening and Separating Machines", "code": "22.01.6"},
+          {"name": "Autoloaders for Mail Processing", "code": "22.01.7"}
+        ]
+      },
+      {
+        "name": "Folding & Inserting Machines",
+        "code": "22.02",
+        "subSubcategories": [
+          {"name": "Automatic Folder/Inserters", "code": "22.02.1"},
+          {"name": "Semi-Automatic Folder/Inserters", "code": "22.02.2"},
+          {"name": "High-Speed Inserters", "code": "22.02.3"},
+          {"name": "Pressure Sealers", "code": "22.02.4"}
+        ]
+      },
+      {
+        "name": "Franking Machines",
+        "code": "22.03",
+        "subSubcategories": [
+          {"name": "Digital Franking Machines", "code": "22.03.1"},
+          {"name": "Analog Franking Machines", "code": "22.03.2"},
+          {"name": "Postage Meters with Scale", "code": "22.03.3"},
+          {"name": "Standalone Postage Meters", "code": "22.03.4"},
+          {"name": "Mail Scales", "code": "22.03.5"}
+        ]
+      },
+      {
+        "name": "Addressing & Labeling Machines",
+        "code": "22.04",
+        "subSubcategories": [
+          {"name": "Address Printers", "code": "22.04.1"},
+          {"name": "Label Printers", "code": "22.04.2"},
+          {"name": "Stamp Affixers", "code": "22.04.3"},
+          {"name": "Tabbing Machines", "code": "22.04.4"}
+        ]
+      },
+      {
+        "name": "Mailroom Furniture & Accessories",
+        "code": "22.05",
+        "subSubcategories": [
+          {"name": "Mail Carts and Trolleys", "code": "22.05.1"},
+          {"name": "Sorting Tables and Desks", "code": "22.05.2"},
+          {"name": "Mail Trays and Bins", "code": "22.05.3"},
+          {"name": "Letter Openers", "code": "22.05.4"},
+          {"name": "Mailroom Chairs and Stools", "code": "22.05.5"},
+          {"name": "Mailroom Storage Cabinets", "code": "22.05.6"}
+        ]
+      },
+      {
+        "name": "Mail Processing Lines",
+        "code": "22.06",
+        "subSubcategories": []
+      }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "name": "Complete Production Lines",
+    "code": "18",
+    "subcategories": [
+        {
+            "name": "Food & Beverage Lines",
+            "code": "18.01",
+            "subSubcategories": [
+                {"name": "Dairy Plants", "code": "18.01.01"},
+                {"name": "Breweries & Distilleries", "code": "18.01.02"},
+                {"name": "Bakery Lines", "code": "18.01.03"},
+                {"name": "Meat Processing Plants", "code": "18.01.04"},
+                {"name": "Beverage Production Lines", "code": "18.01.05"},
+                {"name": "Confectionery Lines", "code": "18.01.06"}
+            ]
+        },
+        {
+            "name": "Pharmaceutical & Chemical Lines",
+            "code": "18.02",
+            "subSubcategories": [
+                {"name": "Pharma Production Lines", "code": "18.02.01"},
+                {"name": "Chemical Plants", "code": "18.02.02"},
+                {"name": "Fertilizer Plants", "code": "18.02.03"}
+            ]
+        },
+        {
+            "name": "Metal & Material Processing",
+            "code": "18.03",
+            "subSubcategories": [
+                {"name": "Steel Mills", "code": "18.03.01"},
+                {"name": "Aluminum Smelters", "code": "18.03.02"},
+                {"name": "Cement Plants", "code": "18.03.03"}
+            ]
+        },
+        {
+            "name": "Automotive & Aerospace",
+            "code": "18.04",
+            "subSubcategories": [
+                {"name": "Vehicle Assembly Lines", "code": "18.04.01"},
+                {"name": "Engine Manufacturing", "code": "18.04.02"},
+                {"name": "Aerospace Component Plants", "code": "18.04.03"}
+            ]
+        },
+        {
+            "name": "Textile & Apparel",
+            "code": "18.05",
+            "subSubcategories": [
+                {"name": "Spinning Mills", "code": "18.05.01"},
+                {"name": "Weaving & Knitting Plants", "code": "18.05.02"},
+                {"name": "Garment Factories", "code": "18.05.03"}
+            ]
+        },
+        {
+            "name": "Electronics & Appliances",
+            "code": "18.06",
+            "subSubcategories": [
+                {"name": "Semiconductor Plants", "code": "18.06.01"},
+                {"name": "Electronics Assembly Lines", "code": "18.06.02"}
+            ]
+        },
+        {
+            "name": "Plastic & Rubber",
+            "code": "18.07",
+            "subSubcategories": [
+                {"name": "Tire Manufacturing", "code": "18.07.01"},
+                {"name": "Plastic Packaging Lines", "code": "18.07.02"}
+            ]
+        },
+        {
+            "name": "Paper & Pulp",
+            "code": "18.08",
+            "subSubcategories": []
+        },
+        {
+            "name": "Renewable Energy",
+            "code": "18.09",
+            "subSubcategories": [
+                {"name": "Biomass Power Plants", "code": "18.09.01"},
+                {"name": "Solar Panel Factories", "code": "18.09.02"}
+            ]
+        },
+        {
+            "name": "Other Production Lines",
+            "code": "18.10",
+            "subSubcategories": [
+                {"name": "Glass Factories", "code": "18.10.01"},
+                {"name": "Ceramic Factories", "code": "18.10.02"}
+            ]
+        }
+    ]
+}
