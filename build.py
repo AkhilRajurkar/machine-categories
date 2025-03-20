@@ -13,23 +13,29 @@ def load_json_file(file_path):
             except json.JSONDecodeError as je:
                 print(f"JSON parsing error in {file_path}:")
                 print(f"Error details: {str(je)}")
-                print(f"Near text: {content[max(0, je.pos-20):je.pos+20]}")
                 return None
     except Exception as e:
         print(f"Error loading {file_path}: {str(e)}")
         return None
+
+def get_numeric_code(code):
+    # Convert code to numeric value for sorting (e.g., "2" -> 2, "02" -> 2)
+    try:
+        return int(str(code).split('.')[0])
+    except:
+        return 999  # Default high number for invalid codes
 
 def build_categories_json():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     base_path = os.path.join(script_dir, "category_new", "english")
     output_path = os.path.join(script_dir, "categories.json")
     
-    categories = []
+    # Dictionary to store categories by their numeric code
+    category_map = {}
     processed_files = []
     failed_files = []
     
-    # Create a mapping of code to category for proper ordering
-    category_map = {}
+    print("Processing category files...")
     
     # Load all English category files
     if os.path.exists(base_path):
@@ -39,26 +45,31 @@ def build_categories_json():
                 print(f"\nProcessing: {file}")
                 data = load_json_file(file_path)
                 if data:
-                    # Store in map using code as key
-                    category_map[data['code']] = data
-                    processed_files.append(file)
+                    numeric_code = get_numeric_code(data['code'])
+                    category_map[numeric_code] = data
+                    processed_files.append(f"{numeric_code:02d} - {data['name']}")
                 else:
                     failed_files.append(file)
     
-    # Sort categories by code and create final list
-    sorted_codes = sorted(category_map.keys(), key=lambda x: int(str(x).split('.')[0]))
+    # Sort categories by numeric code
+    sorted_codes = sorted(category_map.keys())
     categories = [category_map[code] for code in sorted_codes]
     
-    # Write combined categories to a single JSON file
+    # Write combined categories to JSON file
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(categories, f, indent=2, ensure_ascii=False)
     
-    print(f"\nSummary:")
-    print(f"Successfully processed ({len(processed_files)}) files:")
-    for code in sorted_codes:
-        print(f"{code}: {category_map[code]['name']}")
-    print(f"\nFailed to process ({len(failed_files)}): {', '.join(failed_files)}")
-    print(f"Created categories.json with {len(categories)} categories")
+    print("\nProcessed Categories:")
+    for item in sorted(processed_files):
+        print(f"- {item}")
+    
+    if failed_files:
+        print("\nFailed to process:")
+        for file in failed_files:
+            print(f"- {file}")
+    
+    print(f"\nTotal categories: {len(categories)}")
+    print(f"Output written to: {output_path}")
 
 if __name__ == "__main__":
     build_categories_json() 
