@@ -1,7 +1,7 @@
 [
   {
     "name": "Metallbearbeitungsmaschinen",
-    "code": "01",
+    "code": "1",
     "subcategories": [
       {
         "name": "Bearbeitungszentren",
@@ -873,7 +873,7 @@
   },
   {
     "name": "Plastik- und Gummimaschinerie",
-    "code": "03",
+    "code": "3",
     "subcategories": [
       {
         "name": "Sprizgiessmaschienen",
@@ -1123,7 +1123,7 @@
   },
   {
     "name": "Textilmaschine",
-    "code": "04",
+    "code": "4",
     "subcategories": [
       {
         "name": "Spinnmaschine",
@@ -1292,7 +1292,7 @@
   },
   {
     "name": "Nahrungsmittelmachinen",
-    "code": "05",
+    "code": "5",
     "subcategories": [
       {
         "name": "Bäckereimaschinerie",
@@ -1652,7 +1652,7 @@
   },
   {
     "name": "Verpackungsmaschinen",
-    "code": "06",
+    "code": "6",
     "subcategories": [
       {
         "name": "Abfüllmaschinen",
@@ -1915,7 +1915,7 @@
   },
   {
     "name": "Druck- und Grafikausrüstung",
-    "code": "07",
+    "code": "7",
     "subcategories": [
       {
         "name": "Druckpressen",
@@ -2181,7 +2181,7 @@
   },
   {
     "name": "Baumaschinerie",
-    "code": "08",
+    "code": "8",
     "subcategories": [
       {
         "name": "Erdbewegungsmaschinen",
@@ -2549,7 +2549,7 @@
   },
   {
     "name": "Landmaschinen",
-    "code": "09",
+    "code": "9",
     "subcategories": [
       {
         "name": "Traktoren",

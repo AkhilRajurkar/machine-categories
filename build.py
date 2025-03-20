@@ -21,7 +21,8 @@ def load_json_file(file_path):
 def get_numeric_code(code):
     # Convert code to numeric value for sorting (e.g., "2" -> 2, "02" -> 2)
     try:
-        return int(str(code).split('.')[0])
+        # Remove any leading zeros and convert to integer
+        return int(str(code).lstrip('0').split('.')[0])
     except:
         return 999  # Default high number for invalid codes
 
@@ -55,8 +56,10 @@ def build_categories_json():
                     data = load_json_file(file_path)
                     if data:
                         numeric_code = get_numeric_code(data['code'])
+                        # Remove leading zeros from the code in the data
+                        data['code'] = str(numeric_code)
                         category_map[numeric_code] = data
-                        processed_files.append(f"{numeric_code:02d} - {data['name']}")
+                        processed_files.append(f"{numeric_code} - {data['name']}")
                     else:
                         failed_files.append(file)
         

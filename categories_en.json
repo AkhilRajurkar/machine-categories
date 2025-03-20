@@ -1,7 +1,7 @@
 [
   {
     "name": "Metalworking Machinery",
-    "code": "01",
+    "code": "1",
     "subcategories": [
       {
         "name": "Machining Centers",
@@ -873,7 +873,7 @@
   },
   {
     "name": "Plastic & Rubber Machinery",
-    "code": "03",
+    "code": "3",
     "subcategories": [
       {
         "name": "Injection Molding Machines",
@@ -1123,7 +1123,7 @@
   },
   {
     "name": "Textile Machinery",
-    "code": "04",
+    "code": "4",
     "subcategories": [
       {
         "name": "Spinning Machines",
@@ -1292,7 +1292,7 @@
   },
   {
     "name": "Food Processing Machinery",
-    "code": "05",
+    "code": "5",
     "subcategories": [
       {
         "name": "Bakery Equipment",
@@ -1652,7 +1652,7 @@
   },
   {
     "name": "Packaging Machinery",
-    "code": "06",
+    "code": "6",
     "subcategories": [
       {
         "name": "Filling Machines",
@@ -1915,7 +1915,7 @@
   },
   {
     "name": "Printing & Graphics Equipment",
-    "code": "07",
+    "code": "7",
     "subcategories": [
       {
         "name": "Printing Presses",
@@ -2181,7 +2181,7 @@
   },
   {
     "name": "Construction Machinery",
-    "code": "08",
+    "code": "8",
     "subcategories": [
       {
         "name": "Earth Moving Equipment",
@@ -2549,7 +2549,7 @@
   },
   {
     "name": "Agricultural Machinery",
-    "code": "09",
+    "code": "9",
     "subcategories": [
       {
         "name": "Tractors",
