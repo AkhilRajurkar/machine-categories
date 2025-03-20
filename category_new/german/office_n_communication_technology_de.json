@@ -1,0 +1,74 @@
+{
+    "name": "Büro- & Kommunikationstechnik",
+    "code": "17",
+    "subcategories": [
+        {
+            "name": "Druck- & Kopiergeräte",
+            "code": "17.01",
+            "subSubcategories": [
+                {"name": "Laserdrucker", "code": "17.01.01"},
+                {"name": "Tintenstrahldrucker", "code": "17.01.02"},
+                {"name": "Multifunktionsdrucker", "code": "17.01.03"},
+                {"name": "Kopierer", "code": "17.01.04"},
+                {"name": "Scanner", "code": "17.01.05"},
+                {"name": "Aktenvernichter", "code": "17.01.06"},
+                {"name": "Falzmaschinen", "code": "17.01.07"},
+                {"name": "Kuvertiermaschinen", "code": "17.01.08"},
+                {"name": "Lichtpausmaschinen", "code": "17.01.09"}
+            ]
+        },
+        {
+            "name": "Kommunikationssysteme",
+            "code": "17.02",
+            "subSubcategories": [
+                {"name": "Telefonanlagen", "code": "17.02.01"},
+                {"name": "VoIP-Systeme", "code": "17.02.02"},
+                {"name": "Faxgeräte", "code": "17.02.03"}
+            ]
+        },
+        {
+            "name": "Computergeräte",
+            "code": "17.03",
+            "subSubcategories": [
+                {"name": "Desktops", "code": "17.03.01"},
+                {"name": "Laptops", "code": "17.03.02"},
+                {"name": "Server", "code": "17.03.03"},
+                {"name": "Netzwerkgeräte", "code": "17.03.04"}
+            ]
+        },
+        {
+            "name": "Telekommunikationssysteme",
+            "code": "17.04",
+            "subSubcategories": [
+                {"name": "Router", "code": "17.04.01"},
+                {"name": "Switche", "code": "17.04.02"},
+                {"name": "PBX-Systeme", "code": "17.04.03"},
+                {"name": "Satellitenkommunikationsgeräte", "code": "17.04.04"}
+            ]
+        },
+        {
+            "name": "Büromöbel",
+            "code": "17.05",
+            "subSubcategories": [
+                {"name": "Schreibtische", "code": "17.05.01"},
+                {"name": "Stühle", "code": "17.05.02"},
+                {"name": "Aktenschränke", "code": "17.05.03"},
+                {"name": "Tresore", "code": "17.05.04"}
+            ]
+        },
+        {
+            "name": "Audiovisuelle Geräte",
+            "code": "17.06",
+            "subSubcategories": [
+                {"name": "Videoprojektoren", "code": "17.06.01"}
+            ]
+        },
+        {
+            "name": "Sonstige Bürotechnik",
+            "code": "17.07",
+            "subSubcategories": [
+                {"name": "Sonstige Maschinen", "code": "17.07.01"}
+            ]
+        }
+    ]
+}

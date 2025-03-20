@@ -1,0 +1,116 @@
+{
+    "name": "Process & Chemical Engineering",
+    "code": "12",
+    "subcategories": [
+        {
+            "name": "Mixers & Agitators",
+            "code": "12.01",
+            "subSubcategories": [
+                {"name": "Ribbon Mixers", "code": "12.01.01"},
+                {"name": "Planetary Mixers", "code": "12.01.02"},
+                {"name": "Agitators", "code": "12.01.03"}
+            ]
+        },
+        {
+            "name": "Reactors & Vessels",
+            "code": "12.02",
+            "subSubcategories": [
+                {"name": "Batch Reactors", "code": "12.02.01"},
+                {"name": "Continuous Reactors", "code": "12.02.02"},
+                {"name": "Storage Vessels", "code": "12.02.03"}
+            ]
+        },
+        {
+            "name": "Heat Exchangers",
+            "code": "12.03",
+            "subSubcategories": [
+                {"name": "Shell & Tube Heat Exchangers", "code": "12.03.01"},
+                {"name": "Plate Heat Exchangers", "code": "12.03.02"}
+            ]
+        },
+        {
+            "name": "Separation Equipment",
+            "code": "12.04",
+            "subSubcategories": [
+                {"name": "Centrifuges", "code": "12.04.01"},
+                {"name": "Filters", "code": "12.04.02"},
+                {"name": "Distillation Columns", "code": "12.04.03"},
+                {"name": "Ion Exchangers", "code": "12.04.04"}
+            ]
+        },
+        {
+            "name": "Pumps",
+            "code": "12.05",
+            "subSubcategories": [
+                {"name": "Centrifugal Pumps", "code": "12.05.01"},
+                {"name": "Positive Displacement Pumps", "code": "12.05.02"}
+            ]
+        },
+        {
+            "name": "Valves & Fittings",
+            "code": "12.06",
+            "subSubcategories": []
+        },
+        {
+            "name": "Vacuum Technology",
+            "code": "12.07",
+            "subSubcategories": [
+                {"name": "Rotary Vane Pumps", "code": "12.07.01"},
+                {"name": "Diaphragm Pumps", "code": "12.07.02"},
+                {"name": "Turbomolecular Pumps", "code": "12.07.03"},
+                {"name": "Vacuum Chambers", "code": "12.07.04"},
+                {"name": "Vacuum Ovens", "code": "12.07.05"},
+                {"name": "Vacuum Gauges", "code": "12.07.06"},
+                {"name": "Vacuum Evaporators", "code": "12.07.07"}
+            ]
+        },
+        {
+            "name": "Compressors",
+            "code": "12.08",
+            "subSubcategories": [
+                {"name": "Reciprocating Compressors", "code": "12.08.01"},
+                {"name": "Rotary Compressors", "code": "12.08.02"},
+                {"name": "Blowers", "code": "12.08.03"}
+            ]
+        },
+        {
+            "name": "Size Reduction Equipment",
+            "code": "12.09",
+            "subSubcategories": [
+                {"name": "Mills", "code": "12.09.01"}
+            ]
+        },
+        {
+            "name": "Presses",
+            "code": "12.10",
+            "subSubcategories": [
+                {"name": "Hydraulic Presses", "code": "12.10.01"},
+                {"name": "Mechanical Presses", "code": "12.10.02"}
+            ]
+        },
+        {
+            "name": "Control Systems",
+            "code": "12.11",
+            "subSubcategories": [
+                {"name": "PLC Systems", "code": "12.11.01"},
+                {"name": "DCS", "code": "12.11.02"}
+            ]
+        },
+        {
+            "name": "Other Process Equipment",
+            "code": "12.12",
+            "subSubcategories": [
+                {"name": "Water Treatment Systems", "code": "12.12.01"},
+                {"name": "Paper Manufacturing Equipment", "code": "12.12.02"}
+            ]
+        },
+        {
+            "name": "Dryers",
+            "code": "12.13",
+            "subSubcategories": [
+                {"name": "Tray Dryers", "code": "12.13.01"},
+                {"name": "Fluid Bed Dryers", "code": "12.13.02"}
+            ]
+        }
+    ]
+}

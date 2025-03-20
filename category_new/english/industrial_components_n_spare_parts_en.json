@@ -1,0 +1,74 @@
+{
+    "name": "Industrial Components & Spare Parts",
+    "code": "19",
+    "subcategories": [
+        {
+            "name": "Motors & Drives",
+            "code": "19.01",
+            "subSubcategories": [
+                {"name": "AC Motors", "code": "19.01.01"},
+                {"name": "DC Motors", "code": "19.01.02"},
+                {"name": "Servo Motors", "code": "19.01.03"},
+                {"name": "Frequency Inverters", "code": "19.01.04"}
+            ]
+        },
+        {
+            "name": "Bearings & Mechanical Parts",
+            "code": "19.02",
+            "subSubcategories": [
+                {"name": "Ball Bearings", "code": "19.02.01"},
+                {"name": "Roller Bearings", "code": "19.02.02"},
+                {"name": "Linear Bearings", "code": "19.02.03"},
+                {"name": "Gearboxes", "code": "19.02.04"}
+            ]
+        },
+        {
+            "name": "Hydraulic & Pneumatic Components",
+            "code": "19.03",
+            "subSubcategories": [
+                {"name": "Pumps", "code": "19.03.01"},
+                {"name": "Valves", "code": "19.03.02"},
+                {"name": "Cylinders", "code": "19.03.03"},
+                {"name": "Compressors", "code": "19.03.04"}
+            ]
+        },
+        {
+            "name": "Electrical Components",
+            "code": "19.04",
+            "subSubcategories": [
+                {"name": "Switchgear", "code": "19.04.01"},
+                {"name": "Transformers", "code": "19.04.02"},
+                {"name": "Circuit Breakers", "code": "19.04.03"},
+                {"name": "Cables & Wires", "code": "19.04.04"}
+            ]
+        },
+        {
+            "name": "Automation Components",
+            "code": "19.05",
+            "subSubcategories": [
+                {"name": "PLCs", "code": "19.05.01"},
+                {"name": "Sensors", "code": "19.05.02"},
+                {"name": "HMIs", "code": "19.05.03"},
+                {"name": "Actuators", "code": "19.05.04"}
+            ]
+        },
+        {
+            "name": "Fasteners & Hardware",
+            "code": "19.06",
+            "subSubcategories": [
+                {"name": "Bolts & Screws", "code": "19.06.01"},
+                {"name": "Nuts & Washers", "code": "19.06.02"},
+                {"name": "Clamps & Couplings", "code": "19.06.03"}
+            ]
+        },
+        {
+            "name": "Surplus & Overstock",
+            "code": "19.07",
+            "subSubcategories": [
+                {"name": "Unused Spare Parts", "code": "19.07.01"},
+                {"name": "Overstock Items", "code": "19.07.02"},
+                {"name": "Liquidation Lots", "code": "19.07.03"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "name": "Automatisierung & Robotik",
+    "code": "16",
+    "subcategories": [
+        {
+            "name": "Industrieroboter",
+            "code": "16.01",
+            "subSubcategories": [
+                {"name": "Gelenkroboter", "code": "16.01.01"},
+                {"name": "SCARA-Roboter", "code": "16.01.02"},
+                {"name": "Kartesische Roboter", "code": "16.01.03"},
+                {"name": "Delta-Roboter", "code": "16.01.04"},
+                {"name": "Kooperative Roboter", "code": "16.01.05"},
+                {"name": "Schwerlastroboter", "code": "16.01.06"},
+                {"name": "Mobile Roboter", "code": "16.01.07"},
+                {"name": "Manipulatoren", "code": "16.01.08"}
+            ]
+        },
+        {
+            "name": "Steuerungssysteme",
+            "code": "16.02",
+            "subSubcategories": [
+                {"name": "Programmierbare Logiksteuerungen (PLCs)", "code": "16.02.01"},
+                {"name": "Sensoren", "code": "16.02.02"},
+                {"name": "Mensch-Maschine-Schnittstellen (HMIs)", "code": "16.02.03"},
+                {"name": "Antriebe", "code": "16.02.04"},
+                {"name": "Motoren", "code": "16.02.05"},
+                {"name": "Steuerungsschränke", "code": "16.02.06"},
+                {"name": "Sonstige Steuerungskomponenten", "code": "16.02.07"}
+            ]
+        },
+        {
+            "name": "Fördersysteme",
+            "code": "16.03",
+            "subSubcategories": [
+                {"name": "Bandförderer", "code": "16.03.01"},
+                {"name": "Rollenförderer", "code": "16.03.02"},
+                {"name": "Kettentransportgeräte", "code": "16.03.03"},
+                {"name": "Schraubenförderer", "code": "16.03.04"},
+                {"name": "Pneumatische Förderer", "code": "16.03.05"},
+                {"name": "Sortiersysteme", "code": "16.03.06"},
+                {"name": "Palettiergeräte", "code": "16.03.07"},
+                {"name": "Entpalettiergeräte", "code": "16.03.08"}
+            ]
+        },
+        {
+            "name": "Montage- und Handhabungssysteme",
+            "code": "16.04",
+            "subSubcategories": [
+                {"name": "Montagemaschinen", "code": "16.04.01"},
+                {"name": "Handhabungsroboter", "code": "16.04.02"},
+                {"name": "Greif- und Platziersysteme", "code": "16.04.03"},
+                {"name": "Montagesysteme", "code": "16.04.04"},
+                {"name": "Verpackungssysteme", "code": "16.04.05"}
+            ]
+        },
+        {
+            "name": "Positioniersysteme",
+            "code": "16.05",
+            "subSubcategories": [
+                {"name": "Lineare Positioniersysteme", "code": "16.05.01"},
+                {"name": "Rotative Positioniersysteme", "code": "16.05.02"},
+                {"name": "Mehrachsen-Positioniersysteme", "code": "16.05.03"},
+                {"name": "Portalsysteme", "code": "16.05.04"}
+            ]
+        },
+        {
+            "name": "Elektrische Steuerungen und Schaltanlagen",
+            "code": "16.06",
+            "subSubcategories": [
+                {"name": "Niederspannungsschaltanlagen", "code": "16.06.01"},
+                {"name": "Mittelspannungsschaltanlagen", "code": "16.06.02"},
+                {"name": "Motorschaltanlagen (MSA)", "code": "16.06.03"},
+                {"name": "Verteilerschränke", "code": "16.06.04"},
+                {"name": "Leistungsschalter", "code": "16.06.05"},
+                {"name": "Kontaktoren und Starter", "code": "16.06.06"}
+            ]
+        },
+        {
+            "name": "Sonstige Automatisierungsmaschinen",
+            "code": "16.07",
+            "subSubcategories": [
+                {"name": "Sichtsysteme", "code": "16.07.01"},
+                {"name": "RFID-Systeme", "code": "16.07.02"},
+                {"name": "Strichcodescanner", "code": "16.07.03"},
+                {"name": "Sonstige", "code": "16.07.04"}
+            ]
+        }
+    ]
+}

@@ -360,6 +360,930 @@
     ]
   },
   {
+    "name": "Elektronische Fertigungsausrüstung",
+    "code": "14",
+    "subcategories": [
+      {
+        "name": "Leiterplattenherstellung",
+        "code": "14.01",
+        "subSubcategories": [
+          {
+            "name": "Leiterplattenbohrmaschinen",
+            "code": "14.01.01"
+          },
+          {
+            "name": "Leiterplattenätzmaschinen",
+            "code": "14.01.02"
+          },
+          {
+            "name": "Leiterplattenlaminiergeräte",
+            "code": "14.01.03"
+          },
+          {
+            "name": "Leiterplattensiebdruckmaschinen",
+            "code": "14.01.04"
+          },
+          {
+            "name": "Leiterplattenentpanelungsgeräte",
+            "code": "14.01.05"
+          },
+          {
+            "name": "Leiterplattentestgeräte",
+            "code": "14.01.06"
+          },
+          {
+            "name": "Leiterplattenfräsmaschinen",
+            "code": "14.01.07"
+          },
+          {
+            "name": "Leiterplattenschnittmaschinen",
+            "code": "14.01.08"
+          },
+          {
+            "name": "Leiterplattenreinigungsmaschinen",
+            "code": "14.01.09"
+          },
+          {
+            "name": "Leiterplattenkonformalbeschichtungsausrüstung",
+            "code": "14.01.10"
+          }
+        ]
+      },
+      {
+        "name": "SMT-Ausrüstung",
+        "code": "14.02",
+        "subSubcategories": [
+          {
+            "name": "Pick-and-Place-Maschinen",
+            "code": "14.02.01"
+          },
+          {
+            "name": "Reflow-Öfen",
+            "code": "14.02.02"
+          },
+          {
+            "name": "Lötpastendrucker",
+            "code": "14.02.03"
+          },
+          {
+            "name": "Wellenlötsysteme",
+            "code": "14.02.04"
+          },
+          {
+            "name": "SMT-Inspektionsausrüstung",
+            "code": "14.02.05"
+          },
+          {
+            "name": "SMT-Reinigungsausrüstung",
+            "code": "14.02.06"
+          },
+          {
+            "name": "SMT-Schablonendrucker",
+            "code": "14.02.07"
+          },
+          {
+            "name": "SMT-Komponenteninspektionssysteme",
+            "code": "14.02.08"
+          },
+          {
+            "name": "SMT-Reparaturstationen",
+            "code": "14.02.09"
+          },
+          {
+            "name": "SMT-Förderanlagen",
+            "code": "14.02.10"
+          }
+        ]
+      },
+      {
+        "name": "Halbleiterausrüstung",
+        "code": "14.03",
+        "subSubcategories": [
+          {
+            "name": "Wafer-Verarbeitungssysteme",
+            "code": "14.03.01"
+          },
+          {
+            "name": "Lithografieausrüstung",
+            "code": "14.03.02"
+          },
+          {
+            "name": "Abscheidungsausrüstung",
+            "code": "14.03.03"
+          },
+          {
+            "name": "Ätzgeräte",
+            "code": "14.03.04"
+          },
+          {
+            "name": "Wafer-Reinigungsausrüstung",
+            "code": "14.03.05"
+          },
+          {
+            "name": "Test- und Messtechnik",
+            "code": "14.03.06"
+          },
+          {
+            "name": "Wafer-Trennsägen",
+            "code": "14.03.07"
+          },
+          {
+            "name": "Wafer-Bondgeräte",
+            "code": "14.03.08"
+          },
+          {
+            "name": "Chemisch-mechanische Poliergeräte (CMP)",
+            "code": "14.03.09"
+          },
+          {
+            "name": "Ionenimplantationsgeräte",
+            "code": "14.03.10"
+          }
+        ]
+      },
+      {
+        "name": "Montage- und Verpackungsausrüstung",
+        "code": "14.04",
+        "subSubcategories": [
+          {
+            "name": "Drahtbondmaschinen",
+            "code": "14.04.01"
+          },
+          {
+            "name": "Die-Bondmaschinen",
+            "code": "14.04.02"
+          },
+          {
+            "name": "Enkapsulierungsausrüstung",
+            "code": "14.04.03"
+          },
+          {
+            "name": "Verpackungsmaschinen",
+            "code": "14.04.04"
+          },
+          {
+            "name": "Leiterformmaschinen",
+            "code": "14.04.05"
+          },
+          {
+            "name": "Markierungs- und Etikettierausrüstung",
+            "code": "14.04.06"
+          },
+          {
+            "name": "Band- und Spulmaschinen",
+            "code": "14.04.07"
+          },
+          {
+            "name": "Tablett- und Röhrchenlader",
+            "code": "14.04.08"
+          },
+          {
+            "name": "Automatisierte Montagelinien",
+            "code": "14.04.09"
+          },
+          {
+            "name": "Roboterarme für Montage",
+            "code": "14.04.10"
+          }
+        ]
+      },
+      {
+        "name": "Test- und Inspektionsausrüstung",
+        "code": "14.05",
+        "subSubcategories": [
+          {
+            "name": "Funktionsprüfgeräte",
+            "code": "14.05.01"
+          },
+          {
+            "name": "In-Circuit-Tester",
+            "code": "14.05.02"
+          },
+          {
+            "name": "Flying-Probe-Tester",
+            "code": "14.05.03"
+          },
+          {
+            "name": "Automatisierte optische Inspektion (AOI)",
+            "code": "14.05.04"
+          },
+          {
+            "name": "Röntgeninspektionssysteme",
+            "code": "14.05.05"
+          },
+          {
+            "name": "Rasterelektronenmikroskope (REM)",
+            "code": "14.05.06"
+          },
+          {
+            "name": "Rasterkraftmikroskope (AFM)",
+            "code": "14.05.07"
+          },
+          {
+            "name": "Umweltprüfkammern",
+            "code": "14.05.08"
+          },
+          {
+            "name": "Vibrationsprüfgeräte",
+            "code": "14.05.09"
+          },
+          {
+            "name": "Burn-in-Testgeräte",
+            "code": "14.05.10"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Fertigungsausrüstung",
+        "code": "14.06",
+        "subSubcategories": [
+          {
+            "name": "Konformalbeschichtungsausrüstung",
+            "code": "14.06.01"
+          },
+          {
+            "name": "Kabelbaum-Montageausrüstung",
+            "code": "14.06.02"
+          },
+          {
+            "name": "Box-Build-Ausrüstung",
+            "code": "14.06.03"
+          },
+          {
+            "name": "Reinraumausrüstung",
+            "code": "14.06.04"
+          },
+          {
+            "name": "ESD-Schutzausrüstung",
+            "code": "14.06.05"
+          },
+          {
+            "name": "Löt- und Entlötstationen",
+            "code": "14.06.06"
+          },
+          {
+            "name": "Reparatur- und Nacharbeitsstationen",
+            "code": "14.06.07"
+          },
+          {
+            "name": "Schablonereinigungsmaschinen",
+            "code": "14.06.08"
+          },
+          {
+            "name": "Lötpastenmischsysteme",
+            "code": "14.06.09"
+          },
+          {
+            "name": "Stickstoffgeneratorsysteme",
+            "code": "14.06.10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Büro- & Kommunikationstechnik",
+    "code": "17",
+    "subcategories": [
+      {
+        "name": "Druck- & Kopiergeräte",
+        "code": "17.01",
+        "subSubcategories": [
+          {
+            "name": "Laserdrucker",
+            "code": "17.01.01"
+          },
+          {
+            "name": "Tintenstrahldrucker",
+            "code": "17.01.02"
+          },
+          {
+            "name": "Multifunktionsdrucker",
+            "code": "17.01.03"
+          },
+          {
+            "name": "Kopierer",
+            "code": "17.01.04"
+          },
+          {
+            "name": "Scanner",
+            "code": "17.01.05"
+          },
+          {
+            "name": "Aktenvernichter",
+            "code": "17.01.06"
+          },
+          {
+            "name": "Falzmaschinen",
+            "code": "17.01.07"
+          },
+          {
+            "name": "Kuvertiermaschinen",
+            "code": "17.01.08"
+          },
+          {
+            "name": "Lichtpausmaschinen",
+            "code": "17.01.09"
+          }
+        ]
+      },
+      {
+        "name": "Kommunikationssysteme",
+        "code": "17.02",
+        "subSubcategories": [
+          {
+            "name": "Telefonanlagen",
+            "code": "17.02.01"
+          },
+          {
+            "name": "VoIP-Systeme",
+            "code": "17.02.02"
+          },
+          {
+            "name": "Faxgeräte",
+            "code": "17.02.03"
+          }
+        ]
+      },
+      {
+        "name": "Computergeräte",
+        "code": "17.03",
+        "subSubcategories": [
+          {
+            "name": "Desktops",
+            "code": "17.03.01"
+          },
+          {
+            "name": "Laptops",
+            "code": "17.03.02"
+          },
+          {
+            "name": "Server",
+            "code": "17.03.03"
+          },
+          {
+            "name": "Netzwerkgeräte",
+            "code": "17.03.04"
+          }
+        ]
+      },
+      {
+        "name": "Telekommunikationssysteme",
+        "code": "17.04",
+        "subSubcategories": [
+          {
+            "name": "Router",
+            "code": "17.04.01"
+          },
+          {
+            "name": "Switche",
+            "code": "17.04.02"
+          },
+          {
+            "name": "PBX-Systeme",
+            "code": "17.04.03"
+          },
+          {
+            "name": "Satellitenkommunikationsgeräte",
+            "code": "17.04.04"
+          }
+        ]
+      },
+      {
+        "name": "Büromöbel",
+        "code": "17.05",
+        "subSubcategories": [
+          {
+            "name": "Schreibtische",
+            "code": "17.05.01"
+          },
+          {
+            "name": "Stühle",
+            "code": "17.05.02"
+          },
+          {
+            "name": "Aktenschränke",
+            "code": "17.05.03"
+          },
+          {
+            "name": "Tresore",
+            "code": "17.05.04"
+          }
+        ]
+      },
+      {
+        "name": "Audiovisuelle Geräte",
+        "code": "17.06",
+        "subSubcategories": [
+          {
+            "name": "Videoprojektoren",
+            "code": "17.06.01"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Bürotechnik",
+        "code": "17.07",
+        "subSubcategories": [
+          {
+            "name": "Sonstige Maschinen",
+            "code": "17.07.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Postbearbeitungsmaschinen",
+    "code": "22",
+    "subcategories": [
+      {
+        "name": "Sortiermaschinen",
+        "code": "22.01",
+        "subSubcategories": [
+          {
+            "name": "Automatische Sortiermaschinen",
+            "code": "22.01.1"
+          },
+          {
+            "name": "Manuelle Sortiermaschinen",
+            "code": "22.01.2"
+          },
+          {
+            "name": "OCR-Sortiermaschinen",
+            "code": "22.01.3"
+          },
+          {
+            "name": "Strichcodesortiermaschinen",
+            "code": "22.01.4"
+          },
+          {
+            "name": "Fördersysteme für die Postbearbeitung",
+            "code": "22.01.5"
+          },
+          {
+            "name": "Brieföffnungs- und Trennmaschinen",
+            "code": "22.01.6"
+          },
+          {
+            "name": "Autolader für die Postbearbeitung",
+            "code": "22.01.7"
+          }
+        ]
+      },
+      {
+        "name": "Falz- und Kuvertiermaschinen",
+        "code": "22.02",
+        "subSubcategories": [
+          {
+            "name": "Automatische Falz- und Kuvertiermaschinen",
+            "code": "22.02.1"
+          },
+          {
+            "name": "Halbautomatische Falz- und Kuvertiermaschinen",
+            "code": "22.02.2"
+          },
+          {
+            "name": "Hochgeschwindigkeits-Einlegeautomaten",
+            "code": "22.02.3"
+          },
+          {
+            "name": "Druckverschließmaschinen",
+            "code": "22.02.4"
+          }
+        ]
+      },
+      {
+        "name": "Frankiermaschinen",
+        "code": "22.03",
+        "subSubcategories": [
+          {
+            "name": "Digitale Frankiermaschinen",
+            "code": "22.03.1"
+          },
+          {
+            "name": "Analoge Frankiermaschinen",
+            "code": "22.03.2"
+          },
+          {
+            "name": "Frankiermaschinen mit Waage",
+            "code": "22.03.3"
+          },
+          {
+            "name": "Eigenständige Frankiermaschinen",
+            "code": "22.03.4"
+          },
+          {
+            "name": "Postwaagen",
+            "code": "22.03.5"
+          }
+        ]
+      },
+      {
+        "name": "Adressier- und Etikettierungsmaschinen",
+        "code": "22.04",
+        "subSubcategories": [
+          {
+            "name": "Adressdrucker",
+            "code": "22.04.1"
+          },
+          {
+            "name": "Etikettendrucker",
+            "code": "22.04.2"
+          },
+          {
+            "name": "Briefmarkenaufkleber",
+            "code": "22.04.3"
+          },
+          {
+            "name": "Tabbingmaschinen",
+            "code": "22.04.4"
+          }
+        ]
+      },
+      {
+        "name": "Postraum-Möbel und Zubehör",
+        "code": "22.05",
+        "subSubcategories": [
+          {
+            "name": "Postwagen und -trolleys",
+            "code": "22.05.1"
+          },
+          {
+            "name": "Sortiertische und -schreibtische",
+            "code": "22.05.2"
+          },
+          {
+            "name": "Posttabletts und -behälter",
+            "code": "22.05.3"
+          },
+          {
+            "name": "Brieföffner",
+            "code": "22.05.4"
+          },
+          {
+            "name": "Postraumstühle und -hocker",
+            "code": "22.05.5"
+          },
+          {
+            "name": "Postraumspeichermöbel",
+            "code": "22.05.6"
+          }
+        ]
+      },
+      {
+        "name": "Postbearbeitungslinien",
+        "code": "22.06",
+        "subSubcategories": []
+      }
+    ]
+  },
+  {
+    "name": "Autowerkstattausrüstung",
+    "code": "20",
+    "subcategories": [
+      {
+        "name": "Fahrzeugheber",
+        "code": "20.01",
+        "subSubcategories": [
+          {
+            "name": "Zweisäulenheber",
+            "code": "20.01.01"
+          },
+          {
+            "name": "Viersäulenheber",
+            "code": "20.01.02"
+          },
+          {
+            "name": "Scherenheber",
+            "code": "20.01.03"
+          },
+          {
+            "name": "Grubenheber",
+            "code": "20.01.04"
+          }
+        ]
+      },
+      {
+        "name": "Reifenservicegeräte",
+        "code": "20.02",
+        "subSubcategories": [
+          {
+            "name": "Reifenwechsler",
+            "code": "20.02.01"
+          },
+          {
+            "name": "Radwaagen",
+            "code": "20.02.02"
+          },
+          {
+            "name": "Ausrichtungsgeräte",
+            "code": "20.02.03"
+          }
+        ]
+      },
+      {
+        "name": "Diagnosegeräte",
+        "code": "20.03",
+        "subSubcategories": [
+          {
+            "name": "OBD-Scanner",
+            "code": "20.03.01"
+          },
+          {
+            "name": "Abgasanalysatoren",
+            "code": "20.03.02"
+          },
+          {
+            "name": "Zylinderkopf- und Motorenblock-Drucktestgeräte",
+            "code": "20.03.03"
+          }
+        ]
+      },
+      {
+        "name": "Motorenservicegeräte",
+        "code": "20.04",
+        "subSubcategories": [
+          {
+            "name": "Motorenheber",
+            "code": "20.04.01"
+          },
+          {
+            "name": "Motorenstände",
+            "code": "20.04.02"
+          },
+          {
+            "name": "Ventilsitzschleifmaschinen",
+            "code": "20.04.03"
+          },
+          {
+            "name": "Ventilsitzfräsmaschinen",
+            "code": "20.04.04"
+          },
+          {
+            "name": "Pleuelkappen- und -stirnschleifmaschinen",
+            "code": "20.04.05"
+          }
+        ]
+      },
+      {
+        "name": "Werkstattausrüstung",
+        "code": "20.05",
+        "subSubcategories": [
+          {
+            "name": "Kompressoren",
+            "code": "20.05.01"
+          },
+          {
+            "name": "Schmiergeräte",
+            "code": "20.05.02"
+          },
+          {
+            "name": "Teilewaschmaschinen",
+            "code": "20.05.03"
+          },
+          {
+            "name": "Wasspumpen",
+            "code": "20.05.04"
+          },
+          {
+            "name": "Werkstattmöbelsets",
+            "code": "20.05.05"
+          },
+          {
+            "name": "Motorisierte Werkstattkräne",
+            "code": "20.05.06"
+          }
+        ]
+      },
+      {
+        "name": "Bremsenservicegeräte",
+        "code": "20.06",
+        "subSubcategories": [
+          {
+            "name": "Bremstrommelschleif-/Drehmaschinen",
+            "code": "20.06.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Verfahrenstechnik & Chemieanlagen",
+    "code": "12",
+    "subcategories": [
+      {
+        "name": "Mischer & Rührwerke",
+        "code": "12.01",
+        "subSubcategories": [
+          {
+            "name": "Bandmischer",
+            "code": "12.01.01"
+          },
+          {
+            "name": "Planetenmischer",
+            "code": "12.01.02"
+          },
+          {
+            "name": "Rührwerke",
+            "code": "12.01.03"
+          }
+        ]
+      },
+      {
+        "name": "Reaktoren & Behälter",
+        "code": "12.02",
+        "subSubcategories": [
+          {
+            "name": "Batch-Reaktoren",
+            "code": "12.02.01"
+          },
+          {
+            "name": "Kontinuierliche Reaktoren",
+            "code": "12.02.02"
+          },
+          {
+            "name": "Lagerbehälter",
+            "code": "12.02.03"
+          }
+        ]
+      },
+      {
+        "name": "Wärmeaustauscher",
+        "code": "12.03",
+        "subSubcategories": [
+          {
+            "name": "Rohr- & Rohrbündelwärmeaustauscher",
+            "code": "12.03.01"
+          },
+          {
+            "name": "Plattenwärmeaustauscher",
+            "code": "12.03.02"
+          }
+        ]
+      },
+      {
+        "name": "Trenntechnik",
+        "code": "12.04",
+        "subSubcategories": [
+          {
+            "name": "Zentrifugen",
+            "code": "12.04.01"
+          },
+          {
+            "name": "Filter",
+            "code": "12.04.02"
+          },
+          {
+            "name": "Destillationskolonnen",
+            "code": "12.04.03"
+          },
+          {
+            "name": "Ionenaustauscher",
+            "code": "12.04.04"
+          }
+        ]
+      },
+      {
+        "name": "Pumpen",
+        "code": "12.05",
+        "subSubcategories": [
+          {
+            "name": "Zentrifugalpumpen",
+            "code": "12.05.01"
+          },
+          {
+            "name": "Verdrängerpumpen",
+            "code": "12.05.02"
+          }
+        ]
+      },
+      {
+        "name": "Armaturen & Fittings",
+        "code": "12.06",
+        "subSubcategories": []
+      },
+      {
+        "name": "Vakuumtechnik",
+        "code": "12.07",
+        "subSubcategories": [
+          {
+            "name": "Drehschieberpumpen",
+            "code": "12.07.01"
+          },
+          {
+            "name": "Membranpumpen",
+            "code": "12.07.02"
+          },
+          {
+            "name": "Turbomolekularpumpen",
+            "code": "12.07.03"
+          },
+          {
+            "name": "Vakuumkammern",
+            "code": "12.07.04"
+          },
+          {
+            "name": "Vakuumöfen",
+            "code": "12.07.05"
+          },
+          {
+            "name": "Vakuummanometer",
+            "code": "12.07.06"
+          },
+          {
+            "name": "Vakuumevaporatoren",
+            "code": "12.07.07"
+          }
+        ]
+      },
+      {
+        "name": "Kompressoren",
+        "code": "12.08",
+        "subSubcategories": [
+          {
+            "name": "Kolbenkompressoren",
+            "code": "12.08.01"
+          },
+          {
+            "name": "Rotationskompressoren",
+            "code": "12.08.02"
+          },
+          {
+            "name": "Gebläse",
+            "code": "12.08.03"
+          }
+        ]
+      },
+      {
+        "name": "Zerkleinerungsanlagen",
+        "code": "12.09",
+        "subSubcategories": [
+          {
+            "name": "Mühlen",
+            "code": "12.09.01"
+          }
+        ]
+      },
+      {
+        "name": "Pressen",
+        "code": "12.10",
+        "subSubcategories": [
+          {
+            "name": "Hydraulische Pressen",
+            "code": "12.10.01"
+          },
+          {
+            "name": "Mechanische Pressen",
+            "code": "12.10.02"
+          }
+        ]
+      },
+      {
+        "name": "Steuerungssysteme",
+        "code": "12.11",
+        "subSubcategories": [
+          {
+            "name": "PLC-Systeme",
+            "code": "12.11.01"
+          },
+          {
+            "name": "DCS",
+            "code": "12.11.02"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Verarbeitungstechnik",
+        "code": "12.12",
+        "subSubcategories": [
+          {
+            "name": "Wasseraufbereitungsanlagen",
+            "code": "12.12.01"
+          },
+          {
+            "name": "Papierherstellungsanlagen",
+            "code": "12.12.02"
+          }
+        ]
+      },
+      {
+        "name": "Trockner",
+        "code": "12.13",
+        "subSubcategories": [
+          {
+            "name": "Schachttrockner",
+            "code": "12.13.01"
+          },
+          {
+            "name": "Wirbelschichttrockner",
+            "code": "12.13.02"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Holzbearbeitungsmaschinen",
     "code": "2",
     "subcategories": [
@@ -1108,6 +2032,868 @@
           {
             "name": "Verschiedene Maschinen",
             "code": "08.15.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sonstige Maschinen",
+    "code": "24",
+    "subcategories": [
+      {
+        "name": "Kommunaltechnik",
+        "code": "24.1",
+        "subSubcategories": [
+          {
+            "name": "Straßenreinigungsgeräte",
+            "code": "24.1.1"
+          },
+          {
+            "name": "Schneeräumgeräte",
+            "code": "24.1.2"
+          },
+          {
+            "name": "Abfallsammelfahrzeuge",
+            "code": "24.1.3"
+          },
+          {
+            "name": "Straßenerhaltungsmaschinen",
+            "code": "24.1.4"
+          }
+        ]
+      },
+      {
+        "name": "Sondermaschinen",
+        "code": "24.2",
+        "subSubcategories": [
+          {
+            "name": "Maßgeschneiderte Automatisierungssysteme",
+            "code": "24.2.1"
+          },
+          {
+            "name": "Individuelle Fertigungslinien",
+            "code": "24.2.2"
+          },
+          {
+            "name": "Prototypentwicklungsausrüstung",
+            "code": "24.2.3"
+          }
+        ]
+      },
+      {
+        "name": "Verpackungsmaschinen",
+        "code": "24.3",
+        "subSubcategories": [
+          {
+            "name": "Füllmaschinen",
+            "code": "24.3.1"
+          },
+          {
+            "name": "Verschließmaschinen",
+            "code": "24.3.2"
+          },
+          {
+            "name": "Etikettiergeräte",
+            "code": "24.3.3"
+          },
+          {
+            "name": "Kartoniergeräte",
+            "code": "24.3.4"
+          }
+        ]
+      },
+      {
+        "name": "Materialförderung und Lagerung",
+        "code": "24.4",
+        "subSubcategories": [
+          {
+            "name": "Förderanlagen",
+            "code": "24.4.1"
+          },
+          {
+            "name": "Automatische Lager- und Kommissioniersysteme (AS/RS)",
+            "code": "24.4.2"
+          },
+          {
+            "name": "Palettier- und Entpalettieranlagen",
+            "code": "24.4.3"
+          }
+        ]
+      },
+      {
+        "name": "Umwelt- und Recyclingmaschinen",
+        "code": "24.5",
+        "subSubcategories": [
+          {
+            "name": "Recyclinganlagen",
+            "code": "24.5.1"
+          },
+          {
+            "name": "Abfallbehandlungsanlagen",
+            "code": "24.5.2"
+          },
+          {
+            "name": "Abgasreinigungsanlagen",
+            "code": "24.5.3"
+          }
+        ]
+      },
+      {
+        "name": "Druck- und Verlagsmaschinen",
+        "code": "24.6",
+        "subSubcategories": [
+          {
+            "name": "Druckmaschinen",
+            "code": "24.6.1"
+          },
+          {
+            "name": "Bindegeräte",
+            "code": "24.6.2"
+          },
+          {
+            "name": "Fertigungsgeräte",
+            "code": "24.6.3"
+          }
+        ]
+      },
+      {
+        "name": "Textil- und Bekleidungsmaschinen",
+        "code": "24.7",
+        "subSubcategories": [
+          {
+            "name": "Nähmaschinen",
+            "code": "24.7.1"
+          },
+          {
+            "name": "Strickmaschinen",
+            "code": "24.7.2"
+          },
+          {
+            "name": "Webstühle",
+            "code": "24.7.3"
+          }
+        ]
+      },
+      {
+        "name": "Leder- und Pelzverarbeitungsmaschinen",
+        "code": "24.8",
+        "subSubcategories": [
+          {
+            "name": "Gerbmaschinen",
+            "code": "24.8.1"
+          },
+          {
+            "name": "Schneide- und Nähausrüstungen",
+            "code": "24.8.2"
+          }
+        ]
+      },
+      {
+        "name": "Optische und Präzisionsmaschinen",
+        "code": "24.9",
+        "subSubcategories": [
+          {
+            "name": "Linsenschleifmaschinen",
+            "code": "24.9.1"
+          },
+          {
+            "name": "Präzisionsmesstechnik",
+            "code": "24.9.2"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Industriemaschinen",
+        "code": "24.10",
+        "subSubcategories": [
+          {
+            "name": "Mehrzweckmaschinen",
+            "code": "24.10.1"
+          },
+          {
+            "name": "Multifunktionsgeräte",
+            "code": "24.10.2"
+          },
+          {
+            "name": "Sonderanfertigungen",
+            "code": "24.10.3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Industrielle Komponenten & Ersatzteile",
+    "code": "19",
+    "subcategories": [
+      {
+        "name": "Motoren & Antriebe",
+        "code": "19.01",
+        "subSubcategories": [
+          {
+            "name": "Wechselstrommotoren",
+            "code": "19.01.01"
+          },
+          {
+            "name": "Gleichstrommotoren",
+            "code": "19.01.02"
+          },
+          {
+            "name": "Servomotoren",
+            "code": "19.01.03"
+          },
+          {
+            "name": "Frequenzumrichter",
+            "code": "19.01.04"
+          }
+        ]
+      },
+      {
+        "name": "Lager & mechanische Bauteile",
+        "code": "19.02",
+        "subSubcategories": [
+          {
+            "name": "Kugellager",
+            "code": "19.02.01"
+          },
+          {
+            "name": "Rollenlager",
+            "code": "19.02.02"
+          },
+          {
+            "name": "Linearlager",
+            "code": "19.02.03"
+          },
+          {
+            "name": "Getriebe",
+            "code": "19.02.04"
+          }
+        ]
+      },
+      {
+        "name": "Hydraulik- & Pneumatikkomponenten",
+        "code": "19.03",
+        "subSubcategories": [
+          {
+            "name": "Pumpen",
+            "code": "19.03.01"
+          },
+          {
+            "name": "Ventile",
+            "code": "19.03.02"
+          },
+          {
+            "name": "Zylinder",
+            "code": "19.03.03"
+          },
+          {
+            "name": "Kompressoren",
+            "code": "19.03.04"
+          }
+        ]
+      },
+      {
+        "name": "Elektrische Komponenten",
+        "code": "19.04",
+        "subSubcategories": [
+          {
+            "name": "Schaltanlagen",
+            "code": "19.04.01"
+          },
+          {
+            "name": "Transformatoren",
+            "code": "19.04.02"
+          },
+          {
+            "name": "Leistungsschalter",
+            "code": "19.04.03"
+          },
+          {
+            "name": "Kabel & Leitungen",
+            "code": "19.04.04"
+          }
+        ]
+      },
+      {
+        "name": "Automatisierungskomponenten",
+        "code": "19.05",
+        "subSubcategories": [
+          {
+            "name": "SPS",
+            "code": "19.05.01"
+          },
+          {
+            "name": "Sensoren",
+            "code": "19.05.02"
+          },
+          {
+            "name": "HMI",
+            "code": "19.05.03"
+          },
+          {
+            "name": "Aktoren",
+            "code": "19.05.04"
+          }
+        ]
+      },
+      {
+        "name": "Befestigungsmittel",
+        "code": "19.06",
+        "subSubcategories": [
+          {
+            "name": "Schrauben & Bolzen",
+            "code": "19.06.01"
+          },
+          {
+            "name": "Muttern & Scheiben",
+            "code": "19.06.02"
+          },
+          {
+            "name": "Klemmen & Kupplungen",
+            "code": "19.06.03"
+          }
+        ]
+      },
+      {
+        "name": "Überschuss & Überbestände",
+        "code": "19.07",
+        "subSubcategories": [
+          {
+            "name": "Unbenutzte Ersatzteile",
+            "code": "19.07.01"
+          },
+          {
+            "name": "Überbestandsartikel",
+            "code": "19.07.02"
+          },
+          {
+            "name": "Liquidationsposten",
+            "code": "19.07.03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "additive Fertigung",
+    "code": "15",
+    "subcategories": [
+      {
+        "name": "Badbasierte Photopolymerisation",
+        "code": "15.01",
+        "subSubcategories": [
+          {
+            "name": "Stereolithografie (SL)",
+            "code": "15.01.01"
+          },
+          {
+            "name": "Digital Light Processing (DLP)",
+            "code": "15.01.02"
+          },
+          {
+            "name": "Continuous Liquid Interface Production (CLIP)",
+            "code": "15.01.03"
+          }
+        ]
+      },
+      {
+        "name": "Materialextrusion",
+        "code": "15.02",
+        "subSubcategories": [
+          {
+            "name": "Fused Layer Modelling (FLM)",
+            "code": "15.02.01"
+          },
+          {
+            "name": "Fused Filament Fabrication (FFF)",
+            "code": "15.02.02"
+          }
+        ]
+      },
+      {
+        "name": "Pulverbettbasiertes Schmelzen",
+        "code": "15.03",
+        "subSubcategories": [
+          {
+            "name": "Laser-Sintern (LS)",
+            "code": "15.03.01"
+          },
+          {
+            "name": "Laser-Strahlschmelzen (LBM)",
+            "code": "15.03.02"
+          },
+          {
+            "name": "Elektronen-Strahlschmelzen (EBM)",
+            "code": "15.03.03"
+          },
+          {
+            "name": "Multi Jet Fusion (MJF)",
+            "code": "15.03.04"
+          }
+        ]
+      },
+      {
+        "name": "Freistrahl-Materialauftrag",
+        "code": "15.04",
+        "subSubcategories": [
+          {
+            "name": "Poly-Jet Modelling (PJM)",
+            "code": "15.04.01"
+          },
+          {
+            "name": "Drop On Demand (DOD)",
+            "code": "15.04.02"
+          }
+        ]
+      },
+      {
+        "name": "Freistrahl-Bindemittelauftrag",
+        "code": "15.05",
+        "subSubcategories": [
+          {
+            "name": "Metall-Binder-Jetting",
+            "code": "15.05.01"
+          },
+          {
+            "name": "Keramik-Binder-Jetting",
+            "code": "15.05.02"
+          },
+          {
+            "name": "Sand-Binder-Jetting",
+            "code": "15.05.03"
+          }
+        ]
+      },
+      {
+        "name": "Materialauftrag mit gerichteter Energieeinbringung",
+        "code": "15.06",
+        "subSubcategories": [
+          {
+            "name": "Laser Engineered Net Shaping (LENS)",
+            "code": "15.06.01"
+          },
+          {
+            "name": "Electron Beam Additive Manufacturing (EBAM)",
+            "code": "15.06.02"
+          }
+        ]
+      },
+      {
+        "name": "Schichtlaminierung",
+        "code": "15.07",
+        "subSubcategories": [
+          {
+            "name": "Layer Laminated Manufacturing (LLM)",
+            "code": "15.07.01"
+          },
+          {
+            "name": "Ultrasonic Additive Manufacturing (UAM)",
+            "code": "15.07.02"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Landmaschinen",
+    "code": "09",
+    "subcategories": [
+      {
+        "name": "Traktoren",
+        "code": "09.01",
+        "subSubcategories": [
+          {
+            "name": "Kompakt-Traktoren",
+            "code": "09.01.01"
+          },
+          {
+            "name": "Standard-Traktoren",
+            "code": "09.01.02"
+          },
+          {
+            "name": "Vielseitige Traktoren",
+            "code": "09.01.03"
+          },
+          {
+            "name": "Reihenkultur-Traktoren",
+            "code": "09.01.04"
+          },
+          {
+            "name": "Allrad-Traktoren",
+            "code": "09.01.05"
+          },
+          {
+            "name": "Hochaufbau-Traktoren",
+            "code": "09.01.06"
+          },
+          {
+            "name": "Weinbergs-Traktoren",
+            "code": "09.01.07"
+          }
+        ]
+      },
+      {
+        "name": "Erntemaschinen",
+        "code": "09.02",
+        "subSubcategories": [
+          {
+            "name": "Mähdrescher",
+            "code": "09.02.01"
+          },
+          {
+            "name": "Futterernter",
+            "code": "09.02.02"
+          },
+          {
+            "name": "Kornternmaschinen",
+            "code": "09.02.03"
+          },
+          {
+            "name": "Kartoffelernter",
+            "code": "09.02.04"
+          },
+          {
+            "name": "Rübenernter",
+            "code": "09.02.05"
+          },
+          {
+            "name": "Obsternter",
+            "code": "09.02.06"
+          },
+          {
+            "name": "Zwiebelernter",
+            "code": "09.02.07"
+          }
+        ]
+      },
+      {
+        "name": "Pflanz- und Sätechnik",
+        "code": "09.03",
+        "subSubcategories": [
+          {
+            "name": "Sämaschinen",
+            "code": "09.03.01"
+          },
+          {
+            "name": "Pflanzmaschinen",
+            "code": "09.03.02"
+          },
+          {
+            "name": "Umpflanzmaschinen",
+            "code": "09.03.03"
+          }
+        ]
+      },
+      {
+        "name": "Bewässerungssysteme",
+        "code": "09.04",
+        "subSubcategories": [
+          {
+            "name": "Bewässerungsanlagen",
+            "code": "09.04.01"
+          },
+          {
+            "name": "Tropfbewässerungssysteme",
+            "code": "09.04.02"
+          },
+          {
+            "name": "Überschwemmungsbewässerungssysteme",
+            "code": "09.04.03"
+          },
+          {
+            "name": "Pumpstationen",
+            "code": "09.04.04"
+          }
+        ]
+      },
+      {
+        "name": "Bodenbearbeitung",
+        "code": "09.05",
+        "subSubcategories": [
+          {
+            "name": "Pflüge",
+            "code": "09.05.01"
+          },
+          {
+            "name": "Eggen",
+            "code": "09.05.02"
+          },
+          {
+            "name": "Kultivatoren",
+            "code": "09.05.03"
+          },
+          {
+            "name": "Mulcher",
+            "code": "09.05.04"
+          },
+          {
+            "name": "Strip-Till-Geräte",
+            "code": "09.05.05"
+          }
+        ]
+      },
+      {
+        "name": "Pflanzenschutz",
+        "code": "09.06",
+        "subSubcategories": [
+          {
+            "name": "Sprühgeräte",
+            "code": "09.06.01"
+          },
+          {
+            "name": "Staubgeräte",
+            "code": "09.06.02"
+          },
+          {
+            "name": "Nebelgeräte",
+            "code": "09.06.03"
+          },
+          {
+            "name": "Drohnen-Sprühgeräte",
+            "code": "09.06.04"
+          }
+        ]
+      },
+      {
+        "name": "Tierhaltungstechnik",
+        "code": "09.07",
+        "subSubcategories": [
+          {
+            "name": "Melkmaschinen",
+            "code": "09.07.01"
+          },
+          {
+            "name": "Fütterungsanlagen",
+            "code": "09.07.02"
+          },
+          {
+            "name": "Wässerungsanlagen",
+            "code": "09.07.03"
+          },
+          {
+            "name": "Zäuneinrichtungen",
+            "code": "09.07.04"
+          },
+          {
+            "name": "Stallbauausrüstung",
+            "code": "09.07.05"
+          },
+          {
+            "name": "Kühltechnik",
+            "code": "09.07.06"
+          }
+        ]
+      },
+      {
+        "name": "Düngetechnik",
+        "code": "09.08",
+        "subSubcategories": [
+          {
+            "name": "Düngemittelstreuer",
+            "code": "09.08.01"
+          },
+          {
+            "name": "Kalkstreuer",
+            "code": "09.08.02"
+          }
+        ]
+      },
+      {
+        "name": "Förder- und Lagetechnik",
+        "code": "09.09",
+        "subSubcategories": [
+          {
+            "name": "Förderbänder",
+            "code": "09.09.01"
+          },
+          {
+            "name": "Schraubenförderer",
+            "code": "09.09.02"
+          },
+          {
+            "name": "Eimerheber",
+            "code": "09.09.03"
+          },
+          {
+            "name": "Silos",
+            "code": "09.09.04"
+          },
+          {
+            "name": "Getreidespeicher",
+            "code": "09.09.05"
+          }
+        ]
+      },
+      {
+        "name": "Forsttechnik",
+        "code": "09.10",
+        "subSubcategories": [
+          {
+            "name": "Kettensägen",
+            "code": "09.10.01"
+          },
+          {
+            "name": "Holzhäcksler",
+            "code": "09.10.02"
+          },
+          {
+            "name": "Stumpfmaschinen",
+            "code": "09.10.03"
+          },
+          {
+            "name": "Forstmulcher",
+            "code": "09.10.04"
+          },
+          {
+            "name": "Baumpflanzer",
+            "code": "09.10.05"
+          }
+        ]
+      },
+      {
+        "name": "Ladetechnik",
+        "code": "09.11",
+        "subSubcategories": [
+          {
+            "name": "Frontlader",
+            "code": "09.11.01"
+          },
+          {
+            "name": "Schwenklader",
+            "code": "09.11.02"
+          },
+          {
+            "name": "Teleskoplader",
+            "code": "09.11.03"
+          },
+          {
+            "name": "Gabelstapler",
+            "code": "09.11.04"
+          }
+        ]
+      },
+      {
+        "name": "Gülletechnik",
+        "code": "09.12",
+        "subSubcategories": [
+          {
+            "name": "Gülleverteiler",
+            "code": "09.12.01"
+          },
+          {
+            "name": "Gülletanks",
+            "code": "09.12.02"
+          },
+          {
+            "name": "Güllepumpen",
+            "code": "09.12.03"
+          },
+          {
+            "name": "Kompostieranlagen",
+            "code": "09.12.04"
+          }
+        ]
+      },
+      {
+        "name": "Heutetechnik",
+        "code": "09.13",
+        "subSubcategories": [
+          {
+            "name": "Mäher",
+            "code": "09.13.01"
+          },
+          {
+            "name": "Rechen",
+            "code": "09.13.02"
+          },
+          {
+            "name": "Ballenpressen",
+            "code": "09.13.03"
+          },
+          {
+            "name": "Wender",
+            "code": "09.13.04"
+          },
+          {
+            "name": "Windreihenleger",
+            "code": "09.13.05"
+          }
+        ]
+      },
+      {
+        "name": "Wartungstechnik",
+        "code": "09.14",
+        "subSubcategories": [
+          {
+            "name": "Diagnosewerkzeuge",
+            "code": "09.14.01"
+          },
+          {
+            "name": "Reparaturwerkzeuge",
+            "code": "09.14.02"
+          },
+          {
+            "name": "Ersatzteile",
+            "code": "09.14.03"
+          },
+          {
+            "name": "Schweißausrüstung",
+            "code": "09.14.04"
+          }
+        ]
+      },
+      {
+        "name": "Pressen",
+        "code": "09.15",
+        "subSubcategories": [
+          {
+            "name": "Hydraulikpressen",
+            "code": "09.15.01"
+          },
+          {
+            "name": "Ballenpressen",
+            "code": "09.15.02"
+          },
+          {
+            "name": "VerdichtungsPressen",
+            "code": "09.15.03"
+          }
+        ]
+      },
+      {
+        "name": "Transportgeräte und Anhänger",
+        "code": "09.16",
+        "subSubcategories": [
+          {
+            "name": "Anhänger",
+            "code": "09.16.01"
+          },
+          {
+            "name": "Lkw",
+            "code": "09.16.02"
+          },
+          {
+            "name": "Quads",
+            "code": "09.16.03"
+          },
+          {
+            "name": "Motorräder",
+            "code": "09.16.04"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Maschinen",
+        "code": "09.17",
+        "subSubcategories": [
+          {
+            "name": "Gartentechnik",
+            "code": "09.17.01"
+          },
+          {
+            "name": "Sonstige Maschinerie",
+            "code": "09.17.02"
           }
         ]
       }
@@ -2292,6 +4078,596 @@
           {
             "name": "Heissluft-Schweissmaschine",
             "code": "04.12.01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Abwasserbehandlungsmaschinen",
+    "code": "21",
+    "subcategories": [
+      {
+        "name": "Vorbehandlung",
+        "code": "21.01",
+        "subSubcategories": [
+          {
+            "name": "Siebe",
+            "code": "21.01.01"
+          },
+          {
+            "name": "Schwebstoffabscheider",
+            "code": "21.01.02"
+          },
+          {
+            "name": "Zerkleinerer",
+            "code": "21.01.03"
+          }
+        ]
+      },
+      {
+        "name": "Primärbehandlung",
+        "code": "21.02",
+        "subSubcategories": [
+          {
+            "name": "Klärer und Sedimentationsbecken",
+            "code": "21.02.01"
+          },
+          {
+            "name": "Flockungseinheiten und Koagulatoren",
+            "code": "21.02.02"
+          }
+        ]
+      },
+      {
+        "name": "Sekundärbehandlung",
+        "code": "21.03",
+        "subSubcategories": [
+          {
+            "name": "Belüftungssysteme",
+            "code": "21.03.01"
+          },
+          {
+            "name": "Biologische Behandlungssysteme",
+            "code": "21.03.02"
+          },
+          {
+            "name": "Sekundärklar",
+            "code": "21.03.03"
+          }
+        ]
+      },
+      {
+        "name": "Tertiärbehandlung",
+        "code": "21.04",
+        "subSubcategories": [
+          {
+            "name": "Filtrationssysteme",
+            "code": "21.04.01"
+          },
+          {
+            "name": "Desinfektionssysteme",
+            "code": "21.04.02"
+          },
+          {
+            "name": "Nährstoffentfernungssysteme",
+            "code": "21.04.03"
+          }
+        ]
+      },
+      {
+        "name": "Schlammbehandlung und -entsorgung",
+        "code": "21.05",
+        "subSubcategories": [
+          {
+            "name": "Schlammdickener",
+            "code": "21.05.01"
+          },
+          {
+            "name": "Schlammentwässerungsanlagen",
+            "code": "21.05.02"
+          },
+          {
+            "name": "Schlammtrockner",
+            "code": "21.05.03"
+          },
+          {
+            "name": "Schlammverbrennung",
+            "code": "21.05.04"
+          },
+          {
+            "name": "Anaerobe Vergärungsanlagen",
+            "code": "21.05.05"
+          }
+        ]
+      },
+      {
+        "name": "Pumpen und Fördern",
+        "code": "21.06",
+        "subSubcategories": [
+          {
+            "name": "Abwasserpumpen",
+            "code": "21.06.01"
+          },
+          {
+            "name": "Schlammpumpen",
+            "code": "21.06.02"
+          },
+          {
+            "name": "Chemikalienzufuhrsysteme",
+            "code": "21.06.03"
+          }
+        ]
+      },
+      {
+        "name": "Chemische Behandlung",
+        "code": "21.07",
+        "subSubcategories": [
+          {
+            "name": "Chemikalienlagertanks",
+            "code": "21.07.01"
+          },
+          {
+            "name": "Chemikalien Dosiersysteme",
+            "code": "21.07.02"
+          },
+          {
+            "name": "Mischer und Rührer",
+            "code": "21.07.03"
+          }
+        ]
+      },
+      {
+        "name": "Mess- und Steuertechnik",
+        "code": "21.08",
+        "subSubcategories": [
+          {
+            "name": "Durchflussmesser",
+            "code": "21.08.01"
+          },
+          {
+            "name": "Pegelsensoren",
+            "code": "21.08.02"
+          },
+          {
+            "name": "pH- und Redoxsensoren",
+            "code": "21.08.03"
+          },
+          {
+            "name": "Gelöstsauerstoffsensoren",
+            "code": "21.08.04"
+          },
+          {
+            "name": "Steuerpulte und SCADA-Systeme",
+            "code": "21.08.05"
+          }
+        ]
+      },
+      {
+        "name": "Speicherung und Verteilung",
+        "code": "21.09",
+        "subSubcategories": [
+          {
+            "name": "Speicher für Rohabwasser",
+            "code": "21.09.01"
+          },
+          {
+            "name": "Speicher für gereinigtes Abwasser",
+            "code": "21.09.02"
+          },
+          {
+            "name": "Rohrleitungen und Armaturen",
+            "code": "21.09.03"
+          }
+        ]
+      },
+      {
+        "name": "Zubehör und Sonstiges",
+        "code": "21.10",
+        "subSubcategories": [
+          {
+            "name": "Geruchsbekämpfungssysteme",
+            "code": "21.10.01"
+          },
+          {
+            "name": "Lärmminderungsanlagen",
+            "code": "21.10.02"
+          },
+          {
+            "name": "Sicherheitseinrichtungen",
+            "code": "21.10.03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Automatisierung & Robotik",
+    "code": "16",
+    "subcategories": [
+      {
+        "name": "Industrieroboter",
+        "code": "16.01",
+        "subSubcategories": [
+          {
+            "name": "Gelenkroboter",
+            "code": "16.01.01"
+          },
+          {
+            "name": "SCARA-Roboter",
+            "code": "16.01.02"
+          },
+          {
+            "name": "Kartesische Roboter",
+            "code": "16.01.03"
+          },
+          {
+            "name": "Delta-Roboter",
+            "code": "16.01.04"
+          },
+          {
+            "name": "Kooperative Roboter",
+            "code": "16.01.05"
+          },
+          {
+            "name": "Schwerlastroboter",
+            "code": "16.01.06"
+          },
+          {
+            "name": "Mobile Roboter",
+            "code": "16.01.07"
+          },
+          {
+            "name": "Manipulatoren",
+            "code": "16.01.08"
+          }
+        ]
+      },
+      {
+        "name": "Steuerungssysteme",
+        "code": "16.02",
+        "subSubcategories": [
+          {
+            "name": "Programmierbare Logiksteuerungen (PLCs)",
+            "code": "16.02.01"
+          },
+          {
+            "name": "Sensoren",
+            "code": "16.02.02"
+          },
+          {
+            "name": "Mensch-Maschine-Schnittstellen (HMIs)",
+            "code": "16.02.03"
+          },
+          {
+            "name": "Antriebe",
+            "code": "16.02.04"
+          },
+          {
+            "name": "Motoren",
+            "code": "16.02.05"
+          },
+          {
+            "name": "Steuerungsschränke",
+            "code": "16.02.06"
+          },
+          {
+            "name": "Sonstige Steuerungskomponenten",
+            "code": "16.02.07"
+          }
+        ]
+      },
+      {
+        "name": "Fördersysteme",
+        "code": "16.03",
+        "subSubcategories": [
+          {
+            "name": "Bandförderer",
+            "code": "16.03.01"
+          },
+          {
+            "name": "Rollenförderer",
+            "code": "16.03.02"
+          },
+          {
+            "name": "Kettentransportgeräte",
+            "code": "16.03.03"
+          },
+          {
+            "name": "Schraubenförderer",
+            "code": "16.03.04"
+          },
+          {
+            "name": "Pneumatische Förderer",
+            "code": "16.03.05"
+          },
+          {
+            "name": "Sortiersysteme",
+            "code": "16.03.06"
+          },
+          {
+            "name": "Palettiergeräte",
+            "code": "16.03.07"
+          },
+          {
+            "name": "Entpalettiergeräte",
+            "code": "16.03.08"
+          }
+        ]
+      },
+      {
+        "name": "Montage- und Handhabungssysteme",
+        "code": "16.04",
+        "subSubcategories": [
+          {
+            "name": "Montagemaschinen",
+            "code": "16.04.01"
+          },
+          {
+            "name": "Handhabungsroboter",
+            "code": "16.04.02"
+          },
+          {
+            "name": "Greif- und Platziersysteme",
+            "code": "16.04.03"
+          },
+          {
+            "name": "Montagesysteme",
+            "code": "16.04.04"
+          },
+          {
+            "name": "Verpackungssysteme",
+            "code": "16.04.05"
+          }
+        ]
+      },
+      {
+        "name": "Positioniersysteme",
+        "code": "16.05",
+        "subSubcategories": [
+          {
+            "name": "Lineare Positioniersysteme",
+            "code": "16.05.01"
+          },
+          {
+            "name": "Rotative Positioniersysteme",
+            "code": "16.05.02"
+          },
+          {
+            "name": "Mehrachsen-Positioniersysteme",
+            "code": "16.05.03"
+          },
+          {
+            "name": "Portalsysteme",
+            "code": "16.05.04"
+          }
+        ]
+      },
+      {
+        "name": "Elektrische Steuerungen und Schaltanlagen",
+        "code": "16.06",
+        "subSubcategories": [
+          {
+            "name": "Niederspannungsschaltanlagen",
+            "code": "16.06.01"
+          },
+          {
+            "name": "Mittelspannungsschaltanlagen",
+            "code": "16.06.02"
+          },
+          {
+            "name": "Motorschaltanlagen (MSA)",
+            "code": "16.06.03"
+          },
+          {
+            "name": "Verteilerschränke",
+            "code": "16.06.04"
+          },
+          {
+            "name": "Leistungsschalter",
+            "code": "16.06.05"
+          },
+          {
+            "name": "Kontaktoren und Starter",
+            "code": "16.06.06"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Automatisierungsmaschinen",
+        "code": "16.07",
+        "subSubcategories": [
+          {
+            "name": "Sichtsysteme",
+            "code": "16.07.01"
+          },
+          {
+            "name": "RFID-Systeme",
+            "code": "16.07.02"
+          },
+          {
+            "name": "Strichcodescanner",
+            "code": "16.07.03"
+          },
+          {
+            "name": "Sonstige",
+            "code": "16.07.04"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pharmazeutische und Medizinische Geräte",
+    "code": "13",
+    "subcategories": [
+      {
+        "name": "Pharmazeutische Verarbeitungsgeräte",
+        "code": "13.01",
+        "subSubcategories": [
+          {
+            "name": "Mischer und Mischmaschinen",
+            "code": "13.01.01"
+          },
+          {
+            "name": "Granulatoren",
+            "code": "13.01.02"
+          },
+          {
+            "name": "Trocknungsgeräte",
+            "code": "13.01.03"
+          },
+          {
+            "name": "Mahl- und Pulverisierungsgeräte",
+            "code": "13.01.04"
+          },
+          {
+            "name": "Tablettenpressen",
+            "code": "13.01.05"
+          },
+          {
+            "name": "Kapselüllmaschinen",
+            "code": "13.01.06"
+          },
+          {
+            "name": "Beschichtungsgeräte",
+            "code": "13.01.07"
+          },
+          {
+            "name": "Verpackungsmaschinen",
+            "code": "13.01.08"
+          },
+          {
+            "name": "Reaktoren und Gefäße",
+            "code": "13.01.09"
+          },
+          {
+            "name": "Filtrations- und Trennungsgeräte",
+            "code": "13.01.10"
+          },
+          {
+            "name": "Pumpen und Kompressoren",
+            "code": "13.01.11"
+          },
+          {
+            "name": "Wärmeaustauscher und Dampferzeuger",
+            "code": "13.01.12"
+          },
+          {
+            "name": "Sonstige pharmazeutische Verarbeitungsgeräte",
+            "code": "13.01.13"
+          }
+        ]
+      },
+      {
+        "name": "Laborausstattung",
+        "code": "13.02",
+        "subSubcategories": [
+          {
+            "name": "Analytische Instrumente",
+            "code": "13.02.01"
+          },
+          {
+            "name": "Mikroskope",
+            "code": "13.02.02"
+          },
+          {
+            "name": "Waagen und Balancen",
+            "code": "13.02.03"
+          },
+          {
+            "name": "pH-Meter und andere Messgeräte",
+            "code": "13.02.04"
+          },
+          {
+            "name": "Glasgeräte und Laboreinrichtungen",
+            "code": "13.02.05"
+          },
+          {
+            "name": "Sonstige Laborgeräte",
+            "code": "13.02.06"
+          }
+        ]
+      },
+      {
+        "name": "Sterilisationsgeräte",
+        "code": "13.03",
+        "subSubcategories": [
+          {
+            "name": "Autoklaven",
+            "code": "13.03.01"
+          },
+          {
+            "name": "Heißluftsteriliser",
+            "code": "13.03.02"
+          },
+          {
+            "name": "Strahlensteriliser",
+            "code": "13.03.03"
+          },
+          {
+            "name": "Filtrationssteriliser",
+            "code": "13.03.04"
+          },
+          {
+            "name": "Sonstige Sterilisationsgeräte",
+            "code": "13.03.05"
+          }
+        ]
+      },
+      {
+        "name": "Medizinische Bildgebungsgeräte",
+        "code": "13.04",
+        "subSubcategories": [
+          {
+            "name": "Röntgengeräte",
+            "code": "13.04.01"
+          },
+          {
+            "name": "Ultraschallgeräte",
+            "code": "13.04.02"
+          },
+          {
+            "name": "MRT-Geräte",
+            "code": "13.04.03"
+          },
+          {
+            "name": "CT-Geräte",
+            "code": "13.04.04"
+          },
+          {
+            "name": "Sonstige Bildgebungsgeräte",
+            "code": "13.04.05"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Medizinische Geräte",
+        "code": "13.05",
+        "subSubcategories": [
+          {
+            "name": "Chirurgische Instrumente",
+            "code": "13.05.01"
+          },
+          {
+            "name": "Patientenüberwachungsgeräte",
+            "code": "13.05.02"
+          },
+          {
+            "name": "Infusionspumpen",
+            "code": "13.05.03"
+          },
+          {
+            "name": "Defibrillatoren",
+            "code": "13.05.04"
+          },
+          {
+            "name": "Beatmungsgeräte",
+            "code": "13.05.05"
+          },
+          {
+            "name": "Sonstige Medizinische Geräte",
+            "code": "13.05.06"
           }
         ]
       }

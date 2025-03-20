@@ -1,0 +1,182 @@
+{
+    "name": "Agricultural Machinery",
+    "code": "09",
+    "subcategories": [
+        {
+            "name": "Tractors",
+            "code": "09.01",
+            "subSubcategories": [
+                {"name": "Compact Tractors", "code": "09.01.01"},
+                {"name": "Standard Tractors", "code": "09.01.02"},
+                {"name": "Utility Tractors", "code": "09.01.03"},
+                {"name": "Row Crop Tractors", "code": "09.01.04"},
+                {"name": "Four-Wheel Drive Tractors", "code": "09.01.05"},
+                {"name": "High Clearance Tractors", "code": "09.01.06"},
+                {"name": "Vineyard Tractors", "code": "09.01.07"}
+            ]
+        },
+        {
+            "name": "Harvesting Machines",
+            "code": "09.02",
+            "subSubcategories": [
+                {"name": "Combine Harvesters", "code": "09.02.01"},
+                {"name": "Forage Harvesters", "code": "09.02.02"},
+                {"name": "Grain Harvesters", "code": "09.02.03"},
+                {"name": "Potato Harvesters", "code": "09.02.04"},
+                {"name": "Beet Harvesters", "code": "09.02.05"},
+                {"name": "Fruit Harvesters", "code": "09.02.06"},
+                {"name": "Onion Harvesters", "code": "09.02.07"}
+            ]
+        },
+        {
+            "name": "Planting & Seeding",
+            "code": "09.03",
+            "subSubcategories": [
+                {"name": "Seed Drills", "code": "09.03.01"},
+                {"name": "Planters", "code": "09.03.02"},
+                {"name": "Transplanters", "code": "09.03.03"}
+            ]
+        },
+        {
+            "name": "Irrigation Systems",
+            "code": "09.04",
+            "subSubcategories": [
+                {"name": "Sprinkler Systems", "code": "09.04.01"},
+                {"name": "Drip Irrigation Systems", "code": "09.04.02"},
+                {"name": "Flood Irrigation Systems", "code": "09.04.03"},
+                {"name": "Pump Stations", "code": "09.04.04"}
+            ]
+        },
+        {
+            "name": "Soil Cultivation",
+            "code": "09.05",
+            "subSubcategories": [
+                {"name": "Plows", "code": "09.05.01"},
+                {"name": "Harrows", "code": "09.05.02"},
+                {"name": "Cultivators", "code": "09.05.03"},
+                {"name": "Mulchers", "code": "09.05.04"},
+                {"name": "Strip Till Equipment", "code": "09.05.05"}
+            ]
+        },
+        {
+            "name": "Crop Protection",
+            "code": "09.06",
+            "subSubcategories": [
+                {"name": "Sprayers", "code": "09.06.01"},
+                {"name": "Dusting Machines", "code": "09.06.02"},
+                {"name": "Mist Blowers", "code": "09.06.03"},
+                {"name": "Drone Sprayers", "code": "09.06.04"}
+            ]
+        },
+        {
+            "name": "Livestock Equipment",
+            "code": "09.07",
+            "subSubcategories": [
+                {"name": "Milking Machines", "code": "09.07.01"},
+                {"name": "Feeding Systems", "code": "09.07.02"},
+                {"name": "Watering Systems", "code": "09.07.03"},
+                {"name": "Fencing Equipment", "code": "09.07.04"},
+                {"name": "Stable Construction Equipment", "code": "09.07.05"},
+                {"name": "Cooling Technology", "code": "09.07.06"}
+            ]
+        },
+        {
+            "name": "Fertilization Equipment",
+            "code": "09.08",
+            "subSubcategories": [
+                {"name": "Fertilizer Spreaders", "code": "09.08.01"},
+                {"name": "Lime Spreaders", "code": "09.08.02"}
+            ]
+        },
+        {
+            "name": "Conveyor and Storage Systems",
+            "code": "09.09",
+            "subSubcategories": [
+                {"name": "Conveyor Belts", "code": "09.09.01"},
+                {"name": "Screw Conveyors", "code": "09.09.02"},
+                {"name": "Bucket Elevators", "code": "09.09.03"},
+                {"name": "Silos", "code": "09.09.04"},
+                {"name": "Grain Bins", "code": "09.09.05"}
+            ]
+        },
+        {
+            "name": "Forestry Equipment",
+            "code": "09.10",
+            "subSubcategories": [
+                {"name": "Chainsaws", "code": "09.10.01"},
+                {"name": "Log Splitters", "code": "09.10.02"},
+                {"name": "Wood Chippers", "code": "09.10.03"},
+                {"name": "Stump Grinders", "code": "09.10.04"},
+                {"name": "Forestry Mulchers", "code": "09.10.05"}
+            ]
+        },
+        {
+            "name": "Loading Equipment",
+            "code": "09.11",
+            "subSubcategories": [
+                {"name": "Front Loaders", "code": "09.11.01"},
+                {"name": "Skid Steer Loaders", "code": "09.11.02"},
+                {"name": "Telehandlers", "code": "09.11.03"},
+                {"name": "Forklifts", "code": "09.11.04"}
+            ]
+        },
+        {
+            "name": "Manure Technology",
+            "code": "09.12",
+            "subSubcategories": [
+                {"name": "Manure Spreaders", "code": "09.12.01"},
+                {"name": "Manure Tanks", "code": "09.12.02"},
+                {"name": "Manure Pumps", "code": "09.12.03"},
+                {"name": "Composters", "code": "09.12.04"}
+            ]
+        },
+        {
+            "name": "Hay Equipment",
+            "code": "09.13",
+            "subSubcategories": [
+                {"name": "Mowers", "code": "09.13.01"},
+                {"name": "Rakes", "code": "09.13.02"},
+                {"name": "Balers", "code": "09.13.03"},
+                {"name": "Tedders", "code": "09.13.04"},
+                {"name": "Windrowers", "code": "09.13.05"}
+            ]
+        },
+        {
+            "name": "Maintenance Technology",
+            "code": "09.14",
+            "subSubcategories": [
+                {"name": "Diagnostic Tools", "code": "09.14.01"},
+                {"name": "Repair Tools", "code": "09.14.02"},
+                {"name": "Spare Parts", "code": "09.14.03"},
+                {"name": "Welding Equipment", "code": "09.14.04"}
+            ]
+        },
+        {
+            "name": "Presses",
+            "code": "09.15",
+            "subSubcategories": [
+                {"name": "Hydraulic Presses", "code": "09.15.01"},
+                {"name": "Baling Presses", "code": "09.15.02"},
+                {"name": "Compacting Presses", "code": "09.15.03"}
+            ]
+        },
+        {
+            "name": "Transport Equipment and Trailers",
+            "code": "09.16",
+            "subSubcategories": [
+                {"name": "Trailers", "code": "09.16.01"},
+                {"name": "Trucks", "code": "09.16.02"},
+                {"name": "ATVs / Farm Quads", "code": "09.16.03"},
+                {"name": "Motorcycles", "code": "09.16.04"}
+            ]
+        },
+        {
+            "name": "Other Machines",
+            "code": "09.17",
+            "subSubcategories": [
+                {"name": "Garden Technology", "code": "09.17.01"},
+                {"name": "Miscellaneous Machinery", "code": "09.17.02"}
+            ]
+        }
+    ]
+}

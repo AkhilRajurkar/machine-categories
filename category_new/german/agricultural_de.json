@@ -1,0 +1,182 @@
+{
+    "name": "Landmaschinen",
+    "code": "09",
+    "subcategories": [
+        {
+            "name": "Traktoren",
+            "code": "09.01",
+            "subSubcategories": [
+                {"name": "Kompakt-Traktoren", "code": "09.01.01"},
+                {"name": "Standard-Traktoren", "code": "09.01.02"},
+                {"name": "Vielseitige Traktoren", "code": "09.01.03"},
+                {"name": "Reihenkultur-Traktoren", "code": "09.01.04"},
+                {"name": "Allrad-Traktoren", "code": "09.01.05"},
+                {"name": "Hochaufbau-Traktoren", "code": "09.01.06"},
+                {"name": "Weinbergs-Traktoren", "code": "09.01.07"}
+            ]
+        },
+        {
+            "name": "Erntemaschinen",
+            "code": "09.02",
+            "subSubcategories": [
+                {"name": "Mähdrescher", "code": "09.02.01"},
+                {"name": "Futterernter", "code": "09.02.02"},
+                {"name": "Kornternmaschinen", "code": "09.02.03"},
+                {"name": "Kartoffelernter", "code": "09.02.04"},
+                {"name": "Rübenernter", "code": "09.02.05"},
+                {"name": "Obsternter", "code": "09.02.06"},
+                {"name": "Zwiebelernter", "code": "09.02.07"}
+            ]
+        },
+        {
+            "name": "Pflanz- und Sätechnik",
+            "code": "09.03",
+            "subSubcategories": [
+                {"name": "Sämaschinen", "code": "09.03.01"},
+                {"name": "Pflanzmaschinen", "code": "09.03.02"},
+                {"name": "Umpflanzmaschinen", "code": "09.03.03"}
+            ]
+        },
+        {
+            "name": "Bewässerungssysteme",
+            "code": "09.04",
+            "subSubcategories": [
+                {"name": "Bewässerungsanlagen", "code": "09.04.01"},
+                {"name": "Tropfbewässerungssysteme", "code": "09.04.02"},
+                {"name": "Überschwemmungsbewässerungssysteme", "code": "09.04.03"},
+                {"name": "Pumpstationen", "code": "09.04.04"}
+            ]
+        },
+        {
+            "name": "Bodenbearbeitung",
+            "code": "09.05",
+            "subSubcategories": [
+                {"name": "Pflüge", "code": "09.05.01"},
+                {"name": "Eggen", "code": "09.05.02"},
+                {"name": "Kultivatoren", "code": "09.05.03"},
+                {"name": "Mulcher", "code": "09.05.04"},
+                {"name": "Strip-Till-Geräte", "code": "09.05.05"}
+            ]
+        },
+        {
+            "name": "Pflanzenschutz",
+            "code": "09.06",
+            "subSubcategories": [
+                {"name": "Sprühgeräte", "code": "09.06.01"},
+                {"name": "Staubgeräte", "code": "09.06.02"},
+                {"name": "Nebelgeräte", "code": "09.06.03"},
+                {"name": "Drohnen-Sprühgeräte", "code": "09.06.04"}
+            ]
+        },
+        {
+            "name": "Tierhaltungstechnik",
+            "code": "09.07",
+            "subSubcategories": [
+                {"name": "Melkmaschinen", "code": "09.07.01"},
+                {"name": "Fütterungsanlagen", "code": "09.07.02"},
+                {"name": "Wässerungsanlagen", "code": "09.07.03"},
+                {"name": "Zäuneinrichtungen", "code": "09.07.04"},
+                {"name": "Stallbauausrüstung", "code": "09.07.05"},
+                {"name": "Kühltechnik", "code": "09.07.06"}
+            ]
+        },
+        {
+            "name": "Düngetechnik",
+            "code": "09.08",
+            "subSubcategories": [
+                {"name": "Düngemittelstreuer", "code": "09.08.01"},
+                {"name": "Kalkstreuer", "code": "09.08.02"}
+            ]
+        },
+        {
+            "name": "Förder- und Lagetechnik",
+            "code": "09.09",
+            "subSubcategories": [
+                {"name": "Förderbänder", "code": "09.09.01"},
+                {"name": "Schraubenförderer", "code": "09.09.02"},
+                {"name": "Eimerheber", "code": "09.09.03"},
+                {"name": "Silos", "code": "09.09.04"},
+                {"name": "Getreidespeicher", "code": "09.09.05"}
+            ]
+        },
+        {
+            "name": "Forsttechnik",
+            "code": "09.10",
+            "subSubcategories": [
+                {"name": "Kettensägen", "code": "09.10.01"},
+                {"name": "Holzhäcksler", "code": "09.10.02"},
+                {"name": "Stumpfmaschinen", "code": "09.10.03"},
+                {"name": "Forstmulcher", "code": "09.10.04"},
+                {"name": "Baumpflanzer", "code": "09.10.05"}
+            ]
+        },
+        {
+            "name": "Ladetechnik",
+            "code": "09.11",
+            "subSubcategories": [
+                {"name": "Frontlader", "code": "09.11.01"},
+                {"name": "Schwenklader", "code": "09.11.02"},
+                {"name": "Teleskoplader", "code": "09.11.03"},
+                {"name": "Gabelstapler", "code": "09.11.04"}
+            ]
+        },
+        {
+            "name": "Gülletechnik",
+            "code": "09.12",
+            "subSubcategories": [
+                {"name": "Gülleverteiler", "code": "09.12.01"},
+                {"name": "Gülletanks", "code": "09.12.02"},
+                {"name": "Güllepumpen", "code": "09.12.03"},
+                {"name": "Kompostieranlagen", "code": "09.12.04"}
+            ]
+        },
+        {
+            "name": "Heutetechnik",
+            "code": "09.13",
+            "subSubcategories": [
+                {"name": "Mäher", "code": "09.13.01"},
+                {"name": "Rechen", "code": "09.13.02"},
+                {"name": "Ballenpressen", "code": "09.13.03"},
+                {"name": "Wender", "code": "09.13.04"},
+                {"name": "Windreihenleger", "code": "09.13.05"}
+            ]
+        },
+        {
+            "name": "Wartungstechnik",
+            "code": "09.14",
+            "subSubcategories": [
+                {"name": "Diagnosewerkzeuge", "code": "09.14.01"},
+                {"name": "Reparaturwerkzeuge", "code": "09.14.02"},
+                {"name": "Ersatzteile", "code": "09.14.03"},
+                {"name": "Schweißausrüstung", "code": "09.14.04"}
+            ]
+        },
+        {
+            "name": "Pressen",
+            "code": "09.15",
+            "subSubcategories": [
+                {"name": "Hydraulikpressen", "code": "09.15.01"},
+                {"name": "Ballenpressen", "code": "09.15.02"},
+                {"name": "VerdichtungsPressen", "code": "09.15.03"}
+            ]
+        },
+        {
+            "name": "Transportgeräte und Anhänger",
+            "code": "09.16",
+            "subSubcategories": [
+                {"name": "Anhänger", "code": "09.16.01"},
+                {"name": "Lkw", "code": "09.16.02"},
+                {"name": "Quads", "code": "09.16.03"},
+                {"name": "Motorräder", "code": "09.16.04"}
+            ]
+        },
+        {
+            "name": "Sonstige Maschinen",
+            "code": "09.17",
+            "subSubcategories": [
+                {"name": "Gartentechnik", "code": "09.17.01"},
+                {"name": "Sonstige Maschinerie", "code": "09.17.02"}
+            ]
+        }
+    ]
+}

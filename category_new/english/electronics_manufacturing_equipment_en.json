@@ -1,0 +1,102 @@
+{
+    "name": "Electronics Manufacturing Equipment",
+    "code": "14",
+    "subcategories": [
+        {
+            "name": "PCB Manufacturing",
+            "code": "14.01",
+            "subSubcategories": [
+                {"name": "PCB Drilling Machines", "code": "14.01.01"},
+                {"name": "PCB Etching Machines", "code": "14.01.02"},
+                {"name": "PCB Lamination Machines", "code": "14.01.03"},
+                {"name": "PCB Silk-Screening Machines", "code": "14.01.04"},
+                {"name": "PCB Depaneling Machines", "code": "14.01.05"},
+                {"name": "PCB Testing Equipment", "code": "14.01.06"},
+                {"name": "PCB Routing Machines", "code": "14.01.07"},
+                {"name": "PCB Scoring Machines", "code": "14.01.08"},
+                {"name": "PCB Cleaning Machines", "code": "14.01.09"},
+                {"name": "PCB Conformal Coating Equipment", "code": "14.01.10"}
+            ]
+        },
+        {
+            "name": "SMT Equipment",
+            "code": "14.02",
+            "subSubcategories": [
+                {"name": "Pick-and-Place Machines", "code": "14.02.01"},
+                {"name": "Reflow Ovens", "code": "14.02.02"},
+                {"name": "Solder Paste Printers", "code": "14.02.03"},
+                {"name": "Wave Soldering Machines", "code": "14.02.04"},
+                {"name": "SMT Inspection Equipment", "code": "14.02.05"},
+                {"name": "SMT Cleaning Equipment", "code": "14.02.06"},
+                {"name": "SMT Stencil Printers", "code": "14.02.07"},
+                {"name": "SMT Component Inspection Systems", "code": "14.02.08"},
+                {"name": "SMT Rework Stations", "code": "14.02.09"},
+                {"name": "SMT Conveyor Systems", "code": "14.02.10"}
+            ]
+        },
+        {
+            "name": "Semiconductor Equipment",
+            "code": "14.03",
+            "subSubcategories": [
+                {"name": "Wafer Processing Systems", "code": "14.03.01"},
+                {"name": "Lithography Equipment", "code": "14.03.02"},
+                {"name": "Deposition Equipment", "code": "14.03.03"},
+                {"name": "Etching Equipment", "code": "14.03.04"},
+                {"name": "Wafer Cleaning Equipment", "code": "14.03.05"},
+                {"name": "Testing & Measurement Equipment", "code": "14.03.06"},
+                {"name": "Wafer Dicing Saws", "code": "14.03.07"},
+                {"name": "Wafer Bonding Equipment", "code": "14.03.08"},
+                {"name": "Chemical Mechanical Polishing (CMP) Equipment", "code": "14.03.09"},
+                {"name": "Ion Implantation Equipment", "code": "14.03.10"}
+            ]
+        },
+        {
+            "name": "Assembly and Packaging Equipment",
+            "code": "14.04",
+            "subSubcategories": [
+                {"name": "Wire Bonding Machines", "code": "14.04.01"},
+                {"name": "Die Bonding Machines", "code": "14.04.02"},
+                {"name": "Encapsulation Equipment", "code": "14.04.03"},
+                {"name": "Packaging Machines", "code": "14.04.04"},
+                {"name": "Lead Forming Machines", "code": "14.04.05"},
+                {"name": "Marking and Labeling Equipment", "code": "14.04.06"},
+                {"name": "Taping and Reeling Machines", "code": "14.04.07"},
+                {"name": "Trays and Tube Loaders", "code": "14.04.08"},
+                {"name": "Automated Assembly Lines", "code": "14.04.09"},
+                {"name": "Robotic Arms for Assembly", "code": "14.04.10"}
+            ]
+        },
+        {
+            "name": "Testing and Inspection Equipment",
+            "code": "14.05",
+            "subSubcategories": [
+                {"name": "Functional Test Equipment", "code": "14.05.01"},
+                {"name": "In-Circuit Testers", "code": "14.05.02"},
+                {"name": "Flying Probe Testers", "code": "14.05.03"},
+                {"name": "Automated Optical Inspection (AOI)", "code": "14.05.04"},
+                {"name": "X-ray Inspection Systems", "code": "14.05.05"},
+                {"name": "Scanning Electron Microscopes (SEM)", "code": "14.05.06"},
+                {"name": "Atomic Force Microscopes (AFM)", "code": "14.05.07"},
+                {"name": "Environmental Test Chambers", "code": "14.05.08"},
+                {"name": "Vibration Test Equipment", "code": "14.05.09"},
+                {"name": "Burn-in Test Equipment", "code": "14.05.10"}
+            ]
+        },
+        {
+            "name": "Other Manufacturing Equipment",
+            "code": "14.06",
+            "subSubcategories": [
+                {"name": "Conformal Coating Equipment", "code": "14.06.01"},
+                {"name": "Wire Harness Assembly Equipment", "code": "14.06.02"},
+                {"name": "Box Build Equipment", "code": "14.06.03"},
+                {"name": "Cleanroom Equipment", "code": "14.06.04"},
+                {"name": "ESD Protection Equipment", "code": "14.06.05"},
+                {"name": "Soldering and Desoldering Stations", "code": "14.06.06"},
+                {"name": "Rework and Repair Stations", "code": "14.06.07"},
+                {"name": "Stencil Cleaning Machines", "code": "14.06.08"},
+                {"name": "Solder Paste Mixing Systems", "code": "14.06.09"},
+                {"name": "Nitrogen Generation Systems", "code": "14.06.10"}
+            ]
+        }
+    ]
+}
