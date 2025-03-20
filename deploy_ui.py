@@ -10,7 +10,8 @@ def deploy_ui():
     # Files to copy to docs
     files = [
         'index.html',
-        'categories.json'
+        'categories_en.json',
+        'categories_de.json'
     ]
     
     # Copy files
@@ -21,15 +22,16 @@ def deploy_ui():
         else:
             print(f"Warning: {file} not found")
     
-    # Verify categories.json content
-    try:
-        with open('docs/categories.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            print(f"\nVerified categories.json contains {len(data)} categories:")
-            for cat in data:
-                print(f"- {cat['code']}: {cat['name']}")
-    except Exception as e:
-        print(f"Error verifying categories.json: {e}")
+    # Verify categories files content
+    for lang in ['en', 'de']:
+        try:
+            with open(f'docs/categories_{lang}.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                print(f"\nVerified categories_{lang}.json contains {len(data)} categories:")
+                for cat in data:
+                    print(f"- {cat['code']}: {cat['name']}")
+        except Exception as e:
+            print(f"Error verifying categories_{lang}.json: {e}")
     
     print("\nDeployment ready! Next steps:")
     print("1. Commit and push the changes to GitHub")

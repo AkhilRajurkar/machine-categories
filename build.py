@@ -27,49 +27,58 @@ def get_numeric_code(code):
 
 def build_categories_json():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    base_path = os.path.join(script_dir, "category_new", "english")
-    output_path = os.path.join(script_dir, "categories.json")
     
-    # Dictionary to store categories by their numeric code
-    category_map = {}
-    processed_files = []
-    failed_files = []
+    # Define paths for both languages
+    paths = {
+        'en': os.path.join(script_dir, "category_new", "english"),
+        'de': os.path.join(script_dir, "category_new", "german")
+    }
     
-    print("Processing category files...")
+    # Define output files for both languages
+    outputs = {
+        'en': os.path.join(script_dir, "categories_en.json"),
+        'de': os.path.join(script_dir, "categories_de.json")
+    }
     
-    # Load all English category files
-    if os.path.exists(base_path):
-        for file in os.listdir(base_path):
-            if file.endswith('_en.json'):
-                file_path = os.path.join(base_path, file)
-                print(f"\nProcessing: {file}")
-                data = load_json_file(file_path)
-                if data:
-                    numeric_code = get_numeric_code(data['code'])
-                    category_map[numeric_code] = data
-                    processed_files.append(f"{numeric_code:02d} - {data['name']}")
-                else:
-                    failed_files.append(file)
-    
-    # Sort categories by numeric code
-    sorted_codes = sorted(category_map.keys())
-    categories = [category_map[code] for code in sorted_codes]
-    
-    # Write combined categories to JSON file
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(categories, f, indent=2, ensure_ascii=False)
-    
-    print("\nProcessed Categories:")
-    for item in sorted(processed_files):
-        print(f"- {item}")
-    
-    if failed_files:
-        print("\nFailed to process:")
-        for file in failed_files:
-            print(f"- {file}")
-    
-    print(f"\nTotal categories: {len(categories)}")
-    print(f"Output written to: {output_path}")
+    for lang, base_path in paths.items():
+        print(f"\nProcessing {lang.upper()} categories...")
+        
+        category_map = {}
+        processed_files = []
+        failed_files = []
+        
+        if os.path.exists(base_path):
+            for file in os.listdir(base_path):
+                if file.endswith(f'_{lang}.json'):
+                    file_path = os.path.join(base_path, file)
+                    print(f"Processing: {file}")
+                    data = load_json_file(file_path)
+                    if data:
+                        numeric_code = get_numeric_code(data['code'])
+                        category_map[numeric_code] = data
+                        processed_files.append(f"{numeric_code:02d} - {data['name']}")
+                    else:
+                        failed_files.append(file)
+        
+        # Sort categories by numeric code
+        sorted_codes = sorted(category_map.keys())
+        categories = [category_map[code] for code in sorted_codes]
+        
+        # Write combined categories to JSON file
+        with open(outputs[lang], 'w', encoding='utf-8') as f:
+            json.dump(categories, f, indent=2, ensure_ascii=False)
+        
+        print(f"\nProcessed {lang.upper()} Categories:")
+        for item in sorted(processed_files):
+            print(f"- {item}")
+        
+        if failed_files:
+            print(f"\nFailed to process ({lang}):")
+            for file in failed_files:
+                print(f"- {file}")
+        
+        print(f"\nTotal {lang.upper()} categories: {len(categories)}")
+        print(f"Output written to: {outputs[lang]}")
 
 if __name__ == "__main__":
     build_categories_json() 
