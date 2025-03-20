@@ -1,216 +1,486 @@
 {
-    "name": "Metallbearbeitungsmaschinen",
-    "code": "01",
-    "subcategories": [
-      {
-        "name": "Bearbeitungszentren",
-        "code": "01.01",
-        "subSubcategories": [
-          { "name": "Vertikale CNC-Bearbeitungszentren", "code": "01.01.01" },
-          { "name": "Horizontale CNC-Bearbeitungszentren", "code": "01.01.02" },
-          { "name": "Universelle CNC-Bearbeitungszentren", "code": "01.01.03" },
-          { "name": "Manuelle Bearbeitungszentren", "code": "01.01.04" }
-        ]
-      },
-      {
-        "name": "Fräsmaschinen",
-        "code": "01.02",
-        "subSubcategories": [
-          { "name": "CNC-Fräsmaschinen", "code": "01.02.01" },
-          { "name": "Manuelle Fräsmaschinen", "code": "01.02.02" },
-          { "name": "Hobelmaschinen", "code": "01.02.03" }
-        ]
-      },
-      {
-        "name": "Drehmaschinen",
-        "code": "01.03",
-        "subSubcategories": [
-          { "name": "Horizontale CNC-Drehmaschinen", "code": "01.03.01" },
-          { "name": "Vertikale CNC-Drehmaschinen", "code": "01.03.02" },
-          { "name": "Manuelle Leit- und Zugspindeldrehmaschinen", "code": "01.03.03" },
-          { "name": "Revolverdrehmaschinen", "code": "01.03.04" },
-          { "name": "Zentrier- und Endenbearbeitungsmaschinen", "code": "01.03.05" }
-        ]
-      },
-      {
-        "name": "Schleifmaschinen",
-        "code": "01.04",
-        "subSubcategories": [
-          { "name": "Flachschleifmaschinen", "code": "01.04.01" },
-          { "name": "Außenrundschleifmaschinen", "code": "01.04.02" },
-          { "name": "Innenrundschleifmaschinen", "code": "01.04.03" },
-          { "name": "Werkzeug- und Fräser-Schleifmaschinen", "code": "01.04.04" },
-          { "name": "Spitzenlose Schleifmaschinen", "code": "01.04.05" }
-        ]
-      },
-      {
-        "name": "Bohr- und Fräsmaschinen",
-        "code": "01.05",
-        "subSubcategories": [
-          { "name": "Radialbohrmaschinen", "code": "01.05.01" },
-          { "name": "Säulenbohrmaschinen", "code": "01.05.02" },
-          { "name": "Horizontale Bohrmühlen", "code": "01.05.03" },
-          { "name": "Vertikale Bohrmühlen", "code": "01.05.04" }
-        ]
-      },
-      {
-        "name": "Erodiermaschinen",
-        "code": "01.06",
-        "subSubcategories": [
-          { "name": "Draht-Erodiermaschinen", "code": "01.06.01" },
-          { "name": "Senk-Erodiermaschinen", "code": "01.06.02" },
-          { "name": "EDM-Bohrmaschinen", "code": "01.06.03" }
-        ]
-      },
-      {
-        "name": "Säge- und Schneidemaschinen",
-        "code": "01.07",
-        "subSubcategories": [
-          { "name": "Horizontale Bandsägen", "code": "01.07.01" },
-          { "name": "Vertikale Bandsägen", "code": "01.07.02" },
-          { "name": "Kreissägen", "code": "01.07.03" },
-          { "name": "Bügelsägen", "code": "01.07.04" }
-        ]
-      },
-      {
-        "name": "Schweißausrüstung",
-        "code": "01.08",
-        "subSubcategories": [
-          { "name": "MIG/MAG-Schweißmaschinen", "code": "01.08.01" },
-          { "name": "TIG-Schweißmaschinen", "code": "01.08.02" },
-          { "name": "Stabelektroden-Schweißmaschinen", "code": "01.08.03" },
-          { "name": "Punktschweißmaschinen", "code": "01.08.04" },
-          { "name": "Nahtschweißmaschinen", "code": "01.08.05" },
-          { "name": "Schweißroboter", "code": "01.08.06" },
-          { "name": "Schweißzubehör", "code": "01.08.07" }
-        ]
-      },
-      {
-        "name": "Pressen",
-        "code": "01.09",
-        "subSubcategories": [
-          { "name": "Mechanische Pressen", "code": "01.09.01" },
-          { "name": "Hydraulische Pressen", "code": "01.09.02" },
-          { "name": "Pneumatische Pressen", "code": "01.09.03" },
-          { "name": "Schmiedepressen", "code": "01.09.04" },
-          { "name": "Stanzpressen", "code": "01.09.05" },
-          { "name": "Stoß-, Zieh- und Räm-Maschinen", "code": "01.09.06" }
-        ]
-      },
-      {
-        "name": "Verzahnungsbearbeitung",
-        "code": "01.10",
-        "subSubcategories": [
-          { "name": "Verzahnungsstoßmaschinen", "code": "01.10.01" },
-          { "name": "Verzahnungsformmaschinen", "code": "01.10.02" },
-          { "name": "Verzahnungsschleifmaschinen", "code": "01.10.03" }
-        ]
-      },
-      {
-        "name": "Drahtbearbeitung",
-        "code": "01.11",
-        "subSubcategories": [
-          { "name": "Drahtziehmaschinen", "code": "01.11.01" },
-          { "name": "Drahtverdrillmaschinen", "code": "01.11.02" },
-          { "name": "Drahtschneide- und Abisoliermaschinen", "code": "01.11.03" },
-          { "name": "Drahtbiegemaschinen", "code": "01.11.04" },
-          { "name": "Drahtnetzmaschinen", "code": "01.11.05" },
-          { "name": "Drahtwickelmaschinen", "code": "01.11.06" }
-        ]
-      },
-      {
-        "name": "Oberflächenreinigung",
-        "code": "01.12",
-        "subSubcategories": [
-          { "name": "Sandstrahlmaschinen", "code": "01.12.01" },
-          { "name": "Kugelstrahlmaschinen", "code": "01.12.02" },
-          { "name": "Ultraschall-Reinigungssysteme", "code": "01.12.03" },
-          { "name": "Lösemittelreinigungssysteme", "code": "01.12.04" }
-        ]
-      },
-      {
-        "name": "Oberflächenbeschichtung",
-        "code": "01.13",
-        "subSubcategories": [
-          { "name": "Pulverbeschichtungssysteme", "code": "01.13.01" },
-          { "name": "Lacksysteme", "code": "01.13.02" },
-          { "name": "Galvanisierungssysteme", "code": "01.13.03" },
-          { "name": "Eloxalsysteme", "code": "01.13.04" }
-        ]
-      },
-      {
-        "name": "Oberflächenveredelung",
-        "code": "01.14",
-        "subSubcategories": [
-          { "name": "Poliermaschinen", "code": "01.14.01" },
-          { "name": "Entgratmaschinen", "code": "01.14.02" },
-          { "name": "Öfen", "code": "01.14.03" }
-        ]
-      },
-      {
-        "name": "Sonstige Metallbearbeitungsmaschinen",
-        "code": "01.15",
-        "subSubcategories": [
-          { "name": "Honmaschinen", "code": "01.15.01" },
-          { "name": "Lappmaschinen", "code": "01.15.02" },
-          { "name": "Räummaschinen", "code": "01.15.03" },
-          { "name": "Richtmaschinen", "code": "01.15.04" },
-          { "name": "Druckgussmaschinen", "code": "01.15.05" },
-          { "name": "Gießmaschinen", "code": "01.15.06" },
-          { "name": "Rohrbearbeitungsmaschinen", "code": "01.15.07" },
-          { "name": "Transfermaschinen", "code": "01.15.08" },
-          { "name": "Wuchtmaschinen", "code": "01.15.09" },
-          { "name": "Gewindebearbeitungsmaschinen", "code": "01.15.10" },
-          { "name": "Schmiedemaschinen", "code": "01.15.11" },
-          { "name": "Schlitzmaschinen", "code": "01.15.12" },
-          { "name": "Graviermaschinen", "code": "01.15.13" }
-        ]
-      },
-      {
-        "name": "Mess- und Inspektionsgeräte",
-        "code": "01.16",
-        "subSubcategories": [
-          { "name": "Koordinatenmessmaschinen (CMM)", "code": "01.16.01" },
-          { "name": "Optische Inspektionssysteme", "code": "01.16.02" },
-          { "name": "Oberflächenrauheitsprüfer", "code": "01.16.03" }
-        ]
-      },
-      {
-        "name": "Additive Fertigungsausrüstung",
-        "code": "01.17",
-        "subSubcategories": [
-          { "name": "3D-Metallprinter", "code": "01.17.01" },
-          { "name": "Metallabscheidungsmaschinen", "code": "01.17.02" }
-        ]
-      },
-      {
-        "name": "Blechschneiden",
-        "code": "01.18",
-        "subSubcategories": [
-          { "name": "Laserschneidmaschinen", "code": "01.18.01" },
-          { "name": "Plasmaschneidmaschinen", "code": "01.18.02" },
-          { "name": "Wasserstrahlschneidmaschinen", "code": "01.18.03" },
-          { "name": "Scheren", "code": "01.18.04" },
-          { "name": "CNC-Stanzmaschinen", "code": "01.18.05" }
-        ]
-      },
-      {
-        "name": "Blechumformung",
-        "code": "01.19",
-        "subSubcategories": [
-          { "name": "Abkantpressen", "code": "01.19.01" },
-          { "name": "Plattenwalzmaschinen", "code": "01.19.02" },
-          { "name": "CNC-Stanzmaschinen", "code": "01.19.03" },
-          { "name": "Mechanische Stanzmaschinen", "code": "01.19.04" }
-        ]
-      },
-      {
-        "name": "Blechbiegen",
-        "code": "01.20",
-        "subSubcategories": [
-          { "name": "Schwenkbiegemaschinen", "code": "01.20.01" },
-          { "name": "Profilbiegemaschinen", "code": "01.20.02" }
-        ]
-      }
-    ]
+  "name": "Metallbearbeitungsmaschinen",
+  "code": "1",
+  "subcategories": [
+    {
+      "name": "Bearbeitungszentren",
+      "code": "1.1",
+      "subSubcategories": [
+        {
+          "name": "Vertikale CNC-Bearbeitungszentren",
+          "code": "1.1.1"
+        },
+        {
+          "name": "Horizontale CNC-Bearbeitungszentren",
+          "code": "1.1.2"
+        },
+        {
+          "name": "Universelle CNC-Bearbeitungszentren",
+          "code": "1.1.3"
+        },
+        {
+          "name": "Manuelle Bearbeitungszentren",
+          "code": "1.1.4"
+        }
+      ]
+    },
+    {
+      "name": "Fräsmaschinen",
+      "code": "1.2",
+      "subSubcategories": [
+        {
+          "name": "CNC-Fräsmaschinen",
+          "code": "1.2.1"
+        },
+        {
+          "name": "Manuelle Fräsmaschinen",
+          "code": "1.2.2"
+        },
+        {
+          "name": "Hobelmaschinen",
+          "code": "1.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Drehmaschinen",
+      "code": "1.3",
+      "subSubcategories": [
+        {
+          "name": "Horizontale CNC-Drehmaschinen",
+          "code": "1.3.1"
+        },
+        {
+          "name": "Vertikale CNC-Drehmaschinen",
+          "code": "1.3.2"
+        },
+        {
+          "name": "Manuelle Leit- und Zugspindeldrehmaschinen",
+          "code": "1.3.3"
+        },
+        {
+          "name": "Revolverdrehmaschinen",
+          "code": "1.3.4"
+        },
+        {
+          "name": "Zentrier- und Endenbearbeitungsmaschinen",
+          "code": "1.3.5"
+        }
+      ]
+    },
+    {
+      "name": "Schleifmaschinen",
+      "code": "1.4",
+      "subSubcategories": [
+        {
+          "name": "Flachschleifmaschinen",
+          "code": "1.4.1"
+        },
+        {
+          "name": "Außenrundschleifmaschinen",
+          "code": "1.4.2"
+        },
+        {
+          "name": "Innenrundschleifmaschinen",
+          "code": "1.4.3"
+        },
+        {
+          "name": "Werkzeug- und Fräser-Schleifmaschinen",
+          "code": "1.4.4"
+        },
+        {
+          "name": "Spitzenlose Schleifmaschinen",
+          "code": "1.4.5"
+        }
+      ]
+    },
+    {
+      "name": "Bohr- und Fräsmaschinen",
+      "code": "1.5",
+      "subSubcategories": [
+        {
+          "name": "Radialbohrmaschinen",
+          "code": "1.5.1"
+        },
+        {
+          "name": "Säulenbohrmaschinen",
+          "code": "1.5.2"
+        },
+        {
+          "name": "Horizontale Bohrmühlen",
+          "code": "1.5.3"
+        },
+        {
+          "name": "Vertikale Bohrmühlen",
+          "code": "1.5.4"
+        }
+      ]
+    },
+    {
+      "name": "Erodiermaschinen",
+      "code": "1.6",
+      "subSubcategories": [
+        {
+          "name": "Draht-Erodiermaschinen",
+          "code": "1.6.1"
+        },
+        {
+          "name": "Senk-Erodiermaschinen",
+          "code": "1.6.2"
+        },
+        {
+          "name": "EDM-Bohrmaschinen",
+          "code": "1.6.3"
+        }
+      ]
+    },
+    {
+      "name": "Säge- und Schneidemaschinen",
+      "code": "1.7",
+      "subSubcategories": [
+        {
+          "name": "Horizontale Bandsägen",
+          "code": "1.7.1"
+        },
+        {
+          "name": "Vertikale Bandsägen",
+          "code": "1.7.2"
+        },
+        {
+          "name": "Kreissägen",
+          "code": "1.7.3"
+        },
+        {
+          "name": "Bügelsägen",
+          "code": "1.7.4"
+        }
+      ]
+    },
+    {
+      "name": "Schweißausrüstung",
+      "code": "1.8",
+      "subSubcategories": [
+        {
+          "name": "MIG/MAG-Schweißmaschinen",
+          "code": "1.8.1"
+        },
+        {
+          "name": "TIG-Schweißmaschinen",
+          "code": "1.8.2"
+        },
+        {
+          "name": "Stabelektroden-Schweißmaschinen",
+          "code": "1.8.3"
+        },
+        {
+          "name": "Punktschweißmaschinen",
+          "code": "1.8.4"
+        },
+        {
+          "name": "Nahtschweißmaschinen",
+          "code": "1.8.5"
+        },
+        {
+          "name": "Schweißroboter",
+          "code": "1.8.6"
+        },
+        {
+          "name": "Schweißzubehör",
+          "code": "1.8.7"
+        }
+      ]
+    },
+    {
+      "name": "Pressen",
+      "code": "1.9",
+      "subSubcategories": [
+        {
+          "name": "Mechanische Pressen",
+          "code": "1.9.1"
+        },
+        {
+          "name": "Hydraulische Pressen",
+          "code": "1.9.2"
+        },
+        {
+          "name": "Pneumatische Pressen",
+          "code": "1.9.3"
+        },
+        {
+          "name": "Schmiedepressen",
+          "code": "1.9.4"
+        },
+        {
+          "name": "Stanzpressen",
+          "code": "1.9.5"
+        },
+        {
+          "name": "Stoß-, Zieh- und Räm-Maschinen",
+          "code": "1.9.6"
+        }
+      ]
+    },
+    {
+      "name": "Verzahnungsbearbeitung",
+      "code": "1.10",
+      "subSubcategories": [
+        {
+          "name": "Verzahnungsstoßmaschinen",
+          "code": "1.10.1"
+        },
+        {
+          "name": "Verzahnungsformmaschinen",
+          "code": "1.10.2"
+        },
+        {
+          "name": "Verzahnungsschleifmaschinen",
+          "code": "1.10.3"
+        }
+      ]
+    },
+    {
+      "name": "Drahtbearbeitung",
+      "code": "1.11",
+      "subSubcategories": [
+        {
+          "name": "Drahtziehmaschinen",
+          "code": "1.11.1"
+        },
+        {
+          "name": "Drahtverdrillmaschinen",
+          "code": "1.11.2"
+        },
+        {
+          "name": "Drahtschneide- und Abisoliermaschinen",
+          "code": "1.11.3"
+        },
+        {
+          "name": "Drahtbiegemaschinen",
+          "code": "1.11.4"
+        },
+        {
+          "name": "Drahtnetzmaschinen",
+          "code": "1.11.5"
+        },
+        {
+          "name": "Drahtwickelmaschinen",
+          "code": "1.11.6"
+        }
+      ]
+    },
+    {
+      "name": "Oberflächenreinigung",
+      "code": "1.12",
+      "subSubcategories": [
+        {
+          "name": "Sandstrahlmaschinen",
+          "code": "1.12.1"
+        },
+        {
+          "name": "Kugelstrahlmaschinen",
+          "code": "1.12.2"
+        },
+        {
+          "name": "Ultraschall-Reinigungssysteme",
+          "code": "1.12.3"
+        },
+        {
+          "name": "Lösemittelreinigungssysteme",
+          "code": "1.12.4"
+        }
+      ]
+    },
+    {
+      "name": "Oberflächenbeschichtung",
+      "code": "1.13",
+      "subSubcategories": [
+        {
+          "name": "Pulverbeschichtungssysteme",
+          "code": "1.13.1"
+        },
+        {
+          "name": "Lacksysteme",
+          "code": "1.13.2"
+        },
+        {
+          "name": "Galvanisierungssysteme",
+          "code": "1.13.3"
+        },
+        {
+          "name": "Eloxalsysteme",
+          "code": "1.13.4"
+        }
+      ]
+    },
+    {
+      "name": "Oberflächenveredelung",
+      "code": "1.14",
+      "subSubcategories": [
+        {
+          "name": "Poliermaschinen",
+          "code": "1.14.1"
+        },
+        {
+          "name": "Entgratmaschinen",
+          "code": "1.14.2"
+        },
+        {
+          "name": "Öfen",
+          "code": "1.14.3"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Metallbearbeitungsmaschinen",
+      "code": "1.15",
+      "subSubcategories": [
+        {
+          "name": "Honmaschinen",
+          "code": "1.15.1"
+        },
+        {
+          "name": "Lappmaschinen",
+          "code": "1.15.2"
+        },
+        {
+          "name": "Räummaschinen",
+          "code": "1.15.3"
+        },
+        {
+          "name": "Richtmaschinen",
+          "code": "1.15.4"
+        },
+        {
+          "name": "Druckgussmaschinen",
+          "code": "1.15.5"
+        },
+        {
+          "name": "Gießmaschinen",
+          "code": "1.15.6"
+        },
+        {
+          "name": "Rohrbearbeitungsmaschinen",
+          "code": "1.15.7"
+        },
+        {
+          "name": "Transfermaschinen",
+          "code": "1.15.8"
+        },
+        {
+          "name": "Wuchtmaschinen",
+          "code": "1.15.9"
+        },
+        {
+          "name": "Gewindebearbeitungsmaschinen",
+          "code": "1.15.10"
+        },
+        {
+          "name": "Schmiedemaschinen",
+          "code": "1.15.11"
+        },
+        {
+          "name": "Schlitzmaschinen",
+          "code": "1.15.12"
+        },
+        {
+          "name": "Graviermaschinen",
+          "code": "1.15.13"
+        }
+      ]
+    },
+    {
+      "name": "Mess- und Inspektionsgeräte",
+      "code": "1.16",
+      "subSubcategories": [
+        {
+          "name": "Koordinatenmessmaschinen (CMM)",
+          "code": "1.16.1"
+        },
+        {
+          "name": "Optische Inspektionssysteme",
+          "code": "1.16.2"
+        },
+        {
+          "name": "Oberflächenrauheitsprüfer",
+          "code": "1.16.3"
+        }
+      ]
+    },
+    {
+      "name": "Additive Fertigungsausrüstung",
+      "code": "1.17",
+      "subSubcategories": [
+        {
+          "name": "3D-Metallprinter",
+          "code": "1.17.1"
+        },
+        {
+          "name": "Metallabscheidungsmaschinen",
+          "code": "1.17.2"
+        }
+      ]
+    },
+    {
+      "name": "Blechschneiden",
+      "code": "1.18",
+      "subSubcategories": [
+        {
+          "name": "Laserschneidmaschinen",
+          "code": "1.18.1"
+        },
+        {
+          "name": "Plasmaschneidmaschinen",
+          "code": "1.18.2"
+        },
+        {
+          "name": "Wasserstrahlschneidmaschinen",
+          "code": "1.18.3"
+        },
+        {
+          "name": "Scheren",
+          "code": "1.18.4"
+        },
+        {
+          "name": "CNC-Stanzmaschinen",
+          "code": "1.18.5"
+        }
+      ]
+    },
+    {
+      "name": "Blechumformung",
+      "code": "1.19",
+      "subSubcategories": [
+        {
+          "name": "Abkantpressen",
+          "code": "1.19.1"
+        },
+        {
+          "name": "Plattenwalzmaschinen",
+          "code": "1.19.2"
+        },
+        {
+          "name": "CNC-Stanzmaschinen",
+          "code": "1.19.3"
+        },
+        {
+          "name": "Mechanische Stanzmaschinen",
+          "code": "1.19.4"
+        }
+      ]
+    },
+    {
+      "name": "Blechbiegen",
+      "code": "1.20",
+      "subSubcategories": [
+        {
+          "name": "Schwenkbiegemaschinen",
+          "code": "1.20.1"
+        },
+        {
+          "name": "Profilbiegemaschinen",
+          "code": "1.20.2"
+        }
+      ]
+    }
+  ]
 }

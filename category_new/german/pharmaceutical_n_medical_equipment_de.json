@@ -1,71 +1,176 @@
 {
-    "name": "Pharmazeutische und Medizinische Geräte",
-    "code": "13",
-    "subcategories": [
-      {
-        "name": "Pharmazeutische Verarbeitungsgeräte",
-        "code": "13.01",
-        "subSubcategories": [
-          {"name": "Mischer und Mischmaschinen", "code": "13.01.01"},
-          {"name": "Granulatoren", "code": "13.01.02"},
-          {"name": "Trocknungsgeräte", "code": "13.01.03"},
-          {"name": "Mahl- und Pulverisierungsgeräte", "code": "13.01.04"},
-          {"name": "Tablettenpressen", "code": "13.01.05"},
-          {"name": "Kapselüllmaschinen", "code": "13.01.06"},
-          {"name": "Beschichtungsgeräte", "code": "13.01.07"},
-          {"name": "Verpackungsmaschinen", "code": "13.01.08"},
-          {"name": "Reaktoren und Gefäße", "code": "13.01.09"},
-          {"name": "Filtrations- und Trennungsgeräte", "code": "13.01.10"},
-          {"name": "Pumpen und Kompressoren", "code": "13.01.11"},
-          {"name": "Wärmeaustauscher und Dampferzeuger", "code": "13.01.12"},
-          {"name": "Sonstige pharmazeutische Verarbeitungsgeräte", "code": "13.01.13"}
-        ]
-      },
-      {
-        "name": "Laborausstattung",
-        "code": "13.02",
-        "subSubcategories": [
-          {"name": "Analytische Instrumente", "code": "13.02.01"},
-          {"name": "Mikroskope", "code": "13.02.02"},
-          {"name": "Waagen und Balancen", "code": "13.02.03"},
-          {"name": "pH-Meter und andere Messgeräte", "code": "13.02.04"},
-          {"name": "Glasgeräte und Laboreinrichtungen", "code": "13.02.05"},
-          {"name": "Sonstige Laborgeräte", "code": "13.02.06"}
-        ]
-      },
-      {
-        "name": "Sterilisationsgeräte",
-        "code": "13.03",
-        "subSubcategories": [
-          {"name": "Autoklaven", "code": "13.03.01"},
-          {"name": "Heißluftsteriliser", "code": "13.03.02"},
-          {"name": "Strahlensteriliser", "code": "13.03.03"},
-          {"name": "Filtrationssteriliser", "code": "13.03.04"},
-          {"name": "Sonstige Sterilisationsgeräte", "code": "13.03.05"}
-        ]
-      },
-      {
-        "name": "Medizinische Bildgebungsgeräte",
-        "code": "13.04",
-        "subSubcategories": [
-          {"name": "Röntgengeräte", "code": "13.04.01"},
-          {"name": "Ultraschallgeräte", "code": "13.04.02"},
-          {"name": "MRT-Geräte", "code": "13.04.03"},
-          {"name": "CT-Geräte", "code": "13.04.04"},
-          {"name": "Sonstige Bildgebungsgeräte", "code": "13.04.05"}
-        ]
-      },
-      {
-        "name": "Sonstige Medizinische Geräte",
-        "code": "13.05",
-        "subSubcategories": [
-          {"name": "Chirurgische Instrumente", "code": "13.05.01"},
-          {"name": "Patientenüberwachungsgeräte", "code": "13.05.02"},
-          {"name": "Infusionspumpen", "code": "13.05.03"},
-          {"name": "Defibrillatoren", "code": "13.05.04"},
-          {"name": "Beatmungsgeräte", "code": "13.05.05"},
-          {"name": "Sonstige Medizinische Geräte", "code": "13.05.06"}
-        ]
-      }
-    ]
-  }
+  "name": "Pharmazeutische und Medizinische Geräte",
+  "code": "13",
+  "subcategories": [
+    {
+      "name": "Pharmazeutische Verarbeitungsgeräte",
+      "code": "13.1",
+      "subSubcategories": [
+        {
+          "name": "Mischer und Mischmaschinen",
+          "code": "13.1.1"
+        },
+        {
+          "name": "Granulatoren",
+          "code": "13.1.2"
+        },
+        {
+          "name": "Trocknungsgeräte",
+          "code": "13.1.3"
+        },
+        {
+          "name": "Mahl- und Pulverisierungsgeräte",
+          "code": "13.1.4"
+        },
+        {
+          "name": "Tablettenpressen",
+          "code": "13.1.5"
+        },
+        {
+          "name": "Kapselüllmaschinen",
+          "code": "13.1.6"
+        },
+        {
+          "name": "Beschichtungsgeräte",
+          "code": "13.1.7"
+        },
+        {
+          "name": "Verpackungsmaschinen",
+          "code": "13.1.8"
+        },
+        {
+          "name": "Reaktoren und Gefäße",
+          "code": "13.1.9"
+        },
+        {
+          "name": "Filtrations- und Trennungsgeräte",
+          "code": "13.1.10"
+        },
+        {
+          "name": "Pumpen und Kompressoren",
+          "code": "13.1.11"
+        },
+        {
+          "name": "Wärmeaustauscher und Dampferzeuger",
+          "code": "13.1.12"
+        },
+        {
+          "name": "Sonstige pharmazeutische Verarbeitungsgeräte",
+          "code": "13.1.13"
+        }
+      ]
+    },
+    {
+      "name": "Laborausstattung",
+      "code": "13.2",
+      "subSubcategories": [
+        {
+          "name": "Analytische Instrumente",
+          "code": "13.2.1"
+        },
+        {
+          "name": "Mikroskope",
+          "code": "13.2.2"
+        },
+        {
+          "name": "Waagen und Balancen",
+          "code": "13.2.3"
+        },
+        {
+          "name": "pH-Meter und andere Messgeräte",
+          "code": "13.2.4"
+        },
+        {
+          "name": "Glasgeräte und Laboreinrichtungen",
+          "code": "13.2.5"
+        },
+        {
+          "name": "Sonstige Laborgeräte",
+          "code": "13.2.6"
+        }
+      ]
+    },
+    {
+      "name": "Sterilisationsgeräte",
+      "code": "13.3",
+      "subSubcategories": [
+        {
+          "name": "Autoklaven",
+          "code": "13.3.1"
+        },
+        {
+          "name": "Heißluftsteriliser",
+          "code": "13.3.2"
+        },
+        {
+          "name": "Strahlensteriliser",
+          "code": "13.3.3"
+        },
+        {
+          "name": "Filtrationssteriliser",
+          "code": "13.3.4"
+        },
+        {
+          "name": "Sonstige Sterilisationsgeräte",
+          "code": "13.3.5"
+        }
+      ]
+    },
+    {
+      "name": "Medizinische Bildgebungsgeräte",
+      "code": "13.4",
+      "subSubcategories": [
+        {
+          "name": "Röntgengeräte",
+          "code": "13.4.1"
+        },
+        {
+          "name": "Ultraschallgeräte",
+          "code": "13.4.2"
+        },
+        {
+          "name": "MRT-Geräte",
+          "code": "13.4.3"
+        },
+        {
+          "name": "CT-Geräte",
+          "code": "13.4.4"
+        },
+        {
+          "name": "Sonstige Bildgebungsgeräte",
+          "code": "13.4.5"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Medizinische Geräte",
+      "code": "13.5",
+      "subSubcategories": [
+        {
+          "name": "Chirurgische Instrumente",
+          "code": "13.5.1"
+        },
+        {
+          "name": "Patientenüberwachungsgeräte",
+          "code": "13.5.2"
+        },
+        {
+          "name": "Infusionspumpen",
+          "code": "13.5.3"
+        },
+        {
+          "name": "Defibrillatoren",
+          "code": "13.5.4"
+        },
+        {
+          "name": "Beatmungsgeräte",
+          "code": "13.5.5"
+        },
+        {
+          "name": "Sonstige Medizinische Geräte",
+          "code": "13.5.6"
+        }
+      ]
+    }
+  ]
+}

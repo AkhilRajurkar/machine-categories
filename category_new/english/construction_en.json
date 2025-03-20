@@ -1,164 +1,368 @@
 {
-    "name": "Construction Machinery",
-    "code": "08",
-    "subcategories": [
+  "name": "Construction Machinery",
+  "code": "8",
+  "subcategories": [
+    {
+      "name": "Earth Moving Equipment",
+      "code": "8.1",
+      "subSubcategories": [
         {
-            "name": "Earth Moving Equipment",
-            "code": "08.01",
-            "subSubcategories": [
-                {"name": "Crawler Excavators", "code": "08.01.01"},
-                {"name": "Wheeled Excavators", "code": "08.01.02"},
-                {"name": "Skid Steer Loaders", "code": "08.01.03"},
-                {"name": "Wheel Loaders", "code": "08.01.04"},
-                {"name": "Bulldozers", "code": "08.01.05"},
-                {"name": "Graders", "code": "08.01.06"},
-                {"name": "Rammers", "code": "08.01.07"},
-                {"name": "Vibrating Plates", "code": "08.01.08"}
-            ]
+          "name": "Crawler Excavators",
+          "code": "8.1.1"
         },
         {
-            "name": "Road Construction",
-            "code": "08.02",
-            "subSubcategories": [
-                {"name": "Asphal Pavers", "code": "08.02.01"},
-                {"name": "Road Rollers", "code": "08.02.02"},
-                {"name": "Cold Milling Machines", "code": "08.02.03"}
-            ]
+          "name": "Wheeled Excavators",
+          "code": "8.1.2"
         },
         {
-            "name": "Lifting Equipment",
-            "code": "08.03",
-            "subSubcategories": [
-                {"name": "Crawler Cranes", "code": "08.03.01"},
-                {"name": "Truck Cranes", "code": "08.03.02"},
-                {"name": "Tower Cranes", "code": "08.03.03"},
-                {"name": "Forklifts", "code": "08.03.04"},
-                {"name": "Aerial Work Platforms", "code": "08.03.05"}
-            ]
+          "name": "Skid Steer Loaders",
+          "code": "8.1.3"
         },
         {
-            "name": "Concrete Equipment",
-            "code": "08.04",
-            "subSubcategories": [
-                {"name": "Concrete Mixers", "code": "08.04.01"},
-                {"name": "Concrete Pumps", "code": "08.04.02"},
-                {"name": "Concrete Batching Plants", "code": "08.04.03"},
-                {"name": "Scaffoldings", "code": "08.04.04"},
-                {"name": "Shuttering", "code": "08.04.05"}
-            ]
+          "name": "Wheel Loaders",
+          "code": "8.1.4"
         },
         {
-            "name": "Drilling Equipment",
-            "code": "08.05",
-            "subSubcategories": [
-                {"name": "Pile Drivers", "code": "08.05.01"},
-                {"name": "Rotary Drilling Rigs", "code": "08.05.02"}
-            ]
+          "name": "Bulldozers",
+          "code": "8.1.5"
         },
         {
-            "name": "Stone Processing",
-            "code": "08.06",
-            "subSubcategories": [
-                {"name": "Bridge Saws", "code": "08.06.01"},
-                {"name": "Wire Saws", "code": "08.06.02"},
-                {"name": "Stone Polishing Machines", "code": "08.06.03"},
-                {"name": "Stone Engraving Machines", "code": "08.06.04"},
-                {"name": "CNC Stone Machining Centers", "code": "08.06.05"},
-                {"name": "Stone Splitters", "code": "08.06.06"}
-            ]
+          "name": "Graders",
+          "code": "8.1.6"
         },
         {
-            "name": "Municipal Equipment",
-            "code": "08.07",
-            "subSubcategories": [
-                {"name": "Street Sweepers", "code": "08.07.01"},
-                {"name": "Scrubber-Dryers", "code": "08.07.02"},
-                {"name": "Garbage Trucks", "code": "08.07.03"},
-                {"name": "Recycling Vehicles", "code": "08.07.04"},
-                {"name": "Snow Plows", "code": "08.07.05"},
-                {"name": "Snow Blowers", "code": "08.07.06"},
-                {"name": "Asphal Patching Machines", "code": "08.07.07"},
-                {"name": "Crack Fillers", "code": "08.07.08"},
-                {"name": "Tree Care Equipment", "code": "08.07.09"}
-            ]
+          "name": "Rammers",
+          "code": "8.1.7"
         },
         {
-            "name": "Demolition and Recycling Equipment",
-            "code": "08.08",
-            "subSubcategories": [
-                {"name": "Demolition Excavators", "code": "08.08.01"},
-                {"name": "Crushers", "code": "08.08.02"},
-                {"name": "Screens", "code": "08.08.03"},
-                {"name": "Landfill Compactors", "code": "08.08.04"}
-            ]
-        },
-        {
-            "name": "Transport Equipment",
-            "code": "08.09",
-            "subSubcategories": [
-                {"name": "Trailers", "code": "08.09.01"},
-                {"name": "Tippers", "code": "08.09.02"},
-                {"name": "Containers", "code": "08.09.03"},
-                {"name": "Dump Trucks", "code": "08.09.04"},
-                {"name": "Concrete Trucks", "code": "08.09.05"}
-            ]
-        },
-        {
-            "name": "Building Material Production",
-            "code": "08.10",
-            "subSubcategories": [
-                {"name": "Crushing Plants", "code": "08.10.01"},
-                {"name": "Brick Making Machines", "code": "08.10.02"},
-                {"name": "Cement Plants", "code": "08.10.03"},
-                {"name": "Asphal Plants", "code": "08.10.04"}
-            ]
-        },
-        {
-            "name": "Specialized Construction Equipment",
-            "code": "08.11",
-            "subSubcategories": [
-                {"name": "Bridge Construction Equipment", "code": "08.11.01"},
-                {"name": "Tunneling Equipment", "code": "08.11.02"},
-                {"name": "Pipeline Equipment", "code": "08.11.03"}
-            ]
-        },
-        {
-            "name": "Utilities and Support Equipment",
-            "code": "08.12",
-            "subSubcategories": [
-                {"name": "Compressors", "code": "08.12.01"},
-                {"name": "Generators", "code": "08.12.02"},
-                {"name": "Hand Tools", "code": "08.12.03"},
-                {"name": "Power Tools", "code": "08.12.04"},
-                {"name": "Presses", "code": "08.12.05"}
-            ]
-        },
-        {
-            "name": "Finishing and Surface Preparation",
-            "code": "08.13",
-            "subSubcategories": [
-                {"name": "Plastering Machines", "code": "08.13.01"},
-                {"name": "Grinding Machines", "code": "08.13.02"},
-                {"name": "Polishing Machines", "code": "08.13.03"},
-                {"name": "Painting Machines", "code": "08.13.04"}
-            ]
-        },
-        {
-            "name": "Cutting Technology",
-            "code": "08.14",
-            "subSubcategories": [
-                {"name": "Sawing Machines", "code": "08.14.01"},
-                {"name": "Shearing Machines", "code": "08.14.02"},
-                {"name": "Plasma Cutters", "code": "08.14.03"},
-                {"name": "Laser Cutters", "code": "08.14.04"}
-            ]
-        },
-        {
-            "name": "Other Machines",
-            "code": "08.15",
-            "subSubcategories": [
-                {"name": "Miscellaneous Machines", "code": "08.15.01"}
-            ]
+          "name": "Vibrating Plates",
+          "code": "8.1.8"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Road Construction",
+      "code": "8.2",
+      "subSubcategories": [
+        {
+          "name": "Asphal Pavers",
+          "code": "8.2.1"
+        },
+        {
+          "name": "Road Rollers",
+          "code": "8.2.2"
+        },
+        {
+          "name": "Cold Milling Machines",
+          "code": "8.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Lifting Equipment",
+      "code": "8.3",
+      "subSubcategories": [
+        {
+          "name": "Crawler Cranes",
+          "code": "8.3.1"
+        },
+        {
+          "name": "Truck Cranes",
+          "code": "8.3.2"
+        },
+        {
+          "name": "Tower Cranes",
+          "code": "8.3.3"
+        },
+        {
+          "name": "Forklifts",
+          "code": "8.3.4"
+        },
+        {
+          "name": "Aerial Work Platforms",
+          "code": "8.3.5"
+        }
+      ]
+    },
+    {
+      "name": "Concrete Equipment",
+      "code": "8.4",
+      "subSubcategories": [
+        {
+          "name": "Concrete Mixers",
+          "code": "8.4.1"
+        },
+        {
+          "name": "Concrete Pumps",
+          "code": "8.4.2"
+        },
+        {
+          "name": "Concrete Batching Plants",
+          "code": "8.4.3"
+        },
+        {
+          "name": "Scaffoldings",
+          "code": "8.4.4"
+        },
+        {
+          "name": "Shuttering",
+          "code": "8.4.5"
+        }
+      ]
+    },
+    {
+      "name": "Drilling Equipment",
+      "code": "8.5",
+      "subSubcategories": [
+        {
+          "name": "Pile Drivers",
+          "code": "8.5.1"
+        },
+        {
+          "name": "Rotary Drilling Rigs",
+          "code": "8.5.2"
+        }
+      ]
+    },
+    {
+      "name": "Stone Processing",
+      "code": "8.6",
+      "subSubcategories": [
+        {
+          "name": "Bridge Saws",
+          "code": "8.6.1"
+        },
+        {
+          "name": "Wire Saws",
+          "code": "8.6.2"
+        },
+        {
+          "name": "Stone Polishing Machines",
+          "code": "8.6.3"
+        },
+        {
+          "name": "Stone Engraving Machines",
+          "code": "8.6.4"
+        },
+        {
+          "name": "CNC Stone Machining Centers",
+          "code": "8.6.5"
+        },
+        {
+          "name": "Stone Splitters",
+          "code": "8.6.6"
+        }
+      ]
+    },
+    {
+      "name": "Municipal Equipment",
+      "code": "8.7",
+      "subSubcategories": [
+        {
+          "name": "Street Sweepers",
+          "code": "8.7.1"
+        },
+        {
+          "name": "Scrubber-Dryers",
+          "code": "8.7.2"
+        },
+        {
+          "name": "Garbage Trucks",
+          "code": "8.7.3"
+        },
+        {
+          "name": "Recycling Vehicles",
+          "code": "8.7.4"
+        },
+        {
+          "name": "Snow Plows",
+          "code": "8.7.5"
+        },
+        {
+          "name": "Snow Blowers",
+          "code": "8.7.6"
+        },
+        {
+          "name": "Asphal Patching Machines",
+          "code": "8.7.7"
+        },
+        {
+          "name": "Crack Fillers",
+          "code": "8.7.8"
+        },
+        {
+          "name": "Tree Care Equipment",
+          "code": "8.7.9"
+        }
+      ]
+    },
+    {
+      "name": "Demolition and Recycling Equipment",
+      "code": "8.8",
+      "subSubcategories": [
+        {
+          "name": "Demolition Excavators",
+          "code": "8.8.1"
+        },
+        {
+          "name": "Crushers",
+          "code": "8.8.2"
+        },
+        {
+          "name": "Screens",
+          "code": "8.8.3"
+        },
+        {
+          "name": "Landfill Compactors",
+          "code": "8.8.4"
+        }
+      ]
+    },
+    {
+      "name": "Transport Equipment",
+      "code": "8.9",
+      "subSubcategories": [
+        {
+          "name": "Trailers",
+          "code": "8.9.1"
+        },
+        {
+          "name": "Tippers",
+          "code": "8.9.2"
+        },
+        {
+          "name": "Containers",
+          "code": "8.9.3"
+        },
+        {
+          "name": "Dump Trucks",
+          "code": "8.9.4"
+        },
+        {
+          "name": "Concrete Trucks",
+          "code": "8.9.5"
+        }
+      ]
+    },
+    {
+      "name": "Building Material Production",
+      "code": "8.10",
+      "subSubcategories": [
+        {
+          "name": "Crushing Plants",
+          "code": "8.10.1"
+        },
+        {
+          "name": "Brick Making Machines",
+          "code": "8.10.2"
+        },
+        {
+          "name": "Cement Plants",
+          "code": "8.10.3"
+        },
+        {
+          "name": "Asphal Plants",
+          "code": "8.10.4"
+        }
+      ]
+    },
+    {
+      "name": "Specialized Construction Equipment",
+      "code": "8.11",
+      "subSubcategories": [
+        {
+          "name": "Bridge Construction Equipment",
+          "code": "8.11.1"
+        },
+        {
+          "name": "Tunneling Equipment",
+          "code": "8.11.2"
+        },
+        {
+          "name": "Pipeline Equipment",
+          "code": "8.11.3"
+        }
+      ]
+    },
+    {
+      "name": "Utilities and Support Equipment",
+      "code": "8.12",
+      "subSubcategories": [
+        {
+          "name": "Compressors",
+          "code": "8.12.1"
+        },
+        {
+          "name": "Generators",
+          "code": "8.12.2"
+        },
+        {
+          "name": "Hand Tools",
+          "code": "8.12.3"
+        },
+        {
+          "name": "Power Tools",
+          "code": "8.12.4"
+        },
+        {
+          "name": "Presses",
+          "code": "8.12.5"
+        }
+      ]
+    },
+    {
+      "name": "Finishing and Surface Preparation",
+      "code": "8.13",
+      "subSubcategories": [
+        {
+          "name": "Plastering Machines",
+          "code": "8.13.1"
+        },
+        {
+          "name": "Grinding Machines",
+          "code": "8.13.2"
+        },
+        {
+          "name": "Polishing Machines",
+          "code": "8.13.3"
+        },
+        {
+          "name": "Painting Machines",
+          "code": "8.13.4"
+        }
+      ]
+    },
+    {
+      "name": "Cutting Technology",
+      "code": "8.14",
+      "subSubcategories": [
+        {
+          "name": "Sawing Machines",
+          "code": "8.14.1"
+        },
+        {
+          "name": "Shearing Machines",
+          "code": "8.14.2"
+        },
+        {
+          "name": "Plasma Cutters",
+          "code": "8.14.3"
+        },
+        {
+          "name": "Laser Cutters",
+          "code": "8.14.4"
+        }
+      ]
+    },
+    {
+      "name": "Other Machines",
+      "code": "8.15",
+      "subSubcategories": [
+        {
+          "name": "Miscellaneous Machines",
+          "code": "8.15.1"
+        }
+      ]
+    }
+  ]
 }

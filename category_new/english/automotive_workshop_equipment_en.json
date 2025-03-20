@@ -1,64 +1,130 @@
 {
-    "name": "Automotive Workshop Equipment",
-    "code": "20",
-    "subcategories": [
-      {
-        "name": "Vehicle Lifts",
-        "code": "20.01",
-        "subSubcategories": [
-          {"name": "Two-Post Lifts", "code": "20.01.01"},
-          {"name": "Four-Post Lifts", "code": "20.01.02"},
-          {"name": "Scissor Lifts", "code": "20.01.03"},
-          {"name": "Pit Jacks", "code": "20.01.04"}
-        ]
-      },
-      {
-        "name": "Tire Service Equipment",
-        "code": "20.02",
-        "subSubcategories": [
-          {"name": "Tire Changers", "code": "20.02.01"},
-          {"name": "Wheel Balancers", "code": "20.02.02"},
-          {"name": "Alignment Machines", "code": "20.02.03"}
-        ]
-      },
-      {
-        "name": "Diagnostic Tools",
-        "code": "20.03",
-        "subSubcategories": [
-          {"name": "OBD Scanners", "code": "20.03.01"},
-          {"name": "Exhaust Gas Analyzers", "code": "20.03.02"},
-          {"name": "Cylinder Head & Block Pressure Testing", "code": "20.03.03"}
-        ]
-      },
-      {
-        "name": "Engine Service Tools",
-        "code": "20.04",
-        "subSubcategories": [
-          {"name": "Engine Hoists", "code": "20.04.01"},
-          {"name": "Engine Stands", "code": "20.04.02"},
-          {"name": "Valve Refacer Machines", "code": "20.04.03"},
-          {"name": "Valve Seat Milling Machines", "code": "20.04.04"},
-          {"name": "Connecting Rod Cap and Face Grinders", "code": "20.04.05"}
-        ]
-      },
-      {
-        "name": "Workshop Equipment",
-        "code": "20.05",
-        "subSubcategories": [
-          {"name": "Air Compressors", "code": "20.05.01"},
-          {"name": "Lubrication Equipment", "code": "20.05.02"},
-          {"name": "Parts Washing Machines", "code": "20.05.03"},
-          {"name": "Water Pumps", "code": "20.05.04"},
-          {"name": "Workshop Furniture Sets", "code": "20.05.05"},
-          {"name": "Motorized Workshop Gantries", "code": "20.05.06"}
-        ]
-      },
-      {
-        "name": "Brake Service Equipment",
-        "code": "20.06",
-        "subSubcategories": [
-          {"name": "Brake Drum Grinding/Lathe Machines", "code": "20.06.01"}
-        ]
-      }
-    ]
+  "name": "Automotive Workshop Equipment",
+  "code": "20",
+  "subcategories": [
+    {
+      "name": "Vehicle Lifts",
+      "code": "20.1",
+      "subSubcategories": [
+        {
+          "name": "Two-Post Lifts",
+          "code": "20.1.1"
+        },
+        {
+          "name": "Four-Post Lifts",
+          "code": "20.1.2"
+        },
+        {
+          "name": "Scissor Lifts",
+          "code": "20.1.3"
+        },
+        {
+          "name": "Pit Jacks",
+          "code": "20.1.4"
+        }
+      ]
+    },
+    {
+      "name": "Tire Service Equipment",
+      "code": "20.2",
+      "subSubcategories": [
+        {
+          "name": "Tire Changers",
+          "code": "20.2.1"
+        },
+        {
+          "name": "Wheel Balancers",
+          "code": "20.2.2"
+        },
+        {
+          "name": "Alignment Machines",
+          "code": "20.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Diagnostic Tools",
+      "code": "20.3",
+      "subSubcategories": [
+        {
+          "name": "OBD Scanners",
+          "code": "20.3.1"
+        },
+        {
+          "name": "Exhaust Gas Analyzers",
+          "code": "20.3.2"
+        },
+        {
+          "name": "Cylinder Head & Block Pressure Testing",
+          "code": "20.3.3"
+        }
+      ]
+    },
+    {
+      "name": "Engine Service Tools",
+      "code": "20.4",
+      "subSubcategories": [
+        {
+          "name": "Engine Hoists",
+          "code": "20.4.1"
+        },
+        {
+          "name": "Engine Stands",
+          "code": "20.4.2"
+        },
+        {
+          "name": "Valve Refacer Machines",
+          "code": "20.4.3"
+        },
+        {
+          "name": "Valve Seat Milling Machines",
+          "code": "20.4.4"
+        },
+        {
+          "name": "Connecting Rod Cap and Face Grinders",
+          "code": "20.4.5"
+        }
+      ]
+    },
+    {
+      "name": "Workshop Equipment",
+      "code": "20.5",
+      "subSubcategories": [
+        {
+          "name": "Air Compressors",
+          "code": "20.5.1"
+        },
+        {
+          "name": "Lubrication Equipment",
+          "code": "20.5.2"
+        },
+        {
+          "name": "Parts Washing Machines",
+          "code": "20.5.3"
+        },
+        {
+          "name": "Water Pumps",
+          "code": "20.5.4"
+        },
+        {
+          "name": "Workshop Furniture Sets",
+          "code": "20.5.5"
+        },
+        {
+          "name": "Motorized Workshop Gantries",
+          "code": "20.5.6"
+        }
+      ]
+    },
+    {
+      "name": "Brake Service Equipment",
+      "code": "20.6",
+      "subSubcategories": [
+        {
+          "name": "Brake Drum Grinding/Lathe Machines",
+          "code": "20.6.1"
+        }
+      ]
+    }
+  ]
 }

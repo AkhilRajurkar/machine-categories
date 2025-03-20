@@ -1,48 +1,108 @@
 {
-    "name": "Surplus Inventory & Liquidations",
-    "code": "23",
-    "subcategories": [
+  "name": "Surplus Inventory & Liquidations",
+  "code": "23",
+  "subcategories": [
+    {
+      "name": "Surplus Machinery",
+      "code": "23.1",
+      "subSubcategories": [
         {
-            "name": "Surplus Machinery",
-            "code": "23.01",
-            "subSubcategories": [
-                {"name": "Woodworking Machinery", "code": "23.01.01"},
-                {"name": "Metalworking Machinery", "code": "23.01.02"},
-                {"name": "Printing Machinery", "code": "23.01.03"},
-                {"name": "Construction Machinery", "code": "23.01.04"},
-                {"name": "Forklift Trucks", "code": "23.01.05"},
-                {"name": "Storage & Handling Equipment", "code": "23.01.06"},
-                {"name": "Automation & Robotics", "code": "23.01.07"},
-                {"name": "Food Processing Machinery", "code": "23.01.08"},
-                {"name": "Plastics Machinery", "code": "23.01.09"},
-                {"name": "Recycling Machinery", "code": "23.01.10"}
-            ]
+          "name": "Woodworking Machinery",
+          "code": "23.1.1"
         },
         {
-            "name": "Liquidation Sales",
-            "code": "23.02",
-            "subSubcategories": []
+          "name": "Metalworking Machinery",
+          "code": "23.1.2"
         },
         {
-            "name": "Plant Closures",
-            "code": "23.03",
-            "subSubcategories": []
+          "name": "Printing Machinery",
+          "code": "23.1.3"
         },
         {
-            "name": "Used Parts & Components",
-            "code": "23.04",
-            "subSubcategories": [
-                {"name": "Woodworking Parts", "code": "23.04.01"},
-                {"name": "Metalworking Parts", "code": "23.04.02"},
-                {"name": "Printing Parts", "code": "23.04.03"},
-                {"name": "Construction Parts", "code": "23.04.04"},
-                {"name": "Forklift Parts", "code": "23.04.05"},
-                {"name": "Storage & Handling Parts", "code": "23.04.06"},
-                {"name": "Automation & Robotics Parts", "code": "23.04.07"},
-                {"name": "Food Processing Parts", "code": "23.04.08"},
-                {"name": "Plastics Parts", "code": "23.04.09"},
-                {"name": "Recycling Parts", "code": "23.04.10"}
-            ]
+          "name": "Construction Machinery",
+          "code": "23.1.4"
+        },
+        {
+          "name": "Forklift Trucks",
+          "code": "23.1.5"
+        },
+        {
+          "name": "Storage & Handling Equipment",
+          "code": "23.1.6"
+        },
+        {
+          "name": "Automation & Robotics",
+          "code": "23.1.7"
+        },
+        {
+          "name": "Food Processing Machinery",
+          "code": "23.1.8"
+        },
+        {
+          "name": "Plastics Machinery",
+          "code": "23.1.9"
+        },
+        {
+          "name": "Recycling Machinery",
+          "code": "23.1.10"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Liquidation Sales",
+      "code": "23.2",
+      "subSubcategories": []
+    },
+    {
+      "name": "Plant Closures",
+      "code": "23.3",
+      "subSubcategories": []
+    },
+    {
+      "name": "Used Parts & Components",
+      "code": "23.4",
+      "subSubcategories": [
+        {
+          "name": "Woodworking Parts",
+          "code": "23.4.1"
+        },
+        {
+          "name": "Metalworking Parts",
+          "code": "23.4.2"
+        },
+        {
+          "name": "Printing Parts",
+          "code": "23.4.3"
+        },
+        {
+          "name": "Construction Parts",
+          "code": "23.4.4"
+        },
+        {
+          "name": "Forklift Parts",
+          "code": "23.4.5"
+        },
+        {
+          "name": "Storage & Handling Parts",
+          "code": "23.4.6"
+        },
+        {
+          "name": "Automation & Robotics Parts",
+          "code": "23.4.7"
+        },
+        {
+          "name": "Food Processing Parts",
+          "code": "23.4.8"
+        },
+        {
+          "name": "Plastics Parts",
+          "code": "23.4.9"
+        },
+        {
+          "name": "Recycling Parts",
+          "code": "23.4.10"
+        }
+      ]
+    }
+  ]
 }

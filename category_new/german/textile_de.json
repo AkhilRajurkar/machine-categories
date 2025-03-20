@@ -1,97 +1,169 @@
 {
-    "name": "Textilmaschine",
-    "code": "04",
-    "subcategories": [
-      {
-        "name": "Spinnmaschine",
-        "code": "04.01",
-        "subSubcategories": [
-          { "name": "Ringspinnmaschine", "code": "04.01.01" },
-          { "name": "Open-End-Spinnmaschine", "code": "04.01.02" },
-          { "name": "Rotorsspinnmaschine", "code": "04.01.03" }
-        ]
-      },
-      {
-        "name": "Webmaschine",
-        "code": "04.02",
-        "subSubcategories": [
-          { "name": "Luftdüsenwebstüle", "code": "04.02.01" },
-          { "name": "Greiferwebstüle", "code": "04.02.02" },
-          { "name": "Projektilwebstüle", "code": "04.02.03" }
-        ]
-      },
-      {
-        "name": "Strickmaschine",
-        "code": "04.03",
-        "subSubcategories": [
-          { "name": "Kettenwirkmaschine", "code": "04.03.01" },
-          { "name": "Rundstrickmaschine", "code": "04.03.02" },
-          { "name": "Flachstrickmaschine", "code": "04.03.03" }
-        ]
-      },
-      {
-        "name": "Färbe- und Veredelungsmaschine",
-        "code": "04.04",
-        "subSubcategories": [
-          { "name": "Stoffärbemaschine", "code": "04.04.01" },
-          { "name": "Garnfärbemaschine", "code": "04.04.02" },
-          { "name": "Druckmaschine", "code": "04.04.03" },
-          { "name": "Kalander", "code": "04.04.04" },
-          { "name": "Sanforisiermaschine", "code": "04.04.05" },
-          { "name": "Spannrahmen", "code": "04.04.06" }
-        ]
-      },
-      {
-        "name": "Vliesstoffmaschine",
-        "code": "04.05",
-        "subSubcategories": [
-          { "name": "Spunbond-Systeme", "code": "04.05.01" },
-          { "name": "Meltblown-Systeme", "code": "04.05.02" }
-        ]
-      },
-      {
-        "name": "Näh- und Bekleidungsmaschine",
-        "code": "04.06",
-        "subSubcategories": [
-          { "name": "Geradstichmaschine", "code": "04.06.01" },
-          { "name": "Overlockmaschine", "code": "04.06.02" },
-          { "name": "Gerade Messerschneidemaschine", "code": "04.06.03" },
-          { "name": "Bandmesser-Schneidemaschine", "code": "04.06.04" },
-          { "name": "Stickmaschine", "code": "04.06.05" },
-          { "name": "Steppmaschine", "code": "04.06.06" }
-        ]
-      },
-      {
-        "name": "Textilprüfgerät",
-        "code": "04.07",
-        "subSubcategories": []
-      },
-      {
-        "name": "Wickel- und Zwirnmaschine",
-        "code": "04.08",
-        "subSubcategories": []
-      },
-      {
-        "name": "Bügelmaschine",
-        "code": "04.09",
-        "subSubcategories": []
-      },
-      {
-        "name": "Texturiermaschine",
-        "code": "04.10",
-        "subSubcategories": []
-      },
-      {
-        "name": "Textilreinigungsmaschine",
-        "code": "04.11",
-        "subSubcategories": []
-      },
-      {
-        "name": "Sonstige Textilmaschine",
-        "code": "04.12",
-        "subSubcategories": [
-          { "name": "Heissluft-Schweissmaschine", "code": "04.12.01" }
-        ]
-      }
-    ]
+  "name": "Textilmaschine",
+  "code": "4",
+  "subcategories": [
+    {
+      "name": "Spinnmaschine",
+      "code": "4.1",
+      "subSubcategories": [
+        {
+          "name": "Ringspinnmaschine",
+          "code": "4.1.1"
+        },
+        {
+          "name": "Open-End-Spinnmaschine",
+          "code": "4.1.2"
+        },
+        {
+          "name": "Rotorsspinnmaschine",
+          "code": "4.1.3"
+        }
+      ]
+    },
+    {
+      "name": "Webmaschine",
+      "code": "4.2",
+      "subSubcategories": [
+        {
+          "name": "Luftdüsenwebstüle",
+          "code": "4.2.1"
+        },
+        {
+          "name": "Greiferwebstüle",
+          "code": "4.2.2"
+        },
+        {
+          "name": "Projektilwebstüle",
+          "code": "4.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Strickmaschine",
+      "code": "4.3",
+      "subSubcategories": [
+        {
+          "name": "Kettenwirkmaschine",
+          "code": "4.3.1"
+        },
+        {
+          "name": "Rundstrickmaschine",
+          "code": "4.3.2"
+        },
+        {
+          "name": "Flachstrickmaschine",
+          "code": "4.3.3"
+        }
+      ]
+    },
+    {
+      "name": "Färbe- und Veredelungsmaschine",
+      "code": "4.4",
+      "subSubcategories": [
+        {
+          "name": "Stoffärbemaschine",
+          "code": "4.4.1"
+        },
+        {
+          "name": "Garnfärbemaschine",
+          "code": "4.4.2"
+        },
+        {
+          "name": "Druckmaschine",
+          "code": "4.4.3"
+        },
+        {
+          "name": "Kalander",
+          "code": "4.4.4"
+        },
+        {
+          "name": "Sanforisiermaschine",
+          "code": "4.4.5"
+        },
+        {
+          "name": "Spannrahmen",
+          "code": "4.4.6"
+        }
+      ]
+    },
+    {
+      "name": "Vliesstoffmaschine",
+      "code": "4.5",
+      "subSubcategories": [
+        {
+          "name": "Spunbond-Systeme",
+          "code": "4.5.1"
+        },
+        {
+          "name": "Meltblown-Systeme",
+          "code": "4.5.2"
+        }
+      ]
+    },
+    {
+      "name": "Näh- und Bekleidungsmaschine",
+      "code": "4.6",
+      "subSubcategories": [
+        {
+          "name": "Geradstichmaschine",
+          "code": "4.6.1"
+        },
+        {
+          "name": "Overlockmaschine",
+          "code": "4.6.2"
+        },
+        {
+          "name": "Gerade Messerschneidemaschine",
+          "code": "4.6.3"
+        },
+        {
+          "name": "Bandmesser-Schneidemaschine",
+          "code": "4.6.4"
+        },
+        {
+          "name": "Stickmaschine",
+          "code": "4.6.5"
+        },
+        {
+          "name": "Steppmaschine",
+          "code": "4.6.6"
+        }
+      ]
+    },
+    {
+      "name": "Textilprüfgerät",
+      "code": "4.7",
+      "subSubcategories": []
+    },
+    {
+      "name": "Wickel- und Zwirnmaschine",
+      "code": "4.8",
+      "subSubcategories": []
+    },
+    {
+      "name": "Bügelmaschine",
+      "code": "4.9",
+      "subSubcategories": []
+    },
+    {
+      "name": "Texturiermaschine",
+      "code": "4.10",
+      "subSubcategories": []
+    },
+    {
+      "name": "Textilreinigungsmaschine",
+      "code": "4.11",
+      "subSubcategories": []
+    },
+    {
+      "name": "Sonstige Textilmaschine",
+      "code": "4.12",
+      "subSubcategories": [
+        {
+          "name": "Heissluft-Schweissmaschine",
+          "code": "4.12.1"
+        }
+      ]
+    }
+  ]
 }

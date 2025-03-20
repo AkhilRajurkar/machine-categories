@@ -1,0 +1,200 @@
+{
+  "name": "Materialhandhabungs- und Lagersysteme",
+  "code": "10",
+  "subcategories": [
+    {
+      "name": "Lager- und Handhabungsausrüstung",
+      "code": "10.1",
+      "subSubcategories": [
+        {
+          "name": "Palettenregale",
+          "code": "10.1.1"
+        },
+        {
+          "name": "Durchlaufregale",
+          "code": "10.1.2"
+        },
+        {
+          "name": "Hochregallager",
+          "code": "10.1.3"
+        },
+        {
+          "name": "Regalsysteme",
+          "code": "10.1.4"
+        },
+        {
+          "name": "Container",
+          "code": "10.1.5"
+        },
+        {
+          "name": "Paletten",
+          "code": "10.1.6"
+        },
+        {
+          "name": "Stapelboxen",
+          "code": "10.1.7"
+        },
+        {
+          "name": "Sonstige Lagerausrüstung",
+          "code": "10.1.99"
+        }
+      ]
+    },
+    {
+      "name": "Industriefahrzeuge",
+      "code": "10.2",
+      "subSubcategories": [
+        {
+          "name": "Gabelstapler",
+          "code": "10.2.1",
+          "subSubcategories": [
+            {
+              "name": "Gegengewichtsstapler",
+              "code": "10.02.01.01"
+            },
+            {
+              "name": "Schubmaststapler",
+              "code": "10.02.01.02"
+            },
+            {
+              "name": "Kommissionierer",
+              "code": "10.02.01.03"
+            }
+          ]
+        },
+        {
+          "name": "Hubwagen",
+          "code": "10.2.2"
+        },
+        {
+          "name": "Trolleys",
+          "code": "10.2.3"
+        },
+        {
+          "name": "Sonstige Industriefahrzeuge",
+          "code": "10.2.99"
+        }
+      ]
+    },
+    {
+      "name": "Schüttguthandhabungsausrüstung",
+      "code": "10.3",
+      "subSubcategories": [
+        {
+          "name": "Förderanlagen",
+          "code": "10.3.1",
+          "subSubcategories": [
+            {
+              "name": "Bandförderer",
+              "code": "10.03.01.01"
+            },
+            {
+              "name": "Rollenförderer",
+              "code": "10.03.01.02"
+            },
+            {
+              "name": "Schneckenförderer",
+              "code": "10.03.01.03"
+            },
+            {
+              "name": "Schüttgutförderer",
+              "code": "10.03.01.04"
+            }
+          ]
+        },
+        {
+          "name": "Krane und Hebezeuge",
+          "code": "10.3.2",
+          "subSubcategories": [
+            {
+              "name": "Brückenkrane",
+              "code": "10.03.02.01"
+            },
+            {
+              "name": "Portalkrane",
+              "code": "10.03.02.02"
+            },
+            {
+              "name": "Schwenkkrane",
+              "code": "10.03.02.03"
+            },
+            {
+              "name": "Kettenzüge",
+              "code": "10.03.02.04"
+            }
+          ]
+        },
+        {
+          "name": "Hebeausrüstung",
+          "code": "10.3.3",
+          "subSubcategories": [
+            {
+              "name": "Scherenhubtische",
+              "code": "10.03.03.01"
+            },
+            {
+              "name": "Hebewagen",
+              "code": "10.03.03.02"
+            }
+          ]
+        },
+        {
+          "name": "Sonstige Schüttguthandhabungsausrüstung",
+          "code": "10.3.99"
+        }
+      ]
+    },
+    {
+      "name": "Ingenieursysteme",
+      "code": "10.4",
+      "subSubcategories": [
+        {
+          "name": "Automatisierte Lager- und Entnahmesysteme (AS/RS)",
+          "code": "10.4.1"
+        },
+        {
+          "name": "Fördersysteme",
+          "code": "10.4.2"
+        },
+        {
+          "name": "Robotiksysteme",
+          "code": "10.4.3"
+        },
+        {
+          "name": "Sonstige Ingenieursysteme",
+          "code": "10.4.99"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Ausrüstung",
+      "code": "10.99",
+      "subSubcategories": [
+        {
+          "name": "Pumpen",
+          "code": "10.99.1"
+        },
+        {
+          "name": "Vakuumeinheiten",
+          "code": "10.99.2"
+        },
+        {
+          "name": "Hallenbau",
+          "code": "10.99.3"
+        },
+        {
+          "name": "Globale Spannsysteme",
+          "code": "10.99.4"
+        },
+        {
+          "name": "Verpackungs- und Umreifungsausrüstung",
+          "code": "10.99.5"
+        },
+        {
+          "name": "Sonstige diverse Ausrüstung",
+          "code": "10.99.99"
+        }
+      ]
+    }
+  ]
+}

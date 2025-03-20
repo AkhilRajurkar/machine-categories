@@ -1,64 +1,130 @@
 {
-    "name": "Autowerkstattausrüstung",
-    "code": "20",
-    "subcategories": [
-      {
-        "name": "Fahrzeugheber",
-        "code": "20.01",
-        "subSubcategories": [
-          {"name": "Zweisäulenheber", "code": "20.01.01"},
-          {"name": "Viersäulenheber", "code": "20.01.02"},
-          {"name": "Scherenheber", "code": "20.01.03"},
-          {"name": "Grubenheber", "code": "20.01.04"}
-        ]
-      },
-      {
-        "name": "Reifenservicegeräte",
-        "code": "20.02",
-        "subSubcategories": [
-          {"name": "Reifenwechsler", "code": "20.02.01"},
-          {"name": "Radwaagen", "code": "20.02.02"},
-          {"name": "Ausrichtungsgeräte", "code": "20.02.03"}
-        ]
-      },
-      {
-        "name": "Diagnosegeräte",
-        "code": "20.03",
-        "subSubcategories": [
-          {"name": "OBD-Scanner", "code": "20.03.01"},
-          {"name": "Abgasanalysatoren", "code": "20.03.02"},
-          {"name": "Zylinderkopf- und Motorenblock-Drucktestgeräte", "code": "20.03.03"}
-        ]
-      },
-      {
-        "name": "Motorenservicegeräte",
-        "code": "20.04",
-        "subSubcategories": [
-          {"name": "Motorenheber", "code": "20.04.01"},
-          {"name": "Motorenstände", "code": "20.04.02"},
-          {"name": "Ventilsitzschleifmaschinen", "code": "20.04.03"},
-          {"name": "Ventilsitzfräsmaschinen", "code": "20.04.04"},
-          {"name": "Pleuelkappen- und -stirnschleifmaschinen", "code": "20.04.05"}
-        ]
-      },
-      {
-        "name": "Werkstattausrüstung",
-        "code": "20.05",
-        "subSubcategories": [
-          {"name": "Kompressoren", "code": "20.05.01"},
-          {"name": "Schmiergeräte", "code": "20.05.02"},
-          {"name": "Teilewaschmaschinen", "code": "20.05.03"},
-          {"name": "Wasspumpen", "code": "20.05.04"},
-          {"name": "Werkstattmöbelsets", "code": "20.05.05"},
-          {"name": "Motorisierte Werkstattkräne", "code": "20.05.06"}
-        ]
-      },
-      {
-        "name": "Bremsenservicegeräte",
-        "code": "20.06",
-        "subSubcategories": [
-          {"name": "Bremstrommelschleif-/Drehmaschinen", "code": "20.06.01"}
-        ]
-      }
-    ]
-  }
+  "name": "Autowerkstattausrüstung",
+  "code": "20",
+  "subcategories": [
+    {
+      "name": "Fahrzeugheber",
+      "code": "20.1",
+      "subSubcategories": [
+        {
+          "name": "Zweisäulenheber",
+          "code": "20.1.1"
+        },
+        {
+          "name": "Viersäulenheber",
+          "code": "20.1.2"
+        },
+        {
+          "name": "Scherenheber",
+          "code": "20.1.3"
+        },
+        {
+          "name": "Grubenheber",
+          "code": "20.1.4"
+        }
+      ]
+    },
+    {
+      "name": "Reifenservicegeräte",
+      "code": "20.2",
+      "subSubcategories": [
+        {
+          "name": "Reifenwechsler",
+          "code": "20.2.1"
+        },
+        {
+          "name": "Radwaagen",
+          "code": "20.2.2"
+        },
+        {
+          "name": "Ausrichtungsgeräte",
+          "code": "20.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Diagnosegeräte",
+      "code": "20.3",
+      "subSubcategories": [
+        {
+          "name": "OBD-Scanner",
+          "code": "20.3.1"
+        },
+        {
+          "name": "Abgasanalysatoren",
+          "code": "20.3.2"
+        },
+        {
+          "name": "Zylinderkopf- und Motorenblock-Drucktestgeräte",
+          "code": "20.3.3"
+        }
+      ]
+    },
+    {
+      "name": "Motorenservicegeräte",
+      "code": "20.4",
+      "subSubcategories": [
+        {
+          "name": "Motorenheber",
+          "code": "20.4.1"
+        },
+        {
+          "name": "Motorenstände",
+          "code": "20.4.2"
+        },
+        {
+          "name": "Ventilsitzschleifmaschinen",
+          "code": "20.4.3"
+        },
+        {
+          "name": "Ventilsitzfräsmaschinen",
+          "code": "20.4.4"
+        },
+        {
+          "name": "Pleuelkappen- und -stirnschleifmaschinen",
+          "code": "20.4.5"
+        }
+      ]
+    },
+    {
+      "name": "Werkstattausrüstung",
+      "code": "20.5",
+      "subSubcategories": [
+        {
+          "name": "Kompressoren",
+          "code": "20.5.1"
+        },
+        {
+          "name": "Schmiergeräte",
+          "code": "20.5.2"
+        },
+        {
+          "name": "Teilewaschmaschinen",
+          "code": "20.5.3"
+        },
+        {
+          "name": "Wasspumpen",
+          "code": "20.5.4"
+        },
+        {
+          "name": "Werkstattmöbelsets",
+          "code": "20.5.5"
+        },
+        {
+          "name": "Motorisierte Werkstattkräne",
+          "code": "20.5.6"
+        }
+      ]
+    },
+    {
+      "name": "Bremsenservicegeräte",
+      "code": "20.6",
+      "subSubcategories": [
+        {
+          "name": "Bremstrommelschleif-/Drehmaschinen",
+          "code": "20.6.1"
+        }
+      ]
+    }
+  ]
+}

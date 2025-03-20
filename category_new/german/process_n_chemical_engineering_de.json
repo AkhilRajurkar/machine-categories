@@ -1,116 +1,215 @@
 {
-    "name": "Verfahrenstechnik & Chemieanlagen",
-    "code": "12",
-    "subcategories": [
+  "name": "Verfahrenstechnik & Chemieanlagen",
+  "code": "12",
+  "subcategories": [
+    {
+      "name": "Mischer & Rührwerke",
+      "code": "12.1",
+      "subSubcategories": [
         {
-            "name": "Mischer & Rührwerke",
-            "code": "12.01",
-            "subSubcategories": [
-                {"name": "Bandmischer", "code": "12.01.01"},
-                {"name": "Planetenmischer", "code": "12.01.02"},
-                {"name": "Rührwerke", "code": "12.01.03"}
-            ]
+          "name": "Bandmischer",
+          "code": "12.1.1"
         },
         {
-            "name": "Reaktoren & Behälter",
-            "code": "12.02",
-            "subSubcategories": [
-                {"name": "Batch-Reaktoren", "code": "12.02.01"},
-                {"name": "Kontinuierliche Reaktoren", "code": "12.02.02"},
-                {"name": "Lagerbehälter", "code": "12.02.03"}
-            ]
+          "name": "Planetenmischer",
+          "code": "12.1.2"
         },
         {
-            "name": "Wärmeaustauscher",
-            "code": "12.03",
-            "subSubcategories": [
-                {"name": "Rohr- & Rohrbündelwärmeaustauscher", "code": "12.03.01"},
-                {"name": "Plattenwärmeaustauscher", "code": "12.03.02"}
-            ]
-        },
-        {
-            "name": "Trenntechnik",
-            "code": "12.04",
-            "subSubcategories": [
-                {"name": "Zentrifugen", "code": "12.04.01"},
-                {"name": "Filter", "code": "12.04.02"},
-                {"name": "Destillationskolonnen", "code": "12.04.03"},
-                {"name": "Ionenaustauscher", "code": "12.04.04"}
-            ]
-        },
-        {
-            "name": "Pumpen",
-            "code": "12.05",
-            "subSubcategories": [
-                {"name": "Zentrifugalpumpen", "code": "12.05.01"},
-                {"name": "Verdrängerpumpen", "code": "12.05.02"}
-            ]
-        },
-        {
-            "name": "Armaturen & Fittings",
-            "code": "12.06",
-            "subSubcategories": []
-        },
-        {
-            "name": "Vakuumtechnik",
-            "code": "12.07",
-            "subSubcategories": [
-                {"name": "Drehschieberpumpen", "code": "12.07.01"},
-                {"name": "Membranpumpen", "code": "12.07.02"},
-                {"name": "Turbomolekularpumpen", "code": "12.07.03"},
-                {"name": "Vakuumkammern", "code": "12.07.04"},
-                {"name": "Vakuumöfen", "code": "12.07.05"},
-                {"name": "Vakuummanometer", "code": "12.07.06"},
-                {"name": "Vakuumevaporatoren", "code": "12.07.07"}
-            ]
-        },
-        {
-            "name": "Kompressoren",
-            "code": "12.08",
-            "subSubcategories": [
-                {"name": "Kolbenkompressoren", "code": "12.08.01"},
-                {"name": "Rotationskompressoren", "code": "12.08.02"},
-                {"name": "Gebläse", "code": "12.08.03"}
-            ]
-        },
-        {
-            "name": "Zerkleinerungsanlagen",
-            "code": "12.09",
-            "subSubcategories": [
-                {"name": "Mühlen", "code": "12.09.01"}
-            ]
-        },
-        {
-            "name": "Pressen",
-            "code": "12.10",
-            "subSubcategories": [
-                {"name": "Hydraulische Pressen", "code": "12.10.01"},
-                {"name": "Mechanische Pressen", "code": "12.10.02"}
-            ]
-        },
-        {
-            "name": "Steuerungssysteme",
-            "code": "12.11",
-            "subSubcategories": [
-                {"name": "PLC-Systeme", "code": "12.11.01"},
-                {"name": "DCS", "code": "12.11.02"}
-            ]
-        },
-        {
-            "name": "Sonstige Verarbeitungstechnik",
-            "code": "12.12",
-            "subSubcategories": [
-                {"name": "Wasseraufbereitungsanlagen", "code": "12.12.01"},
-                {"name": "Papierherstellungsanlagen", "code": "12.12.02"}
-            ]
-        },
-        {
-            "name": "Trockner",
-            "code": "12.13",
-            "subSubcategories": [
-                {"name": "Schachttrockner", "code": "12.13.01"},
-                {"name": "Wirbelschichttrockner", "code": "12.13.02"}
-            ]
+          "name": "Rührwerke",
+          "code": "12.1.3"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Reaktoren & Behälter",
+      "code": "12.2",
+      "subSubcategories": [
+        {
+          "name": "Batch-Reaktoren",
+          "code": "12.2.1"
+        },
+        {
+          "name": "Kontinuierliche Reaktoren",
+          "code": "12.2.2"
+        },
+        {
+          "name": "Lagerbehälter",
+          "code": "12.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Wärmeaustauscher",
+      "code": "12.3",
+      "subSubcategories": [
+        {
+          "name": "Rohr- & Rohrbündelwärmeaustauscher",
+          "code": "12.3.1"
+        },
+        {
+          "name": "Plattenwärmeaustauscher",
+          "code": "12.3.2"
+        }
+      ]
+    },
+    {
+      "name": "Trenntechnik",
+      "code": "12.4",
+      "subSubcategories": [
+        {
+          "name": "Zentrifugen",
+          "code": "12.4.1"
+        },
+        {
+          "name": "Filter",
+          "code": "12.4.2"
+        },
+        {
+          "name": "Destillationskolonnen",
+          "code": "12.4.3"
+        },
+        {
+          "name": "Ionenaustauscher",
+          "code": "12.4.4"
+        }
+      ]
+    },
+    {
+      "name": "Pumpen",
+      "code": "12.5",
+      "subSubcategories": [
+        {
+          "name": "Zentrifugalpumpen",
+          "code": "12.5.1"
+        },
+        {
+          "name": "Verdrängerpumpen",
+          "code": "12.5.2"
+        }
+      ]
+    },
+    {
+      "name": "Armaturen & Fittings",
+      "code": "12.6",
+      "subSubcategories": []
+    },
+    {
+      "name": "Vakuumtechnik",
+      "code": "12.7",
+      "subSubcategories": [
+        {
+          "name": "Drehschieberpumpen",
+          "code": "12.7.1"
+        },
+        {
+          "name": "Membranpumpen",
+          "code": "12.7.2"
+        },
+        {
+          "name": "Turbomolekularpumpen",
+          "code": "12.7.3"
+        },
+        {
+          "name": "Vakuumkammern",
+          "code": "12.7.4"
+        },
+        {
+          "name": "Vakuumöfen",
+          "code": "12.7.5"
+        },
+        {
+          "name": "Vakuummanometer",
+          "code": "12.7.6"
+        },
+        {
+          "name": "Vakuumevaporatoren",
+          "code": "12.7.7"
+        }
+      ]
+    },
+    {
+      "name": "Kompressoren",
+      "code": "12.8",
+      "subSubcategories": [
+        {
+          "name": "Kolbenkompressoren",
+          "code": "12.8.1"
+        },
+        {
+          "name": "Rotationskompressoren",
+          "code": "12.8.2"
+        },
+        {
+          "name": "Gebläse",
+          "code": "12.8.3"
+        }
+      ]
+    },
+    {
+      "name": "Zerkleinerungsanlagen",
+      "code": "12.9",
+      "subSubcategories": [
+        {
+          "name": "Mühlen",
+          "code": "12.9.1"
+        }
+      ]
+    },
+    {
+      "name": "Pressen",
+      "code": "12.10",
+      "subSubcategories": [
+        {
+          "name": "Hydraulische Pressen",
+          "code": "12.10.1"
+        },
+        {
+          "name": "Mechanische Pressen",
+          "code": "12.10.2"
+        }
+      ]
+    },
+    {
+      "name": "Steuerungssysteme",
+      "code": "12.11",
+      "subSubcategories": [
+        {
+          "name": "PLC-Systeme",
+          "code": "12.11.1"
+        },
+        {
+          "name": "DCS",
+          "code": "12.11.2"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Verarbeitungstechnik",
+      "code": "12.12",
+      "subSubcategories": [
+        {
+          "name": "Wasseraufbereitungsanlagen",
+          "code": "12.12.1"
+        },
+        {
+          "name": "Papierherstellungsanlagen",
+          "code": "12.12.2"
+        }
+      ]
+    },
+    {
+      "name": "Trockner",
+      "code": "12.13",
+      "subSubcategories": [
+        {
+          "name": "Schachttrockner",
+          "code": "12.13.1"
+        },
+        {
+          "name": "Wirbelschichttrockner",
+          "code": "12.13.2"
+        }
+      ]
+    }
+  ]
 }

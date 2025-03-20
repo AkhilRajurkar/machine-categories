@@ -1,148 +1,250 @@
 {
-    "name": "Plastic & Rubber Machinery",
-    "code": "03",
-    "subcategories": [
-      {
-        "name": "Injection Molding Machines",
-        "code": "03.01",
-        "subSubcategories": [
-          {"name": "Horizontal Injection Molders", "code": "03.01.01"},
-          {"name": "Vertical Injection Molders", "code": "03.01.02"},
-          {"name": "All-Electric Injection Molders", "code": "03.01.03"}
-        ]
-      },
-      {
-        "name": "Extrusion Machines",
-        "code": "03.02",
-        "subSubcategories": [
-          {"name": "Pipe Extruders", "code": "03.02.01"},
-          {"name": "Profile Extruders", "code": "03.02.02"},
-          {"name": "Film Extruders", "code": "03.02.03"},
-          {"name": "Rubber Extruders", "code": "03.02.04"}
-        ]
-      },
-      {
-        "name": "Blow Molding Machines",
-        "code": "03.03",
-        "subSubcategories": [
-          {"name": "Extrusion Blow Molders", "code": "03.03.01"},
-          {"name": "Injection Blow Molders", "code": "03.03.02"},
-          {"name": "Stretch Blow Molders", "code": "03.03.03"}
-        ]
-      },
-      {
-        "name": "Window Production Machinery",
-        "code": "03.04",
-        "subSubcategories": []
-      },
-      {
-        "name": "Mills",
-        "code": "03.05",
-        "subSubcategories": [
-          {"name": "Calenders", "code": "03.05.01"},
-          {"name": "Rolling Mills", "code": "03.05.02"},
-          {"name": "Mixers", "code": "03.05.03"}
-        ]
-      },
-      {
-        "name": "Heating & Cooling Units",
-        "code": "03.06",
-        "subSubcategories": [
-          {"name": "Heaters", "code": "03.06.01"},
-          {"name": "Coolers", "code": "03.06.02"},
-          {"name": "Dryers", "code": "03.06.03"}
-        ]
-      },
-      {
-        "name": "Spare Parts, Tools, Devices",
-        "code": "03.07",
-        "subSubcategories": [
-          {"name": "Molds", "code": "03.07.01"},
-          {"name": "Tools", "code": "03.07.02"}
-        ]
-      },
-      {
-        "name": "Peripheral Devices",
-        "code": "03.08",
-        "subSubcategories": [
-          {"name": "Handling Equipment", "code": "03.08.01"},
-          {"name": "Robots", "code": "03.08.02"}
-        ]
-      },
-      {
-        "name": "Polyurethane Processing Machinery",
-        "code": "03.09",
-        "subSubcategories": []
-      },
-      {
-        "name": "Presses",
-        "code": "03.10",
-        "subSubcategories": [
-          {"name": "Hydraulic Presses", "code": "03.10.01"},
-          {"name": "Mechanical Presses", "code": "03.10.02"}
-        ]
-      },
-      {
-        "name": "Printing Machinery",
-        "code": "03.11",
-        "subSubcategories": []
-      },
-      {
-        "name": "Processing- and Subsequent Machines",
-        "code": "03.12",
-        "subSubcategories": [
-          {"name": "Film Processing Machines", "code": "03.12.01"},
-          {"name": "Finishing", "code": "03.12.02"},
-          {"name": "Decorating", "code": "03.12.03"},
-          {"name": "Winders", "code": "03.12.04"}
-        ]
-      },
-      {
-        "name": "Quality Assurance Equipment",
-        "code": "03.13",
-        "subSubcategories": [
-          {"name": "Measurement Equipment", "code": "03.13.01"},
-          {"name": "Testing Equipment", "code": "03.13.02"}
-        ]
-      },
-      {
-        "name": "Reprocessing & Recycling Equipment",
-        "code": "03.14",
-        "subSubcategories": [
-          {"name": "Agglomerators", "code": "03.14.01"},
-          {"name": "Granulators", "code": "03.14.02"}
-        ]
-      },
-      {
-        "name": "Rubber Processing Machinery",
-        "code": "03.15",
-        "subSubcategories": []
-      },
-      {
-        "name": "Thermoforming Machinery",
-        "code": "03.16",
-        "subSubcategories": [
-          {"name": "Vacuum Forming Machines", "code": "03.16.01"},
-          {"name": "Deep Drawing Machines", "code": "03.16.02"}
-        ]
-      },
-      {
-        "name": "Welding Machinery",
-        "code": "03.17",
-        "subSubcategories": []
-      },
-      {
-        "name": "Miscellaneous Equipment",
-        "code": "03.18",
-        "subSubcategories": []
-      },
-      {
-        "name": "Other Plastic Processing Machinery",
-        "code": "03.19",
-        "subSubcategories": [
-          {"name": "Complete Production Lines", "code": "03.19.01"},
-          {"name": "Other Machines", "code": "03.19.02"}
-        ]
-      }
-    ]
+  "name": "Plastic & Rubber Machinery",
+  "code": "3",
+  "subcategories": [
+    {
+      "name": "Injection Molding Machines",
+      "code": "3.1",
+      "subSubcategories": [
+        {
+          "name": "Horizontal Injection Molders",
+          "code": "3.1.1"
+        },
+        {
+          "name": "Vertical Injection Molders",
+          "code": "3.1.2"
+        },
+        {
+          "name": "All-Electric Injection Molders",
+          "code": "3.1.3"
+        }
+      ]
+    },
+    {
+      "name": "Extrusion Machines",
+      "code": "3.2",
+      "subSubcategories": [
+        {
+          "name": "Pipe Extruders",
+          "code": "3.2.1"
+        },
+        {
+          "name": "Profile Extruders",
+          "code": "3.2.2"
+        },
+        {
+          "name": "Film Extruders",
+          "code": "3.2.3"
+        },
+        {
+          "name": "Rubber Extruders",
+          "code": "3.2.4"
+        }
+      ]
+    },
+    {
+      "name": "Blow Molding Machines",
+      "code": "3.3",
+      "subSubcategories": [
+        {
+          "name": "Extrusion Blow Molders",
+          "code": "3.3.1"
+        },
+        {
+          "name": "Injection Blow Molders",
+          "code": "3.3.2"
+        },
+        {
+          "name": "Stretch Blow Molders",
+          "code": "3.3.3"
+        }
+      ]
+    },
+    {
+      "name": "Window Production Machinery",
+      "code": "3.4",
+      "subSubcategories": []
+    },
+    {
+      "name": "Mills",
+      "code": "3.5",
+      "subSubcategories": [
+        {
+          "name": "Calenders",
+          "code": "3.5.1"
+        },
+        {
+          "name": "Rolling Mills",
+          "code": "3.5.2"
+        },
+        {
+          "name": "Mixers",
+          "code": "3.5.3"
+        }
+      ]
+    },
+    {
+      "name": "Heating & Cooling Units",
+      "code": "3.6",
+      "subSubcategories": [
+        {
+          "name": "Heaters",
+          "code": "3.6.1"
+        },
+        {
+          "name": "Coolers",
+          "code": "3.6.2"
+        },
+        {
+          "name": "Dryers",
+          "code": "3.6.3"
+        }
+      ]
+    },
+    {
+      "name": "Spare Parts, Tools, Devices",
+      "code": "3.7",
+      "subSubcategories": [
+        {
+          "name": "Molds",
+          "code": "3.7.1"
+        },
+        {
+          "name": "Tools",
+          "code": "3.7.2"
+        }
+      ]
+    },
+    {
+      "name": "Peripheral Devices",
+      "code": "3.8",
+      "subSubcategories": [
+        {
+          "name": "Handling Equipment",
+          "code": "3.8.1"
+        },
+        {
+          "name": "Robots",
+          "code": "3.8.2"
+        }
+      ]
+    },
+    {
+      "name": "Polyurethane Processing Machinery",
+      "code": "3.9",
+      "subSubcategories": []
+    },
+    {
+      "name": "Presses",
+      "code": "3.10",
+      "subSubcategories": [
+        {
+          "name": "Hydraulic Presses",
+          "code": "3.10.1"
+        },
+        {
+          "name": "Mechanical Presses",
+          "code": "3.10.2"
+        }
+      ]
+    },
+    {
+      "name": "Printing Machinery",
+      "code": "3.11",
+      "subSubcategories": []
+    },
+    {
+      "name": "Processing- and Subsequent Machines",
+      "code": "3.12",
+      "subSubcategories": [
+        {
+          "name": "Film Processing Machines",
+          "code": "3.12.1"
+        },
+        {
+          "name": "Finishing",
+          "code": "3.12.2"
+        },
+        {
+          "name": "Decorating",
+          "code": "3.12.3"
+        },
+        {
+          "name": "Winders",
+          "code": "3.12.4"
+        }
+      ]
+    },
+    {
+      "name": "Quality Assurance Equipment",
+      "code": "3.13",
+      "subSubcategories": [
+        {
+          "name": "Measurement Equipment",
+          "code": "3.13.1"
+        },
+        {
+          "name": "Testing Equipment",
+          "code": "3.13.2"
+        }
+      ]
+    },
+    {
+      "name": "Reprocessing & Recycling Equipment",
+      "code": "3.14",
+      "subSubcategories": [
+        {
+          "name": "Agglomerators",
+          "code": "3.14.1"
+        },
+        {
+          "name": "Granulators",
+          "code": "3.14.2"
+        }
+      ]
+    },
+    {
+      "name": "Rubber Processing Machinery",
+      "code": "3.15",
+      "subSubcategories": []
+    },
+    {
+      "name": "Thermoforming Machinery",
+      "code": "3.16",
+      "subSubcategories": [
+        {
+          "name": "Vacuum Forming Machines",
+          "code": "3.16.1"
+        },
+        {
+          "name": "Deep Drawing Machines",
+          "code": "3.16.2"
+        }
+      ]
+    },
+    {
+      "name": "Welding Machinery",
+      "code": "3.17",
+      "subSubcategories": []
+    },
+    {
+      "name": "Miscellaneous Equipment",
+      "code": "3.18",
+      "subSubcategories": []
+    },
+    {
+      "name": "Other Plastic Processing Machinery",
+      "code": "3.19",
+      "subSubcategories": [
+        {
+          "name": "Complete Production Lines",
+          "code": "3.19.1"
+        },
+        {
+          "name": "Other Machines",
+          "code": "3.19.2"
+        }
+      ]
+    }
+  ]
 }

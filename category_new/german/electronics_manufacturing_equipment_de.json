@@ -1,102 +1,282 @@
 {
-    "name": "Elektronische Fertigungsausrüstung",
-    "code": "14",
-    "subcategories": [
+  "name": "Elektronische Fertigungsausrüstung",
+  "code": "14",
+  "subcategories": [
+    {
+      "name": "Leiterplattenherstellung",
+      "code": "14.1",
+      "subSubcategories": [
         {
-            "name": "Leiterplattenherstellung",
-            "code": "14.01",
-            "subSubcategories": [
-                {"name": "Leiterplattenbohrmaschinen", "code": "14.01.01"},
-                {"name": "Leiterplattenätzmaschinen", "code": "14.01.02"},
-                {"name": "Leiterplattenlaminiergeräte", "code": "14.01.03"},
-                {"name": "Leiterplattensiebdruckmaschinen", "code": "14.01.04"},
-                {"name": "Leiterplattenentpanelungsgeräte", "code": "14.01.05"},
-                {"name": "Leiterplattentestgeräte", "code": "14.01.06"},
-                {"name": "Leiterplattenfräsmaschinen", "code": "14.01.07"},
-                {"name": "Leiterplattenschnittmaschinen", "code": "14.01.08"},
-                {"name": "Leiterplattenreinigungsmaschinen", "code": "14.01.09"},
-                {"name": "Leiterplattenkonformalbeschichtungsausrüstung", "code": "14.01.10"}
-            ]
+          "name": "Leiterplattenbohrmaschinen",
+          "code": "14.1.1"
         },
         {
-            "name": "SMT-Ausrüstung",
-            "code": "14.02",
-            "subSubcategories": [
-                {"name": "Pick-and-Place-Maschinen", "code": "14.02.01"},
-                {"name": "Reflow-Öfen", "code": "14.02.02"},
-                {"name": "Lötpastendrucker", "code": "14.02.03"},
-                {"name": "Wellenlötsysteme", "code": "14.02.04"},
-                {"name": "SMT-Inspektionsausrüstung", "code": "14.02.05"},
-                {"name": "SMT-Reinigungsausrüstung", "code": "14.02.06"},
-                {"name": "SMT-Schablonendrucker", "code": "14.02.07"},
-                {"name": "SMT-Komponenteninspektionssysteme", "code": "14.02.08"},
-                {"name": "SMT-Reparaturstationen", "code": "14.02.09"},
-                {"name": "SMT-Förderanlagen", "code": "14.02.10"}
-            ]
+          "name": "Leiterplattenätzmaschinen",
+          "code": "14.1.2"
         },
         {
-            "name": "Halbleiterausrüstung",
-            "code": "14.03",
-            "subSubcategories": [
-                {"name": "Wafer-Verarbeitungssysteme", "code": "14.03.01"},
-                {"name": "Lithografieausrüstung", "code": "14.03.02"},
-                {"name": "Abscheidungsausrüstung", "code": "14.03.03"},
-                {"name": "Ätzgeräte", "code": "14.03.04"},
-                {"name": "Wafer-Reinigungsausrüstung", "code": "14.03.05"},
-                {"name": "Test- und Messtechnik", "code": "14.03.06"},
-                {"name": "Wafer-Trennsägen", "code": "14.03.07"},
-                {"name": "Wafer-Bondgeräte", "code": "14.03.08"},
-                {"name": "Chemisch-mechanische Poliergeräte (CMP)", "code": "14.03.09"},
-                {"name": "Ionenimplantationsgeräte", "code": "14.03.10"}
-            ]
+          "name": "Leiterplattenlaminiergeräte",
+          "code": "14.1.3"
         },
         {
-            "name": "Montage- und Verpackungsausrüstung",
-            "code": "14.04",
-            "subSubcategories": [
-                {"name": "Drahtbondmaschinen", "code": "14.04.01"},
-                {"name": "Die-Bondmaschinen", "code": "14.04.02"},
-                {"name": "Enkapsulierungsausrüstung", "code": "14.04.03"},
-                {"name": "Verpackungsmaschinen", "code": "14.04.04"},
-                {"name": "Leiterformmaschinen", "code": "14.04.05"},
-                {"name": "Markierungs- und Etikettierausrüstung", "code": "14.04.06"},
-                {"name": "Band- und Spulmaschinen", "code": "14.04.07"},
-                {"name": "Tablett- und Röhrchenlader", "code": "14.04.08"},
-                {"name": "Automatisierte Montagelinien", "code": "14.04.09"},
-                {"name": "Roboterarme für Montage", "code": "14.04.10"}
-            ]
+          "name": "Leiterplattensiebdruckmaschinen",
+          "code": "14.1.4"
         },
         {
-            "name": "Test- und Inspektionsausrüstung",
-            "code": "14.05",
-            "subSubcategories": [
-                {"name": "Funktionsprüfgeräte", "code": "14.05.01"},
-                {"name": "In-Circuit-Tester", "code": "14.05.02"},
-                {"name": "Flying-Probe-Tester", "code": "14.05.03"},
-                {"name": "Automatisierte optische Inspektion (AOI)", "code": "14.05.04"},
-                {"name": "Röntgeninspektionssysteme", "code": "14.05.05"},
-                {"name": "Rasterelektronenmikroskope (REM)", "code": "14.05.06"},
-                {"name": "Rasterkraftmikroskope (AFM)", "code": "14.05.07"},
-                {"name": "Umweltprüfkammern", "code": "14.05.08"},
-                {"name": "Vibrationsprüfgeräte", "code": "14.05.09"},
-                {"name": "Burn-in-Testgeräte", "code": "14.05.10"}
-            ]
+          "name": "Leiterplattenentpanelungsgeräte",
+          "code": "14.1.5"
         },
         {
-            "name": "Sonstige Fertigungsausrüstung",
-            "code": "14.06",
-            "subSubcategories": [
-                {"name": "Konformalbeschichtungsausrüstung", "code": "14.06.01"},
-                {"name": "Kabelbaum-Montageausrüstung", "code": "14.06.02"},
-                {"name": "Box-Build-Ausrüstung", "code": "14.06.03"},
-                {"name": "Reinraumausrüstung", "code": "14.06.04"},
-                {"name": "ESD-Schutzausrüstung", "code": "14.06.05"},
-                {"name": "Löt- und Entlötstationen", "code": "14.06.06"},
-                {"name": "Reparatur- und Nacharbeitsstationen", "code": "14.06.07"},
-                {"name": "Schablonereinigungsmaschinen", "code": "14.06.08"},
-                {"name": "Lötpastenmischsysteme", "code": "14.06.09"},
-                {"name": "Stickstoffgeneratorsysteme", "code": "14.06.10"}
-            ]
+          "name": "Leiterplattentestgeräte",
+          "code": "14.1.6"
+        },
+        {
+          "name": "Leiterplattenfräsmaschinen",
+          "code": "14.1.7"
+        },
+        {
+          "name": "Leiterplattenschnittmaschinen",
+          "code": "14.1.8"
+        },
+        {
+          "name": "Leiterplattenreinigungsmaschinen",
+          "code": "14.1.9"
+        },
+        {
+          "name": "Leiterplattenkonformalbeschichtungsausrüstung",
+          "code": "14.1.10"
         }
-    ]
+      ]
+    },
+    {
+      "name": "SMT-Ausrüstung",
+      "code": "14.2",
+      "subSubcategories": [
+        {
+          "name": "Pick-and-Place-Maschinen",
+          "code": "14.2.1"
+        },
+        {
+          "name": "Reflow-Öfen",
+          "code": "14.2.2"
+        },
+        {
+          "name": "Lötpastendrucker",
+          "code": "14.2.3"
+        },
+        {
+          "name": "Wellenlötsysteme",
+          "code": "14.2.4"
+        },
+        {
+          "name": "SMT-Inspektionsausrüstung",
+          "code": "14.2.5"
+        },
+        {
+          "name": "SMT-Reinigungsausrüstung",
+          "code": "14.2.6"
+        },
+        {
+          "name": "SMT-Schablonendrucker",
+          "code": "14.2.7"
+        },
+        {
+          "name": "SMT-Komponenteninspektionssysteme",
+          "code": "14.2.8"
+        },
+        {
+          "name": "SMT-Reparaturstationen",
+          "code": "14.2.9"
+        },
+        {
+          "name": "SMT-Förderanlagen",
+          "code": "14.2.10"
+        }
+      ]
+    },
+    {
+      "name": "Halbleiterausrüstung",
+      "code": "14.3",
+      "subSubcategories": [
+        {
+          "name": "Wafer-Verarbeitungssysteme",
+          "code": "14.3.1"
+        },
+        {
+          "name": "Lithografieausrüstung",
+          "code": "14.3.2"
+        },
+        {
+          "name": "Abscheidungsausrüstung",
+          "code": "14.3.3"
+        },
+        {
+          "name": "Ätzgeräte",
+          "code": "14.3.4"
+        },
+        {
+          "name": "Wafer-Reinigungsausrüstung",
+          "code": "14.3.5"
+        },
+        {
+          "name": "Test- und Messtechnik",
+          "code": "14.3.6"
+        },
+        {
+          "name": "Wafer-Trennsägen",
+          "code": "14.3.7"
+        },
+        {
+          "name": "Wafer-Bondgeräte",
+          "code": "14.3.8"
+        },
+        {
+          "name": "Chemisch-mechanische Poliergeräte (CMP)",
+          "code": "14.3.9"
+        },
+        {
+          "name": "Ionenimplantationsgeräte",
+          "code": "14.3.10"
+        }
+      ]
+    },
+    {
+      "name": "Montage- und Verpackungsausrüstung",
+      "code": "14.4",
+      "subSubcategories": [
+        {
+          "name": "Drahtbondmaschinen",
+          "code": "14.4.1"
+        },
+        {
+          "name": "Die-Bondmaschinen",
+          "code": "14.4.2"
+        },
+        {
+          "name": "Enkapsulierungsausrüstung",
+          "code": "14.4.3"
+        },
+        {
+          "name": "Verpackungsmaschinen",
+          "code": "14.4.4"
+        },
+        {
+          "name": "Leiterformmaschinen",
+          "code": "14.4.5"
+        },
+        {
+          "name": "Markierungs- und Etikettierausrüstung",
+          "code": "14.4.6"
+        },
+        {
+          "name": "Band- und Spulmaschinen",
+          "code": "14.4.7"
+        },
+        {
+          "name": "Tablett- und Röhrchenlader",
+          "code": "14.4.8"
+        },
+        {
+          "name": "Automatisierte Montagelinien",
+          "code": "14.4.9"
+        },
+        {
+          "name": "Roboterarme für Montage",
+          "code": "14.4.10"
+        }
+      ]
+    },
+    {
+      "name": "Test- und Inspektionsausrüstung",
+      "code": "14.5",
+      "subSubcategories": [
+        {
+          "name": "Funktionsprüfgeräte",
+          "code": "14.5.1"
+        },
+        {
+          "name": "In-Circuit-Tester",
+          "code": "14.5.2"
+        },
+        {
+          "name": "Flying-Probe-Tester",
+          "code": "14.5.3"
+        },
+        {
+          "name": "Automatisierte optische Inspektion (AOI)",
+          "code": "14.5.4"
+        },
+        {
+          "name": "Röntgeninspektionssysteme",
+          "code": "14.5.5"
+        },
+        {
+          "name": "Rasterelektronenmikroskope (REM)",
+          "code": "14.5.6"
+        },
+        {
+          "name": "Rasterkraftmikroskope (AFM)",
+          "code": "14.5.7"
+        },
+        {
+          "name": "Umweltprüfkammern",
+          "code": "14.5.8"
+        },
+        {
+          "name": "Vibrationsprüfgeräte",
+          "code": "14.5.9"
+        },
+        {
+          "name": "Burn-in-Testgeräte",
+          "code": "14.5.10"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Fertigungsausrüstung",
+      "code": "14.6",
+      "subSubcategories": [
+        {
+          "name": "Konformalbeschichtungsausrüstung",
+          "code": "14.6.1"
+        },
+        {
+          "name": "Kabelbaum-Montageausrüstung",
+          "code": "14.6.2"
+        },
+        {
+          "name": "Box-Build-Ausrüstung",
+          "code": "14.6.3"
+        },
+        {
+          "name": "Reinraumausrüstung",
+          "code": "14.6.4"
+        },
+        {
+          "name": "ESD-Schutzausrüstung",
+          "code": "14.6.5"
+        },
+        {
+          "name": "Löt- und Entlötstationen",
+          "code": "14.6.6"
+        },
+        {
+          "name": "Reparatur- und Nacharbeitsstationen",
+          "code": "14.6.7"
+        },
+        {
+          "name": "Schablonereinigungsmaschinen",
+          "code": "14.6.8"
+        },
+        {
+          "name": "Lötpastenmischsysteme",
+          "code": "14.6.9"
+        },
+        {
+          "name": "Stickstoffgeneratorsysteme",
+          "code": "14.6.10"
+        }
+      ]
+    }
+  ]
 }

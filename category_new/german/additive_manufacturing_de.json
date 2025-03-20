@@ -1,66 +1,120 @@
 {
-    "name": "additive Fertigung",
-    "code": "15",
-    "subcategories": [
+  "name": "additive Fertigung",
+  "code": "15",
+  "subcategories": [
+    {
+      "name": "Badbasierte Photopolymerisation",
+      "code": "15.1",
+      "subSubcategories": [
         {
-            "name": "Badbasierte Photopolymerisation",
-            "code": "15.01",
-            "subSubcategories": [
-                {"name": "Stereolithografie (SL)", "code": "15.01.01"},
-                {"name": "Digital Light Processing (DLP)", "code": "15.01.02"},
-                {"name": "Continuous Liquid Interface Production (CLIP)", "code": "15.01.03"}
-            ]
+          "name": "Stereolithografie (SL)",
+          "code": "15.1.1"
         },
         {
-            "name": "Materialextrusion",
-            "code": "15.02",
-            "subSubcategories": [
-                {"name": "Fused Layer Modelling (FLM)", "code": "15.02.01"},
-                {"name": "Fused Filament Fabrication (FFF)", "code": "15.02.02"}
-            ]
+          "name": "Digital Light Processing (DLP)",
+          "code": "15.1.2"
         },
         {
-            "name": "Pulverbettbasiertes Schmelzen",
-            "code": "15.03",
-            "subSubcategories": [
-                {"name": "Laser-Sintern (LS)", "code": "15.03.01"},
-                {"name": "Laser-Strahlschmelzen (LBM)", "code": "15.03.02"},
-                {"name": "Elektronen-Strahlschmelzen (EBM)", "code": "15.03.03"},
-                {"name": "Multi Jet Fusion (MJF)", "code": "15.03.04"}
-            ]
-        },
-        {
-            "name": "Freistrahl-Materialauftrag",
-            "code": "15.04",
-            "subSubcategories": [
-                {"name": "Poly-Jet Modelling (PJM)", "code": "15.04.01"},
-                {"name": "Drop On Demand (DOD)", "code": "15.04.02"}
-            ]
-        },
-        {
-            "name": "Freistrahl-Bindemittelauftrag",
-            "code": "15.05",
-            "subSubcategories": [
-                {"name": "Metall-Binder-Jetting", "code": "15.05.01"},
-                {"name": "Keramik-Binder-Jetting", "code": "15.05.02"},
-                {"name": "Sand-Binder-Jetting", "code": "15.05.03"}
-            ]
-        },
-        {
-            "name": "Materialauftrag mit gerichteter Energieeinbringung",
-            "code": "15.06",
-            "subSubcategories": [
-                {"name": "Laser Engineered Net Shaping (LENS)", "code": "15.06.01"},
-                {"name": "Electron Beam Additive Manufacturing (EBAM)", "code": "15.06.02"}
-            ]
-        },
-        {
-            "name": "Schichtlaminierung",
-            "code": "15.07",
-            "subSubcategories": [
-                {"name": "Layer Laminated Manufacturing (LLM)", "code": "15.07.01"},
-                {"name": "Ultrasonic Additive Manufacturing (UAM)", "code": "15.07.02"}
-            ]
+          "name": "Continuous Liquid Interface Production (CLIP)",
+          "code": "15.1.3"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Materialextrusion",
+      "code": "15.2",
+      "subSubcategories": [
+        {
+          "name": "Fused Layer Modelling (FLM)",
+          "code": "15.2.1"
+        },
+        {
+          "name": "Fused Filament Fabrication (FFF)",
+          "code": "15.2.2"
+        }
+      ]
+    },
+    {
+      "name": "Pulverbettbasiertes Schmelzen",
+      "code": "15.3",
+      "subSubcategories": [
+        {
+          "name": "Laser-Sintern (LS)",
+          "code": "15.3.1"
+        },
+        {
+          "name": "Laser-Strahlschmelzen (LBM)",
+          "code": "15.3.2"
+        },
+        {
+          "name": "Elektronen-Strahlschmelzen (EBM)",
+          "code": "15.3.3"
+        },
+        {
+          "name": "Multi Jet Fusion (MJF)",
+          "code": "15.3.4"
+        }
+      ]
+    },
+    {
+      "name": "Freistrahl-Materialauftrag",
+      "code": "15.4",
+      "subSubcategories": [
+        {
+          "name": "Poly-Jet Modelling (PJM)",
+          "code": "15.4.1"
+        },
+        {
+          "name": "Drop On Demand (DOD)",
+          "code": "15.4.2"
+        }
+      ]
+    },
+    {
+      "name": "Freistrahl-Bindemittelauftrag",
+      "code": "15.5",
+      "subSubcategories": [
+        {
+          "name": "Metall-Binder-Jetting",
+          "code": "15.5.1"
+        },
+        {
+          "name": "Keramik-Binder-Jetting",
+          "code": "15.5.2"
+        },
+        {
+          "name": "Sand-Binder-Jetting",
+          "code": "15.5.3"
+        }
+      ]
+    },
+    {
+      "name": "Materialauftrag mit gerichteter Energieeinbringung",
+      "code": "15.6",
+      "subSubcategories": [
+        {
+          "name": "Laser Engineered Net Shaping (LENS)",
+          "code": "15.6.1"
+        },
+        {
+          "name": "Electron Beam Additive Manufacturing (EBAM)",
+          "code": "15.6.2"
+        }
+      ]
+    },
+    {
+      "name": "Schichtlaminierung",
+      "code": "15.7",
+      "subSubcategories": [
+        {
+          "name": "Layer Laminated Manufacturing (LLM)",
+          "code": "15.7.1"
+        },
+        {
+          "name": "Ultrasonic Additive Manufacturing (UAM)",
+          "code": "15.7.2"
+        }
+      ]
+    }
+  ]
 }

@@ -1,99 +1,198 @@
 {
-    "name": "Abwasserbehandlungsmaschinen",
-    "code": "21",
-    "subcategories": [
+  "name": "Abwasserbehandlungsmaschinen",
+  "code": "21",
+  "subcategories": [
+    {
+      "name": "Vorbehandlung",
+      "code": "21.1",
+      "subSubcategories": [
         {
-            "name": "Vorbehandlung",
-            "code": "21.01",
-            "subSubcategories": [
-                {"name": "Siebe", "code": "21.01.01"},
-                {"name": "Schwebstoffabscheider", "code": "21.01.02"},
-                {"name": "Zerkleinerer", "code": "21.01.03"}
-            ]
+          "name": "Siebe",
+          "code": "21.1.1"
         },
         {
-            "name": "Primärbehandlung",
-            "code": "21.02",
-            "subSubcategories": [
-                {"name": "Klärer und Sedimentationsbecken", "code": "21.02.01"},
-                {"name": "Flockungseinheiten und Koagulatoren", "code": "21.02.02"}
-            ]
+          "name": "Schwebstoffabscheider",
+          "code": "21.1.2"
         },
         {
-            "name": "Sekundärbehandlung",
-            "code": "21.03",
-            "subSubcategories": [
-                {"name": "Belüftungssysteme", "code": "21.03.01"},
-                {"name": "Biologische Behandlungssysteme", "code": "21.03.02"},
-                {"name": "Sekundärklar", "code": "21.03.03"}
-            ]
-        },
-        {
-            "name": "Tertiärbehandlung",
-            "code": "21.04",
-            "subSubcategories": [
-                {"name": "Filtrationssysteme", "code": "21.04.01"},
-                {"name": "Desinfektionssysteme", "code": "21.04.02"},
-                {"name": "Nährstoffentfernungssysteme", "code": "21.04.03"}
-            ]
-        },
-        {
-            "name": "Schlammbehandlung und -entsorgung",
-            "code": "21.05",
-            "subSubcategories": [
-                {"name": "Schlammdickener", "code": "21.05.01"},
-                {"name": "Schlammentwässerungsanlagen", "code": "21.05.02"},
-                {"name": "Schlammtrockner", "code": "21.05.03"},
-                {"name": "Schlammverbrennung", "code": "21.05.04"},
-                {"name": "Anaerobe Vergärungsanlagen", "code": "21.05.05"}
-            ]
-        },
-        {
-            "name": "Pumpen und Fördern",
-            "code": "21.06",
-            "subSubcategories": [
-                {"name": "Abwasserpumpen", "code": "21.06.01"},
-                {"name": "Schlammpumpen", "code": "21.06.02"},
-                {"name": "Chemikalienzufuhrsysteme", "code": "21.06.03"}
-            ]
-        },
-        {
-            "name": "Chemische Behandlung",
-            "code": "21.07",
-            "subSubcategories": [
-                {"name": "Chemikalienlagertanks", "code": "21.07.01"},
-                {"name": "Chemikalien Dosiersysteme", "code": "21.07.02"},
-                {"name": "Mischer und Rührer", "code": "21.07.03"}
-            ]
-        },
-        {
-            "name": "Mess- und Steuertechnik",
-            "code": "21.08",
-            "subSubcategories": [
-                {"name": "Durchflussmesser", "code": "21.08.01"},
-                {"name": "Pegelsensoren", "code": "21.08.02"},
-                {"name": "pH- und Redoxsensoren", "code": "21.08.03"},
-                {"name": "Gelöstsauerstoffsensoren", "code": "21.08.04"},
-                {"name": "Steuerpulte und SCADA-Systeme", "code": "21.08.05"}
-            ]
-        },
-        {
-            "name": "Speicherung und Verteilung",
-            "code": "21.09",
-            "subSubcategories": [
-                {"name": "Speicher für Rohabwasser", "code": "21.09.01"},
-                {"name": "Speicher für gereinigtes Abwasser", "code": "21.09.02"},
-                {"name": "Rohrleitungen und Armaturen", "code": "21.09.03"}
-            ]
-        },
-        {
-            "name": "Zubehör und Sonstiges",
-            "code": "21.10",
-            "subSubcategories": [
-                {"name": "Geruchsbekämpfungssysteme", "code": "21.10.01"},
-                {"name": "Lärmminderungsanlagen", "code": "21.10.02"},
-                {"name": "Sicherheitseinrichtungen", "code": "21.10.03"}
-            ]
+          "name": "Zerkleinerer",
+          "code": "21.1.3"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Primärbehandlung",
+      "code": "21.2",
+      "subSubcategories": [
+        {
+          "name": "Klärer und Sedimentationsbecken",
+          "code": "21.2.1"
+        },
+        {
+          "name": "Flockungseinheiten und Koagulatoren",
+          "code": "21.2.2"
+        }
+      ]
+    },
+    {
+      "name": "Sekundärbehandlung",
+      "code": "21.3",
+      "subSubcategories": [
+        {
+          "name": "Belüftungssysteme",
+          "code": "21.3.1"
+        },
+        {
+          "name": "Biologische Behandlungssysteme",
+          "code": "21.3.2"
+        },
+        {
+          "name": "Sekundärklar",
+          "code": "21.3.3"
+        }
+      ]
+    },
+    {
+      "name": "Tertiärbehandlung",
+      "code": "21.4",
+      "subSubcategories": [
+        {
+          "name": "Filtrationssysteme",
+          "code": "21.4.1"
+        },
+        {
+          "name": "Desinfektionssysteme",
+          "code": "21.4.2"
+        },
+        {
+          "name": "Nährstoffentfernungssysteme",
+          "code": "21.4.3"
+        }
+      ]
+    },
+    {
+      "name": "Schlammbehandlung und -entsorgung",
+      "code": "21.5",
+      "subSubcategories": [
+        {
+          "name": "Schlammdickener",
+          "code": "21.5.1"
+        },
+        {
+          "name": "Schlammentwässerungsanlagen",
+          "code": "21.5.2"
+        },
+        {
+          "name": "Schlammtrockner",
+          "code": "21.5.3"
+        },
+        {
+          "name": "Schlammverbrennung",
+          "code": "21.5.4"
+        },
+        {
+          "name": "Anaerobe Vergärungsanlagen",
+          "code": "21.5.5"
+        }
+      ]
+    },
+    {
+      "name": "Pumpen und Fördern",
+      "code": "21.6",
+      "subSubcategories": [
+        {
+          "name": "Abwasserpumpen",
+          "code": "21.6.1"
+        },
+        {
+          "name": "Schlammpumpen",
+          "code": "21.6.2"
+        },
+        {
+          "name": "Chemikalienzufuhrsysteme",
+          "code": "21.6.3"
+        }
+      ]
+    },
+    {
+      "name": "Chemische Behandlung",
+      "code": "21.7",
+      "subSubcategories": [
+        {
+          "name": "Chemikalienlagertanks",
+          "code": "21.7.1"
+        },
+        {
+          "name": "Chemikalien Dosiersysteme",
+          "code": "21.7.2"
+        },
+        {
+          "name": "Mischer und Rührer",
+          "code": "21.7.3"
+        }
+      ]
+    },
+    {
+      "name": "Mess- und Steuertechnik",
+      "code": "21.8",
+      "subSubcategories": [
+        {
+          "name": "Durchflussmesser",
+          "code": "21.8.1"
+        },
+        {
+          "name": "Pegelsensoren",
+          "code": "21.8.2"
+        },
+        {
+          "name": "pH- und Redoxsensoren",
+          "code": "21.8.3"
+        },
+        {
+          "name": "Gelöstsauerstoffsensoren",
+          "code": "21.8.4"
+        },
+        {
+          "name": "Steuerpulte und SCADA-Systeme",
+          "code": "21.8.5"
+        }
+      ]
+    },
+    {
+      "name": "Speicherung und Verteilung",
+      "code": "21.9",
+      "subSubcategories": [
+        {
+          "name": "Speicher für Rohabwasser",
+          "code": "21.9.1"
+        },
+        {
+          "name": "Speicher für gereinigtes Abwasser",
+          "code": "21.9.2"
+        },
+        {
+          "name": "Rohrleitungen und Armaturen",
+          "code": "21.9.3"
+        }
+      ]
+    },
+    {
+      "name": "Zubehör und Sonstiges",
+      "code": "21.10",
+      "subSubcategories": [
+        {
+          "name": "Geruchsbekämpfungssysteme",
+          "code": "21.10.1"
+        },
+        {
+          "name": "Lärmminderungsanlagen",
+          "code": "21.10.2"
+        },
+        {
+          "name": "Sicherheitseinrichtungen",
+          "code": "21.10.3"
+        }
+      ]
+    }
+  ]
 }

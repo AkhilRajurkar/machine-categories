@@ -1,107 +1,266 @@
 {
-    "name": "Druck- und Grafikausrüstung",
-    "code": "07",
-    "subcategories": [
-      {
-        "name": "Druckpressen",
-        "code": "07.01",
-        "subSubcategories": [
-          { "name": "Offsetpressen", "code": "07.01.01" },
-          { "name": "Digitalpressen", "code": "07.01.02" },
-          { "name": "Flexodruckpressen", "code": "07.01.03" },
-          { "name": "Tiefdruckpressen", "code": "07.01.04" },
-          { "name": "Siebdruckmaschinen", "code": "07.01.05" },
-          { "name": "Bogenpressen", "code": "07.01.06" },
-          { "name": "Rollenpressen", "code": "07.01.07" },
-          { "name": "Breitformatdrucker", "code": "07.01.08" },
-          { "name": "Etikettendruckmaschinen", "code": "07.01.09" },
-          { "name": "3D-Drucker", "code": "07.01.10" },
-          { "name": "Buchdruckpressen", "code": "07.01.11" },
-          { "name": "Tampondruckmaschinen", "code": "07.01.12" }
-        ]
-      },
-      {
-        "name": "Vordruckausrüstung",
-        "code": "07.02",
-        "subSubcategories": [
-          { "name": "Plattenherstellungsmaschinen", "code": "07.02.01" },
-          { "name": "Belichter", "code": "07.02.02" },
-          { "name": "Korrektursysteme", "code": "07.02.03" },
-          { "name": "Filmprozessoren", "code": "07.02.04" },
-          { "name": "CTP-Systeme", "code": "07.02.05" },
-          { "name": "Imagesetzer", "code": "07.02.06" }
-        ]
-      },
-      {
-        "name": "Nachdruckausrüstung",
-        "code": "07.03",
-        "subSubcategories": [
-          { "name": "Guillotine-Schneidemaschinen", "code": "07.03.01" },
-          { "name": "Faltemaschinen", "code": "07.03.02" },
-          { "name": "Klebebindemaschinen", "code": "07.03.03" },
-          { "name": "Sattelschneider", "code": "07.03.04" },
-          { "name": "Laminierungsmaschinen", "code": "07.03.05" },
-          { "name": "Heftmaschinen", "code": "07.03.06" },
-          { "name": "Trimmaschinen", "code": "07.03.07" },
-          { "name": "Kollationsmaschinen", "code": "07.03.08" },
-          { "name": "Stanzmaschinen", "code": "07.03.09" },
-          { "name": "Rillmaschinen", "code": "07.03.10" },
-          { "name": "Buchbindereimaschinen", "code": "07.03.11" },
-          { "name": "Kuvertiermaschinen", "code": "07.03.12" },
-          { "name": "Stacker", "code": "07.03.13" }
-        ]
-      },
-      {
-        "name": "Papier- und Folienverarbeitung",
-        "code": "07.04",
-        "subSubcategories": [
-          { "name": "Papier-Schneidemaschinen", "code": "07.04.01" },
-          { "name": "Papier-Faltemaschinen", "code": "07.04.02" },
-          { "name": "Foliextruder", "code": "07.04.03" },
-          { "name": "Folien-Schlitzmaschinen", "code": "07.04.04" },
-          { "name": "Rollenschlitzmaschinen", "code": "07.04.05" },
-          { "name": "Querschneider", "code": "07.04.06" },
-          { "name": "Tütenherstellungsmaschinen", "code": "07.04.07" },
-          { "name": "Weiterverarbeitungsmaschinen", "code": "07.04.08" }
-        ]
-      },
-      {
-        "name": "Verpackungsmaschinen",
-        "code": "07.05",
-        "subSubcategories": [
-          { "name": "Kartonsfalzmaschinen", "code": "07.05.01" },
-          { "name": "Etikettiermaschinen", "code": "07.05.02" },
-          { "name": "Verpackungsmaschinen", "code": "07.05.03" },
-          { "name": "Versiegelungsmaschinen", "code": "07.05.04" },
-          { "name": "Schachtelherstellungsmaschinen", "code": "07.05.05" }
-        ]
-      },
-      {
-        "name": "Tinten- und Beschichtungssysteme",
-        "code": "07.06",
-        "subSubcategories": [
-          { "name": "Tintenmischsysteme", "code": "07.06.01" },
-          { "name": "UV-Härtungssysteme", "code": "07.06.02" },
-          { "name": "Beschichtungsmaschinen", "code": "07.06.03" },
-          { "name": "Lackeinheiten", "code": "07.06.04" }
-        ]
-      },
-      {
-        "name": "Materialhandhabungsausrüstung",
-        "code": "07.07",
-        "subSubcategories": [
-          { "name": "Palettierer", "code": "07.07.01" },
-          { "name": "Förderbänder", "code": "07.07.02" },
-          { "name": "Stapelroboter", "code": "07.07.03" }
-        ]
-      },
-      {
-        "name": "Sonstige Druck- und Grafikausrüstung",
-        "code": "07.08",
-        "subSubcategories": [
-          { "name": "Reprographische Maschinen", "code": "07.08.01" },
-          { "name": "Sonstige Ausrüstung", "code": "07.08.02" }
-        ]
-      }
-    ]
+  "name": "Druck- und Grafikausrüstung",
+  "code": "7",
+  "subcategories": [
+    {
+      "name": "Druckpressen",
+      "code": "7.1",
+      "subSubcategories": [
+        {
+          "name": "Offsetpressen",
+          "code": "7.1.1"
+        },
+        {
+          "name": "Digitalpressen",
+          "code": "7.1.2"
+        },
+        {
+          "name": "Flexodruckpressen",
+          "code": "7.1.3"
+        },
+        {
+          "name": "Tiefdruckpressen",
+          "code": "7.1.4"
+        },
+        {
+          "name": "Siebdruckmaschinen",
+          "code": "7.1.5"
+        },
+        {
+          "name": "Bogenpressen",
+          "code": "7.1.6"
+        },
+        {
+          "name": "Rollenpressen",
+          "code": "7.1.7"
+        },
+        {
+          "name": "Breitformatdrucker",
+          "code": "7.1.8"
+        },
+        {
+          "name": "Etikettendruckmaschinen",
+          "code": "7.1.9"
+        },
+        {
+          "name": "3D-Drucker",
+          "code": "7.1.10"
+        },
+        {
+          "name": "Buchdruckpressen",
+          "code": "7.1.11"
+        },
+        {
+          "name": "Tampondruckmaschinen",
+          "code": "7.1.12"
+        }
+      ]
+    },
+    {
+      "name": "Vordruckausrüstung",
+      "code": "7.2",
+      "subSubcategories": [
+        {
+          "name": "Plattenherstellungsmaschinen",
+          "code": "7.2.1"
+        },
+        {
+          "name": "Belichter",
+          "code": "7.2.2"
+        },
+        {
+          "name": "Korrektursysteme",
+          "code": "7.2.3"
+        },
+        {
+          "name": "Filmprozessoren",
+          "code": "7.2.4"
+        },
+        {
+          "name": "CTP-Systeme",
+          "code": "7.2.5"
+        },
+        {
+          "name": "Imagesetzer",
+          "code": "7.2.6"
+        }
+      ]
+    },
+    {
+      "name": "Nachdruckausrüstung",
+      "code": "7.3",
+      "subSubcategories": [
+        {
+          "name": "Guillotine-Schneidemaschinen",
+          "code": "7.3.1"
+        },
+        {
+          "name": "Faltemaschinen",
+          "code": "7.3.2"
+        },
+        {
+          "name": "Klebebindemaschinen",
+          "code": "7.3.3"
+        },
+        {
+          "name": "Sattelschneider",
+          "code": "7.3.4"
+        },
+        {
+          "name": "Laminierungsmaschinen",
+          "code": "7.3.5"
+        },
+        {
+          "name": "Heftmaschinen",
+          "code": "7.3.6"
+        },
+        {
+          "name": "Trimmaschinen",
+          "code": "7.3.7"
+        },
+        {
+          "name": "Kollationsmaschinen",
+          "code": "7.3.8"
+        },
+        {
+          "name": "Stanzmaschinen",
+          "code": "7.3.9"
+        },
+        {
+          "name": "Rillmaschinen",
+          "code": "7.3.10"
+        },
+        {
+          "name": "Buchbindereimaschinen",
+          "code": "7.3.11"
+        },
+        {
+          "name": "Kuvertiermaschinen",
+          "code": "7.3.12"
+        },
+        {
+          "name": "Stacker",
+          "code": "7.3.13"
+        }
+      ]
+    },
+    {
+      "name": "Papier- und Folienverarbeitung",
+      "code": "7.4",
+      "subSubcategories": [
+        {
+          "name": "Papier-Schneidemaschinen",
+          "code": "7.4.1"
+        },
+        {
+          "name": "Papier-Faltemaschinen",
+          "code": "7.4.2"
+        },
+        {
+          "name": "Foliextruder",
+          "code": "7.4.3"
+        },
+        {
+          "name": "Folien-Schlitzmaschinen",
+          "code": "7.4.4"
+        },
+        {
+          "name": "Rollenschlitzmaschinen",
+          "code": "7.4.5"
+        },
+        {
+          "name": "Querschneider",
+          "code": "7.4.6"
+        },
+        {
+          "name": "Tütenherstellungsmaschinen",
+          "code": "7.4.7"
+        },
+        {
+          "name": "Weiterverarbeitungsmaschinen",
+          "code": "7.4.8"
+        }
+      ]
+    },
+    {
+      "name": "Verpackungsmaschinen",
+      "code": "7.5",
+      "subSubcategories": [
+        {
+          "name": "Kartonsfalzmaschinen",
+          "code": "7.5.1"
+        },
+        {
+          "name": "Etikettiermaschinen",
+          "code": "7.5.2"
+        },
+        {
+          "name": "Verpackungsmaschinen",
+          "code": "7.5.3"
+        },
+        {
+          "name": "Versiegelungsmaschinen",
+          "code": "7.5.4"
+        },
+        {
+          "name": "Schachtelherstellungsmaschinen",
+          "code": "7.5.5"
+        }
+      ]
+    },
+    {
+      "name": "Tinten- und Beschichtungssysteme",
+      "code": "7.6",
+      "subSubcategories": [
+        {
+          "name": "Tintenmischsysteme",
+          "code": "7.6.1"
+        },
+        {
+          "name": "UV-Härtungssysteme",
+          "code": "7.6.2"
+        },
+        {
+          "name": "Beschichtungsmaschinen",
+          "code": "7.6.3"
+        },
+        {
+          "name": "Lackeinheiten",
+          "code": "7.6.4"
+        }
+      ]
+    },
+    {
+      "name": "Materialhandhabungsausrüstung",
+      "code": "7.7",
+      "subSubcategories": [
+        {
+          "name": "Palettierer",
+          "code": "7.7.1"
+        },
+        {
+          "name": "Förderbänder",
+          "code": "7.7.2"
+        },
+        {
+          "name": "Stapelroboter",
+          "code": "7.7.3"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Druck- und Grafikausrüstung",
+      "code": "7.8",
+      "subSubcategories": [
+        {
+          "name": "Reprographische Maschinen",
+          "code": "7.8.1"
+        },
+        {
+          "name": "Sonstige Ausrüstung",
+          "code": "7.8.2"
+        }
+      ]
+    }
+  ]
 }

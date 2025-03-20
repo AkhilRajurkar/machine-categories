@@ -1,95 +1,200 @@
 {
-    "name": "Material Handling & Storage Systems",
-    "code": "10",
-    "subcategories": [
+  "name": "Material Handling & Storage Systems",
+  "code": "10",
+  "subcategories": [
+    {
+      "name": "Storage and Handling Equipment",
+      "code": "10.1",
+      "subSubcategories": [
         {
-            "name": "Storage and Handling Equipment",
-            "code": "10.01",
-            "subSubcategories": [
-                {"name": "Pallet Racks", "code": "10.01.01"},
-                {"name": "Flow Racks", "code": "10.01.02"},
-                {"name": "High-Bay Warehouses", "code": "10.01.03"},
-                {"name": "Shelving Systems", "code": "10.01.04"},
-                {"name": "Containers", "code": "10.01.05"},
-                {"name": "Pallets", "code": "10.01.06"},
-                {"name": "Stacking Boxes", "code": "10.01.07"},
-                {"name": "Other Storage Equipment", "code": "10.01.99"}
-            ]
+          "name": "Pallet Racks",
+          "code": "10.1.1"
         },
         {
-            "name": "Industrial Trucks",
-            "code": "10.02",
-            "subSubcategories": [
-                {
-                    "name": "Forklifts",
-                    "code": "10.02.01",
-                    "subSubcategories": [
-                        {"name": "Counterbalance Forklifts", "code": "10.02.01.01"},
-                        {"name": "Reach Trucks", "code": "10.02.01.02"},
-                        {"name": "Order Pickers", "code": "10.02.01.03"}
-                    ]
-                },
-                {"name": "Pallet Trucks", "code": "10.02.02"},
-                {"name": "Trolleys", "code": "10.02.03"},
-                {"name": "Other Industrial Trucks", "code": "10.02.99"}
-            ]
+          "name": "Flow Racks",
+          "code": "10.1.2"
         },
         {
-            "name": "Bulk Material Handling Equipment",
-            "code": "10.03",
-            "subSubcategories": [
-                {
-                    "name": "Conveyors",
-                    "code": "10.03.01",
-                    "subSubcategories": [
-                        {"name": "Belt Conveyors", "code": "10.03.01.01"},
-                        {"name": "Roller Conveyors", "code": "10.03.01.02"},
-                        {"name": "Screw Conveyors", "code": "10.03.01.03"},
-                        {"name": "Bulk Material Conveyors", "code": "10.03.01.04"}
-                    ]
-                },
-                {
-                    "name": "Cranes & Hoists",
-                    "code": "10.03.02",
-                    "subSubcategories": [
-                        {"name": "Overhead Cranes", "code": "10.03.02.01"},
-                        {"name": "Gantry Cranes", "code": "10.03.02.02"},
-                        {"name": "Jib Cranes", "code": "10.03.02.03"},
-                        {"name": "Chain Hoists", "code": "10.03.02.04"}
-                    ]
-                },
-                {
-                    "name": "Lifting Equipment",
-                    "code": "10.03.03",
-                    "subSubcategories": [
-                        {"name": "Scissor Lift Tables", "code": "10.03.03.01"},
-                        {"name": "Lifting Carriages", "code": "10.03.03.02"}
-                    ]
-                },
-                {"name": "Other Bulk Handling Equipment", "code": "10.03.99"}
-            ]
+          "name": "High-Bay Warehouses",
+          "code": "10.1.3"
         },
         {
-            "name": "Engineered Systems",
-            "code": "10.04",
-            "subSubcategories": [
-                {"name": "Automated Storage & Retrieval Systems (AS/RS)", "code": "10.04.01"},
-                {"name": "Conveyor Systems", "code": "10.04.02"},
-                {"name": "Robotic Systems", "code": "10.04.03"},
-                {"name": "Other Engineered Systems", "code": "10.04.99"}
-            ]
+          "name": "Shelving Systems",
+          "code": "10.1.4"
         },
         {
-            "name": "Other Equipment",
-            "code": "10.99",
-            "subSubcategories": [
-                {"name": "Pumps", "code": "10.99.01"},
-                {"name": "Vacuum Units", "code": "10.99.02"},
-                {"name": "Hall Construction", "code": "10.99.03"},
-                {"name": "Global Clamping Systems", "code": "10.99.04"},
-                {"name": "Packaging & Strapping Equipment", "code": "10.99.05"},
-                {"name": "Other Miscellaneous Equipment", "code": "10.99.99"}
-            ]
+          "name": "Containers",
+          "code": "10.1.5"
+        },
+        {
+          "name": "Pallets",
+          "code": "10.1.6"
+        },
+        {
+          "name": "Stacking Boxes",
+          "code": "10.1.7"
+        },
+        {
+          "name": "Other Storage Equipment",
+          "code": "10.1.99"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Industrial Trucks",
+      "code": "10.2",
+      "subSubcategories": [
+        {
+          "name": "Forklifts",
+          "code": "10.2.1",
+          "subSubcategories": [
+            {
+              "name": "Counterbalance Forklifts",
+              "code": "10.02.01.01"
+            },
+            {
+              "name": "Reach Trucks",
+              "code": "10.02.01.02"
+            },
+            {
+              "name": "Order Pickers",
+              "code": "10.02.01.03"
+            }
+          ]
+        },
+        {
+          "name": "Pallet Trucks",
+          "code": "10.2.2"
+        },
+        {
+          "name": "Trolleys",
+          "code": "10.2.3"
+        },
+        {
+          "name": "Other Industrial Trucks",
+          "code": "10.2.99"
+        }
+      ]
+    },
+    {
+      "name": "Bulk Material Handling Equipment",
+      "code": "10.3",
+      "subSubcategories": [
+        {
+          "name": "Conveyors",
+          "code": "10.3.1",
+          "subSubcategories": [
+            {
+              "name": "Belt Conveyors",
+              "code": "10.03.01.01"
+            },
+            {
+              "name": "Roller Conveyors",
+              "code": "10.03.01.02"
+            },
+            {
+              "name": "Screw Conveyors",
+              "code": "10.03.01.03"
+            },
+            {
+              "name": "Bulk Material Conveyors",
+              "code": "10.03.01.04"
+            }
+          ]
+        },
+        {
+          "name": "Cranes & Hoists",
+          "code": "10.3.2",
+          "subSubcategories": [
+            {
+              "name": "Overhead Cranes",
+              "code": "10.03.02.01"
+            },
+            {
+              "name": "Gantry Cranes",
+              "code": "10.03.02.02"
+            },
+            {
+              "name": "Jib Cranes",
+              "code": "10.03.02.03"
+            },
+            {
+              "name": "Chain Hoists",
+              "code": "10.03.02.04"
+            }
+          ]
+        },
+        {
+          "name": "Lifting Equipment",
+          "code": "10.3.3",
+          "subSubcategories": [
+            {
+              "name": "Scissor Lift Tables",
+              "code": "10.03.03.01"
+            },
+            {
+              "name": "Lifting Carriages",
+              "code": "10.03.03.02"
+            }
+          ]
+        },
+        {
+          "name": "Other Bulk Handling Equipment",
+          "code": "10.3.99"
+        }
+      ]
+    },
+    {
+      "name": "Engineered Systems",
+      "code": "10.4",
+      "subSubcategories": [
+        {
+          "name": "Automated Storage & Retrieval Systems (AS/RS)",
+          "code": "10.4.1"
+        },
+        {
+          "name": "Conveyor Systems",
+          "code": "10.4.2"
+        },
+        {
+          "name": "Robotic Systems",
+          "code": "10.4.3"
+        },
+        {
+          "name": "Other Engineered Systems",
+          "code": "10.4.99"
+        }
+      ]
+    },
+    {
+      "name": "Other Equipment",
+      "code": "10.99",
+      "subSubcategories": [
+        {
+          "name": "Pumps",
+          "code": "10.99.1"
+        },
+        {
+          "name": "Vacuum Units",
+          "code": "10.99.2"
+        },
+        {
+          "name": "Hall Construction",
+          "code": "10.99.3"
+        },
+        {
+          "name": "Global Clamping Systems",
+          "code": "10.99.4"
+        },
+        {
+          "name": "Packaging & Strapping Equipment",
+          "code": "10.99.5"
+        },
+        {
+          "name": "Other Miscellaneous Equipment",
+          "code": "10.99.99"
+        }
+      ]
+    }
+  ]
 }

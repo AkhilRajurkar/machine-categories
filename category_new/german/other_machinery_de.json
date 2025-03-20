@@ -1,96 +1,186 @@
 {
-    "name": "Sonstige Maschinen",
-    "code": "24",
-    "subcategories": [
+  "name": "Sonstige Maschinen",
+  "code": "24",
+  "subcategories": [
+    {
+      "name": "Kommunaltechnik",
+      "code": "24.1",
+      "subSubcategories": [
         {
-            "name": "Kommunaltechnik",
-            "code": "24.1",
-            "subSubcategories": [
-                {"name": "Straßenreinigungsgeräte", "code": "24.1.1"},
-                {"name": "Schneeräumgeräte", "code": "24.1.2"},
-                {"name": "Abfallsammelfahrzeuge", "code": "24.1.3"},
-                {"name": "Straßenerhaltungsmaschinen", "code": "24.1.4"}
-            ]
+          "name": "Straßenreinigungsgeräte",
+          "code": "24.1.1"
         },
         {
-            "name": "Sondermaschinen",
-            "code": "24.2",
-            "subSubcategories": [
-                {"name": "Maßgeschneiderte Automatisierungssysteme", "code": "24.2.1"},
-                {"name": "Individuelle Fertigungslinien", "code": "24.2.2"},
-                {"name": "Prototypentwicklungsausrüstung", "code": "24.2.3"}
-            ]
+          "name": "Schneeräumgeräte",
+          "code": "24.1.2"
         },
         {
-            "name": "Verpackungsmaschinen",
-            "code": "24.3",
-            "subSubcategories": [
-                {"name": "Füllmaschinen", "code": "24.3.1"},
-                {"name": "Verschließmaschinen", "code": "24.3.2"},
-                {"name": "Etikettiergeräte", "code": "24.3.3"},
-                {"name": "Kartoniergeräte", "code": "24.3.4"}
-            ]
+          "name": "Abfallsammelfahrzeuge",
+          "code": "24.1.3"
         },
         {
-            "name": "Materialförderung und Lagerung",
-            "code": "24.4",
-            "subSubcategories": [
-                {"name": "Förderanlagen", "code": "24.4.1"},
-                {"name": "Automatische Lager- und Kommissioniersysteme (AS/RS)", "code": "24.4.2"},
-                {"name": "Palettier- und Entpalettieranlagen", "code": "24.4.3"}
-            ]
-        },
-        {
-            "name": "Umwelt- und Recyclingmaschinen",
-            "code": "24.5",
-            "subSubcategories": [
-                {"name": "Recyclinganlagen", "code": "24.5.1"},
-                {"name": "Abfallbehandlungsanlagen", "code": "24.5.2"},
-                {"name": "Abgasreinigungsanlagen", "code": "24.5.3"}
-            ]
-        },
-        {
-            "name": "Druck- und Verlagsmaschinen",
-            "code": "24.6",
-            "subSubcategories": [
-                {"name": "Druckmaschinen", "code": "24.6.1"},
-                {"name": "Bindegeräte", "code": "24.6.2"},
-                {"name": "Fertigungsgeräte", "code": "24.6.3"}
-            ]
-        },
-        {
-            "name": "Textil- und Bekleidungsmaschinen",
-            "code": "24.7",
-            "subSubcategories": [
-                {"name": "Nähmaschinen", "code": "24.7.1"},
-                {"name": "Strickmaschinen", "code": "24.7.2"},
-                {"name": "Webstühle", "code": "24.7.3"}
-            ]
-        },
-        {
-            "name": "Leder- und Pelzverarbeitungsmaschinen",
-            "code": "24.8",
-            "subSubcategories": [
-                {"name": "Gerbmaschinen", "code": "24.8.1"},
-                {"name": "Schneide- und Nähausrüstungen", "code": "24.8.2"}
-            ]
-        },
-        {
-            "name": "Optische und Präzisionsmaschinen",
-            "code": "24.9",
-            "subSubcategories": [
-                {"name": "Linsenschleifmaschinen", "code": "24.9.1"},
-                {"name": "Präzisionsmesstechnik", "code": "24.9.2"}
-            ]
-        },
-        {
-            "name": "Sonstige Industriemaschinen",
-            "code": "24.10",
-            "subSubcategories": [
-                {"name": "Mehrzweckmaschinen", "code": "24.10.1"},
-                {"name": "Multifunktionsgeräte", "code": "24.10.2"},
-                {"name": "Sonderanfertigungen", "code": "24.10.3"}
-            ]
+          "name": "Straßenerhaltungsmaschinen",
+          "code": "24.1.4"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Sondermaschinen",
+      "code": "24.2",
+      "subSubcategories": [
+        {
+          "name": "Maßgeschneiderte Automatisierungssysteme",
+          "code": "24.2.1"
+        },
+        {
+          "name": "Individuelle Fertigungslinien",
+          "code": "24.2.2"
+        },
+        {
+          "name": "Prototypentwicklungsausrüstung",
+          "code": "24.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Verpackungsmaschinen",
+      "code": "24.3",
+      "subSubcategories": [
+        {
+          "name": "Füllmaschinen",
+          "code": "24.3.1"
+        },
+        {
+          "name": "Verschließmaschinen",
+          "code": "24.3.2"
+        },
+        {
+          "name": "Etikettiergeräte",
+          "code": "24.3.3"
+        },
+        {
+          "name": "Kartoniergeräte",
+          "code": "24.3.4"
+        }
+      ]
+    },
+    {
+      "name": "Materialförderung und Lagerung",
+      "code": "24.4",
+      "subSubcategories": [
+        {
+          "name": "Förderanlagen",
+          "code": "24.4.1"
+        },
+        {
+          "name": "Automatische Lager- und Kommissioniersysteme (AS/RS)",
+          "code": "24.4.2"
+        },
+        {
+          "name": "Palettier- und Entpalettieranlagen",
+          "code": "24.4.3"
+        }
+      ]
+    },
+    {
+      "name": "Umwelt- und Recyclingmaschinen",
+      "code": "24.5",
+      "subSubcategories": [
+        {
+          "name": "Recyclinganlagen",
+          "code": "24.5.1"
+        },
+        {
+          "name": "Abfallbehandlungsanlagen",
+          "code": "24.5.2"
+        },
+        {
+          "name": "Abgasreinigungsanlagen",
+          "code": "24.5.3"
+        }
+      ]
+    },
+    {
+      "name": "Druck- und Verlagsmaschinen",
+      "code": "24.6",
+      "subSubcategories": [
+        {
+          "name": "Druckmaschinen",
+          "code": "24.6.1"
+        },
+        {
+          "name": "Bindegeräte",
+          "code": "24.6.2"
+        },
+        {
+          "name": "Fertigungsgeräte",
+          "code": "24.6.3"
+        }
+      ]
+    },
+    {
+      "name": "Textil- und Bekleidungsmaschinen",
+      "code": "24.7",
+      "subSubcategories": [
+        {
+          "name": "Nähmaschinen",
+          "code": "24.7.1"
+        },
+        {
+          "name": "Strickmaschinen",
+          "code": "24.7.2"
+        },
+        {
+          "name": "Webstühle",
+          "code": "24.7.3"
+        }
+      ]
+    },
+    {
+      "name": "Leder- und Pelzverarbeitungsmaschinen",
+      "code": "24.8",
+      "subSubcategories": [
+        {
+          "name": "Gerbmaschinen",
+          "code": "24.8.1"
+        },
+        {
+          "name": "Schneide- und Nähausrüstungen",
+          "code": "24.8.2"
+        }
+      ]
+    },
+    {
+      "name": "Optische und Präzisionsmaschinen",
+      "code": "24.9",
+      "subSubcategories": [
+        {
+          "name": "Linsenschleifmaschinen",
+          "code": "24.9.1"
+        },
+        {
+          "name": "Präzisionsmesstechnik",
+          "code": "24.9.2"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Industriemaschinen",
+      "code": "24.10",
+      "subSubcategories": [
+        {
+          "name": "Mehrzweckmaschinen",
+          "code": "24.10.1"
+        },
+        {
+          "name": "Multifunktionsgeräte",
+          "code": "24.10.2"
+        },
+        {
+          "name": "Sonderanfertigungen",
+          "code": "24.10.3"
+        }
+      ]
+    }
+  ]
 }

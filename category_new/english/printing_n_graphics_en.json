@@ -1,107 +1,266 @@
 {
-    "name": "Printing & Graphics Equipment",
-    "code": "07",
-    "subcategories": [
-      {
-        "name": "Printing Presses",
-        "code": "07.01",
-        "subSubcategories": [
-          { "name": "Offset Presses", "code": "07.01.01" },
-          { "name": "Digital Presses", "code": "07.01.02" },
-          { "name": "Flexographic Presses", "code": "07.01.03" },
-          { "name": "Gravure Presses", "code": "07.01.04" },
-          { "name": "Screen Printing Machines", "code": "07.01.05" },
-          { "name": "Sheet-Fed Presses", "code": "07.01.06" },
-          { "name": "Web Presses", "code": "07.01.07" },
-          { "name": "Wide Format Printers", "code": "07.01.08" },
-          { "name": "Label Printing Machines", "code": "07.01.09" },
-          { "name": "3D Printers", "code": "07.01.10" },
-          { "name": "Letterpress Presses", "code": "07.01.11" },
-          { "name": "Pad Printing Machines", "code": "07.01.12" }
-        ]
-      },
-      {
-        "name": "Prepress Equipment",
-        "code": "07.02",
-        "subSubcategories": [
-          { "name": "Plate Making Machines", "code": "07.02.01" },
-          { "name": "Exposers", "code": "07.02.02" },
-          { "name": "Proofing Systems", "code": "07.02.03" },
-          { "name": "Film Processors", "code": "07.02.04" },
-          { "name": "CTP Systems", "code": "07.02.05" },
-          { "name": "Image Setters", "code": "07.02.06" }
-        ]
-      },
-      {
-        "name": "Postpress Equipment",
-        "code": "07.03",
-        "subSubcategories": [
-          { "name": "Guillotine Cutters", "code": "07.03.01" },
-          { "name": "Folding Machines", "code": "07.03.02" },
-          { "name": "Perfect Binders", "code": "07.03.03" },
-          { "name": "Saddle Stitchers", "code": "07.03.04" },
-          { "name": "Laminating Machines", "code": "07.03.05" },
-          { "name": "Stitching Machines", "code": "07.03.06" },
-          { "name": "Trimming Machines", "code": "07.03.07" },
-          { "name": "Collating Machines", "code": "07.03.08" },
-          { "name": "Die Cutting Machines", "code": "07.03.09" },
-          { "name": "Creasing Machines", "code": "07.03.10" },
-          { "name": "Bookbinding Machines", "code": "07.03.11" },
-          { "name": "Envelope Inserting Machines", "code": "07.03.12" },
-          { "name": "Stackers", "code": "07.03.13" }
-        ]
-      },
-      {
-        "name": "Paper & Film Processing",
-        "code": "07.04",
-        "subSubcategories": [
-          { "name": "Paper Cutting Machines", "code": "07.04.01" },
-          { "name": "Paper Folding Machines", "code": "07.04.02" },
-          { "name": "Film Extruders", "code": "07.04.03" },
-          { "name": "Film Slitters", "code": "07.04.04" },
-          { "name": "Roll Slitters", "code": "07.04.05" },
-          { "name": "Cross Cutters", "code": "07.04.06" },
-          { "name": "Bag Making Machines", "code": "07.04.07" },
-          { "name": "Further Processing Machines", "code": "07.04.08" }
-        ]
-      },
-      {
-        "name": "Packaging Machines",
-        "code": "07.05",
-        "subSubcategories": [
-          { "name": "Carton Folding Machines", "code": "07.05.01" },
-          { "name": "Labeling Machines", "code": "07.05.02" },
-          { "name": "Wrapping Machines", "code": "07.05.03" },
-          { "name": "Sealing Machines", "code": "07.05.04" },
-          { "name": "Box Making Machines", "code": "07.05.05" }
-        ]
-      },
-      {
-        "name": "Ink and Coating Systems",
-        "code": "07.06",
-        "subSubcategories": [
-          { "name": "Ink Mixing Systems", "code": "07.06.01" },
-          { "name": "UV Curing Systems", "code": "07.06.02" },
-          { "name": "Coating Machines", "code": "07.06.03" },
-          { "name": "Varnishing Units", "code": "07.06.04" }
-        ]
-      },
-      {
-        "name": "Material Handling Equipment",
-        "code": "07.07",
-        "subSubcategories": [
-          { "name": "Palletizers", "code": "07.07.01" },
-          { "name": "Conveyors", "code": "07.07.02" },
-          { "name": "Stacking Robots", "code": "07.07.03" }
-        ]
-      },
-      {
-        "name": "Other Printing & Graphics Equipment",
-        "code": "07.08",
-        "subSubcategories": [
-          { "name": "Reprographic Machines", "code": "07.08.01" },
-          { "name": "Miscellaneous Equipment", "code": "07.08.02" }
-        ]
-      }
-    ]
+  "name": "Printing & Graphics Equipment",
+  "code": "7",
+  "subcategories": [
+    {
+      "name": "Printing Presses",
+      "code": "7.1",
+      "subSubcategories": [
+        {
+          "name": "Offset Presses",
+          "code": "7.1.1"
+        },
+        {
+          "name": "Digital Presses",
+          "code": "7.1.2"
+        },
+        {
+          "name": "Flexographic Presses",
+          "code": "7.1.3"
+        },
+        {
+          "name": "Gravure Presses",
+          "code": "7.1.4"
+        },
+        {
+          "name": "Screen Printing Machines",
+          "code": "7.1.5"
+        },
+        {
+          "name": "Sheet-Fed Presses",
+          "code": "7.1.6"
+        },
+        {
+          "name": "Web Presses",
+          "code": "7.1.7"
+        },
+        {
+          "name": "Wide Format Printers",
+          "code": "7.1.8"
+        },
+        {
+          "name": "Label Printing Machines",
+          "code": "7.1.9"
+        },
+        {
+          "name": "3D Printers",
+          "code": "7.1.10"
+        },
+        {
+          "name": "Letterpress Presses",
+          "code": "7.1.11"
+        },
+        {
+          "name": "Pad Printing Machines",
+          "code": "7.1.12"
+        }
+      ]
+    },
+    {
+      "name": "Prepress Equipment",
+      "code": "7.2",
+      "subSubcategories": [
+        {
+          "name": "Plate Making Machines",
+          "code": "7.2.1"
+        },
+        {
+          "name": "Exposers",
+          "code": "7.2.2"
+        },
+        {
+          "name": "Proofing Systems",
+          "code": "7.2.3"
+        },
+        {
+          "name": "Film Processors",
+          "code": "7.2.4"
+        },
+        {
+          "name": "CTP Systems",
+          "code": "7.2.5"
+        },
+        {
+          "name": "Image Setters",
+          "code": "7.2.6"
+        }
+      ]
+    },
+    {
+      "name": "Postpress Equipment",
+      "code": "7.3",
+      "subSubcategories": [
+        {
+          "name": "Guillotine Cutters",
+          "code": "7.3.1"
+        },
+        {
+          "name": "Folding Machines",
+          "code": "7.3.2"
+        },
+        {
+          "name": "Perfect Binders",
+          "code": "7.3.3"
+        },
+        {
+          "name": "Saddle Stitchers",
+          "code": "7.3.4"
+        },
+        {
+          "name": "Laminating Machines",
+          "code": "7.3.5"
+        },
+        {
+          "name": "Stitching Machines",
+          "code": "7.3.6"
+        },
+        {
+          "name": "Trimming Machines",
+          "code": "7.3.7"
+        },
+        {
+          "name": "Collating Machines",
+          "code": "7.3.8"
+        },
+        {
+          "name": "Die Cutting Machines",
+          "code": "7.3.9"
+        },
+        {
+          "name": "Creasing Machines",
+          "code": "7.3.10"
+        },
+        {
+          "name": "Bookbinding Machines",
+          "code": "7.3.11"
+        },
+        {
+          "name": "Envelope Inserting Machines",
+          "code": "7.3.12"
+        },
+        {
+          "name": "Stackers",
+          "code": "7.3.13"
+        }
+      ]
+    },
+    {
+      "name": "Paper & Film Processing",
+      "code": "7.4",
+      "subSubcategories": [
+        {
+          "name": "Paper Cutting Machines",
+          "code": "7.4.1"
+        },
+        {
+          "name": "Paper Folding Machines",
+          "code": "7.4.2"
+        },
+        {
+          "name": "Film Extruders",
+          "code": "7.4.3"
+        },
+        {
+          "name": "Film Slitters",
+          "code": "7.4.4"
+        },
+        {
+          "name": "Roll Slitters",
+          "code": "7.4.5"
+        },
+        {
+          "name": "Cross Cutters",
+          "code": "7.4.6"
+        },
+        {
+          "name": "Bag Making Machines",
+          "code": "7.4.7"
+        },
+        {
+          "name": "Further Processing Machines",
+          "code": "7.4.8"
+        }
+      ]
+    },
+    {
+      "name": "Packaging Machines",
+      "code": "7.5",
+      "subSubcategories": [
+        {
+          "name": "Carton Folding Machines",
+          "code": "7.5.1"
+        },
+        {
+          "name": "Labeling Machines",
+          "code": "7.5.2"
+        },
+        {
+          "name": "Wrapping Machines",
+          "code": "7.5.3"
+        },
+        {
+          "name": "Sealing Machines",
+          "code": "7.5.4"
+        },
+        {
+          "name": "Box Making Machines",
+          "code": "7.5.5"
+        }
+      ]
+    },
+    {
+      "name": "Ink and Coating Systems",
+      "code": "7.6",
+      "subSubcategories": [
+        {
+          "name": "Ink Mixing Systems",
+          "code": "7.6.1"
+        },
+        {
+          "name": "UV Curing Systems",
+          "code": "7.6.2"
+        },
+        {
+          "name": "Coating Machines",
+          "code": "7.6.3"
+        },
+        {
+          "name": "Varnishing Units",
+          "code": "7.6.4"
+        }
+      ]
+    },
+    {
+      "name": "Material Handling Equipment",
+      "code": "7.7",
+      "subSubcategories": [
+        {
+          "name": "Palletizers",
+          "code": "7.7.1"
+        },
+        {
+          "name": "Conveyors",
+          "code": "7.7.2"
+        },
+        {
+          "name": "Stacking Robots",
+          "code": "7.7.3"
+        }
+      ]
+    },
+    {
+      "name": "Other Printing & Graphics Equipment",
+      "code": "7.8",
+      "subSubcategories": [
+        {
+          "name": "Reprographic Machines",
+          "code": "7.8.1"
+        },
+        {
+          "name": "Miscellaneous Equipment",
+          "code": "7.8.2"
+        }
+      ]
+    }
+  ]
 }

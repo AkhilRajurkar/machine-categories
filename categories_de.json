@@ -2952,6 +2952,406 @@
     ]
   },
   {
+    "name": "Materialhandhabungs- und Lagersysteme",
+    "code": "10",
+    "subcategories": [
+      {
+        "name": "Lager- und Handhabungsausrüstung",
+        "code": "10.1",
+        "subSubcategories": [
+          {
+            "name": "Palettenregale",
+            "code": "10.1.1"
+          },
+          {
+            "name": "Durchlaufregale",
+            "code": "10.1.2"
+          },
+          {
+            "name": "Hochregallager",
+            "code": "10.1.3"
+          },
+          {
+            "name": "Regalsysteme",
+            "code": "10.1.4"
+          },
+          {
+            "name": "Container",
+            "code": "10.1.5"
+          },
+          {
+            "name": "Paletten",
+            "code": "10.1.6"
+          },
+          {
+            "name": "Stapelboxen",
+            "code": "10.1.7"
+          },
+          {
+            "name": "Sonstige Lagerausrüstung",
+            "code": "10.1.99"
+          }
+        ]
+      },
+      {
+        "name": "Industriefahrzeuge",
+        "code": "10.2",
+        "subSubcategories": [
+          {
+            "name": "Gabelstapler",
+            "code": "10.2.1",
+            "subSubcategories": [
+              {
+                "name": "Gegengewichtsstapler",
+                "code": "10.02.01.01"
+              },
+              {
+                "name": "Schubmaststapler",
+                "code": "10.02.01.02"
+              },
+              {
+                "name": "Kommissionierer",
+                "code": "10.02.01.03"
+              }
+            ]
+          },
+          {
+            "name": "Hubwagen",
+            "code": "10.2.2"
+          },
+          {
+            "name": "Trolleys",
+            "code": "10.2.3"
+          },
+          {
+            "name": "Sonstige Industriefahrzeuge",
+            "code": "10.2.99"
+          }
+        ]
+      },
+      {
+        "name": "Schüttguthandhabungsausrüstung",
+        "code": "10.3",
+        "subSubcategories": [
+          {
+            "name": "Förderanlagen",
+            "code": "10.3.1",
+            "subSubcategories": [
+              {
+                "name": "Bandförderer",
+                "code": "10.03.01.01"
+              },
+              {
+                "name": "Rollenförderer",
+                "code": "10.03.01.02"
+              },
+              {
+                "name": "Schneckenförderer",
+                "code": "10.03.01.03"
+              },
+              {
+                "name": "Schüttgutförderer",
+                "code": "10.03.01.04"
+              }
+            ]
+          },
+          {
+            "name": "Krane und Hebezeuge",
+            "code": "10.3.2",
+            "subSubcategories": [
+              {
+                "name": "Brückenkrane",
+                "code": "10.03.02.01"
+              },
+              {
+                "name": "Portalkrane",
+                "code": "10.03.02.02"
+              },
+              {
+                "name": "Schwenkkrane",
+                "code": "10.03.02.03"
+              },
+              {
+                "name": "Kettenzüge",
+                "code": "10.03.02.04"
+              }
+            ]
+          },
+          {
+            "name": "Hebeausrüstung",
+            "code": "10.3.3",
+            "subSubcategories": [
+              {
+                "name": "Scherenhubtische",
+                "code": "10.03.03.01"
+              },
+              {
+                "name": "Hebewagen",
+                "code": "10.03.03.02"
+              }
+            ]
+          },
+          {
+            "name": "Sonstige Schüttguthandhabungsausrüstung",
+            "code": "10.3.99"
+          }
+        ]
+      },
+      {
+        "name": "Ingenieursysteme",
+        "code": "10.4",
+        "subSubcategories": [
+          {
+            "name": "Automatisierte Lager- und Entnahmesysteme (AS/RS)",
+            "code": "10.4.1"
+          },
+          {
+            "name": "Fördersysteme",
+            "code": "10.4.2"
+          },
+          {
+            "name": "Robotiksysteme",
+            "code": "10.4.3"
+          },
+          {
+            "name": "Sonstige Ingenieursysteme",
+            "code": "10.4.99"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Ausrüstung",
+        "code": "10.99",
+        "subSubcategories": [
+          {
+            "name": "Pumpen",
+            "code": "10.99.1"
+          },
+          {
+            "name": "Vakuumeinheiten",
+            "code": "10.99.2"
+          },
+          {
+            "name": "Hallenbau",
+            "code": "10.99.3"
+          },
+          {
+            "name": "Globale Spannsysteme",
+            "code": "10.99.4"
+          },
+          {
+            "name": "Verpackungs- und Umreifungsausrüstung",
+            "code": "10.99.5"
+          },
+          {
+            "name": "Sonstige diverse Ausrüstung",
+            "code": "10.99.99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Energietechnik",
+    "code": "11",
+    "subcategories": [
+      {
+        "name": "Stromerzeugung",
+        "code": "11.1",
+        "subSubcategories": [
+          {
+            "name": "Blockheizkraftwerke",
+            "code": "11.1.1"
+          },
+          {
+            "name": "Wasserkraftanlagen",
+            "code": "11.1.2"
+          },
+          {
+            "name": "Sonstige Kraftwerke",
+            "code": "11.1.3"
+          }
+        ]
+      },
+      {
+        "name": "Generatoren",
+        "code": "11.2",
+        "subSubcategories": [
+          {
+            "name": "Dieselgeneratoren",
+            "code": "11.2.1"
+          },
+          {
+            "name": "Gasgeneratoren",
+            "code": "11.2.2"
+          },
+          {
+            "name": "Tragbare Generatoren",
+            "code": "11.2.3"
+          },
+          {
+            "name": "Notstromaggregate",
+            "code": "11.2.4"
+          }
+        ]
+      },
+      {
+        "name": "Dampf- und Gassysteme",
+        "code": "11.3",
+        "subSubcategories": [
+          {
+            "name": "Dampfkessel",
+            "code": "11.3.1"
+          },
+          {
+            "name": "Dampfturbinen",
+            "code": "11.3.2"
+          },
+          {
+            "name": "Gastechnik",
+            "code": "11.3.3"
+          }
+        ]
+      },
+      {
+        "name": "Kompressoren",
+        "code": "11.4",
+        "subSubcategories": [
+          {
+            "name": "Schraubenkompressoren",
+            "code": "11.4.1"
+          },
+          {
+            "name": "Kolbenkompressoren",
+            "code": "11.4.2"
+          },
+          {
+            "name": "Gaskompressoren",
+            "code": "11.4.3"
+          }
+        ]
+      },
+      {
+        "name": "Transformatoren & Elektrotechnik",
+        "code": "11.5",
+        "subSubcategories": [
+          {
+            "name": "Leistungstransformatoren",
+            "code": "11.5.1"
+          },
+          {
+            "name": "Verteilungstransformatoren",
+            "code": "11.5.2"
+          },
+          {
+            "name": "Schaltanlagen und Steuerungen",
+            "code": "11.5.3"
+          },
+          {
+            "name": "Komponenten und Zubehör",
+            "code": "11.5.4"
+          }
+        ]
+      },
+      {
+        "name": "Erneuerbare Energiesysteme",
+        "code": "11.6",
+        "subSubcategories": [
+          {
+            "name": "Solarpaneele",
+            "code": "11.6.1"
+          },
+          {
+            "name": "Windturbinen",
+            "code": "11.6.2"
+          },
+          {
+            "name": "Wasserkraftsysteme",
+            "code": "11.6.3"
+          }
+        ]
+      },
+      {
+        "name": "Motoren & Antriebe",
+        "code": "11.7",
+        "subSubcategories": [
+          {
+            "name": "Wechselstrommotoren",
+            "code": "11.7.1"
+          },
+          {
+            "name": "Gleichstrommotoren",
+            "code": "11.7.2"
+          },
+          {
+            "name": "Servomotoren",
+            "code": "11.7.3"
+          },
+          {
+            "name": "Dieselmotoren",
+            "code": "11.7.4"
+          },
+          {
+            "name": "Benzinmotoren",
+            "code": "11.7.5"
+          },
+          {
+            "name": "Gasmotoren",
+            "code": "11.7.6"
+          },
+          {
+            "name": "Wechselstromgeneratoren",
+            "code": "11.7.7"
+          }
+        ]
+      },
+      {
+        "name": "Heizung, Lüftung und Klimaanlagen",
+        "code": "11.8",
+        "subSubcategories": [
+          {
+            "name": "Heizsysteme",
+            "code": "11.8.1"
+          },
+          {
+            "name": "Gebläse und Ventilatoren",
+            "code": "11.8.2"
+          },
+          {
+            "name": "Wärmeaustauscher",
+            "code": "11.8.3"
+          },
+          {
+            "name": "Klimaanlagen",
+            "code": "11.8.4"
+          },
+          {
+            "name": "Kühlsysteme",
+            "code": "11.8.5"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Ausrüstungen",
+        "code": "11.9",
+        "subSubcategories": [
+          {
+            "name": "Gasbrenner",
+            "code": "11.9.1"
+          },
+          {
+            "name": "Elektro-hydraulische Geräte",
+            "code": "11.9.2"
+          },
+          {
+            "name": "Sonstige Zubehör",
+            "code": "11.9.3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Verfahrenstechnik & Chemieanlagen",
     "code": "12",
     "subcategories": [
@@ -4113,6 +4513,175 @@
     ]
   },
   {
+    "name": "Komplette Produktionslinien",
+    "code": "18",
+    "subcategories": [
+      {
+        "name": "Lebensmittel- & Getränkeproduktionslinien",
+        "code": "18.1",
+        "subSubcategories": [
+          {
+            "name": "Milchverarbeitungsanlagen",
+            "code": "18.1.1"
+          },
+          {
+            "name": "Brauereien & Destillerien",
+            "code": "18.1.2"
+          },
+          {
+            "name": "Backstraßen",
+            "code": "18.1.3"
+          },
+          {
+            "name": "Fleischverarbeitungsanlagen",
+            "code": "18.1.4"
+          },
+          {
+            "name": "Getränkeproduktionslinien",
+            "code": "18.1.5"
+          },
+          {
+            "name": "Süßwarenproduktionslinien",
+            "code": "18.1.6"
+          }
+        ]
+      },
+      {
+        "name": "Pharmazeutische & Chemische Produktionslinien",
+        "code": "18.2",
+        "subSubcategories": [
+          {
+            "name": "Pharmazeutische Produktionslinien",
+            "code": "18.2.1"
+          },
+          {
+            "name": "Chemieanlagen",
+            "code": "18.2.2"
+          },
+          {
+            "name": "Düngemittelwerke",
+            "code": "18.2.3"
+          }
+        ]
+      },
+      {
+        "name": "Metall- & Werkstoffverarbeitung",
+        "code": "18.3",
+        "subSubcategories": [
+          {
+            "name": "Stahlwerke",
+            "code": "18.3.1"
+          },
+          {
+            "name": "Aluminiumhütten",
+            "code": "18.3.2"
+          },
+          {
+            "name": "Zementwerke",
+            "code": "18.3.3"
+          }
+        ]
+      },
+      {
+        "name": "Automobil- & Luftfahrt",
+        "code": "18.4",
+        "subSubcategories": [
+          {
+            "name": "Fahrzeugmontagelinien",
+            "code": "18.4.1"
+          },
+          {
+            "name": "Motorenherstellung",
+            "code": "18.4.2"
+          },
+          {
+            "name": "Luftfahrtkomponentenwerke",
+            "code": "18.4.3"
+          }
+        ]
+      },
+      {
+        "name": "Textil- & Bekleidungsindustrie",
+        "code": "18.5",
+        "subSubcategories": [
+          {
+            "name": "Spinnereien",
+            "code": "18.5.1"
+          },
+          {
+            "name": "Weberei- & Strickanlagen",
+            "code": "18.5.2"
+          },
+          {
+            "name": "Bekleidungsbetriebe",
+            "code": "18.5.3"
+          }
+        ]
+      },
+      {
+        "name": "Elektronik- & Haushaltsgeräte",
+        "code": "18.6",
+        "subSubcategories": [
+          {
+            "name": "Halbleiterwerke",
+            "code": "18.6.1"
+          },
+          {
+            "name": "Elektronikmontagelinien",
+            "code": "18.6.2"
+          }
+        ]
+      },
+      {
+        "name": "Kunststoff- & Gummiindustrie",
+        "code": "18.7",
+        "subSubcategories": [
+          {
+            "name": "Reifenherstellung",
+            "code": "18.7.1"
+          },
+          {
+            "name": "Kunststoffverpackungslinien",
+            "code": "18.7.2"
+          }
+        ]
+      },
+      {
+        "name": "Papier- & Zellstoffindustrie",
+        "code": "18.8",
+        "subSubcategories": []
+      },
+      {
+        "name": "Erneuerbare Energien",
+        "code": "18.9",
+        "subSubcategories": [
+          {
+            "name": "Biomassekraftwerke",
+            "code": "18.9.1"
+          },
+          {
+            "name": "Solarpaneelfabriken",
+            "code": "18.9.2"
+          }
+        ]
+      },
+      {
+        "name": "Sonstige Produktionslinien",
+        "code": "18.10",
+        "subSubcategories": [
+          {
+            "name": "Glasfabriken",
+            "code": "18.10.1"
+          },
+          {
+            "name": "Keramikfabriken",
+            "code": "18.10.2"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Industrielle Komponenten & Ersatzteile",
     "code": "19",
     "subcategories": [
@@ -4734,6 +5303,114 @@
         "name": "Postbearbeitungslinien",
         "code": "22.6",
         "subSubcategories": []
+      }
+    ]
+  },
+  {
+    "name": "Restposten & Liquidationen",
+    "code": "23",
+    "subcategories": [
+      {
+        "name": "Überschüssige Maschinen",
+        "code": "23.1",
+        "subSubcategories": [
+          {
+            "name": "Holzbearbeitungsmaschinen",
+            "code": "23.1.1"
+          },
+          {
+            "name": "Metallbearbeitungsmaschinen",
+            "code": "23.1.2"
+          },
+          {
+            "name": "Druckmaschinen",
+            "code": "23.1.3"
+          },
+          {
+            "name": "Baumaschinen",
+            "code": "23.1.4"
+          },
+          {
+            "name": "Gabelstapler",
+            "code": "23.1.5"
+          },
+          {
+            "name": "Lager- und Handhabungsausrüstung",
+            "code": "23.1.6"
+          },
+          {
+            "name": "Automatisierung und Robotik",
+            "code": "23.1.7"
+          },
+          {
+            "name": "Lebensmittelverarbeitungsmaschinen",
+            "code": "23.1.8"
+          },
+          {
+            "name": "Kunststoffmaschinen",
+            "code": "23.1.9"
+          },
+          {
+            "name": "Recyclingmaschinen",
+            "code": "23.1.10"
+          }
+        ]
+      },
+      {
+        "name": "Liquidationsverkäufe",
+        "code": "23.2",
+        "subSubcategories": []
+      },
+      {
+        "name": "Werkschließungen",
+        "code": "23.3",
+        "subSubcategories": []
+      },
+      {
+        "name": "Gebrauchtteile & Komponenten",
+        "code": "23.4",
+        "subSubcategories": [
+          {
+            "name": "Holzbearbeitungsteile",
+            "code": "23.4.1"
+          },
+          {
+            "name": "Metallbearbeitungsteile",
+            "code": "23.4.2"
+          },
+          {
+            "name": "Druckteile",
+            "code": "23.4.3"
+          },
+          {
+            "name": "Baumaschinenteile",
+            "code": "23.4.4"
+          },
+          {
+            "name": "Gabelstaplerteile",
+            "code": "23.4.5"
+          },
+          {
+            "name": "Lager- und Handhabungsteile",
+            "code": "23.4.6"
+          },
+          {
+            "name": "Automatisierungs- und Roboterteile",
+            "code": "23.4.7"
+          },
+          {
+            "name": "Lebensmittelverarbeitungsteile",
+            "code": "23.4.8"
+          },
+          {
+            "name": "Kunststoffteile",
+            "code": "23.4.9"
+          },
+          {
+            "name": "Recyclingteile",
+            "code": "23.4.10"
+          }
+        ]
       }
     ]
   },

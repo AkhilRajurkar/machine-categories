@@ -1,74 +1,152 @@
 {
-    "name": "Office & Communication Technology",
-    "code": "17",
-    "subcategories": [
+  "name": "Office & Communication Technology",
+  "code": "17",
+  "subcategories": [
+    {
+      "name": "Printing & Copying Equipment",
+      "code": "17.1",
+      "subSubcategories": [
         {
-            "name": "Printing & Copying Equipment",
-            "code": "17.01",
-            "subSubcategories": [
-                {"name": "Laser Printers", "code": "17.01.01"},
-                {"name": "Inkjet Printers", "code": "17.01.02"},
-                {"name": "Multifunction Printers", "code": "17.01.03"},
-                {"name": "Copiers", "code": "17.01.04"},
-                {"name": "Scanners", "code": "17.01.05"},
-                {"name": "Paper Shredders", "code": "17.01.06"},
-                {"name": "Folding Machines", "code": "17.01.07"},
-                {"name": "Enveloping Machines", "code": "17.01.08"},
-                {"name": "Blueprint Machines", "code": "17.01.09"}
-            ]
+          "name": "Laser Printers",
+          "code": "17.1.1"
         },
         {
-            "name": "Communication Systems",
-            "code": "17.02",
-            "subSubcategories": [
-                {"name": "Telephone Systems", "code": "17.02.01"},
-                {"name": "VoIP Systems", "code": "17.02.02"},
-                {"name": "Fax Machines", "code": "17.02.03"}
-            ]
+          "name": "Inkjet Printers",
+          "code": "17.1.2"
         },
         {
-            "name": "Computer Equipment",
-            "code": "17.03",
-            "subSubcategories": [
-                {"name": "Desktops", "code": "17.03.01"},
-                {"name": "Laptops", "code": "17.03.02"},
-                {"name": "Servers", "code": "17.03.03"},
-                {"name": "Networking Equipment", "code": "17.03.04"}
-            ]
+          "name": "Multifunction Printers",
+          "code": "17.1.3"
         },
         {
-            "name": "Telecommunication Systems",
-            "code": "17.04",
-            "subSubcategories": [
-                {"name": "Routers", "code": "17.04.01"},
-                {"name": "Switches", "code": "17.04.02"},
-                {"name": "PBX Systems", "code": "17.04.03"},
-                {"name": "Satellite Communication Devices", "code": "17.04.04"}
-            ]
+          "name": "Copiers",
+          "code": "17.1.4"
         },
         {
-            "name": "Office Furniture",
-            "code": "17.05",
-            "subSubcategories": [
-                {"name": "Desks", "code": "17.05.01"},
-                {"name": "Chairs", "code": "17.05.02"},
-                {"name": "Filing Cabinets", "code": "17.05.03"},
-                {"name": "Safes", "code": "17.05.04"}
-            ]
+          "name": "Scanners",
+          "code": "17.1.5"
         },
         {
-            "name": "Audio-visual Equipment",
-            "code": "17.06",
-            "subSubcategories": [
-                {"name": "Video Projectors", "code": "17.06.01"}
-            ]
+          "name": "Paper Shredders",
+          "code": "17.1.6"
         },
         {
-            "name": "Other Office Equipment",
-            "code": "17.07",
-            "subSubcategories": [
-                {"name": "Other Machines", "code": "17.07.01"}
-            ]
+          "name": "Folding Machines",
+          "code": "17.1.7"
+        },
+        {
+          "name": "Enveloping Machines",
+          "code": "17.1.8"
+        },
+        {
+          "name": "Blueprint Machines",
+          "code": "17.1.9"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Communication Systems",
+      "code": "17.2",
+      "subSubcategories": [
+        {
+          "name": "Telephone Systems",
+          "code": "17.2.1"
+        },
+        {
+          "name": "VoIP Systems",
+          "code": "17.2.2"
+        },
+        {
+          "name": "Fax Machines",
+          "code": "17.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Computer Equipment",
+      "code": "17.3",
+      "subSubcategories": [
+        {
+          "name": "Desktops",
+          "code": "17.3.1"
+        },
+        {
+          "name": "Laptops",
+          "code": "17.3.2"
+        },
+        {
+          "name": "Servers",
+          "code": "17.3.3"
+        },
+        {
+          "name": "Networking Equipment",
+          "code": "17.3.4"
+        }
+      ]
+    },
+    {
+      "name": "Telecommunication Systems",
+      "code": "17.4",
+      "subSubcategories": [
+        {
+          "name": "Routers",
+          "code": "17.4.1"
+        },
+        {
+          "name": "Switches",
+          "code": "17.4.2"
+        },
+        {
+          "name": "PBX Systems",
+          "code": "17.4.3"
+        },
+        {
+          "name": "Satellite Communication Devices",
+          "code": "17.4.4"
+        }
+      ]
+    },
+    {
+      "name": "Office Furniture",
+      "code": "17.5",
+      "subSubcategories": [
+        {
+          "name": "Desks",
+          "code": "17.5.1"
+        },
+        {
+          "name": "Chairs",
+          "code": "17.5.2"
+        },
+        {
+          "name": "Filing Cabinets",
+          "code": "17.5.3"
+        },
+        {
+          "name": "Safes",
+          "code": "17.5.4"
+        }
+      ]
+    },
+    {
+      "name": "Audio-visual Equipment",
+      "code": "17.6",
+      "subSubcategories": [
+        {
+          "name": "Video Projectors",
+          "code": "17.6.1"
+        }
+      ]
+    },
+    {
+      "name": "Other Office Equipment",
+      "code": "17.7",
+      "subSubcategories": [
+        {
+          "name": "Other Machines",
+          "code": "17.7.1"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,169 @@
+{
+  "name": "Komplette Produktionslinien",
+  "code": "18",
+  "subcategories": [
+    {
+      "name": "Lebensmittel- & Getränkeproduktionslinien",
+      "code": "18.1",
+      "subSubcategories": [
+        {
+          "name": "Milchverarbeitungsanlagen",
+          "code": "18.1.1"
+        },
+        {
+          "name": "Brauereien & Destillerien",
+          "code": "18.1.2"
+        },
+        {
+          "name": "Backstraßen",
+          "code": "18.1.3"
+        },
+        {
+          "name": "Fleischverarbeitungsanlagen",
+          "code": "18.1.4"
+        },
+        {
+          "name": "Getränkeproduktionslinien",
+          "code": "18.1.5"
+        },
+        {
+          "name": "Süßwarenproduktionslinien",
+          "code": "18.1.6"
+        }
+      ]
+    },
+    {
+      "name": "Pharmazeutische & Chemische Produktionslinien",
+      "code": "18.2",
+      "subSubcategories": [
+        {
+          "name": "Pharmazeutische Produktionslinien",
+          "code": "18.2.1"
+        },
+        {
+          "name": "Chemieanlagen",
+          "code": "18.2.2"
+        },
+        {
+          "name": "Düngemittelwerke",
+          "code": "18.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Metall- & Werkstoffverarbeitung",
+      "code": "18.3",
+      "subSubcategories": [
+        {
+          "name": "Stahlwerke",
+          "code": "18.3.1"
+        },
+        {
+          "name": "Aluminiumhütten",
+          "code": "18.3.2"
+        },
+        {
+          "name": "Zementwerke",
+          "code": "18.3.3"
+        }
+      ]
+    },
+    {
+      "name": "Automobil- & Luftfahrt",
+      "code": "18.4",
+      "subSubcategories": [
+        {
+          "name": "Fahrzeugmontagelinien",
+          "code": "18.4.1"
+        },
+        {
+          "name": "Motorenherstellung",
+          "code": "18.4.2"
+        },
+        {
+          "name": "Luftfahrtkomponentenwerke",
+          "code": "18.4.3"
+        }
+      ]
+    },
+    {
+      "name": "Textil- & Bekleidungsindustrie",
+      "code": "18.5",
+      "subSubcategories": [
+        {
+          "name": "Spinnereien",
+          "code": "18.5.1"
+        },
+        {
+          "name": "Weberei- & Strickanlagen",
+          "code": "18.5.2"
+        },
+        {
+          "name": "Bekleidungsbetriebe",
+          "code": "18.5.3"
+        }
+      ]
+    },
+    {
+      "name": "Elektronik- & Haushaltsgeräte",
+      "code": "18.6",
+      "subSubcategories": [
+        {
+          "name": "Halbleiterwerke",
+          "code": "18.6.1"
+        },
+        {
+          "name": "Elektronikmontagelinien",
+          "code": "18.6.2"
+        }
+      ]
+    },
+    {
+      "name": "Kunststoff- & Gummiindustrie",
+      "code": "18.7",
+      "subSubcategories": [
+        {
+          "name": "Reifenherstellung",
+          "code": "18.7.1"
+        },
+        {
+          "name": "Kunststoffverpackungslinien",
+          "code": "18.7.2"
+        }
+      ]
+    },
+    {
+      "name": "Papier- & Zellstoffindustrie",
+      "code": "18.8",
+      "subSubcategories": []
+    },
+    {
+      "name": "Erneuerbare Energien",
+      "code": "18.9",
+      "subSubcategories": [
+        {
+          "name": "Biomassekraftwerke",
+          "code": "18.9.1"
+        },
+        {
+          "name": "Solarpaneelfabriken",
+          "code": "18.9.2"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Produktionslinien",
+      "code": "18.10",
+      "subSubcategories": [
+        {
+          "name": "Glasfabriken",
+          "code": "18.10.1"
+        },
+        {
+          "name": "Keramikfabriken",
+          "code": "18.10.2"
+        }
+      ]
+    }
+  ]
+}

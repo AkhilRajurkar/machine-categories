@@ -1,164 +1,368 @@
 {
-    "name": "Baumaschinerie",
-    "code": "08",
-    "subcategories": [
+  "name": "Baumaschinerie",
+  "code": "8",
+  "subcategories": [
+    {
+      "name": "Erdbewegungsmaschinen",
+      "code": "8.1",
+      "subSubcategories": [
         {
-            "name": "Erdbewegungsmaschinen",
-            "code": "08.01",
-            "subSubcategories": [
-                {"name": "Kettenbagger", "code": "08.01.01"},
-                {"name": "Radbagger", "code": "08.01.02"},
-                {"name": "Skid-Steer-Lader", "code": "08.01.03"},
-                {"name": "Radlader", "code": "08.01.04"},
-                {"name": "Bulldozer", "code": "08.01.05"},
-                {"name": "Planierraupen", "code": "08.01.06"},
-                {"name": "Rammen", "code": "08.01.07"},
-                {"name": "Rüttelplatten", "code": "08.01.08"}
-            ]
+          "name": "Kettenbagger",
+          "code": "8.1.1"
         },
         {
-            "name": "Straßenbau",
-            "code": "08.02",
-            "subSubcategories": [
-                {"name": "Asphaltschleuder", "code": "08.02.01"},
-                {"name": "Straßenwalzen", "code": "08.02.02"},
-                {"name": "Kaltfräsenmaschine", "code": "08.02.03"}
-            ]
+          "name": "Radbagger",
+          "code": "8.1.2"
         },
         {
-            "name": "Hebegeräte",
-            "code": "08.03",
-            "subSubcategories": [
-                {"name": "Kettenkran", "code": "08.03.01"},
-                {"name": "Mobilkran", "code": "08.03.02"},
-                {"name": "Turmkran", "code": "08.03.03"},
-                {"name": "Gabelstapler", "code": "08.03.04"},
-                {"name": "Hubarbeitsbühne", "code": "08.03.05"}
-            ]
+          "name": "Skid-Steer-Lader",
+          "code": "8.1.3"
         },
         {
-            "name": "Betontechnik",
-            "code": "08.04",
-            "subSubcategories": [
-                {"name": "Betonmischer", "code": "08.04.01"},
-                {"name": "Betonpumpe", "code": "08.04.02"},
-                {"name": "Betonwerk", "code": "08.04.03"},
-                {"name": "Gerüste", "code": "08.04.04"},
-                {"name": "Schalung", "code": "08.04.05"}
-            ]
+          "name": "Radlader",
+          "code": "8.1.4"
         },
         {
-            "name": "Bohranlagen",
-            "code": "08.05",
-            "subSubcategories": [
-                {"name": "Pfahlrammer", "code": "08.05.01"},
-                {"name": "Rotationsbohrgerät", "code": "08.05.02"}
-            ]
+          "name": "Bulldozer",
+          "code": "8.1.5"
         },
         {
-            "name": "Steinbearbeitung",
-            "code": "08.06",
-            "subSubcategories": [
-                {"name": "Brückensägen", "code": "08.06.01"},
-                {"name": "Drahtsägen", "code": "08.06.02"},
-                {"name": "Steinpoliermaschinen", "code": "08.06.03"},
-                {"name": "Steingraviermaschinen", "code": "08.06.04"},
-                {"name": "CNC Steinbearbeitungszentren", "code": "08.06.05"},
-                {"name": "Steinspalter", "code": "08.06.06"}
-            ]
+          "name": "Planierraupen",
+          "code": "8.1.6"
         },
         {
-            "name": "Kommunale Ausrüstung",
-            "code": "08.07",
-            "subSubcategories": [
-                {"name": "Straßenkehrmaschinen", "code": "08.07.01"},
-                {"name": "Schrubber-Trockner", "code": "08.07.02"},
-                {"name": "Müllautos", "code": "08.07.03"},
-                {"name": "Recycling-Fahrzeuge", "code": "08.07.04"},
-                {"name": "Schneepflüge", "code": "08.07.05"},
-                {"name": "Schneebläser", "code": "08.07.06"},
-                {"name": "Asphaltschleuder", "code": "08.07.07"},
-                {"name": "Rissfüller", "code": "08.07.08"},
-                {"name": "Baumwartungsgeräte", "code": "08.07.09"}
-            ]
+          "name": "Rammen",
+          "code": "8.1.7"
         },
         {
-            "name": "Abbruch und Recycling-Ausrüstung",
-            "code": "08.08",
-            "subSubcategories": [
-                {"name": "Abbruchsbagger", "code": "08.08.01"},
-                {"name": "Zerkleinerungsanlagen", "code": "08.08.02"},
-                {"name": "Siebmaschinen", "code": "08.08.03"},
-                {"name": "Deponiekompaktoren", "code": "08.08.04"}
-            ]
-        },
-        {
-            "name": "Transportausrüstung",
-            "code": "08.09",
-            "subSubcategories": [
-                {"name": "Anhänger", "code": "08.09.01"},
-                {"name": "Kipper", "code": "08.09.02"},
-                {"name": "Container", "code": "08.09.03"},
-                {"name": "Kipperlaster", "code": "08.09.04"},
-                {"name": "Betonmischerlaster", "code": "08.09.05"}
-            ]
-        },
-        {
-            "name": "Baustoffproduktion",
-            "code": "08.10",
-            "subSubcategories": [
-                {"name": "Zerkleinerungsanlagen", "code": "08.10.01"},
-                {"name": "Ziegelherstellungsanlagen", "code": "08.10.02"},
-                {"name": "Zementwerke", "code": "08.10.03"},
-                {"name": "Asphalwerke", "code": "08.10.04"}
-            ]
-        },
-        {
-            "name": "Spezielle Baumaschinerie",
-            "code": "08.11",
-            "subSubcategories": [
-                {"name": "Brückenbauausrüstung", "code": "08.11.01"},
-                {"name": "Tunnelbaumaschinerie", "code": "08.11.02"},
-                {"name": "Rohrleitungsausrüstung", "code": "08.11.03"}
-            ]
-        },
-        {
-            "name": "Versorgungs- und Unterstützungsausrüstung",
-            "code": "08.12",
-            "subSubcategories": [
-                {"name": "Kompressoren", "code": "08.12.01"},
-                {"name": "Generatoren", "code": "08.12.02"},
-                {"name": "Handwerkzeuge", "code": "08.12.03"},
-                {"name": "Elektrowerkzeuge", "code": "08.12.04"},
-                {"name": "Pressen", "code": "08.12.05"}
-            ]
-        },
-        {
-            "name": "Oberflächenkoversorgung und Vorbereitung",
-            "code": "08.13",
-            "subSubcategories": [
-                {"name": "Verputzmachinen", "code": "08.13.01"},
-                {"name": "Schleifmaschinen", "code": "08.13.02"},
-                {"name": "Poliermaschinen", "code": "08.13.03"},
-                {"name": "Malermaschinen", "code": "08.13.04"}
-            ]
-        },
-        {
-            "name": "Schneidtechnik",
-            "code": "08.14",
-            "subSubcategories": [
-                {"name": "Sägemaschinen", "code": "08.14.01"},
-                {"name": "Schermaschinen", "code": "08.14.02"},
-                {"name": "Plasmaschneider", "code": "08.14.03"},
-                {"name": "Laserschneider", "code": "08.14.04"}
-            ]
-        },
-        {
-            "name": "Sonstige Maschinen",
-            "code": "08.15",
-            "subSubcategories": [
-                {"name": "Verschiedene Maschinen", "code": "08.15.01"}
-            ]
+          "name": "Rüttelplatten",
+          "code": "8.1.8"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Straßenbau",
+      "code": "8.2",
+      "subSubcategories": [
+        {
+          "name": "Asphaltschleuder",
+          "code": "8.2.1"
+        },
+        {
+          "name": "Straßenwalzen",
+          "code": "8.2.2"
+        },
+        {
+          "name": "Kaltfräsenmaschine",
+          "code": "8.2.3"
+        }
+      ]
+    },
+    {
+      "name": "Hebegeräte",
+      "code": "8.3",
+      "subSubcategories": [
+        {
+          "name": "Kettenkran",
+          "code": "8.3.1"
+        },
+        {
+          "name": "Mobilkran",
+          "code": "8.3.2"
+        },
+        {
+          "name": "Turmkran",
+          "code": "8.3.3"
+        },
+        {
+          "name": "Gabelstapler",
+          "code": "8.3.4"
+        },
+        {
+          "name": "Hubarbeitsbühne",
+          "code": "8.3.5"
+        }
+      ]
+    },
+    {
+      "name": "Betontechnik",
+      "code": "8.4",
+      "subSubcategories": [
+        {
+          "name": "Betonmischer",
+          "code": "8.4.1"
+        },
+        {
+          "name": "Betonpumpe",
+          "code": "8.4.2"
+        },
+        {
+          "name": "Betonwerk",
+          "code": "8.4.3"
+        },
+        {
+          "name": "Gerüste",
+          "code": "8.4.4"
+        },
+        {
+          "name": "Schalung",
+          "code": "8.4.5"
+        }
+      ]
+    },
+    {
+      "name": "Bohranlagen",
+      "code": "8.5",
+      "subSubcategories": [
+        {
+          "name": "Pfahlrammer",
+          "code": "8.5.1"
+        },
+        {
+          "name": "Rotationsbohrgerät",
+          "code": "8.5.2"
+        }
+      ]
+    },
+    {
+      "name": "Steinbearbeitung",
+      "code": "8.6",
+      "subSubcategories": [
+        {
+          "name": "Brückensägen",
+          "code": "8.6.1"
+        },
+        {
+          "name": "Drahtsägen",
+          "code": "8.6.2"
+        },
+        {
+          "name": "Steinpoliermaschinen",
+          "code": "8.6.3"
+        },
+        {
+          "name": "Steingraviermaschinen",
+          "code": "8.6.4"
+        },
+        {
+          "name": "CNC Steinbearbeitungszentren",
+          "code": "8.6.5"
+        },
+        {
+          "name": "Steinspalter",
+          "code": "8.6.6"
+        }
+      ]
+    },
+    {
+      "name": "Kommunale Ausrüstung",
+      "code": "8.7",
+      "subSubcategories": [
+        {
+          "name": "Straßenkehrmaschinen",
+          "code": "8.7.1"
+        },
+        {
+          "name": "Schrubber-Trockner",
+          "code": "8.7.2"
+        },
+        {
+          "name": "Müllautos",
+          "code": "8.7.3"
+        },
+        {
+          "name": "Recycling-Fahrzeuge",
+          "code": "8.7.4"
+        },
+        {
+          "name": "Schneepflüge",
+          "code": "8.7.5"
+        },
+        {
+          "name": "Schneebläser",
+          "code": "8.7.6"
+        },
+        {
+          "name": "Asphaltschleuder",
+          "code": "8.7.7"
+        },
+        {
+          "name": "Rissfüller",
+          "code": "8.7.8"
+        },
+        {
+          "name": "Baumwartungsgeräte",
+          "code": "8.7.9"
+        }
+      ]
+    },
+    {
+      "name": "Abbruch und Recycling-Ausrüstung",
+      "code": "8.8",
+      "subSubcategories": [
+        {
+          "name": "Abbruchsbagger",
+          "code": "8.8.1"
+        },
+        {
+          "name": "Zerkleinerungsanlagen",
+          "code": "8.8.2"
+        },
+        {
+          "name": "Siebmaschinen",
+          "code": "8.8.3"
+        },
+        {
+          "name": "Deponiekompaktoren",
+          "code": "8.8.4"
+        }
+      ]
+    },
+    {
+      "name": "Transportausrüstung",
+      "code": "8.9",
+      "subSubcategories": [
+        {
+          "name": "Anhänger",
+          "code": "8.9.1"
+        },
+        {
+          "name": "Kipper",
+          "code": "8.9.2"
+        },
+        {
+          "name": "Container",
+          "code": "8.9.3"
+        },
+        {
+          "name": "Kipperlaster",
+          "code": "8.9.4"
+        },
+        {
+          "name": "Betonmischerlaster",
+          "code": "8.9.5"
+        }
+      ]
+    },
+    {
+      "name": "Baustoffproduktion",
+      "code": "8.10",
+      "subSubcategories": [
+        {
+          "name": "Zerkleinerungsanlagen",
+          "code": "8.10.1"
+        },
+        {
+          "name": "Ziegelherstellungsanlagen",
+          "code": "8.10.2"
+        },
+        {
+          "name": "Zementwerke",
+          "code": "8.10.3"
+        },
+        {
+          "name": "Asphalwerke",
+          "code": "8.10.4"
+        }
+      ]
+    },
+    {
+      "name": "Spezielle Baumaschinerie",
+      "code": "8.11",
+      "subSubcategories": [
+        {
+          "name": "Brückenbauausrüstung",
+          "code": "8.11.1"
+        },
+        {
+          "name": "Tunnelbaumaschinerie",
+          "code": "8.11.2"
+        },
+        {
+          "name": "Rohrleitungsausrüstung",
+          "code": "8.11.3"
+        }
+      ]
+    },
+    {
+      "name": "Versorgungs- und Unterstützungsausrüstung",
+      "code": "8.12",
+      "subSubcategories": [
+        {
+          "name": "Kompressoren",
+          "code": "8.12.1"
+        },
+        {
+          "name": "Generatoren",
+          "code": "8.12.2"
+        },
+        {
+          "name": "Handwerkzeuge",
+          "code": "8.12.3"
+        },
+        {
+          "name": "Elektrowerkzeuge",
+          "code": "8.12.4"
+        },
+        {
+          "name": "Pressen",
+          "code": "8.12.5"
+        }
+      ]
+    },
+    {
+      "name": "Oberflächenkoversorgung und Vorbereitung",
+      "code": "8.13",
+      "subSubcategories": [
+        {
+          "name": "Verputzmachinen",
+          "code": "8.13.1"
+        },
+        {
+          "name": "Schleifmaschinen",
+          "code": "8.13.2"
+        },
+        {
+          "name": "Poliermaschinen",
+          "code": "8.13.3"
+        },
+        {
+          "name": "Malermaschinen",
+          "code": "8.13.4"
+        }
+      ]
+    },
+    {
+      "name": "Schneidtechnik",
+      "code": "8.14",
+      "subSubcategories": [
+        {
+          "name": "Sägemaschinen",
+          "code": "8.14.1"
+        },
+        {
+          "name": "Schermaschinen",
+          "code": "8.14.2"
+        },
+        {
+          "name": "Plasmaschneider",
+          "code": "8.14.3"
+        },
+        {
+          "name": "Laserschneider",
+          "code": "8.14.4"
+        }
+      ]
+    },
+    {
+      "name": "Sonstige Maschinen",
+      "code": "8.15",
+      "subSubcategories": [
+        {
+          "name": "Verschiedene Maschinen",
+          "code": "8.15.1"
+        }
+      ]
+    }
+  ]
 }
