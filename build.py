@@ -18,13 +18,22 @@ def load_json_file(file_path):
         print(f"Error loading {file_path}: {str(e)}")
         return None
 
+def clean_code(code):
+    """Remove leading zeros from code parts while preserving structure"""
+    if not code:
+        return code
+    # Split code into parts (e.g., "01.02.03" -> ["01", "02", "03"])
+    parts = str(code).split('.')
+    # Remove leading zeros from each part and rejoin
+    cleaned_parts = [str(int(part)) for part in parts]
+    return '.'.join(cleaned_parts)
+
 def get_numeric_code(code):
-    # Convert code to numeric value for sorting (e.g., "2" -> 2, "02" -> 2)
     try:
-        # Remove any leading zeros and convert to integer
-        return int(str(code).lstrip('0').split('.')[0])
+        # Get first part of code and convert to integer
+        return int(str(code).split('.')[0].lstrip('0') or '0')
     except:
-        return 999  # Default high number for invalid codes
+        return 999
 
 def build_categories_json():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -55,9 +64,16 @@ def build_categories_json():
                     print(f"Processing: {file}")
                     data = load_json_file(file_path)
                     if data:
+                        # Clean all codes in the data
+                        data['code'] = clean_code(data['code'])
+                        # Clean subcategory codes
+                        for subcat in data.get('subcategories', []):
+                            subcat['code'] = clean_code(subcat['code'])
+                            # Clean sub-subcategory codes
+                            for subsubcat in subcat.get('subSubcategories', []):
+                                subsubcat['code'] = clean_code(subsubcat['code'])
+                        
                         numeric_code = get_numeric_code(data['code'])
-                        # Remove leading zeros from the code in the data
-                        data['code'] = str(numeric_code)
                         category_map[numeric_code] = data
                         processed_files.append(f"{numeric_code} - {data['name']}")
                     else:

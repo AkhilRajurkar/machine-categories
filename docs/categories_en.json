@@ -5,481 +5,481 @@
     "subcategories": [
       {
         "name": "Machining Centers",
-        "code": "01.01",
+        "code": "1.1",
         "subSubcategories": [
           {
             "name": "Vertical CNC Machining Centers",
-            "code": "01.01.01"
+            "code": "1.1.1"
           },
           {
             "name": "Horizontal CNC Machining Centers",
-            "code": "01.01.02"
+            "code": "1.1.2"
           },
           {
             "name": "Universal CNC Machining Centers",
-            "code": "01.01.03"
+            "code": "1.1.3"
           },
           {
             "name": "Manual Machining Centers",
-            "code": "01.01.04"
+            "code": "1.1.4"
           }
         ]
       },
       {
         "name": "Milling Machines",
-        "code": "01.02",
+        "code": "1.2",
         "subSubcategories": [
           {
             "name": "CNC Milling Machines",
-            "code": "01.02.01"
+            "code": "1.2.1"
           },
           {
             "name": "Manual Milling Machines",
-            "code": "01.02.02"
+            "code": "1.2.2"
           },
           {
             "name": "Planing Machines",
-            "code": "01.02.03"
+            "code": "1.2.3"
           }
         ]
       },
       {
         "name": "Lathes",
-        "code": "01.03",
+        "code": "1.3",
         "subSubcategories": [
           {
             "name": "Horizontal CNC Lathes",
-            "code": "01.03.01"
+            "code": "1.3.1"
           },
           {
             "name": "Vertical CNC Lathes",
-            "code": "01.03.02"
+            "code": "1.3.2"
           },
           {
             "name": "Manual Lead & Feed Spindle Lathes",
-            "code": "01.03.03"
+            "code": "1.3.3"
           },
           {
             "name": "Turret Lathes",
-            "code": "01.03.04"
+            "code": "1.3.4"
           },
           {
             "name": "Centering & End Processing Machines",
-            "code": "01.03.05"
+            "code": "1.3.5"
           }
         ]
       },
       {
         "name": "Grinding Machines",
-        "code": "01.04",
+        "code": "1.4",
         "subSubcategories": [
           {
             "name": "Surface Grinding Machines",
-            "code": "01.04.01"
+            "code": "1.4.1"
           },
           {
             "name": "External Cylindrical Grinding Machines",
-            "code": "01.04.02"
+            "code": "1.4.2"
           },
           {
             "name": "Internal Cylindrical Grinding Machines",
-            "code": "01.04.03"
+            "code": "1.4.3"
           },
           {
             "name": "Tool & Cutter Grinding Machines",
-            "code": "01.04.04"
+            "code": "1.4.4"
           },
           {
             "name": "Centerless Grinding Machines",
-            "code": "01.04.05"
+            "code": "1.4.5"
           }
         ]
       },
       {
         "name": "Drilling & Boring Machines",
-        "code": "01.05",
+        "code": "1.5",
         "subSubcategories": [
           {
             "name": "Radial Drilling Machines",
-            "code": "01.05.01"
+            "code": "1.5.1"
           },
           {
             "name": "Column Drilling Machines",
-            "code": "01.05.02"
+            "code": "1.5.2"
           },
           {
             "name": "Horizontal Boring Mills",
-            "code": "01.05.03"
+            "code": "1.5.3"
           },
           {
             "name": "Vertical Boring Mills",
-            "code": "01.05.04"
+            "code": "1.5.4"
           }
         ]
       },
       {
         "name": "EDM Machines",
-        "code": "01.06",
+        "code": "1.6",
         "subSubcategories": [
           {
             "name": "Wire EDM Machines",
-            "code": "01.06.01"
+            "code": "1.6.1"
           },
           {
             "name": "Sinker EDM Machines",
-            "code": "01.06.02"
+            "code": "1.6.2"
           },
           {
             "name": "EDM Drilling Machines",
-            "code": "01.06.03"
+            "code": "1.6.3"
           }
         ]
       },
       {
         "name": "Sawing & Cutting Machines",
-        "code": "01.07",
+        "code": "1.7",
         "subSubcategories": [
           {
             "name": "Horizontal Band Saws",
-            "code": "01.07.01"
+            "code": "1.7.1"
           },
           {
             "name": "Vertical Band Saws",
-            "code": "01.07.02"
+            "code": "1.7.2"
           },
           {
             "name": "Circular Saws",
-            "code": "01.07.03"
+            "code": "1.7.3"
           },
           {
             "name": "Hack Saws",
-            "code": "01.07.04"
+            "code": "1.7.4"
           }
         ]
       },
       {
         "name": "Welding Equipment",
-        "code": "01.08",
+        "code": "1.8",
         "subSubcategories": [
           {
             "name": "MIG/MAG Welding Machines",
-            "code": "01.08.01"
+            "code": "1.8.1"
           },
           {
             "name": "TIG Welding Machines",
-            "code": "01.08.02"
+            "code": "1.8.2"
           },
           {
             "name": "Stick Welding Machines",
-            "code": "01.08.03"
+            "code": "1.8.3"
           },
           {
             "name": "Spot Welding Machines",
-            "code": "01.08.04"
+            "code": "1.8.4"
           },
           {
             "name": "Seam Welding Machines",
-            "code": "01.08.05"
+            "code": "1.8.5"
           },
           {
             "name": "Welding Robots",
-            "code": "01.08.06"
+            "code": "1.8.6"
           },
           {
             "name": "Welding Accessories",
-            "code": "01.08.07"
+            "code": "1.8.7"
           }
         ]
       },
       {
         "name": "Presses",
-        "code": "01.09",
+        "code": "1.9",
         "subSubcategories": [
           {
             "name": "Mechanical Presses",
-            "code": "01.09.01"
+            "code": "1.9.1"
           },
           {
             "name": "Hydraulic Presses",
-            "code": "01.09.02"
+            "code": "1.9.2"
           },
           {
             "name": "Pneumatic Presses",
-            "code": "01.09.03"
+            "code": "1.9.3"
           },
           {
             "name": "Forging Presses",
-            "code": "01.09.04"
+            "code": "1.9.4"
           },
           {
             "name": "Punching Presses",
-            "code": "01.09.05"
+            "code": "1.9.5"
           },
           {
             "name": "Impact, Pulling, and Ramming Machines",
-            "code": "01.09.06"
+            "code": "1.9.6"
           }
         ]
       },
       {
         "name": "Gear Machining",
-        "code": "01.10",
+        "code": "1.10",
         "subSubcategories": [
           {
             "name": "Gear Hobbing Machines",
-            "code": "01.10.01"
+            "code": "1.10.1"
           },
           {
             "name": "Gear Shaping Machines",
-            "code": "01.10.02"
+            "code": "1.10.2"
           },
           {
             "name": "Gear Grinding Machines",
-            "code": "01.10.03"
+            "code": "1.10.3"
           }
         ]
       },
       {
         "name": "Wire Processing",
-        "code": "01.11",
+        "code": "1.11",
         "subSubcategories": [
           {
             "name": "Wire Drawing Machines",
-            "code": "01.11.01"
+            "code": "1.11.1"
           },
           {
             "name": "Wire Twisting Machines",
-            "code": "01.11.02"
+            "code": "1.11.2"
           },
           {
             "name": "Wire Cutting & Stripping Machines",
-            "code": "01.11.03"
+            "code": "1.11.3"
           },
           {
             "name": "Wire Bending Machines",
-            "code": "01.11.04"
+            "code": "1.11.4"
           },
           {
             "name": "Wire Mesh Machines",
-            "code": "01.11.05"
+            "code": "1.11.5"
           },
           {
             "name": "Wire Winding Machines",
-            "code": "01.11.06"
+            "code": "1.11.6"
           }
         ]
       },
       {
         "name": "Surface Cleaning",
-        "code": "01.12",
+        "code": "1.12",
         "subSubcategories": [
           {
             "name": "Sandblasting Machines",
-            "code": "01.12.01"
+            "code": "1.12.1"
           },
           {
             "name": "Shot Blasting Machines",
-            "code": "01.12.02"
+            "code": "1.12.2"
           },
           {
             "name": "Ultrasonic Cleaning Systems",
-            "code": "01.12.03"
+            "code": "1.12.3"
           },
           {
             "name": "Solvent Cleaning Systems",
-            "code": "01.12.04"
+            "code": "1.12.4"
           }
         ]
       },
       {
         "name": "Surface Coating",
-        "code": "01.13",
+        "code": "1.13",
         "subSubcategories": [
           {
             "name": "Powder Coating Systems",
-            "code": "01.13.01"
+            "code": "1.13.1"
           },
           {
             "name": "Paint Systems",
-            "code": "01.13.02"
+            "code": "1.13.2"
           },
           {
             "name": "Electroplating Systems",
-            "code": "01.13.03"
+            "code": "1.13.3"
           },
           {
             "name": "Anodizing Systems",
-            "code": "01.13.04"
+            "code": "1.13.4"
           }
         ]
       },
       {
         "name": "Surface Finishing",
-        "code": "01.14",
+        "code": "1.14",
         "subSubcategories": [
           {
             "name": "Polishing Machines",
-            "code": "01.14.01"
+            "code": "1.14.1"
           },
           {
             "name": "Deburring Machines",
-            "code": "01.14.02"
+            "code": "1.14.2"
           },
           {
             "name": "Furnaces",
-            "code": "01.14.03"
+            "code": "1.14.3"
           }
         ]
       },
       {
         "name": "Other Metalworking Machines",
-        "code": "01.15",
+        "code": "1.15",
         "subSubcategories": [
           {
             "name": "Honing Machines",
-            "code": "01.15.01"
+            "code": "1.15.1"
           },
           {
             "name": "Lapping Machines",
-            "code": "01.15.02"
+            "code": "1.15.2"
           },
           {
             "name": "Broaching Machines",
-            "code": "01.15.03"
+            "code": "1.15.3"
           },
           {
             "name": "Straightening Machines",
-            "code": "01.15.04"
+            "code": "1.15.4"
           },
           {
             "name": "Die-Casting Machines",
-            "code": "01.15.05"
+            "code": "1.15.5"
           },
           {
             "name": "Casting Machines",
-            "code": "01.15.06"
+            "code": "1.15.6"
           },
           {
             "name": "Pipe Processing Machines",
-            "code": "01.15.07"
+            "code": "1.15.7"
           },
           {
             "name": "Transfer Machines",
-            "code": "01.15.08"
+            "code": "1.15.8"
           },
           {
             "name": "Balancing Machines",
-            "code": "01.15.09"
+            "code": "1.15.9"
           },
           {
             "name": "Thread Processing Machines",
-            "code": "01.15.10"
+            "code": "1.15.10"
           },
           {
             "name": "Forging Machines",
-            "code": "01.15.11"
+            "code": "1.15.11"
           },
           {
             "name": "Slotting Machines",
-            "code": "01.15.12"
+            "code": "1.15.12"
           },
           {
             "name": "Engraving Machines",
-            "code": "01.15.13"
+            "code": "1.15.13"
           }
         ]
       },
       {
         "name": "Measuring and Inspection Equipment",
-        "code": "01.16",
+        "code": "1.16",
         "subSubcategories": [
           {
             "name": "Coordinate Measuring Machines (CMM)",
-            "code": "01.16.01"
+            "code": "1.16.1"
           },
           {
             "name": "Optical Inspection Systems",
-            "code": "01.16.02"
+            "code": "1.16.2"
           },
           {
             "name": "Surface Roughness Testers",
-            "code": "01.16.03"
+            "code": "1.16.3"
           }
         ]
       },
       {
         "name": "Additive Manufacturing Equipment",
-        "code": "01.17",
+        "code": "1.17",
         "subSubcategories": [
           {
             "name": "3D Metal Printers",
-            "code": "01.17.01"
+            "code": "1.17.1"
           },
           {
             "name": "Metal Deposition Machines",
-            "code": "01.17.02"
+            "code": "1.17.2"
           }
         ]
       },
       {
         "name": "Sheet Metal Cutting",
-        "code": "01.18",
+        "code": "1.18",
         "subSubcategories": [
           {
             "name": "Laser Cutting Machines",
-            "code": "01.18.01"
+            "code": "1.18.1"
           },
           {
             "name": "Plasma Cutting Machines",
-            "code": "01.18.02"
+            "code": "1.18.2"
           },
           {
             "name": "Waterjet Cutting Machines",
-            "code": "01.18.03"
+            "code": "1.18.3"
           },
           {
             "name": "Shears",
-            "code": "01.18.04"
+            "code": "1.18.4"
           },
           {
             "name": "CNC Punching Machines",
-            "code": "01.18.05"
+            "code": "1.18.5"
           }
         ]
       },
       {
         "name": "Sheet Metal Forming",
-        "code": "01.19",
+        "code": "1.19",
         "subSubcategories": [
           {
             "name": "Press Brakes",
-            "code": "01.19.01"
+            "code": "1.19.1"
           },
           {
             "name": "Plate Rolling Machines",
-            "code": "01.19.02"
+            "code": "1.19.2"
           },
           {
             "name": "CNC Punching Machines",
-            "code": "01.19.03"
+            "code": "1.19.3"
           },
           {
             "name": "Mechanical Punching Machines",
-            "code": "01.19.04"
+            "code": "1.19.4"
           }
         ]
       },
       {
         "name": "Sheet Metal Bending",
-        "code": "01.20",
+        "code": "1.20",
         "subSubcategories": [
           {
             "name": "Swing-Beam Bending Machines",
-            "code": "01.20.01"
+            "code": "1.20.1"
           },
           {
             "name": "Profile Bending Machines",
-            "code": "01.20.02"
+            "code": "1.20.2"
           }
         ]
       }
@@ -877,245 +877,245 @@
     "subcategories": [
       {
         "name": "Injection Molding Machines",
-        "code": "03.01",
+        "code": "3.1",
         "subSubcategories": [
           {
             "name": "Horizontal Injection Molders",
-            "code": "03.01.01"
+            "code": "3.1.1"
           },
           {
             "name": "Vertical Injection Molders",
-            "code": "03.01.02"
+            "code": "3.1.2"
           },
           {
             "name": "All-Electric Injection Molders",
-            "code": "03.01.03"
+            "code": "3.1.3"
           }
         ]
       },
       {
         "name": "Extrusion Machines",
-        "code": "03.02",
+        "code": "3.2",
         "subSubcategories": [
           {
             "name": "Pipe Extruders",
-            "code": "03.02.01"
+            "code": "3.2.1"
           },
           {
             "name": "Profile Extruders",
-            "code": "03.02.02"
+            "code": "3.2.2"
           },
           {
             "name": "Film Extruders",
-            "code": "03.02.03"
+            "code": "3.2.3"
           },
           {
             "name": "Rubber Extruders",
-            "code": "03.02.04"
+            "code": "3.2.4"
           }
         ]
       },
       {
         "name": "Blow Molding Machines",
-        "code": "03.03",
+        "code": "3.3",
         "subSubcategories": [
           {
             "name": "Extrusion Blow Molders",
-            "code": "03.03.01"
+            "code": "3.3.1"
           },
           {
             "name": "Injection Blow Molders",
-            "code": "03.03.02"
+            "code": "3.3.2"
           },
           {
             "name": "Stretch Blow Molders",
-            "code": "03.03.03"
+            "code": "3.3.3"
           }
         ]
       },
       {
         "name": "Window Production Machinery",
-        "code": "03.04",
+        "code": "3.4",
         "subSubcategories": []
       },
       {
         "name": "Mills",
-        "code": "03.05",
+        "code": "3.5",
         "subSubcategories": [
           {
             "name": "Calenders",
-            "code": "03.05.01"
+            "code": "3.5.1"
           },
           {
             "name": "Rolling Mills",
-            "code": "03.05.02"
+            "code": "3.5.2"
           },
           {
             "name": "Mixers",
-            "code": "03.05.03"
+            "code": "3.5.3"
           }
         ]
       },
       {
         "name": "Heating & Cooling Units",
-        "code": "03.06",
+        "code": "3.6",
         "subSubcategories": [
           {
             "name": "Heaters",
-            "code": "03.06.01"
+            "code": "3.6.1"
           },
           {
             "name": "Coolers",
-            "code": "03.06.02"
+            "code": "3.6.2"
           },
           {
             "name": "Dryers",
-            "code": "03.06.03"
+            "code": "3.6.3"
           }
         ]
       },
       {
         "name": "Spare Parts, Tools, Devices",
-        "code": "03.07",
+        "code": "3.7",
         "subSubcategories": [
           {
             "name": "Molds",
-            "code": "03.07.01"
+            "code": "3.7.1"
           },
           {
             "name": "Tools",
-            "code": "03.07.02"
+            "code": "3.7.2"
           }
         ]
       },
       {
         "name": "Peripheral Devices",
-        "code": "03.08",
+        "code": "3.8",
         "subSubcategories": [
           {
             "name": "Handling Equipment",
-            "code": "03.08.01"
+            "code": "3.8.1"
           },
           {
             "name": "Robots",
-            "code": "03.08.02"
+            "code": "3.8.2"
           }
         ]
       },
       {
         "name": "Polyurethane Processing Machinery",
-        "code": "03.09",
+        "code": "3.9",
         "subSubcategories": []
       },
       {
         "name": "Presses",
-        "code": "03.10",
+        "code": "3.10",
         "subSubcategories": [
           {
             "name": "Hydraulic Presses",
-            "code": "03.10.01"
+            "code": "3.10.1"
           },
           {
             "name": "Mechanical Presses",
-            "code": "03.10.02"
+            "code": "3.10.2"
           }
         ]
       },
       {
         "name": "Printing Machinery",
-        "code": "03.11",
+        "code": "3.11",
         "subSubcategories": []
       },
       {
         "name": "Processing- and Subsequent Machines",
-        "code": "03.12",
+        "code": "3.12",
         "subSubcategories": [
           {
             "name": "Film Processing Machines",
-            "code": "03.12.01"
+            "code": "3.12.1"
           },
           {
             "name": "Finishing",
-            "code": "03.12.02"
+            "code": "3.12.2"
           },
           {
             "name": "Decorating",
-            "code": "03.12.03"
+            "code": "3.12.3"
           },
           {
             "name": "Winders",
-            "code": "03.12.04"
+            "code": "3.12.4"
           }
         ]
       },
       {
         "name": "Quality Assurance Equipment",
-        "code": "03.13",
+        "code": "3.13",
         "subSubcategories": [
           {
             "name": "Measurement Equipment",
-            "code": "03.13.01"
+            "code": "3.13.1"
           },
           {
             "name": "Testing Equipment",
-            "code": "03.13.02"
+            "code": "3.13.2"
           }
         ]
       },
       {
         "name": "Reprocessing & Recycling Equipment",
-        "code": "03.14",
+        "code": "3.14",
         "subSubcategories": [
           {
             "name": "Agglomerators",
-            "code": "03.14.01"
+            "code": "3.14.1"
           },
           {
             "name": "Granulators",
-            "code": "03.14.02"
+            "code": "3.14.2"
           }
         ]
       },
       {
         "name": "Rubber Processing Machinery",
-        "code": "03.15",
+        "code": "3.15",
         "subSubcategories": []
       },
       {
         "name": "Thermoforming Machinery",
-        "code": "03.16",
+        "code": "3.16",
         "subSubcategories": [
           {
             "name": "Vacuum Forming Machines",
-            "code": "03.16.01"
+            "code": "3.16.1"
           },
           {
             "name": "Deep Drawing Machines",
-            "code": "03.16.02"
+            "code": "3.16.2"
           }
         ]
       },
       {
         "name": "Welding Machinery",
-        "code": "03.17",
+        "code": "3.17",
         "subSubcategories": []
       },
       {
         "name": "Miscellaneous Equipment",
-        "code": "03.18",
+        "code": "3.18",
         "subSubcategories": []
       },
       {
         "name": "Other Plastic Processing Machinery",
-        "code": "03.19",
+        "code": "3.19",
         "subSubcategories": [
           {
             "name": "Complete Production Lines",
-            "code": "03.19.01"
+            "code": "3.19.1"
           },
           {
             "name": "Other Machines",
-            "code": "03.19.02"
+            "code": "3.19.2"
           }
         ]
       }
@@ -1127,164 +1127,164 @@
     "subcategories": [
       {
         "name": "Spinning Machines",
-        "code": "04.01",
+        "code": "4.1",
         "subSubcategories": [
           {
             "name": "Ring Spinning Machines",
-            "code": "04.01.01"
+            "code": "4.1.1"
           },
           {
             "name": "Open-End Spinning Machines",
-            "code": "04.01.02"
+            "code": "4.1.2"
           },
           {
             "name": "Rotor Spinning Machines",
-            "code": "04.01.03"
+            "code": "4.1.3"
           }
         ]
       },
       {
         "name": "Weaving Machines",
-        "code": "04.02",
+        "code": "4.2",
         "subSubcategories": [
           {
             "name": "Air Jet Looms",
-            "code": "04.02.01"
+            "code": "4.2.1"
           },
           {
             "name": "Rapier Looms",
-            "code": "04.02.02"
+            "code": "4.2.2"
           },
           {
             "name": "Projectile Looms",
-            "code": "04.02.03"
+            "code": "4.2.3"
           }
         ]
       },
       {
         "name": "Knitting Machines",
-        "code": "04.03",
+        "code": "4.3",
         "subSubcategories": [
           {
             "name": "Warp Knitting Machines",
-            "code": "04.03.01"
+            "code": "4.3.1"
           },
           {
             "name": "Circular Knitting Machines",
-            "code": "04.03.02"
+            "code": "4.3.2"
           },
           {
             "name": "Flat Knitting Machines",
-            "code": "04.03.03"
+            "code": "4.3.3"
           }
         ]
       },
       {
         "name": "Dyeing & Finishing Machines",
-        "code": "04.04",
+        "code": "4.4",
         "subSubcategories": [
           {
             "name": "Fabric Dyeing Machines",
-            "code": "04.04.01"
+            "code": "4.4.1"
           },
           {
             "name": "Yarn Dyeing Machines",
-            "code": "04.04.02"
+            "code": "4.4.2"
           },
           {
             "name": "Printing Machines",
-            "code": "04.04.03"
+            "code": "4.4.3"
           },
           {
             "name": "Calenders",
-            "code": "04.04.04"
+            "code": "4.4.4"
           },
           {
             "name": "Sanforizing Machines",
-            "code": "04.04.05"
+            "code": "4.4.5"
           },
           {
             "name": "Stretching Frames",
-            "code": "04.04.06"
+            "code": "4.4.6"
           }
         ]
       },
       {
         "name": "Nonwoven Machines",
-        "code": "04.05",
+        "code": "4.5",
         "subSubcategories": [
           {
             "name": "Spunbond Systems",
-            "code": "04.05.01"
+            "code": "4.5.1"
           },
           {
             "name": "Meltblown Systems",
-            "code": "04.05.02"
+            "code": "4.5.2"
           }
         ]
       },
       {
         "name": "Sewing & Garment Machines",
-        "code": "04.06",
+        "code": "4.6",
         "subSubcategories": [
           {
             "name": "Straight Stitch Machines",
-            "code": "04.06.01"
+            "code": "4.6.1"
           },
           {
             "name": "Overlock Machines",
-            "code": "04.06.02"
+            "code": "4.6.2"
           },
           {
             "name": "Straight Knife Cutters",
-            "code": "04.06.03"
+            "code": "4.6.3"
           },
           {
             "name": "Band Knife Cutters",
-            "code": "04.06.04"
+            "code": "4.6.4"
           },
           {
             "name": "Embroidery Machines",
-            "code": "04.06.05"
+            "code": "4.6.5"
           },
           {
             "name": "Quilting Machines",
-            "code": "04.06.06"
+            "code": "4.6.6"
           }
         ]
       },
       {
         "name": "Textile Testing Equipment",
-        "code": "04.07",
+        "code": "4.7",
         "subSubcategories": []
       },
       {
         "name": "Winding & Twisting Machines",
-        "code": "04.08",
+        "code": "4.8",
         "subSubcategories": []
       },
       {
         "name": "Ironing Machines",
-        "code": "04.09",
+        "code": "4.9",
         "subSubcategories": []
       },
       {
         "name": "Texturing Machines",
-        "code": "04.10",
+        "code": "4.10",
         "subSubcategories": []
       },
       {
         "name": "Textile Cleaning Machines",
-        "code": "04.11",
+        "code": "4.11",
         "subSubcategories": []
       },
       {
         "name": "Other Textile Machines",
-        "code": "04.12",
+        "code": "4.12",
         "subSubcategories": [
           {
             "name": "Hot Air Welding Machines",
-            "code": "04.12.01"
+            "code": "4.12.1"
           }
         ]
       }
@@ -1296,355 +1296,355 @@
     "subcategories": [
       {
         "name": "Bakery Equipment",
-        "code": "05.01",
+        "code": "5.1",
         "subSubcategories": [
           {
             "name": "Dough Mixers",
-            "code": "05.01.01"
+            "code": "5.1.1"
           },
           {
             "name": "Dough Dividers",
-            "code": "05.01.02"
+            "code": "5.1.2"
           },
           {
             "name": "Deck Ovens",
-            "code": "05.01.03"
+            "code": "5.1.3"
           },
           {
             "name": "Rack Ovens",
-            "code": "05.01.04"
+            "code": "5.1.4"
           },
           {
             "name": "Proofing Cabinets",
-            "code": "05.01.05"
+            "code": "5.1.5"
           },
           {
             "name": "Baking Ovens",
-            "code": "05.01.06"
+            "code": "5.1.6"
           },
           {
             "name": "Bread Slicers",
-            "code": "05.01.07"
+            "code": "5.1.7"
           }
         ]
       },
       {
         "name": "Meat Processing",
-        "code": "05.02",
+        "code": "5.2",
         "subSubcategories": [
           {
             "name": "Meat Grinders",
-            "code": "05.02.01"
+            "code": "5.2.1"
           },
           {
             "name": "Meat Slicers",
-            "code": "05.02.02"
+            "code": "5.2.2"
           },
           {
             "name": "Sausage Fillers",
-            "code": "05.02.03"
+            "code": "5.2.3"
           },
           {
             "name": "Meat Mixers",
-            "code": "05.02.04"
+            "code": "5.2.4"
           },
           {
             "name": "Smoking Equipment",
-            "code": "05.02.05"
+            "code": "5.2.5"
           }
         ]
       },
       {
         "name": "Beverage Production",
-        "code": "05.03",
+        "code": "5.3",
         "subSubcategories": [
           {
             "name": "Mash Tuns",
-            "code": "05.03.01"
+            "code": "5.3.1"
           },
           {
             "name": "Fermentation Tanks",
-            "code": "05.03.02"
+            "code": "5.3.2"
           },
           {
             "name": "Filling & Canning Lines",
-            "code": "05.03.03"
+            "code": "5.3.3"
           },
           {
             "name": "Pasteurizers",
-            "code": "05.03.04"
+            "code": "5.3.4"
           },
           {
             "name": "Filter Processing Machines",
-            "code": "05.03.05"
+            "code": "5.3.5"
           }
         ]
       },
       {
         "name": "Dairy Equipment",
-        "code": "05.04",
+        "code": "5.4",
         "subSubcategories": [
           {
             "name": "Milk Pasteurizers",
-            "code": "05.04.01"
+            "code": "5.4.1"
           },
           {
             "name": "Cheese Making Equipment",
-            "code": "05.04.02"
+            "code": "5.4.2"
           },
           {
             "name": "Cream Separators",
-            "code": "05.04.03"
+            "code": "5.4.3"
           },
           {
             "name": "Butter Churns",
-            "code": "05.04.04"
+            "code": "5.4.4"
           }
         ]
       },
       {
         "name": "Confectionery Machines",
-        "code": "05.05",
+        "code": "5.5",
         "subSubcategories": [
           {
             "name": "Chocolate Tempering Machines",
-            "code": "05.05.01"
+            "code": "5.5.1"
           },
           {
             "name": "Candy Making Machines",
-            "code": "05.05.02"
+            "code": "5.5.2"
           }
         ]
       },
       {
         "name": "Fruit & Vegetable Processing",
-        "code": "05.06",
+        "code": "5.6",
         "subSubcategories": [
           {
             "name": "Washing Machines",
-            "code": "05.06.01"
+            "code": "5.6.1"
           },
           {
             "name": "Peeling Machines",
-            "code": "05.06.02"
+            "code": "5.6.2"
           },
           {
             "name": "Cutting & Dicing Machines",
-            "code": "05.06.03"
+            "code": "5.6.3"
           }
         ]
       },
       {
         "name": "Food Packaging",
-        "code": "05.07",
+        "code": "5.7",
         "subSubcategories": [
           {
             "name": "Vacuum Packaging Machines",
-            "code": "05.07.01"
+            "code": "5.7.1"
           },
           {
             "name": "Modified Atmosphere Packaging",
-            "code": "05.07.02"
+            "code": "5.7.2"
           },
           {
             "name": "Filling Machines",
-            "code": "05.07.03"
+            "code": "5.7.3"
           }
         ]
       },
       {
         "name": "Refrigeration & Cooling",
-        "code": "05.08",
+        "code": "5.8",
         "subSubcategories": [
           {
             "name": "Chillers",
-            "code": "05.08.01"
+            "code": "5.8.1"
           },
           {
             "name": "Cooling Towers",
-            "code": "05.08.02"
+            "code": "5.8.2"
           },
           {
             "name": "Cold Rooms",
-            "code": "05.08.03"
+            "code": "5.8.3"
           },
           {
             "name": "Display Coolers",
-            "code": "05.08.04"
+            "code": "5.8.4"
           },
           {
             "name": "Ice Machines",
-            "code": "05.08.05"
+            "code": "5.8.5"
           }
         ]
       },
       {
         "name": "Coffee, Tea, and Tobacco Processing",
-        "code": "05.09",
+        "code": "5.9",
         "subSubcategories": [
           {
             "name": "Coffee Machines",
-            "code": "05.09.01"
+            "code": "5.9.1"
           },
           {
             "name": "Tea Processing Machines",
-            "code": "05.09.02"
+            "code": "5.9.2"
           },
           {
             "name": "Tobacco Processing Machines",
-            "code": "05.09.03"
+            "code": "5.9.3"
           }
         ]
       },
       {
         "name": "Snack Food Production",
-        "code": "05.10",
+        "code": "5.10",
         "subSubcategories": [
           {
             "name": "Potato Chip Machines",
-            "code": "05.10.01"
+            "code": "5.10.1"
           },
           {
             "name": "Popcorn Machines",
-            "code": "05.10.02"
+            "code": "5.10.2"
           }
         ]
       },
       {
         "name": "Kitchen Equipment",
-        "code": "05.11",
+        "code": "5.11",
         "subSubcategories": [
           {
             "name": "Cooking Ranges",
-            "code": "05.11.01"
+            "code": "5.11.1"
           },
           {
             "name": "Refrigerators",
-            "code": "05.11.02"
+            "code": "5.11.2"
           }
         ]
       },
       {
         "name": "Mixing and Blending Equipment",
-        "code": "05.12",
+        "code": "5.12",
         "subSubcategories": [
           {
             "name": "Mixers",
-            "code": "05.12.01"
+            "code": "5.12.1"
           },
           {
             "name": "Blenders",
-            "code": "05.12.02"
+            "code": "5.12.2"
           },
           {
             "name": "Mixing Machines",
-            "code": "05.12.03"
+            "code": "5.12.3"
           }
         ]
       },
       {
         "name": "Storage and Handling Equipment",
-        "code": "05.13",
+        "code": "5.13",
         "subSubcategories": [
           {
             "name": "Storage Racks",
-            "code": "05.13.01"
+            "code": "5.13.1"
           },
           {
             "name": "Conveyors",
-            "code": "05.13.02"
+            "code": "5.13.2"
           }
         ]
       },
       {
         "name": "Pasta and Noodle Production",
-        "code": "05.14",
+        "code": "5.14",
         "subSubcategories": [
           {
             "name": "Pasta Extruders",
-            "code": "05.14.01"
+            "code": "5.14.1"
           }
         ]
       },
       {
         "name": "Cleaning and Sanitation Equipment",
-        "code": "05.15",
+        "code": "5.15",
         "subSubcategories": [
           {
             "name": "Cleaning Machines",
-            "code": "05.15.01"
+            "code": "5.15.1"
           },
           {
             "name": "Sanitation Systems",
-            "code": "05.15.02"
+            "code": "5.15.2"
           }
         ]
       },
       {
         "name": "Sorting and Sifting Equipment",
-        "code": "05.16",
+        "code": "5.16",
         "subSubcategories": [
           {
             "name": "Sifting Machines",
-            "code": "05.16.01"
+            "code": "5.16.1"
           },
           {
             "name": "Sorting Machines",
-            "code": "05.16.02"
+            "code": "5.16.2"
           }
         ]
       },
       {
         "name": "Dryers",
-        "code": "05.17",
+        "code": "5.17",
         "subSubcategories": [
           {
             "name": "Industrial Dryers",
-            "code": "05.17.01"
+            "code": "5.17.1"
           }
         ]
       },
       {
         "name": "Weighing and Measuring Equipment",
-        "code": "05.18",
+        "code": "5.18",
         "subSubcategories": [
           {
             "name": "Scales",
-            "code": "05.18.01"
+            "code": "5.18.1"
           },
           {
             "name": "Measuring Devices",
-            "code": "05.18.02"
+            "code": "5.18.2"
           }
         ]
       },
       {
         "name": "Oil and Fat Processing",
-        "code": "05.19",
+        "code": "5.19",
         "subSubcategories": [
           {
             "name": "Oil Presses",
-            "code": "05.19.01"
+            "code": "5.19.1"
           }
         ]
       },
       {
         "name": "Dairy By-Product Processing",
-        "code": "05.20",
+        "code": "5.20",
         "subSubcategories": [
           {
             "name": "Whey Processing Machines",
-            "code": "05.20.01"
+            "code": "5.20.1"
           }
         ]
       },
       {
         "name": "Miscellaneous Food Processing Machines",
-        "code": "05.21",
+        "code": "5.21",
         "subSubcategories": [
           {
             "name": "General Purpose Machines",
-            "code": "05.21.01"
+            "code": "5.21.1"
           }
         ]
       }
@@ -1656,258 +1656,258 @@
     "subcategories": [
       {
         "name": "Filling Machines",
-        "code": "06.01",
+        "code": "6.1",
         "subSubcategories": [
           {
             "name": "Liquid Filling Machines",
-            "code": "06.01.01"
+            "code": "6.1.1"
           },
           {
             "name": "Powder Filling Machines",
-            "code": "06.01.02"
+            "code": "6.1.2"
           },
           {
             "name": "Granule Filling Machines",
-            "code": "06.01.03"
+            "code": "6.1.3"
           },
           {
             "name": "Abfüllanlagen",
-            "code": "06.01.04",
+            "code": "6.1.4",
             "oldCode": "500.1"
           },
           {
             "name": "Weighing and Filling Machines",
-            "code": "06.01.05",
+            "code": "6.1.5",
             "oldCode": "500.20, 500.21"
           },
           {
             "name": "Tube Fillers",
-            "code": "06.01.06"
+            "code": "6.1.6"
           }
         ]
       },
       {
         "name": "Sealing Machines",
-        "code": "06.02",
+        "code": "6.2",
         "subSubcategories": [
           {
             "name": "Heat Sealers",
-            "code": "06.02.01"
+            "code": "6.2.1"
           },
           {
             "name": "Induction Sealers",
-            "code": "06.02.02"
+            "code": "6.2.2"
           },
           {
             "name": "Ultrasonic Sealers",
-            "code": "06.02.03"
+            "code": "6.2.3"
           },
           {
             "name": "Verschließmaschinen",
-            "code": "06.02.04",
+            "code": "6.2.4",
             "oldCode": "500.19"
           },
           {
             "name": "Strapping Machines",
-            "code": "06.02.05",
+            "code": "6.2.5",
             "oldCode": "500.18"
           },
           {
             "name": "Banding Machines",
-            "code": "06.02.06",
+            "code": "6.2.6",
             "oldCode": "500.3"
           },
           {
             "name": "Vacuum Packaging Machines",
-            "code": "06.02.07"
+            "code": "6.2.7"
           },
           {
             "name": "Tray Sealers",
-            "code": "06.02.08",
+            "code": "6.2.8",
             "oldCode": "500.16"
           }
         ]
       },
       {
         "name": "Wrapping Machines",
-        "code": "06.03",
+        "code": "6.3",
         "subSubcategories": [
           {
             "name": "Shrink Wrapping Machines",
-            "code": "06.03.01",
+            "code": "6.3.1",
             "oldCode": "500.13"
           },
           {
             "name": "Stretch Wrapping Machines",
-            "code": "06.03.02"
+            "code": "6.3.2"
           },
           {
             "name": "Verpackungsmaschinen",
-            "code": "06.03.03",
+            "code": "6.3.3",
             "oldCode": "500.0"
           },
           {
             "name": "Winding Machines",
-            "code": "06.03.04",
+            "code": "6.3.4",
             "oldCode": "500.22"
           },
           {
             "name": "Air Pillow Machines",
-            "code": "06.03.05"
+            "code": "6.3.5"
           }
         ]
       },
       {
         "name": "Labeling Machines",
-        "code": "06.04",
+        "code": "6.4",
         "subSubcategories": [
           {
             "name": "Self-Adhesive Labelers",
-            "code": "06.04.01"
+            "code": "6.4.1"
           },
           {
             "name": "Sleeve Labelers",
-            "code": "06.04.02"
+            "code": "6.4.2"
           },
           {
             "name": "Etikettieranlagen",
-            "code": "06.04.03",
+            "code": "6.4.3",
             "oldCode": "500.4"
           }
         ]
       },
       {
         "name": "Cartoning Machines",
-        "code": "06.05",
+        "code": "6.5",
         "subSubcategories": [
           {
             "name": "Horizontal Cartoners",
-            "code": "06.05.01"
+            "code": "6.5.1"
           },
           {
             "name": "Vertical Cartoners",
-            "code": "06.05.02"
+            "code": "6.5.2"
           },
           {
             "name": "Kartoniervverpackungsmaschinen",
-            "code": "06.05.03",
+            "code": "6.5.3",
             "oldCode": "500.9"
           },
           {
             "name": "Cardboard Packaging Machines",
-            "code": "06.05.04"
+            "code": "6.5.4"
           },
           {
             "name": "Paper Packaging Machines",
-            "code": "06.05.05",
+            "code": "6.5.5",
             "oldCode": "500.11"
           },
           {
             "name": "Case Packers",
-            "code": "06.05.06"
+            "code": "6.5.6"
           }
         ]
       },
       {
         "name": "Palletizing Machines",
-        "code": "06.06",
+        "code": "6.6",
         "subSubcategories": [
           {
             "name": "Conventional Palletizers",
-            "code": "06.06.01",
+            "code": "6.6.1",
             "oldCode": "500.10"
           },
           {
             "name": "Robotic Palletizers",
-            "code": "06.06.02"
+            "code": "6.6.2"
           },
           {
             "name": "Palettieranlagen",
-            "code": "06.06.03",
+            "code": "6.6.3",
             "oldCode": "500.10"
           }
         ]
       },
       {
         "name": "Form-Fill-Seal Machines",
-        "code": "06.07",
+        "code": "6.7",
         "subSubcategories": [
           {
             "name": "Vertical Form-Fill-Seal (VFFS)",
-            "code": "06.07.01"
+            "code": "6.7.1"
           },
           {
             "name": "Horizontal Form-Fill-Seal (HFFS)",
-            "code": "06.07.02"
+            "code": "6.7.2"
           },
           {
             "name": "Form-Fill-Seal Maschinen",
-            "code": "06.07.03"
+            "code": "6.7.3"
           },
           {
             "name": "Bagging Systems",
-            "code": "06.07.04"
+            "code": "6.7.4"
           },
           {
             "name": "Tubular Bag Machines",
-            "code": "06.07.05",
+            "code": "6.7.5",
             "oldCode": "500.12"
           },
           {
             "name": "Sealed Edge Bag Machines",
-            "code": "06.07.06",
+            "code": "6.7.6",
             "oldCode": "500.14"
           },
           {
             "name": "Flat Film Systems",
-            "code": "06.07.07",
+            "code": "6.7.7",
             "oldCode": "500.8"
           }
         ]
       },
       {
         "name": "Blister Packaging Machines",
-        "code": "06.08",
+        "code": "6.8",
         "subSubcategories": [
           {
             "name": "Blisterverpackungsmaschinen",
-            "code": "06.08.01",
+            "code": "6.8.1",
             "oldCode": "500.6"
           },
           {
             "name": "Blistereinpackmaschinen",
-            "code": "06.08.02",
+            "code": "6.8.2",
             "oldCode": "500.5"
           },
           {
             "name": "Thermoforming Machines",
-            "code": "06.08.03",
+            "code": "6.8.3",
             "oldCode": "500.17"
           }
         ]
       },
       {
         "name": "Other Packaging Machines",
-        "code": "06.09",
+        "code": "6.9",
         "subSubcategories": [
           {
             "name": "General Packing Machines",
-            "code": "06.09.01",
+            "code": "6.9.1",
             "oldCode": "500.2"
           },
           {
             "name": "Endüberfüller",
-            "code": "06.09.02",
+            "code": "6.9.2",
             "oldCode": "500.7"
           },
           {
             "name": "Other Machines",
-            "code": "06.09.03",
+            "code": "6.9.3",
             "oldCode": "500.15"
           },
           {
             "name": "Punching Machines",
-            "code": "06.09.04"
+            "code": "6.9.4"
           }
         ]
       }
@@ -1919,261 +1919,261 @@
     "subcategories": [
       {
         "name": "Printing Presses",
-        "code": "07.01",
+        "code": "7.1",
         "subSubcategories": [
           {
             "name": "Offset Presses",
-            "code": "07.01.01"
+            "code": "7.1.1"
           },
           {
             "name": "Digital Presses",
-            "code": "07.01.02"
+            "code": "7.1.2"
           },
           {
             "name": "Flexographic Presses",
-            "code": "07.01.03"
+            "code": "7.1.3"
           },
           {
             "name": "Gravure Presses",
-            "code": "07.01.04"
+            "code": "7.1.4"
           },
           {
             "name": "Screen Printing Machines",
-            "code": "07.01.05"
+            "code": "7.1.5"
           },
           {
             "name": "Sheet-Fed Presses",
-            "code": "07.01.06"
+            "code": "7.1.6"
           },
           {
             "name": "Web Presses",
-            "code": "07.01.07"
+            "code": "7.1.7"
           },
           {
             "name": "Wide Format Printers",
-            "code": "07.01.08"
+            "code": "7.1.8"
           },
           {
             "name": "Label Printing Machines",
-            "code": "07.01.09"
+            "code": "7.1.9"
           },
           {
             "name": "3D Printers",
-            "code": "07.01.10"
+            "code": "7.1.10"
           },
           {
             "name": "Letterpress Presses",
-            "code": "07.01.11"
+            "code": "7.1.11"
           },
           {
             "name": "Pad Printing Machines",
-            "code": "07.01.12"
+            "code": "7.1.12"
           }
         ]
       },
       {
         "name": "Prepress Equipment",
-        "code": "07.02",
+        "code": "7.2",
         "subSubcategories": [
           {
             "name": "Plate Making Machines",
-            "code": "07.02.01"
+            "code": "7.2.1"
           },
           {
             "name": "Exposers",
-            "code": "07.02.02"
+            "code": "7.2.2"
           },
           {
             "name": "Proofing Systems",
-            "code": "07.02.03"
+            "code": "7.2.3"
           },
           {
             "name": "Film Processors",
-            "code": "07.02.04"
+            "code": "7.2.4"
           },
           {
             "name": "CTP Systems",
-            "code": "07.02.05"
+            "code": "7.2.5"
           },
           {
             "name": "Image Setters",
-            "code": "07.02.06"
+            "code": "7.2.6"
           }
         ]
       },
       {
         "name": "Postpress Equipment",
-        "code": "07.03",
+        "code": "7.3",
         "subSubcategories": [
           {
             "name": "Guillotine Cutters",
-            "code": "07.03.01"
+            "code": "7.3.1"
           },
           {
             "name": "Folding Machines",
-            "code": "07.03.02"
+            "code": "7.3.2"
           },
           {
             "name": "Perfect Binders",
-            "code": "07.03.03"
+            "code": "7.3.3"
           },
           {
             "name": "Saddle Stitchers",
-            "code": "07.03.04"
+            "code": "7.3.4"
           },
           {
             "name": "Laminating Machines",
-            "code": "07.03.05"
+            "code": "7.3.5"
           },
           {
             "name": "Stitching Machines",
-            "code": "07.03.06"
+            "code": "7.3.6"
           },
           {
             "name": "Trimming Machines",
-            "code": "07.03.07"
+            "code": "7.3.7"
           },
           {
             "name": "Collating Machines",
-            "code": "07.03.08"
+            "code": "7.3.8"
           },
           {
             "name": "Die Cutting Machines",
-            "code": "07.03.09"
+            "code": "7.3.9"
           },
           {
             "name": "Creasing Machines",
-            "code": "07.03.10"
+            "code": "7.3.10"
           },
           {
             "name": "Bookbinding Machines",
-            "code": "07.03.11"
+            "code": "7.3.11"
           },
           {
             "name": "Envelope Inserting Machines",
-            "code": "07.03.12"
+            "code": "7.3.12"
           },
           {
             "name": "Stackers",
-            "code": "07.03.13"
+            "code": "7.3.13"
           }
         ]
       },
       {
         "name": "Paper & Film Processing",
-        "code": "07.04",
+        "code": "7.4",
         "subSubcategories": [
           {
             "name": "Paper Cutting Machines",
-            "code": "07.04.01"
+            "code": "7.4.1"
           },
           {
             "name": "Paper Folding Machines",
-            "code": "07.04.02"
+            "code": "7.4.2"
           },
           {
             "name": "Film Extruders",
-            "code": "07.04.03"
+            "code": "7.4.3"
           },
           {
             "name": "Film Slitters",
-            "code": "07.04.04"
+            "code": "7.4.4"
           },
           {
             "name": "Roll Slitters",
-            "code": "07.04.05"
+            "code": "7.4.5"
           },
           {
             "name": "Cross Cutters",
-            "code": "07.04.06"
+            "code": "7.4.6"
           },
           {
             "name": "Bag Making Machines",
-            "code": "07.04.07"
+            "code": "7.4.7"
           },
           {
             "name": "Further Processing Machines",
-            "code": "07.04.08"
+            "code": "7.4.8"
           }
         ]
       },
       {
         "name": "Packaging Machines",
-        "code": "07.05",
+        "code": "7.5",
         "subSubcategories": [
           {
             "name": "Carton Folding Machines",
-            "code": "07.05.01"
+            "code": "7.5.1"
           },
           {
             "name": "Labeling Machines",
-            "code": "07.05.02"
+            "code": "7.5.2"
           },
           {
             "name": "Wrapping Machines",
-            "code": "07.05.03"
+            "code": "7.5.3"
           },
           {
             "name": "Sealing Machines",
-            "code": "07.05.04"
+            "code": "7.5.4"
           },
           {
             "name": "Box Making Machines",
-            "code": "07.05.05"
+            "code": "7.5.5"
           }
         ]
       },
       {
         "name": "Ink and Coating Systems",
-        "code": "07.06",
+        "code": "7.6",
         "subSubcategories": [
           {
             "name": "Ink Mixing Systems",
-            "code": "07.06.01"
+            "code": "7.6.1"
           },
           {
             "name": "UV Curing Systems",
-            "code": "07.06.02"
+            "code": "7.6.2"
           },
           {
             "name": "Coating Machines",
-            "code": "07.06.03"
+            "code": "7.6.3"
           },
           {
             "name": "Varnishing Units",
-            "code": "07.06.04"
+            "code": "7.6.4"
           }
         ]
       },
       {
         "name": "Material Handling Equipment",
-        "code": "07.07",
+        "code": "7.7",
         "subSubcategories": [
           {
             "name": "Palletizers",
-            "code": "07.07.01"
+            "code": "7.7.1"
           },
           {
             "name": "Conveyors",
-            "code": "07.07.02"
+            "code": "7.7.2"
           },
           {
             "name": "Stacking Robots",
-            "code": "07.07.03"
+            "code": "7.7.3"
           }
         ]
       },
       {
         "name": "Other Printing & Graphics Equipment",
-        "code": "07.08",
+        "code": "7.8",
         "subSubcategories": [
           {
             "name": "Reprographic Machines",
-            "code": "07.08.01"
+            "code": "7.8.1"
           },
           {
             "name": "Miscellaneous Equipment",
-            "code": "07.08.02"
+            "code": "7.8.2"
           }
         ]
       }
@@ -2185,363 +2185,363 @@
     "subcategories": [
       {
         "name": "Earth Moving Equipment",
-        "code": "08.01",
+        "code": "8.1",
         "subSubcategories": [
           {
             "name": "Crawler Excavators",
-            "code": "08.01.01"
+            "code": "8.1.1"
           },
           {
             "name": "Wheeled Excavators",
-            "code": "08.01.02"
+            "code": "8.1.2"
           },
           {
             "name": "Skid Steer Loaders",
-            "code": "08.01.03"
+            "code": "8.1.3"
           },
           {
             "name": "Wheel Loaders",
-            "code": "08.01.04"
+            "code": "8.1.4"
           },
           {
             "name": "Bulldozers",
-            "code": "08.01.05"
+            "code": "8.1.5"
           },
           {
             "name": "Graders",
-            "code": "08.01.06"
+            "code": "8.1.6"
           },
           {
             "name": "Rammers",
-            "code": "08.01.07"
+            "code": "8.1.7"
           },
           {
             "name": "Vibrating Plates",
-            "code": "08.01.08"
+            "code": "8.1.8"
           }
         ]
       },
       {
         "name": "Road Construction",
-        "code": "08.02",
+        "code": "8.2",
         "subSubcategories": [
           {
             "name": "Asphal Pavers",
-            "code": "08.02.01"
+            "code": "8.2.1"
           },
           {
             "name": "Road Rollers",
-            "code": "08.02.02"
+            "code": "8.2.2"
           },
           {
             "name": "Cold Milling Machines",
-            "code": "08.02.03"
+            "code": "8.2.3"
           }
         ]
       },
       {
         "name": "Lifting Equipment",
-        "code": "08.03",
+        "code": "8.3",
         "subSubcategories": [
           {
             "name": "Crawler Cranes",
-            "code": "08.03.01"
+            "code": "8.3.1"
           },
           {
             "name": "Truck Cranes",
-            "code": "08.03.02"
+            "code": "8.3.2"
           },
           {
             "name": "Tower Cranes",
-            "code": "08.03.03"
+            "code": "8.3.3"
           },
           {
             "name": "Forklifts",
-            "code": "08.03.04"
+            "code": "8.3.4"
           },
           {
             "name": "Aerial Work Platforms",
-            "code": "08.03.05"
+            "code": "8.3.5"
           }
         ]
       },
       {
         "name": "Concrete Equipment",
-        "code": "08.04",
+        "code": "8.4",
         "subSubcategories": [
           {
             "name": "Concrete Mixers",
-            "code": "08.04.01"
+            "code": "8.4.1"
           },
           {
             "name": "Concrete Pumps",
-            "code": "08.04.02"
+            "code": "8.4.2"
           },
           {
             "name": "Concrete Batching Plants",
-            "code": "08.04.03"
+            "code": "8.4.3"
           },
           {
             "name": "Scaffoldings",
-            "code": "08.04.04"
+            "code": "8.4.4"
           },
           {
             "name": "Shuttering",
-            "code": "08.04.05"
+            "code": "8.4.5"
           }
         ]
       },
       {
         "name": "Drilling Equipment",
-        "code": "08.05",
+        "code": "8.5",
         "subSubcategories": [
           {
             "name": "Pile Drivers",
-            "code": "08.05.01"
+            "code": "8.5.1"
           },
           {
             "name": "Rotary Drilling Rigs",
-            "code": "08.05.02"
+            "code": "8.5.2"
           }
         ]
       },
       {
         "name": "Stone Processing",
-        "code": "08.06",
+        "code": "8.6",
         "subSubcategories": [
           {
             "name": "Bridge Saws",
-            "code": "08.06.01"
+            "code": "8.6.1"
           },
           {
             "name": "Wire Saws",
-            "code": "08.06.02"
+            "code": "8.6.2"
           },
           {
             "name": "Stone Polishing Machines",
-            "code": "08.06.03"
+            "code": "8.6.3"
           },
           {
             "name": "Stone Engraving Machines",
-            "code": "08.06.04"
+            "code": "8.6.4"
           },
           {
             "name": "CNC Stone Machining Centers",
-            "code": "08.06.05"
+            "code": "8.6.5"
           },
           {
             "name": "Stone Splitters",
-            "code": "08.06.06"
+            "code": "8.6.6"
           }
         ]
       },
       {
         "name": "Municipal Equipment",
-        "code": "08.07",
+        "code": "8.7",
         "subSubcategories": [
           {
             "name": "Street Sweepers",
-            "code": "08.07.01"
+            "code": "8.7.1"
           },
           {
             "name": "Scrubber-Dryers",
-            "code": "08.07.02"
+            "code": "8.7.2"
           },
           {
             "name": "Garbage Trucks",
-            "code": "08.07.03"
+            "code": "8.7.3"
           },
           {
             "name": "Recycling Vehicles",
-            "code": "08.07.04"
+            "code": "8.7.4"
           },
           {
             "name": "Snow Plows",
-            "code": "08.07.05"
+            "code": "8.7.5"
           },
           {
             "name": "Snow Blowers",
-            "code": "08.07.06"
+            "code": "8.7.6"
           },
           {
             "name": "Asphal Patching Machines",
-            "code": "08.07.07"
+            "code": "8.7.7"
           },
           {
             "name": "Crack Fillers",
-            "code": "08.07.08"
+            "code": "8.7.8"
           },
           {
             "name": "Tree Care Equipment",
-            "code": "08.07.09"
+            "code": "8.7.9"
           }
         ]
       },
       {
         "name": "Demolition and Recycling Equipment",
-        "code": "08.08",
+        "code": "8.8",
         "subSubcategories": [
           {
             "name": "Demolition Excavators",
-            "code": "08.08.01"
+            "code": "8.8.1"
           },
           {
             "name": "Crushers",
-            "code": "08.08.02"
+            "code": "8.8.2"
           },
           {
             "name": "Screens",
-            "code": "08.08.03"
+            "code": "8.8.3"
           },
           {
             "name": "Landfill Compactors",
-            "code": "08.08.04"
+            "code": "8.8.4"
           }
         ]
       },
       {
         "name": "Transport Equipment",
-        "code": "08.09",
+        "code": "8.9",
         "subSubcategories": [
           {
             "name": "Trailers",
-            "code": "08.09.01"
+            "code": "8.9.1"
           },
           {
             "name": "Tippers",
-            "code": "08.09.02"
+            "code": "8.9.2"
           },
           {
             "name": "Containers",
-            "code": "08.09.03"
+            "code": "8.9.3"
           },
           {
             "name": "Dump Trucks",
-            "code": "08.09.04"
+            "code": "8.9.4"
           },
           {
             "name": "Concrete Trucks",
-            "code": "08.09.05"
+            "code": "8.9.5"
           }
         ]
       },
       {
         "name": "Building Material Production",
-        "code": "08.10",
+        "code": "8.10",
         "subSubcategories": [
           {
             "name": "Crushing Plants",
-            "code": "08.10.01"
+            "code": "8.10.1"
           },
           {
             "name": "Brick Making Machines",
-            "code": "08.10.02"
+            "code": "8.10.2"
           },
           {
             "name": "Cement Plants",
-            "code": "08.10.03"
+            "code": "8.10.3"
           },
           {
             "name": "Asphal Plants",
-            "code": "08.10.04"
+            "code": "8.10.4"
           }
         ]
       },
       {
         "name": "Specialized Construction Equipment",
-        "code": "08.11",
+        "code": "8.11",
         "subSubcategories": [
           {
             "name": "Bridge Construction Equipment",
-            "code": "08.11.01"
+            "code": "8.11.1"
           },
           {
             "name": "Tunneling Equipment",
-            "code": "08.11.02"
+            "code": "8.11.2"
           },
           {
             "name": "Pipeline Equipment",
-            "code": "08.11.03"
+            "code": "8.11.3"
           }
         ]
       },
       {
         "name": "Utilities and Support Equipment",
-        "code": "08.12",
+        "code": "8.12",
         "subSubcategories": [
           {
             "name": "Compressors",
-            "code": "08.12.01"
+            "code": "8.12.1"
           },
           {
             "name": "Generators",
-            "code": "08.12.02"
+            "code": "8.12.2"
           },
           {
             "name": "Hand Tools",
-            "code": "08.12.03"
+            "code": "8.12.3"
           },
           {
             "name": "Power Tools",
-            "code": "08.12.04"
+            "code": "8.12.4"
           },
           {
             "name": "Presses",
-            "code": "08.12.05"
+            "code": "8.12.5"
           }
         ]
       },
       {
         "name": "Finishing and Surface Preparation",
-        "code": "08.13",
+        "code": "8.13",
         "subSubcategories": [
           {
             "name": "Plastering Machines",
-            "code": "08.13.01"
+            "code": "8.13.1"
           },
           {
             "name": "Grinding Machines",
-            "code": "08.13.02"
+            "code": "8.13.2"
           },
           {
             "name": "Polishing Machines",
-            "code": "08.13.03"
+            "code": "8.13.3"
           },
           {
             "name": "Painting Machines",
-            "code": "08.13.04"
+            "code": "8.13.4"
           }
         ]
       },
       {
         "name": "Cutting Technology",
-        "code": "08.14",
+        "code": "8.14",
         "subSubcategories": [
           {
             "name": "Sawing Machines",
-            "code": "08.14.01"
+            "code": "8.14.1"
           },
           {
             "name": "Shearing Machines",
-            "code": "08.14.02"
+            "code": "8.14.2"
           },
           {
             "name": "Plasma Cutters",
-            "code": "08.14.03"
+            "code": "8.14.3"
           },
           {
             "name": "Laser Cutters",
-            "code": "08.14.04"
+            "code": "8.14.4"
           }
         ]
       },
       {
         "name": "Other Machines",
-        "code": "08.15",
+        "code": "8.15",
         "subSubcategories": [
           {
             "name": "Miscellaneous Machines",
-            "code": "08.15.01"
+            "code": "8.15.1"
           }
         ]
       }
@@ -2553,399 +2553,399 @@
     "subcategories": [
       {
         "name": "Tractors",
-        "code": "09.01",
+        "code": "9.1",
         "subSubcategories": [
           {
             "name": "Compact Tractors",
-            "code": "09.01.01"
+            "code": "9.1.1"
           },
           {
             "name": "Standard Tractors",
-            "code": "09.01.02"
+            "code": "9.1.2"
           },
           {
             "name": "Utility Tractors",
-            "code": "09.01.03"
+            "code": "9.1.3"
           },
           {
             "name": "Row Crop Tractors",
-            "code": "09.01.04"
+            "code": "9.1.4"
           },
           {
             "name": "Four-Wheel Drive Tractors",
-            "code": "09.01.05"
+            "code": "9.1.5"
           },
           {
             "name": "High Clearance Tractors",
-            "code": "09.01.06"
+            "code": "9.1.6"
           },
           {
             "name": "Vineyard Tractors",
-            "code": "09.01.07"
+            "code": "9.1.7"
           }
         ]
       },
       {
         "name": "Harvesting Machines",
-        "code": "09.02",
+        "code": "9.2",
         "subSubcategories": [
           {
             "name": "Combine Harvesters",
-            "code": "09.02.01"
+            "code": "9.2.1"
           },
           {
             "name": "Forage Harvesters",
-            "code": "09.02.02"
+            "code": "9.2.2"
           },
           {
             "name": "Grain Harvesters",
-            "code": "09.02.03"
+            "code": "9.2.3"
           },
           {
             "name": "Potato Harvesters",
-            "code": "09.02.04"
+            "code": "9.2.4"
           },
           {
             "name": "Beet Harvesters",
-            "code": "09.02.05"
+            "code": "9.2.5"
           },
           {
             "name": "Fruit Harvesters",
-            "code": "09.02.06"
+            "code": "9.2.6"
           },
           {
             "name": "Onion Harvesters",
-            "code": "09.02.07"
+            "code": "9.2.7"
           }
         ]
       },
       {
         "name": "Planting & Seeding",
-        "code": "09.03",
+        "code": "9.3",
         "subSubcategories": [
           {
             "name": "Seed Drills",
-            "code": "09.03.01"
+            "code": "9.3.1"
           },
           {
             "name": "Planters",
-            "code": "09.03.02"
+            "code": "9.3.2"
           },
           {
             "name": "Transplanters",
-            "code": "09.03.03"
+            "code": "9.3.3"
           }
         ]
       },
       {
         "name": "Irrigation Systems",
-        "code": "09.04",
+        "code": "9.4",
         "subSubcategories": [
           {
             "name": "Sprinkler Systems",
-            "code": "09.04.01"
+            "code": "9.4.1"
           },
           {
             "name": "Drip Irrigation Systems",
-            "code": "09.04.02"
+            "code": "9.4.2"
           },
           {
             "name": "Flood Irrigation Systems",
-            "code": "09.04.03"
+            "code": "9.4.3"
           },
           {
             "name": "Pump Stations",
-            "code": "09.04.04"
+            "code": "9.4.4"
           }
         ]
       },
       {
         "name": "Soil Cultivation",
-        "code": "09.05",
+        "code": "9.5",
         "subSubcategories": [
           {
             "name": "Plows",
-            "code": "09.05.01"
+            "code": "9.5.1"
           },
           {
             "name": "Harrows",
-            "code": "09.05.02"
+            "code": "9.5.2"
           },
           {
             "name": "Cultivators",
-            "code": "09.05.03"
+            "code": "9.5.3"
           },
           {
             "name": "Mulchers",
-            "code": "09.05.04"
+            "code": "9.5.4"
           },
           {
             "name": "Strip Till Equipment",
-            "code": "09.05.05"
+            "code": "9.5.5"
           }
         ]
       },
       {
         "name": "Crop Protection",
-        "code": "09.06",
+        "code": "9.6",
         "subSubcategories": [
           {
             "name": "Sprayers",
-            "code": "09.06.01"
+            "code": "9.6.1"
           },
           {
             "name": "Dusting Machines",
-            "code": "09.06.02"
+            "code": "9.6.2"
           },
           {
             "name": "Mist Blowers",
-            "code": "09.06.03"
+            "code": "9.6.3"
           },
           {
             "name": "Drone Sprayers",
-            "code": "09.06.04"
+            "code": "9.6.4"
           }
         ]
       },
       {
         "name": "Livestock Equipment",
-        "code": "09.07",
+        "code": "9.7",
         "subSubcategories": [
           {
             "name": "Milking Machines",
-            "code": "09.07.01"
+            "code": "9.7.1"
           },
           {
             "name": "Feeding Systems",
-            "code": "09.07.02"
+            "code": "9.7.2"
           },
           {
             "name": "Watering Systems",
-            "code": "09.07.03"
+            "code": "9.7.3"
           },
           {
             "name": "Fencing Equipment",
-            "code": "09.07.04"
+            "code": "9.7.4"
           },
           {
             "name": "Stable Construction Equipment",
-            "code": "09.07.05"
+            "code": "9.7.5"
           },
           {
             "name": "Cooling Technology",
-            "code": "09.07.06"
+            "code": "9.7.6"
           }
         ]
       },
       {
         "name": "Fertilization Equipment",
-        "code": "09.08",
+        "code": "9.8",
         "subSubcategories": [
           {
             "name": "Fertilizer Spreaders",
-            "code": "09.08.01"
+            "code": "9.8.1"
           },
           {
             "name": "Lime Spreaders",
-            "code": "09.08.02"
+            "code": "9.8.2"
           }
         ]
       },
       {
         "name": "Conveyor and Storage Systems",
-        "code": "09.09",
+        "code": "9.9",
         "subSubcategories": [
           {
             "name": "Conveyor Belts",
-            "code": "09.09.01"
+            "code": "9.9.1"
           },
           {
             "name": "Screw Conveyors",
-            "code": "09.09.02"
+            "code": "9.9.2"
           },
           {
             "name": "Bucket Elevators",
-            "code": "09.09.03"
+            "code": "9.9.3"
           },
           {
             "name": "Silos",
-            "code": "09.09.04"
+            "code": "9.9.4"
           },
           {
             "name": "Grain Bins",
-            "code": "09.09.05"
+            "code": "9.9.5"
           }
         ]
       },
       {
         "name": "Forestry Equipment",
-        "code": "09.10",
+        "code": "9.10",
         "subSubcategories": [
           {
             "name": "Chainsaws",
-            "code": "09.10.01"
+            "code": "9.10.1"
           },
           {
             "name": "Log Splitters",
-            "code": "09.10.02"
+            "code": "9.10.2"
           },
           {
             "name": "Wood Chippers",
-            "code": "09.10.03"
+            "code": "9.10.3"
           },
           {
             "name": "Stump Grinders",
-            "code": "09.10.04"
+            "code": "9.10.4"
           },
           {
             "name": "Forestry Mulchers",
-            "code": "09.10.05"
+            "code": "9.10.5"
           }
         ]
       },
       {
         "name": "Loading Equipment",
-        "code": "09.11",
+        "code": "9.11",
         "subSubcategories": [
           {
             "name": "Front Loaders",
-            "code": "09.11.01"
+            "code": "9.11.1"
           },
           {
             "name": "Skid Steer Loaders",
-            "code": "09.11.02"
+            "code": "9.11.2"
           },
           {
             "name": "Telehandlers",
-            "code": "09.11.03"
+            "code": "9.11.3"
           },
           {
             "name": "Forklifts",
-            "code": "09.11.04"
+            "code": "9.11.4"
           }
         ]
       },
       {
         "name": "Manure Technology",
-        "code": "09.12",
+        "code": "9.12",
         "subSubcategories": [
           {
             "name": "Manure Spreaders",
-            "code": "09.12.01"
+            "code": "9.12.1"
           },
           {
             "name": "Manure Tanks",
-            "code": "09.12.02"
+            "code": "9.12.2"
           },
           {
             "name": "Manure Pumps",
-            "code": "09.12.03"
+            "code": "9.12.3"
           },
           {
             "name": "Composters",
-            "code": "09.12.04"
+            "code": "9.12.4"
           }
         ]
       },
       {
         "name": "Hay Equipment",
-        "code": "09.13",
+        "code": "9.13",
         "subSubcategories": [
           {
             "name": "Mowers",
-            "code": "09.13.01"
+            "code": "9.13.1"
           },
           {
             "name": "Rakes",
-            "code": "09.13.02"
+            "code": "9.13.2"
           },
           {
             "name": "Balers",
-            "code": "09.13.03"
+            "code": "9.13.3"
           },
           {
             "name": "Tedders",
-            "code": "09.13.04"
+            "code": "9.13.4"
           },
           {
             "name": "Windrowers",
-            "code": "09.13.05"
+            "code": "9.13.5"
           }
         ]
       },
       {
         "name": "Maintenance Technology",
-        "code": "09.14",
+        "code": "9.14",
         "subSubcategories": [
           {
             "name": "Diagnostic Tools",
-            "code": "09.14.01"
+            "code": "9.14.1"
           },
           {
             "name": "Repair Tools",
-            "code": "09.14.02"
+            "code": "9.14.2"
           },
           {
             "name": "Spare Parts",
-            "code": "09.14.03"
+            "code": "9.14.3"
           },
           {
             "name": "Welding Equipment",
-            "code": "09.14.04"
+            "code": "9.14.4"
           }
         ]
       },
       {
         "name": "Presses",
-        "code": "09.15",
+        "code": "9.15",
         "subSubcategories": [
           {
             "name": "Hydraulic Presses",
-            "code": "09.15.01"
+            "code": "9.15.1"
           },
           {
             "name": "Baling Presses",
-            "code": "09.15.02"
+            "code": "9.15.2"
           },
           {
             "name": "Compacting Presses",
-            "code": "09.15.03"
+            "code": "9.15.3"
           }
         ]
       },
       {
         "name": "Transport Equipment and Trailers",
-        "code": "09.16",
+        "code": "9.16",
         "subSubcategories": [
           {
             "name": "Trailers",
-            "code": "09.16.01"
+            "code": "9.16.1"
           },
           {
             "name": "Trucks",
-            "code": "09.16.02"
+            "code": "9.16.2"
           },
           {
             "name": "ATVs / Farm Quads",
-            "code": "09.16.03"
+            "code": "9.16.3"
           },
           {
             "name": "Motorcycles",
-            "code": "09.16.04"
+            "code": "9.16.4"
           }
         ]
       },
       {
         "name": "Other Machines",
-        "code": "09.17",
+        "code": "9.17",
         "subSubcategories": [
           {
             "name": "Garden Technology",
-            "code": "09.17.01"
+            "code": "9.17.1"
           },
           {
             "name": "Miscellaneous Machinery",
-            "code": "09.17.02"
+            "code": "9.17.2"
           }
         ]
       }
@@ -2957,49 +2957,49 @@
     "subcategories": [
       {
         "name": "Storage and Handling Equipment",
-        "code": "10.01",
+        "code": "10.1",
         "subSubcategories": [
           {
             "name": "Pallet Racks",
-            "code": "10.01.01"
+            "code": "10.1.1"
           },
           {
             "name": "Flow Racks",
-            "code": "10.01.02"
+            "code": "10.1.2"
           },
           {
             "name": "High-Bay Warehouses",
-            "code": "10.01.03"
+            "code": "10.1.3"
           },
           {
             "name": "Shelving Systems",
-            "code": "10.01.04"
+            "code": "10.1.4"
           },
           {
             "name": "Containers",
-            "code": "10.01.05"
+            "code": "10.1.5"
           },
           {
             "name": "Pallets",
-            "code": "10.01.06"
+            "code": "10.1.6"
           },
           {
             "name": "Stacking Boxes",
-            "code": "10.01.07"
+            "code": "10.1.7"
           },
           {
             "name": "Other Storage Equipment",
-            "code": "10.01.99"
+            "code": "10.1.99"
           }
         ]
       },
       {
         "name": "Industrial Trucks",
-        "code": "10.02",
+        "code": "10.2",
         "subSubcategories": [
           {
             "name": "Forklifts",
-            "code": "10.02.01",
+            "code": "10.2.1",
             "subSubcategories": [
               {
                 "name": "Counterbalance Forklifts",
@@ -3017,25 +3017,25 @@
           },
           {
             "name": "Pallet Trucks",
-            "code": "10.02.02"
+            "code": "10.2.2"
           },
           {
             "name": "Trolleys",
-            "code": "10.02.03"
+            "code": "10.2.3"
           },
           {
             "name": "Other Industrial Trucks",
-            "code": "10.02.99"
+            "code": "10.2.99"
           }
         ]
       },
       {
         "name": "Bulk Material Handling Equipment",
-        "code": "10.03",
+        "code": "10.3",
         "subSubcategories": [
           {
             "name": "Conveyors",
-            "code": "10.03.01",
+            "code": "10.3.1",
             "subSubcategories": [
               {
                 "name": "Belt Conveyors",
@@ -3057,7 +3057,7 @@
           },
           {
             "name": "Cranes & Hoists",
-            "code": "10.03.02",
+            "code": "10.3.2",
             "subSubcategories": [
               {
                 "name": "Overhead Cranes",
@@ -3079,7 +3079,7 @@
           },
           {
             "name": "Lifting Equipment",
-            "code": "10.03.03",
+            "code": "10.3.3",
             "subSubcategories": [
               {
                 "name": "Scissor Lift Tables",
@@ -3093,29 +3093,29 @@
           },
           {
             "name": "Other Bulk Handling Equipment",
-            "code": "10.03.99"
+            "code": "10.3.99"
           }
         ]
       },
       {
         "name": "Engineered Systems",
-        "code": "10.04",
+        "code": "10.4",
         "subSubcategories": [
           {
             "name": "Automated Storage & Retrieval Systems (AS/RS)",
-            "code": "10.04.01"
+            "code": "10.4.1"
           },
           {
             "name": "Conveyor Systems",
-            "code": "10.04.02"
+            "code": "10.4.2"
           },
           {
             "name": "Robotic Systems",
-            "code": "10.04.03"
+            "code": "10.4.3"
           },
           {
             "name": "Other Engineered Systems",
-            "code": "10.04.99"
+            "code": "10.4.99"
           }
         ]
       },
@@ -3125,23 +3125,23 @@
         "subSubcategories": [
           {
             "name": "Pumps",
-            "code": "10.99.01"
+            "code": "10.99.1"
           },
           {
             "name": "Vacuum Units",
-            "code": "10.99.02"
+            "code": "10.99.2"
           },
           {
             "name": "Hall Construction",
-            "code": "10.99.03"
+            "code": "10.99.3"
           },
           {
             "name": "Global Clamping Systems",
-            "code": "10.99.04"
+            "code": "10.99.4"
           },
           {
             "name": "Packaging & Strapping Equipment",
-            "code": "10.99.05"
+            "code": "10.99.5"
           },
           {
             "name": "Other Miscellaneous Equipment",
@@ -3157,195 +3157,195 @@
     "subcategories": [
       {
         "name": "Power Generation",
-        "code": "11.01",
+        "code": "11.1",
         "subSubcategories": [
           {
             "name": "Combined Heat and Power Plants",
-            "code": "11.01.01"
+            "code": "11.1.1"
           },
           {
             "name": "Hydroelectric Power Plants",
-            "code": "11.01.02"
+            "code": "11.1.2"
           },
           {
             "name": "Other Power Plants",
-            "code": "11.01.03"
+            "code": "11.1.3"
           }
         ]
       },
       {
         "name": "Generators",
-        "code": "11.02",
+        "code": "11.2",
         "subSubcategories": [
           {
             "name": "Diesel Generators",
-            "code": "11.02.01"
+            "code": "11.2.1"
           },
           {
             "name": "Gas Generators",
-            "code": "11.02.02"
+            "code": "11.2.2"
           },
           {
             "name": "Portable Generators",
-            "code": "11.02.03"
+            "code": "11.2.3"
           },
           {
             "name": "Emergency Power Generators",
-            "code": "11.02.04"
+            "code": "11.2.4"
           }
         ]
       },
       {
         "name": "Steam and Gas Systems",
-        "code": "11.03",
+        "code": "11.3",
         "subSubcategories": [
           {
             "name": "Steam Boilers",
-            "code": "11.03.01"
+            "code": "11.3.1"
           },
           {
             "name": "Steam Turbines",
-            "code": "11.03.02"
+            "code": "11.3.2"
           },
           {
             "name": "Gas Technology",
-            "code": "11.03.03"
+            "code": "11.3.3"
           }
         ]
       },
       {
         "name": "Compressors",
-        "code": "11.04",
+        "code": "11.4",
         "subSubcategories": [
           {
             "name": "Screw Compressors",
-            "code": "11.04.01"
+            "code": "11.4.1"
           },
           {
             "name": "Piston Compressors",
-            "code": "11.04.02"
+            "code": "11.4.2"
           },
           {
             "name": "Gas Compressors",
-            "code": "11.04.03"
+            "code": "11.4.3"
           }
         ]
       },
       {
         "name": "Transformers & Electrical Equipment",
-        "code": "11.05",
+        "code": "11.5",
         "subSubcategories": [
           {
             "name": "Power Transformers",
-            "code": "11.05.01"
+            "code": "11.5.1"
           },
           {
             "name": "Distribution Transformers",
-            "code": "11.05.02"
+            "code": "11.5.2"
           },
           {
             "name": "Switchgears and Controls",
-            "code": "11.05.03"
+            "code": "11.5.3"
           },
           {
             "name": "Components and Accessories",
-            "code": "11.05.04"
+            "code": "11.5.4"
           }
         ]
       },
       {
         "name": "Renewable Energy Systems",
-        "code": "11.06",
+        "code": "11.6",
         "subSubcategories": [
           {
             "name": "Solar Panels",
-            "code": "11.06.01"
+            "code": "11.6.1"
           },
           {
             "name": "Wind Turbines",
-            "code": "11.06.02"
+            "code": "11.6.2"
           },
           {
             "name": "Hydroelectric Systems",
-            "code": "11.06.03"
+            "code": "11.6.3"
           }
         ]
       },
       {
         "name": "Motors & Drives",
-        "code": "11.07",
+        "code": "11.7",
         "subSubcategories": [
           {
             "name": "AC Motors",
-            "code": "11.07.01"
+            "code": "11.7.1"
           },
           {
             "name": "DC Motors",
-            "code": "11.07.02"
+            "code": "11.7.2"
           },
           {
             "name": "Servo Motors",
-            "code": "11.07.03"
+            "code": "11.7.3"
           },
           {
             "name": "Diesel Engines",
-            "code": "11.07.04"
+            "code": "11.7.4"
           },
           {
             "name": "Gasoline Engines",
-            "code": "11.07.05"
+            "code": "11.7.5"
           },
           {
             "name": "Gas Engines",
-            "code": "11.07.06"
+            "code": "11.7.6"
           },
           {
             "name": "Alternators",
-            "code": "11.07.07"
+            "code": "11.7.7"
           }
         ]
       },
       {
         "name": "Heating, Ventilation, and Air Conditioning",
-        "code": "11.08",
+        "code": "11.8",
         "subSubcategories": [
           {
             "name": "Heating Systems",
-            "code": "11.08.01"
+            "code": "11.8.1"
           },
           {
             "name": "Blowers and Fans",
-            "code": "11.08.02"
+            "code": "11.8.2"
           },
           {
             "name": "Heat Exchangers",
-            "code": "11.08.03"
+            "code": "11.8.3"
           },
           {
             "name": "Air Conditioning Systems",
-            "code": "11.08.04"
+            "code": "11.8.4"
           },
           {
             "name": "Refrigeration Systems",
-            "code": "11.08.05"
+            "code": "11.8.5"
           }
         ]
       },
       {
         "name": "Other Equipment",
-        "code": "11.09",
+        "code": "11.9",
         "subSubcategories": [
           {
             "name": "Gas Burners",
-            "code": "11.09.01"
+            "code": "11.9.1"
           },
           {
             "name": "Electro-hydraulic Devices",
-            "code": "11.09.02"
+            "code": "11.9.2"
           },
           {
             "name": "Other Accessories",
-            "code": "11.09.03"
+            "code": "11.9.3"
           }
         ]
       }
@@ -3357,154 +3357,154 @@
     "subcategories": [
       {
         "name": "Mixers & Agitators",
-        "code": "12.01",
+        "code": "12.1",
         "subSubcategories": [
           {
             "name": "Ribbon Mixers",
-            "code": "12.01.01"
+            "code": "12.1.1"
           },
           {
             "name": "Planetary Mixers",
-            "code": "12.01.02"
+            "code": "12.1.2"
           },
           {
             "name": "Agitators",
-            "code": "12.01.03"
+            "code": "12.1.3"
           }
         ]
       },
       {
         "name": "Reactors & Vessels",
-        "code": "12.02",
+        "code": "12.2",
         "subSubcategories": [
           {
             "name": "Batch Reactors",
-            "code": "12.02.01"
+            "code": "12.2.1"
           },
           {
             "name": "Continuous Reactors",
-            "code": "12.02.02"
+            "code": "12.2.2"
           },
           {
             "name": "Storage Vessels",
-            "code": "12.02.03"
+            "code": "12.2.3"
           }
         ]
       },
       {
         "name": "Heat Exchangers",
-        "code": "12.03",
+        "code": "12.3",
         "subSubcategories": [
           {
             "name": "Shell & Tube Heat Exchangers",
-            "code": "12.03.01"
+            "code": "12.3.1"
           },
           {
             "name": "Plate Heat Exchangers",
-            "code": "12.03.02"
+            "code": "12.3.2"
           }
         ]
       },
       {
         "name": "Separation Equipment",
-        "code": "12.04",
+        "code": "12.4",
         "subSubcategories": [
           {
             "name": "Centrifuges",
-            "code": "12.04.01"
+            "code": "12.4.1"
           },
           {
             "name": "Filters",
-            "code": "12.04.02"
+            "code": "12.4.2"
           },
           {
             "name": "Distillation Columns",
-            "code": "12.04.03"
+            "code": "12.4.3"
           },
           {
             "name": "Ion Exchangers",
-            "code": "12.04.04"
+            "code": "12.4.4"
           }
         ]
       },
       {
         "name": "Pumps",
-        "code": "12.05",
+        "code": "12.5",
         "subSubcategories": [
           {
             "name": "Centrifugal Pumps",
-            "code": "12.05.01"
+            "code": "12.5.1"
           },
           {
             "name": "Positive Displacement Pumps",
-            "code": "12.05.02"
+            "code": "12.5.2"
           }
         ]
       },
       {
         "name": "Valves & Fittings",
-        "code": "12.06",
+        "code": "12.6",
         "subSubcategories": []
       },
       {
         "name": "Vacuum Technology",
-        "code": "12.07",
+        "code": "12.7",
         "subSubcategories": [
           {
             "name": "Rotary Vane Pumps",
-            "code": "12.07.01"
+            "code": "12.7.1"
           },
           {
             "name": "Diaphragm Pumps",
-            "code": "12.07.02"
+            "code": "12.7.2"
           },
           {
             "name": "Turbomolecular Pumps",
-            "code": "12.07.03"
+            "code": "12.7.3"
           },
           {
             "name": "Vacuum Chambers",
-            "code": "12.07.04"
+            "code": "12.7.4"
           },
           {
             "name": "Vacuum Ovens",
-            "code": "12.07.05"
+            "code": "12.7.5"
           },
           {
             "name": "Vacuum Gauges",
-            "code": "12.07.06"
+            "code": "12.7.6"
           },
           {
             "name": "Vacuum Evaporators",
-            "code": "12.07.07"
+            "code": "12.7.7"
           }
         ]
       },
       {
         "name": "Compressors",
-        "code": "12.08",
+        "code": "12.8",
         "subSubcategories": [
           {
             "name": "Reciprocating Compressors",
-            "code": "12.08.01"
+            "code": "12.8.1"
           },
           {
             "name": "Rotary Compressors",
-            "code": "12.08.02"
+            "code": "12.8.2"
           },
           {
             "name": "Blowers",
-            "code": "12.08.03"
+            "code": "12.8.3"
           }
         ]
       },
       {
         "name": "Size Reduction Equipment",
-        "code": "12.09",
+        "code": "12.9",
         "subSubcategories": [
           {
             "name": "Mills",
-            "code": "12.09.01"
+            "code": "12.9.1"
           }
         ]
       },
@@ -3514,11 +3514,11 @@
         "subSubcategories": [
           {
             "name": "Hydraulic Presses",
-            "code": "12.10.01"
+            "code": "12.10.1"
           },
           {
             "name": "Mechanical Presses",
-            "code": "12.10.02"
+            "code": "12.10.2"
           }
         ]
       },
@@ -3528,11 +3528,11 @@
         "subSubcategories": [
           {
             "name": "PLC Systems",
-            "code": "12.11.01"
+            "code": "12.11.1"
           },
           {
             "name": "DCS",
-            "code": "12.11.02"
+            "code": "12.11.2"
           }
         ]
       },
@@ -3542,11 +3542,11 @@
         "subSubcategories": [
           {
             "name": "Water Treatment Systems",
-            "code": "12.12.01"
+            "code": "12.12.1"
           },
           {
             "name": "Paper Manufacturing Equipment",
-            "code": "12.12.02"
+            "code": "12.12.2"
           }
         ]
       },
@@ -3556,11 +3556,11 @@
         "subSubcategories": [
           {
             "name": "Tray Dryers",
-            "code": "12.13.01"
+            "code": "12.13.1"
           },
           {
             "name": "Fluid Bed Dryers",
-            "code": "12.13.02"
+            "code": "12.13.2"
           }
         ]
       }
@@ -3572,171 +3572,171 @@
     "subcategories": [
       {
         "name": "Pharmaceutical Processing Equipment",
-        "code": "13.01",
+        "code": "13.1",
         "subSubcategories": [
           {
             "name": "Mixing and Blending Machines",
-            "code": "13.01.01"
+            "code": "13.1.1"
           },
           {
             "name": "Granulators",
-            "code": "13.01.02"
+            "code": "13.1.2"
           },
           {
             "name": "Drying Equipment",
-            "code": "13.01.03"
+            "code": "13.1.3"
           },
           {
             "name": "Milling and Pulverizing Machines",
-            "code": "13.01.04"
+            "code": "13.1.4"
           },
           {
             "name": "Tablet Presses",
-            "code": "13.01.05"
+            "code": "13.1.5"
           },
           {
             "name": "Capsule Filling Machines",
-            "code": "13.01.06"
+            "code": "13.1.6"
           },
           {
             "name": "Coating Machines",
-            "code": "13.01.07"
+            "code": "13.1.7"
           },
           {
             "name": "Packaging Machines",
-            "code": "13.01.08"
+            "code": "13.1.8"
           },
           {
             "name": "Reactors and Vessels",
-            "code": "13.01.09"
+            "code": "13.1.9"
           },
           {
             "name": "Filtration and Separation Equipment",
-            "code": "13.01.10"
+            "code": "13.1.10"
           },
           {
             "name": "Pumps and Compressors",
-            "code": "13.01.11"
+            "code": "13.1.11"
           },
           {
             "name": "Heat Exchangers and Steam Generators",
-            "code": "13.01.12"
+            "code": "13.1.12"
           },
           {
             "name": "Other Pharmaceutical Processing Equipment",
-            "code": "13.01.13"
+            "code": "13.1.13"
           }
         ]
       },
       {
         "name": "Laboratory Equipment",
-        "code": "13.02",
+        "code": "13.2",
         "subSubcategories": [
           {
             "name": "Analytical Instruments",
-            "code": "13.02.01"
+            "code": "13.2.1"
           },
           {
             "name": "Microscopes",
-            "code": "13.02.02"
+            "code": "13.2.2"
           },
           {
             "name": "Balances and Scales",
-            "code": "13.02.03"
+            "code": "13.2.3"
           },
           {
             "name": "pH Meters and Other Meters",
-            "code": "13.02.04"
+            "code": "13.2.4"
           },
           {
             "name": "Glassware and Lab Furnishings",
-            "code": "13.02.05"
+            "code": "13.2.5"
           },
           {
             "name": "Other Laboratory Equipment",
-            "code": "13.02.06"
+            "code": "13.2.6"
           }
         ]
       },
       {
         "name": "Sterilization Equipment",
-        "code": "13.03",
+        "code": "13.3",
         "subSubcategories": [
           {
             "name": "Autoclaves",
-            "code": "13.03.01"
+            "code": "13.3.1"
           },
           {
             "name": "Hot Air Sterilizers",
-            "code": "13.03.02"
+            "code": "13.3.2"
           },
           {
             "name": "Radiation Sterilizers",
-            "code": "13.03.03"
+            "code": "13.3.3"
           },
           {
             "name": "Filtration Sterilizers",
-            "code": "13.03.04"
+            "code": "13.3.4"
           },
           {
             "name": "Other Sterilization Equipment",
-            "code": "13.03.05"
+            "code": "13.3.5"
           }
         ]
       },
       {
         "name": "Medical Imaging Equipment",
-        "code": "13.04",
+        "code": "13.4",
         "subSubcategories": [
           {
             "name": "X-Ray Machines",
-            "code": "13.04.01"
+            "code": "13.4.1"
           },
           {
             "name": "Ultrasound Machines",
-            "code": "13.04.02"
+            "code": "13.4.2"
           },
           {
             "name": "MRI Machines",
-            "code": "13.04.03"
+            "code": "13.4.3"
           },
           {
             "name": "CT Scanners",
-            "code": "13.04.04"
+            "code": "13.4.4"
           },
           {
             "name": "Other Imaging Equipment",
-            "code": "13.04.05"
+            "code": "13.4.5"
           }
         ]
       },
       {
         "name": "Other Medical Equipment",
-        "code": "13.05",
+        "code": "13.5",
         "subSubcategories": [
           {
             "name": "Surgical Instruments",
-            "code": "13.05.01"
+            "code": "13.5.1"
           },
           {
             "name": "Patient Monitoring Equipment",
-            "code": "13.05.02"
+            "code": "13.5.2"
           },
           {
             "name": "Infusion Pumps",
-            "code": "13.05.03"
+            "code": "13.5.3"
           },
           {
             "name": "Defibrillators",
-            "code": "13.05.04"
+            "code": "13.5.4"
           },
           {
             "name": "Ventilators",
-            "code": "13.05.05"
+            "code": "13.5.5"
           },
           {
             "name": "Other Medical Devices",
-            "code": "13.05.06"
+            "code": "13.5.6"
           }
         ]
       }
@@ -3748,277 +3748,277 @@
     "subcategories": [
       {
         "name": "PCB Manufacturing",
-        "code": "14.01",
+        "code": "14.1",
         "subSubcategories": [
           {
             "name": "PCB Drilling Machines",
-            "code": "14.01.01"
+            "code": "14.1.1"
           },
           {
             "name": "PCB Etching Machines",
-            "code": "14.01.02"
+            "code": "14.1.2"
           },
           {
             "name": "PCB Lamination Machines",
-            "code": "14.01.03"
+            "code": "14.1.3"
           },
           {
             "name": "PCB Silk-Screening Machines",
-            "code": "14.01.04"
+            "code": "14.1.4"
           },
           {
             "name": "PCB Depaneling Machines",
-            "code": "14.01.05"
+            "code": "14.1.5"
           },
           {
             "name": "PCB Testing Equipment",
-            "code": "14.01.06"
+            "code": "14.1.6"
           },
           {
             "name": "PCB Routing Machines",
-            "code": "14.01.07"
+            "code": "14.1.7"
           },
           {
             "name": "PCB Scoring Machines",
-            "code": "14.01.08"
+            "code": "14.1.8"
           },
           {
             "name": "PCB Cleaning Machines",
-            "code": "14.01.09"
+            "code": "14.1.9"
           },
           {
             "name": "PCB Conformal Coating Equipment",
-            "code": "14.01.10"
+            "code": "14.1.10"
           }
         ]
       },
       {
         "name": "SMT Equipment",
-        "code": "14.02",
+        "code": "14.2",
         "subSubcategories": [
           {
             "name": "Pick-and-Place Machines",
-            "code": "14.02.01"
+            "code": "14.2.1"
           },
           {
             "name": "Reflow Ovens",
-            "code": "14.02.02"
+            "code": "14.2.2"
           },
           {
             "name": "Solder Paste Printers",
-            "code": "14.02.03"
+            "code": "14.2.3"
           },
           {
             "name": "Wave Soldering Machines",
-            "code": "14.02.04"
+            "code": "14.2.4"
           },
           {
             "name": "SMT Inspection Equipment",
-            "code": "14.02.05"
+            "code": "14.2.5"
           },
           {
             "name": "SMT Cleaning Equipment",
-            "code": "14.02.06"
+            "code": "14.2.6"
           },
           {
             "name": "SMT Stencil Printers",
-            "code": "14.02.07"
+            "code": "14.2.7"
           },
           {
             "name": "SMT Component Inspection Systems",
-            "code": "14.02.08"
+            "code": "14.2.8"
           },
           {
             "name": "SMT Rework Stations",
-            "code": "14.02.09"
+            "code": "14.2.9"
           },
           {
             "name": "SMT Conveyor Systems",
-            "code": "14.02.10"
+            "code": "14.2.10"
           }
         ]
       },
       {
         "name": "Semiconductor Equipment",
-        "code": "14.03",
+        "code": "14.3",
         "subSubcategories": [
           {
             "name": "Wafer Processing Systems",
-            "code": "14.03.01"
+            "code": "14.3.1"
           },
           {
             "name": "Lithography Equipment",
-            "code": "14.03.02"
+            "code": "14.3.2"
           },
           {
             "name": "Deposition Equipment",
-            "code": "14.03.03"
+            "code": "14.3.3"
           },
           {
             "name": "Etching Equipment",
-            "code": "14.03.04"
+            "code": "14.3.4"
           },
           {
             "name": "Wafer Cleaning Equipment",
-            "code": "14.03.05"
+            "code": "14.3.5"
           },
           {
             "name": "Testing & Measurement Equipment",
-            "code": "14.03.06"
+            "code": "14.3.6"
           },
           {
             "name": "Wafer Dicing Saws",
-            "code": "14.03.07"
+            "code": "14.3.7"
           },
           {
             "name": "Wafer Bonding Equipment",
-            "code": "14.03.08"
+            "code": "14.3.8"
           },
           {
             "name": "Chemical Mechanical Polishing (CMP) Equipment",
-            "code": "14.03.09"
+            "code": "14.3.9"
           },
           {
             "name": "Ion Implantation Equipment",
-            "code": "14.03.10"
+            "code": "14.3.10"
           }
         ]
       },
       {
         "name": "Assembly and Packaging Equipment",
-        "code": "14.04",
+        "code": "14.4",
         "subSubcategories": [
           {
             "name": "Wire Bonding Machines",
-            "code": "14.04.01"
+            "code": "14.4.1"
           },
           {
             "name": "Die Bonding Machines",
-            "code": "14.04.02"
+            "code": "14.4.2"
           },
           {
             "name": "Encapsulation Equipment",
-            "code": "14.04.03"
+            "code": "14.4.3"
           },
           {
             "name": "Packaging Machines",
-            "code": "14.04.04"
+            "code": "14.4.4"
           },
           {
             "name": "Lead Forming Machines",
-            "code": "14.04.05"
+            "code": "14.4.5"
           },
           {
             "name": "Marking and Labeling Equipment",
-            "code": "14.04.06"
+            "code": "14.4.6"
           },
           {
             "name": "Taping and Reeling Machines",
-            "code": "14.04.07"
+            "code": "14.4.7"
           },
           {
             "name": "Trays and Tube Loaders",
-            "code": "14.04.08"
+            "code": "14.4.8"
           },
           {
             "name": "Automated Assembly Lines",
-            "code": "14.04.09"
+            "code": "14.4.9"
           },
           {
             "name": "Robotic Arms for Assembly",
-            "code": "14.04.10"
+            "code": "14.4.10"
           }
         ]
       },
       {
         "name": "Testing and Inspection Equipment",
-        "code": "14.05",
+        "code": "14.5",
         "subSubcategories": [
           {
             "name": "Functional Test Equipment",
-            "code": "14.05.01"
+            "code": "14.5.1"
           },
           {
             "name": "In-Circuit Testers",
-            "code": "14.05.02"
+            "code": "14.5.2"
           },
           {
             "name": "Flying Probe Testers",
-            "code": "14.05.03"
+            "code": "14.5.3"
           },
           {
             "name": "Automated Optical Inspection (AOI)",
-            "code": "14.05.04"
+            "code": "14.5.4"
           },
           {
             "name": "X-ray Inspection Systems",
-            "code": "14.05.05"
+            "code": "14.5.5"
           },
           {
             "name": "Scanning Electron Microscopes (SEM)",
-            "code": "14.05.06"
+            "code": "14.5.6"
           },
           {
             "name": "Atomic Force Microscopes (AFM)",
-            "code": "14.05.07"
+            "code": "14.5.7"
           },
           {
             "name": "Environmental Test Chambers",
-            "code": "14.05.08"
+            "code": "14.5.8"
           },
           {
             "name": "Vibration Test Equipment",
-            "code": "14.05.09"
+            "code": "14.5.9"
           },
           {
             "name": "Burn-in Test Equipment",
-            "code": "14.05.10"
+            "code": "14.5.10"
           }
         ]
       },
       {
         "name": "Other Manufacturing Equipment",
-        "code": "14.06",
+        "code": "14.6",
         "subSubcategories": [
           {
             "name": "Conformal Coating Equipment",
-            "code": "14.06.01"
+            "code": "14.6.1"
           },
           {
             "name": "Wire Harness Assembly Equipment",
-            "code": "14.06.02"
+            "code": "14.6.2"
           },
           {
             "name": "Box Build Equipment",
-            "code": "14.06.03"
+            "code": "14.6.3"
           },
           {
             "name": "Cleanroom Equipment",
-            "code": "14.06.04"
+            "code": "14.6.4"
           },
           {
             "name": "ESD Protection Equipment",
-            "code": "14.06.05"
+            "code": "14.6.5"
           },
           {
             "name": "Soldering and Desoldering Stations",
-            "code": "14.06.06"
+            "code": "14.6.6"
           },
           {
             "name": "Rework and Repair Stations",
-            "code": "14.06.07"
+            "code": "14.6.7"
           },
           {
             "name": "Stencil Cleaning Machines",
-            "code": "14.06.08"
+            "code": "14.6.8"
           },
           {
             "name": "Solder Paste Mixing Systems",
-            "code": "14.06.09"
+            "code": "14.6.9"
           },
           {
             "name": "Nitrogen Generation Systems",
-            "code": "14.06.10"
+            "code": "14.6.10"
           }
         ]
       }
@@ -4030,115 +4030,115 @@
     "subcategories": [
       {
         "name": "Vat Photopolymerization",
-        "code": "15.01",
+        "code": "15.1",
         "subSubcategories": [
           {
             "name": "Stereolithography (SLA)",
-            "code": "15.01.01"
+            "code": "15.1.1"
           },
           {
             "name": "Digital Light Processing (DLP)",
-            "code": "15.01.02"
+            "code": "15.1.2"
           },
           {
             "name": "Continuous Liquid Interface Production (CLIP)",
-            "code": "15.01.03"
+            "code": "15.1.3"
           }
         ]
       },
       {
         "name": "Material Extrusion",
-        "code": "15.02",
+        "code": "15.2",
         "subSubcategories": [
           {
             "name": "Fused Deposition Modeling (FDM)",
-            "code": "15.02.01"
+            "code": "15.2.1"
           },
           {
             "name": "Fused Filament Fabrication (FFF)",
-            "code": "15.02.02"
+            "code": "15.2.2"
           }
         ]
       },
       {
         "name": "Powder Bed Fusion",
-        "code": "15.03",
+        "code": "15.3",
         "subSubcategories": [
           {
             "name": "Selective Laser Sintering (SLS)",
-            "code": "15.03.01"
+            "code": "15.3.1"
           },
           {
             "name": "Selective Laser Melting (SLM)",
-            "code": "15.03.02"
+            "code": "15.3.2"
           },
           {
             "name": "Electron Beam Melting (EBM)",
-            "code": "15.03.03"
+            "code": "15.3.3"
           },
           {
             "name": "Multi Jet Fusion (MJF)",
-            "code": "15.03.04"
+            "code": "15.3.4"
           }
         ]
       },
       {
         "name": "Material Jetting",
-        "code": "15.04",
+        "code": "15.4",
         "subSubcategories": [
           {
             "name": "PolyJet",
-            "code": "15.04.01"
+            "code": "15.4.1"
           },
           {
             "name": "Drop On Demand (DOD)",
-            "code": "15.04.02"
+            "code": "15.4.2"
           }
         ]
       },
       {
         "name": "Binder Jetting",
-        "code": "15.05",
+        "code": "15.5",
         "subSubcategories": [
           {
             "name": "Metal Binder Jetting",
-            "code": "15.05.01"
+            "code": "15.5.1"
           },
           {
             "name": "Ceramic Binder Jetting",
-            "code": "15.05.02"
+            "code": "15.5.2"
           },
           {
             "name": "Sand Binder Jetting",
-            "code": "15.05.03"
+            "code": "15.5.3"
           }
         ]
       },
       {
         "name": "Directed Energy Deposition",
-        "code": "15.06",
+        "code": "15.6",
         "subSubcategories": [
           {
             "name": "Laser Engineered Net Shaping (LENS)",
-            "code": "15.06.01"
+            "code": "15.6.1"
           },
           {
             "name": "Electron Beam Additive Manufacturing (EBAM)",
-            "code": "15.06.02"
+            "code": "15.6.2"
           }
         ]
       },
       {
         "name": "Sheet Lamination",
-        "code": "15.07",
+        "code": "15.7",
         "subSubcategories": [
           {
             "name": "Laminated Object Manufacturing (LOM)",
-            "code": "15.07.01"
+            "code": "15.7.1"
           },
           {
             "name": "Ultrasonic Consolidation (UC)",
-            "code": "15.07.02"
+            "code": "15.7.2"
           }
         ]
       }
@@ -4150,211 +4150,211 @@
     "subcategories": [
       {
         "name": "Industrial Robots",
-        "code": "16.01",
+        "code": "16.1",
         "subSubcategories": [
           {
             "name": "Articulated Robots",
-            "code": "16.01.01"
+            "code": "16.1.1"
           },
           {
             "name": "SCARA Robots",
-            "code": "16.01.02"
+            "code": "16.1.2"
           },
           {
             "name": "Cartesian Robots",
-            "code": "16.01.03"
+            "code": "16.1.3"
           },
           {
             "name": "Delta Robots",
-            "code": "16.01.04"
+            "code": "16.1.4"
           },
           {
             "name": "Collaborative Robots",
-            "code": "16.01.05"
+            "code": "16.1.5"
           },
           {
             "name": "Heavy-Duty Robots",
-            "code": "16.01.06"
+            "code": "16.1.6"
           },
           {
             "name": "Mobile Robots",
-            "code": "16.01.07"
+            "code": "16.1.7"
           },
           {
             "name": "Manipulators",
-            "code": "16.01.08"
+            "code": "16.1.8"
           }
         ]
       },
       {
         "name": "Control Systems",
-        "code": "16.02",
+        "code": "16.2",
         "subSubcategories": [
           {
             "name": "Programmable Logic Controllers (PLCs)",
-            "code": "16.02.01"
+            "code": "16.2.1"
           },
           {
             "name": "Sensors",
-            "code": "16.02.02"
+            "code": "16.2.2"
           },
           {
             "name": "Human-Machine Interfaces (HMIs)",
-            "code": "16.02.03"
+            "code": "16.2.3"
           },
           {
             "name": "Drives",
-            "code": "16.02.04"
+            "code": "16.2.4"
           },
           {
             "name": "Motors",
-            "code": "16.02.05"
+            "code": "16.2.5"
           },
           {
             "name": "Control Cabinets",
-            "code": "16.02.06"
+            "code": "16.2.6"
           },
           {
             "name": "Other Control Components",
-            "code": "16.02.07"
+            "code": "16.2.7"
           }
         ]
       },
       {
         "name": "Conveyor Systems",
-        "code": "16.03",
+        "code": "16.3",
         "subSubcategories": [
           {
             "name": "Belt Conveyors",
-            "code": "16.03.01"
+            "code": "16.3.1"
           },
           {
             "name": "Roller Conveyors",
-            "code": "16.03.02"
+            "code": "16.3.2"
           },
           {
             "name": "Chain Conveyors",
-            "code": "16.03.03"
+            "code": "16.3.3"
           },
           {
             "name": "Screw Conveyors",
-            "code": "16.03.04"
+            "code": "16.3.4"
           },
           {
             "name": "Pneumatic Conveyors",
-            "code": "16.03.05"
+            "code": "16.3.5"
           },
           {
             "name": "Sorting Systems",
-            "code": "16.03.06"
+            "code": "16.3.6"
           },
           {
             "name": "Palletizing Systems",
-            "code": "16.03.07"
+            "code": "16.3.7"
           },
           {
             "name": "Depalletizing Systems",
-            "code": "16.03.08"
+            "code": "16.3.8"
           }
         ]
       },
       {
         "name": "Assembly and Handling Systems",
-        "code": "16.04",
+        "code": "16.4",
         "subSubcategories": [
           {
             "name": "Assembly Machines",
-            "code": "16.04.01"
+            "code": "16.4.1"
           },
           {
             "name": "Handling Robots",
-            "code": "16.04.02"
+            "code": "16.4.2"
           },
           {
             "name": "Pick-and-Place Systems",
-            "code": "16.04.03"
+            "code": "16.4.3"
           },
           {
             "name": "Mounting Systems",
-            "code": "16.04.04"
+            "code": "16.4.4"
           },
           {
             "name": "Packaging Systems",
-            "code": "16.04.05"
+            "code": "16.4.5"
           }
         ]
       },
       {
         "name": "Positioning Systems",
-        "code": "16.05",
+        "code": "16.5",
         "subSubcategories": [
           {
             "name": "Linear Positioning Systems",
-            "code": "16.05.01"
+            "code": "16.5.1"
           },
           {
             "name": "Rotary Positioning Systems",
-            "code": "16.05.02"
+            "code": "16.5.2"
           },
           {
             "name": "Multi-Axis Positioning Systems",
-            "code": "16.05.03"
+            "code": "16.5.3"
           },
           {
             "name": "Gantry Systems",
-            "code": "16.05.04"
+            "code": "16.5.4"
           }
         ]
       },
       {
         "name": "Electrical Control and Switchgear",
-        "code": "16.06",
+        "code": "16.6",
         "subSubcategories": [
           {
             "name": "Low Voltage Switchgear",
-            "code": "16.06.01"
+            "code": "16.6.1"
           },
           {
             "name": "Medium Voltage Switchgear",
-            "code": "16.06.02"
+            "code": "16.6.2"
           },
           {
             "name": "Motor Control Centers (MCC)",
-            "code": "16.06.03"
+            "code": "16.6.3"
           },
           {
             "name": "Distribution Boards",
-            "code": "16.06.04"
+            "code": "16.6.4"
           },
           {
             "name": "Circuit Breakers",
-            "code": "16.06.05"
+            "code": "16.6.5"
           },
           {
             "name": "Contactors and Starters",
-            "code": "16.06.06"
+            "code": "16.6.6"
           }
         ]
       },
       {
         "name": "Other Automation Machinery",
-        "code": "16.07",
+        "code": "16.7",
         "subSubcategories": [
           {
             "name": "Vision Systems",
-            "code": "16.07.01"
+            "code": "16.7.1"
           },
           {
             "name": "RFID Systems",
-            "code": "16.07.02"
+            "code": "16.7.2"
           },
           {
             "name": "Barcode Scanners",
-            "code": "16.07.03"
+            "code": "16.7.3"
           },
           {
             "name": "Other",
-            "code": "16.07.04"
+            "code": "16.7.4"
           }
         ]
       }
@@ -4366,147 +4366,147 @@
     "subcategories": [
       {
         "name": "Printing & Copying Equipment",
-        "code": "17.01",
+        "code": "17.1",
         "subSubcategories": [
           {
             "name": "Laser Printers",
-            "code": "17.01.01"
+            "code": "17.1.1"
           },
           {
             "name": "Inkjet Printers",
-            "code": "17.01.02"
+            "code": "17.1.2"
           },
           {
             "name": "Multifunction Printers",
-            "code": "17.01.03"
+            "code": "17.1.3"
           },
           {
             "name": "Copiers",
-            "code": "17.01.04"
+            "code": "17.1.4"
           },
           {
             "name": "Scanners",
-            "code": "17.01.05"
+            "code": "17.1.5"
           },
           {
             "name": "Paper Shredders",
-            "code": "17.01.06"
+            "code": "17.1.6"
           },
           {
             "name": "Folding Machines",
-            "code": "17.01.07"
+            "code": "17.1.7"
           },
           {
             "name": "Enveloping Machines",
-            "code": "17.01.08"
+            "code": "17.1.8"
           },
           {
             "name": "Blueprint Machines",
-            "code": "17.01.09"
+            "code": "17.1.9"
           }
         ]
       },
       {
         "name": "Communication Systems",
-        "code": "17.02",
+        "code": "17.2",
         "subSubcategories": [
           {
             "name": "Telephone Systems",
-            "code": "17.02.01"
+            "code": "17.2.1"
           },
           {
             "name": "VoIP Systems",
-            "code": "17.02.02"
+            "code": "17.2.2"
           },
           {
             "name": "Fax Machines",
-            "code": "17.02.03"
+            "code": "17.2.3"
           }
         ]
       },
       {
         "name": "Computer Equipment",
-        "code": "17.03",
+        "code": "17.3",
         "subSubcategories": [
           {
             "name": "Desktops",
-            "code": "17.03.01"
+            "code": "17.3.1"
           },
           {
             "name": "Laptops",
-            "code": "17.03.02"
+            "code": "17.3.2"
           },
           {
             "name": "Servers",
-            "code": "17.03.03"
+            "code": "17.3.3"
           },
           {
             "name": "Networking Equipment",
-            "code": "17.03.04"
+            "code": "17.3.4"
           }
         ]
       },
       {
         "name": "Telecommunication Systems",
-        "code": "17.04",
+        "code": "17.4",
         "subSubcategories": [
           {
             "name": "Routers",
-            "code": "17.04.01"
+            "code": "17.4.1"
           },
           {
             "name": "Switches",
-            "code": "17.04.02"
+            "code": "17.4.2"
           },
           {
             "name": "PBX Systems",
-            "code": "17.04.03"
+            "code": "17.4.3"
           },
           {
             "name": "Satellite Communication Devices",
-            "code": "17.04.04"
+            "code": "17.4.4"
           }
         ]
       },
       {
         "name": "Office Furniture",
-        "code": "17.05",
+        "code": "17.5",
         "subSubcategories": [
           {
             "name": "Desks",
-            "code": "17.05.01"
+            "code": "17.5.1"
           },
           {
             "name": "Chairs",
-            "code": "17.05.02"
+            "code": "17.5.2"
           },
           {
             "name": "Filing Cabinets",
-            "code": "17.05.03"
+            "code": "17.5.3"
           },
           {
             "name": "Safes",
-            "code": "17.05.04"
+            "code": "17.5.4"
           }
         ]
       },
       {
         "name": "Audio-visual Equipment",
-        "code": "17.06",
+        "code": "17.6",
         "subSubcategories": [
           {
             "name": "Video Projectors",
-            "code": "17.06.01"
+            "code": "17.6.1"
           }
         ]
       },
       {
         "name": "Other Office Equipment",
-        "code": "17.07",
+        "code": "17.7",
         "subSubcategories": [
           {
             "name": "Other Machines",
-            "code": "17.07.01"
+            "code": "17.7.1"
           }
         ]
       }
@@ -4518,150 +4518,150 @@
     "subcategories": [
       {
         "name": "Food & Beverage Lines",
-        "code": "18.01",
+        "code": "18.1",
         "subSubcategories": [
           {
             "name": "Dairy Plants",
-            "code": "18.01.01"
+            "code": "18.1.1"
           },
           {
             "name": "Breweries & Distilleries",
-            "code": "18.01.02"
+            "code": "18.1.2"
           },
           {
             "name": "Bakery Lines",
-            "code": "18.01.03"
+            "code": "18.1.3"
           },
           {
             "name": "Meat Processing Plants",
-            "code": "18.01.04"
+            "code": "18.1.4"
           },
           {
             "name": "Beverage Production Lines",
-            "code": "18.01.05"
+            "code": "18.1.5"
           },
           {
             "name": "Confectionery Lines",
-            "code": "18.01.06"
+            "code": "18.1.6"
           }
         ]
       },
       {
         "name": "Pharmaceutical & Chemical Lines",
-        "code": "18.02",
+        "code": "18.2",
         "subSubcategories": [
           {
             "name": "Pharma Production Lines",
-            "code": "18.02.01"
+            "code": "18.2.1"
           },
           {
             "name": "Chemical Plants",
-            "code": "18.02.02"
+            "code": "18.2.2"
           },
           {
             "name": "Fertilizer Plants",
-            "code": "18.02.03"
+            "code": "18.2.3"
           }
         ]
       },
       {
         "name": "Metal & Material Processing",
-        "code": "18.03",
+        "code": "18.3",
         "subSubcategories": [
           {
             "name": "Steel Mills",
-            "code": "18.03.01"
+            "code": "18.3.1"
           },
           {
             "name": "Aluminum Smelters",
-            "code": "18.03.02"
+            "code": "18.3.2"
           },
           {
             "name": "Cement Plants",
-            "code": "18.03.03"
+            "code": "18.3.3"
           }
         ]
       },
       {
         "name": "Automotive & Aerospace",
-        "code": "18.04",
+        "code": "18.4",
         "subSubcategories": [
           {
             "name": "Vehicle Assembly Lines",
-            "code": "18.04.01"
+            "code": "18.4.1"
           },
           {
             "name": "Engine Manufacturing",
-            "code": "18.04.02"
+            "code": "18.4.2"
           },
           {
             "name": "Aerospace Component Plants",
-            "code": "18.04.03"
+            "code": "18.4.3"
           }
         ]
       },
       {
         "name": "Textile & Apparel",
-        "code": "18.05",
+        "code": "18.5",
         "subSubcategories": [
           {
             "name": "Spinning Mills",
-            "code": "18.05.01"
+            "code": "18.5.1"
           },
           {
             "name": "Weaving & Knitting Plants",
-            "code": "18.05.02"
+            "code": "18.5.2"
           },
           {
             "name": "Garment Factories",
-            "code": "18.05.03"
+            "code": "18.5.3"
           }
         ]
       },
       {
         "name": "Electronics & Appliances",
-        "code": "18.06",
+        "code": "18.6",
         "subSubcategories": [
           {
             "name": "Semiconductor Plants",
-            "code": "18.06.01"
+            "code": "18.6.1"
           },
           {
             "name": "Electronics Assembly Lines",
-            "code": "18.06.02"
+            "code": "18.6.2"
           }
         ]
       },
       {
         "name": "Plastic & Rubber",
-        "code": "18.07",
+        "code": "18.7",
         "subSubcategories": [
           {
             "name": "Tire Manufacturing",
-            "code": "18.07.01"
+            "code": "18.7.1"
           },
           {
             "name": "Plastic Packaging Lines",
-            "code": "18.07.02"
+            "code": "18.7.2"
           }
         ]
       },
       {
         "name": "Paper & Pulp",
-        "code": "18.08",
+        "code": "18.8",
         "subSubcategories": []
       },
       {
         "name": "Renewable Energy",
-        "code": "18.09",
+        "code": "18.9",
         "subSubcategories": [
           {
             "name": "Biomass Power Plants",
-            "code": "18.09.01"
+            "code": "18.9.1"
           },
           {
             "name": "Solar Panel Factories",
-            "code": "18.09.02"
+            "code": "18.9.2"
           }
         ]
       },
@@ -4671,11 +4671,11 @@
         "subSubcategories": [
           {
             "name": "Glass Factories",
-            "code": "18.10.01"
+            "code": "18.10.1"
           },
           {
             "name": "Ceramic Factories",
-            "code": "18.10.02"
+            "code": "18.10.2"
           }
         ]
       }
@@ -4687,147 +4687,147 @@
     "subcategories": [
       {
         "name": "Motors & Drives",
-        "code": "19.01",
+        "code": "19.1",
         "subSubcategories": [
           {
             "name": "AC Motors",
-            "code": "19.01.01"
+            "code": "19.1.1"
           },
           {
             "name": "DC Motors",
-            "code": "19.01.02"
+            "code": "19.1.2"
           },
           {
             "name": "Servo Motors",
-            "code": "19.01.03"
+            "code": "19.1.3"
           },
           {
             "name": "Frequency Inverters",
-            "code": "19.01.04"
+            "code": "19.1.4"
           }
         ]
       },
       {
         "name": "Bearings & Mechanical Parts",
-        "code": "19.02",
+        "code": "19.2",
         "subSubcategories": [
           {
             "name": "Ball Bearings",
-            "code": "19.02.01"
+            "code": "19.2.1"
           },
           {
             "name": "Roller Bearings",
-            "code": "19.02.02"
+            "code": "19.2.2"
           },
           {
             "name": "Linear Bearings",
-            "code": "19.02.03"
+            "code": "19.2.3"
           },
           {
             "name": "Gearboxes",
-            "code": "19.02.04"
+            "code": "19.2.4"
           }
         ]
       },
       {
         "name": "Hydraulic & Pneumatic Components",
-        "code": "19.03",
+        "code": "19.3",
         "subSubcategories": [
           {
             "name": "Pumps",
-            "code": "19.03.01"
+            "code": "19.3.1"
           },
           {
             "name": "Valves",
-            "code": "19.03.02"
+            "code": "19.3.2"
           },
           {
             "name": "Cylinders",
-            "code": "19.03.03"
+            "code": "19.3.3"
           },
           {
             "name": "Compressors",
-            "code": "19.03.04"
+            "code": "19.3.4"
           }
         ]
       },
       {
         "name": "Electrical Components",
-        "code": "19.04",
+        "code": "19.4",
         "subSubcategories": [
           {
             "name": "Switchgear",
-            "code": "19.04.01"
+            "code": "19.4.1"
           },
           {
             "name": "Transformers",
-            "code": "19.04.02"
+            "code": "19.4.2"
           },
           {
             "name": "Circuit Breakers",
-            "code": "19.04.03"
+            "code": "19.4.3"
           },
           {
             "name": "Cables & Wires",
-            "code": "19.04.04"
+            "code": "19.4.4"
           }
         ]
       },
       {
         "name": "Automation Components",
-        "code": "19.05",
+        "code": "19.5",
         "subSubcategories": [
           {
             "name": "PLCs",
-            "code": "19.05.01"
+            "code": "19.5.1"
           },
           {
             "name": "Sensors",
-            "code": "19.05.02"
+            "code": "19.5.2"
           },
           {
             "name": "HMIs",
-            "code": "19.05.03"
+            "code": "19.5.3"
           },
           {
             "name": "Actuators",
-            "code": "19.05.04"
+            "code": "19.5.4"
           }
         ]
       },
       {
         "name": "Fasteners & Hardware",
-        "code": "19.06",
+        "code": "19.6",
         "subSubcategories": [
           {
             "name": "Bolts & Screws",
-            "code": "19.06.01"
+            "code": "19.6.1"
           },
           {
             "name": "Nuts & Washers",
-            "code": "19.06.02"
+            "code": "19.6.2"
           },
           {
             "name": "Clamps & Couplings",
-            "code": "19.06.03"
+            "code": "19.6.3"
           }
         ]
       },
       {
         "name": "Surplus & Overstock",
-        "code": "19.07",
+        "code": "19.7",
         "subSubcategories": [
           {
             "name": "Unused Spare Parts",
-            "code": "19.07.01"
+            "code": "19.7.1"
           },
           {
             "name": "Overstock Items",
-            "code": "19.07.02"
+            "code": "19.7.2"
           },
           {
             "name": "Liquidation Lots",
-            "code": "19.07.03"
+            "code": "19.7.3"
           }
         ]
       }
@@ -4839,125 +4839,125 @@
     "subcategories": [
       {
         "name": "Vehicle Lifts",
-        "code": "20.01",
+        "code": "20.1",
         "subSubcategories": [
           {
             "name": "Two-Post Lifts",
-            "code": "20.01.01"
+            "code": "20.1.1"
           },
           {
             "name": "Four-Post Lifts",
-            "code": "20.01.02"
+            "code": "20.1.2"
           },
           {
             "name": "Scissor Lifts",
-            "code": "20.01.03"
+            "code": "20.1.3"
           },
           {
             "name": "Pit Jacks",
-            "code": "20.01.04"
+            "code": "20.1.4"
           }
         ]
       },
       {
         "name": "Tire Service Equipment",
-        "code": "20.02",
+        "code": "20.2",
         "subSubcategories": [
           {
             "name": "Tire Changers",
-            "code": "20.02.01"
+            "code": "20.2.1"
           },
           {
             "name": "Wheel Balancers",
-            "code": "20.02.02"
+            "code": "20.2.2"
           },
           {
             "name": "Alignment Machines",
-            "code": "20.02.03"
+            "code": "20.2.3"
           }
         ]
       },
       {
         "name": "Diagnostic Tools",
-        "code": "20.03",
+        "code": "20.3",
         "subSubcategories": [
           {
             "name": "OBD Scanners",
-            "code": "20.03.01"
+            "code": "20.3.1"
           },
           {
             "name": "Exhaust Gas Analyzers",
-            "code": "20.03.02"
+            "code": "20.3.2"
           },
           {
             "name": "Cylinder Head & Block Pressure Testing",
-            "code": "20.03.03"
+            "code": "20.3.3"
           }
         ]
       },
       {
         "name": "Engine Service Tools",
-        "code": "20.04",
+        "code": "20.4",
         "subSubcategories": [
           {
             "name": "Engine Hoists",
-            "code": "20.04.01"
+            "code": "20.4.1"
           },
           {
             "name": "Engine Stands",
-            "code": "20.04.02"
+            "code": "20.4.2"
           },
           {
             "name": "Valve Refacer Machines",
-            "code": "20.04.03"
+            "code": "20.4.3"
           },
           {
             "name": "Valve Seat Milling Machines",
-            "code": "20.04.04"
+            "code": "20.4.4"
           },
           {
             "name": "Connecting Rod Cap and Face Grinders",
-            "code": "20.04.05"
+            "code": "20.4.5"
           }
         ]
       },
       {
         "name": "Workshop Equipment",
-        "code": "20.05",
+        "code": "20.5",
         "subSubcategories": [
           {
             "name": "Air Compressors",
-            "code": "20.05.01"
+            "code": "20.5.1"
           },
           {
             "name": "Lubrication Equipment",
-            "code": "20.05.02"
+            "code": "20.5.2"
           },
           {
             "name": "Parts Washing Machines",
-            "code": "20.05.03"
+            "code": "20.5.3"
           },
           {
             "name": "Water Pumps",
-            "code": "20.05.04"
+            "code": "20.5.4"
           },
           {
             "name": "Workshop Furniture Sets",
-            "code": "20.05.05"
+            "code": "20.5.5"
           },
           {
             "name": "Motorized Workshop Gantries",
-            "code": "20.05.06"
+            "code": "20.5.6"
           }
         ]
       },
       {
         "name": "Brake Service Equipment",
-        "code": "20.06",
+        "code": "20.6",
         "subSubcategories": [
           {
             "name": "Brake Drum Grinding/Lathe Machines",
-            "code": "20.06.01"
+            "code": "20.6.1"
           }
         ]
       }
@@ -4969,175 +4969,175 @@
     "subcategories": [
       {
         "name": "Preliminary Treatment",
-        "code": "21.01",
+        "code": "21.1",
         "subSubcategories": [
           {
             "name": "Screens",
-            "code": "21.01.01"
+            "code": "21.1.1"
           },
           {
             "name": "Grit Removal Systems",
-            "code": "21.01.02"
+            "code": "21.1.2"
           },
           {
             "name": "Comminutors",
-            "code": "21.01.03"
+            "code": "21.1.3"
           }
         ]
       },
       {
         "name": "Primary Treatment",
-        "code": "21.02",
+        "code": "21.2",
         "subSubcategories": [
           {
             "name": "Clarifiers & Sedimentation Tanks",
-            "code": "21.02.01"
+            "code": "21.2.1"
           },
           {
             "name": "Flocculators & Coagulators",
-            "code": "21.02.02"
+            "code": "21.2.2"
           }
         ]
       },
       {
         "name": "Secondary Treatment",
-        "code": "21.03",
+        "code": "21.3",
         "subSubcategories": [
           {
             "name": "Aeration Systems",
-            "code": "21.03.01"
+            "code": "21.3.1"
           },
           {
             "name": "Biological Treatment Systems",
-            "code": "21.03.02"
+            "code": "21.3.2"
           },
           {
             "name": "Secondary Clarifiers",
-            "code": "21.03.03"
+            "code": "21.3.3"
           }
         ]
       },
       {
         "name": "Tertiary Treatment",
-        "code": "21.04",
+        "code": "21.4",
         "subSubcategories": [
           {
             "name": "Filtration Systems",
-            "code": "21.04.01"
+            "code": "21.4.1"
           },
           {
             "name": "Disinfection Systems",
-            "code": "21.04.02"
+            "code": "21.4.2"
           },
           {
             "name": "Nutrient Removal Systems",
-            "code": "21.04.03"
+            "code": "21.4.3"
           }
         ]
       },
       {
         "name": "Sludge Treatment & Disposal",
-        "code": "21.05",
+        "code": "21.5",
         "subSubcategories": [
           {
             "name": "Sludge Thickeners",
-            "code": "21.05.01"
+            "code": "21.5.1"
           },
           {
             "name": "Sludge Dewatering Equipment",
-            "code": "21.05.02"
+            "code": "21.5.2"
           },
           {
             "name": "Sludge Dryers",
-            "code": "21.05.03"
+            "code": "21.5.3"
           },
           {
             "name": "Sludge Incinerators",
-            "code": "21.05.04"
+            "code": "21.5.4"
           },
           {
             "name": "Anaerobic Digesters",
-            "code": "21.05.05"
+            "code": "21.5.5"
           }
         ]
       },
       {
         "name": "Pumping & Conveying",
-        "code": "21.06",
+        "code": "21.6",
         "subSubcategories": [
           {
             "name": "Wastewater Pumps",
-            "code": "21.06.01"
+            "code": "21.6.1"
           },
           {
             "name": "Sludge Pumps",
-            "code": "21.06.02"
+            "code": "21.6.2"
           },
           {
             "name": "Chemical Feed Pumps",
-            "code": "21.06.03"
+            "code": "21.6.3"
           }
         ]
       },
       {
         "name": "Chemical Treatment",
-        "code": "21.07",
+        "code": "21.7",
         "subSubcategories": [
           {
             "name": "Chemical Storage Tanks",
-            "code": "21.07.01"
+            "code": "21.7.1"
           },
           {
             "name": "Chemical Dosing Systems",
-            "code": "21.07.02"
+            "code": "21.7.2"
           },
           {
             "name": "Mixers & Agitators",
-            "code": "21.07.03"
+            "code": "21.7.3"
           }
         ]
       },
       {
         "name": "Instrumentation & Controls",
-        "code": "21.08",
+        "code": "21.8",
         "subSubcategories": [
           {
             "name": "Flow Meters",
-            "code": "21.08.01"
+            "code": "21.8.1"
           },
           {
             "name": "Level Sensors",
-            "code": "21.08.02"
+            "code": "21.8.2"
           },
           {
             "name": "pH & ORP Sensors",
-            "code": "21.08.03"
+            "code": "21.8.3"
           },
           {
             "name": "Dissolved Oxygen Sensors",
-            "code": "21.08.04"
+            "code": "21.8.4"
           },
           {
             "name": "Control Panels & SCADA",
-            "code": "21.08.05"
+            "code": "21.8.5"
           }
         ]
       },
       {
         "name": "Storage & Distribution",
-        "code": "21.09",
+        "code": "21.9",
         "subSubcategories": [
           {
             "name": "Wastewater Storage Tanks",
-            "code": "21.09.01"
+            "code": "21.9.1"
           },
           {
             "name": "Effluent Storage Tanks",
-            "code": "21.09.02"
+            "code": "21.9.2"
           },
           {
             "name": "Piping & Valves",
-            "code": "21.09.03"
+            "code": "21.9.3"
           }
         ]
       },
@@ -5147,15 +5147,15 @@
         "subSubcategories": [
           {
             "name": "Odor Control Systems",
-            "code": "21.10.01"
+            "code": "21.10.1"
           },
           {
             "name": "Noise Reduction Equipment",
-            "code": "21.10.02"
+            "code": "21.10.2"
           },
           {
             "name": "Safety Equipment",
-            "code": "21.10.03"
+            "code": "21.10.3"
           }
         ]
       }
@@ -5167,141 +5167,141 @@
     "subcategories": [
       {
         "name": "Sorting Machines",
-        "code": "22.01",
+        "code": "22.1",
         "subSubcategories": [
           {
             "name": "Automatic Sorting Machines",
-            "code": "22.01.1"
+            "code": "22.1.1"
           },
           {
             "name": "Manual Sorting Machines",
-            "code": "22.01.2"
+            "code": "22.1.2"
           },
           {
             "name": "OCR Sorting Machines",
-            "code": "22.01.3"
+            "code": "22.1.3"
           },
           {
             "name": "Barcode Sorting Machines",
-            "code": "22.01.4"
+            "code": "22.1.4"
           },
           {
             "name": "Conveyor Systems for Mail Processing",
-            "code": "22.01.5"
+            "code": "22.1.5"
           },
           {
             "name": "Mail Opening and Separating Machines",
-            "code": "22.01.6"
+            "code": "22.1.6"
           },
           {
             "name": "Autoloaders for Mail Processing",
-            "code": "22.01.7"
+            "code": "22.1.7"
           }
         ]
       },
       {
         "name": "Folding & Inserting Machines",
-        "code": "22.02",
+        "code": "22.2",
         "subSubcategories": [
           {
             "name": "Automatic Folder/Inserters",
-            "code": "22.02.1"
+            "code": "22.2.1"
           },
           {
             "name": "Semi-Automatic Folder/Inserters",
-            "code": "22.02.2"
+            "code": "22.2.2"
           },
           {
             "name": "High-Speed Inserters",
-            "code": "22.02.3"
+            "code": "22.2.3"
           },
           {
             "name": "Pressure Sealers",
-            "code": "22.02.4"
+            "code": "22.2.4"
           }
         ]
       },
       {
         "name": "Franking Machines",
-        "code": "22.03",
+        "code": "22.3",
         "subSubcategories": [
           {
             "name": "Digital Franking Machines",
-            "code": "22.03.1"
+            "code": "22.3.1"
           },
           {
             "name": "Analog Franking Machines",
-            "code": "22.03.2"
+            "code": "22.3.2"
           },
           {
             "name": "Postage Meters with Scale",
-            "code": "22.03.3"
+            "code": "22.3.3"
           },
           {
             "name": "Standalone Postage Meters",
-            "code": "22.03.4"
+            "code": "22.3.4"
           },
           {
             "name": "Mail Scales",
-            "code": "22.03.5"
+            "code": "22.3.5"
           }
         ]
       },
       {
         "name": "Addressing & Labeling Machines",
-        "code": "22.04",
+        "code": "22.4",
         "subSubcategories": [
           {
             "name": "Address Printers",
-            "code": "22.04.1"
+            "code": "22.4.1"
           },
           {
             "name": "Label Printers",
-            "code": "22.04.2"
+            "code": "22.4.2"
           },
           {
             "name": "Stamp Affixers",
-            "code": "22.04.3"
+            "code": "22.4.3"
           },
           {
             "name": "Tabbing Machines",
-            "code": "22.04.4"
+            "code": "22.4.4"
           }
         ]
       },
       {
         "name": "Mailroom Furniture & Accessories",
-        "code": "22.05",
+        "code": "22.5",
         "subSubcategories": [
           {
             "name": "Mail Carts and Trolleys",
-            "code": "22.05.1"
+            "code": "22.5.1"
           },
           {
             "name": "Sorting Tables and Desks",
-            "code": "22.05.2"
+            "code": "22.5.2"
           },
           {
             "name": "Mail Trays and Bins",
-            "code": "22.05.3"
+            "code": "22.5.3"
           },
           {
             "name": "Letter Openers",
-            "code": "22.05.4"
+            "code": "22.5.4"
           },
           {
             "name": "Mailroom Chairs and Stools",
-            "code": "22.05.5"
+            "code": "22.5.5"
           },
           {
             "name": "Mailroom Storage Cabinets",
-            "code": "22.05.6"
+            "code": "22.5.6"
           }
         ]
       },
       {
         "name": "Mail Processing Lines",
-        "code": "22.06",
+        "code": "22.6",
         "subSubcategories": []
       }
     ]
@@ -5312,103 +5312,103 @@
     "subcategories": [
       {
         "name": "Surplus Machinery",
-        "code": "23.01",
+        "code": "23.1",
         "subSubcategories": [
           {
             "name": "Woodworking Machinery",
-            "code": "23.01.01"
+            "code": "23.1.1"
           },
           {
             "name": "Metalworking Machinery",
-            "code": "23.01.02"
+            "code": "23.1.2"
           },
           {
             "name": "Printing Machinery",
-            "code": "23.01.03"
+            "code": "23.1.3"
           },
           {
             "name": "Construction Machinery",
-            "code": "23.01.04"
+            "code": "23.1.4"
           },
           {
             "name": "Forklift Trucks",
-            "code": "23.01.05"
+            "code": "23.1.5"
           },
           {
             "name": "Storage & Handling Equipment",
-            "code": "23.01.06"
+            "code": "23.1.6"
           },
           {
             "name": "Automation & Robotics",
-            "code": "23.01.07"
+            "code": "23.1.7"
           },
           {
             "name": "Food Processing Machinery",
-            "code": "23.01.08"
+            "code": "23.1.8"
           },
           {
             "name": "Plastics Machinery",
-            "code": "23.01.09"
+            "code": "23.1.9"
           },
           {
             "name": "Recycling Machinery",
-            "code": "23.01.10"
+            "code": "23.1.10"
           }
         ]
       },
       {
         "name": "Liquidation Sales",
-        "code": "23.02",
+        "code": "23.2",
         "subSubcategories": []
       },
       {
         "name": "Plant Closures",
-        "code": "23.03",
+        "code": "23.3",
         "subSubcategories": []
       },
       {
         "name": "Used Parts & Components",
-        "code": "23.04",
+        "code": "23.4",
         "subSubcategories": [
           {
             "name": "Woodworking Parts",
-            "code": "23.04.01"
+            "code": "23.4.1"
           },
           {
             "name": "Metalworking Parts",
-            "code": "23.04.02"
+            "code": "23.4.2"
           },
           {
             "name": "Printing Parts",
-            "code": "23.04.03"
+            "code": "23.4.3"
           },
           {
             "name": "Construction Parts",
-            "code": "23.04.04"
+            "code": "23.4.4"
           },
           {
             "name": "Forklift Parts",
-            "code": "23.04.05"
+            "code": "23.4.5"
           },
           {
             "name": "Storage & Handling Parts",
-            "code": "23.04.06"
+            "code": "23.4.6"
           },
           {
             "name": "Automation & Robotics Parts",
-            "code": "23.04.07"
+            "code": "23.4.7"
           },
           {
             "name": "Food Processing Parts",
-            "code": "23.04.08"
+            "code": "23.4.8"
           },
           {
             "name": "Plastics Parts",
-            "code": "23.04.09"
+            "code": "23.4.9"
           },
           {
             "name": "Recycling Parts",
-            "code": "23.04.10"
+            "code": "23.4.10"
           }
         ]
       }
