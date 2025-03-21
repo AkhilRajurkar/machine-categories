@@ -1,0 +1,204 @@
+{
+  "_id": "woodworking_presses_veneer",
+  "category": "Woodworking Machinery",
+  "category_code": "2",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Woodworking Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Wood Presses"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Veneer Presses"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "pressing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_length": {
+            "bsonType": "double"
+          },
+          "max_width": {
+            "bsonType": "double"
+          },
+          "max_thickness": {
+            "bsonType": "double"
+          },
+          "max_pressure": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "platen_size": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "control_type": {
+        "bsonType": "string"
+      },
+      "heating_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "temperature_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "heating_time": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "pressing_time": {
+        "bsonType": "double"
+      },
+      "hydraulic_system": {
+        "bsonType": "string"
+      },
+      "number_of_daylights": {
+        "bsonType": "int"
+      },
+      "dust_extraction": {
+        "bsonType": "object",
+        "properties": {
+          "port_size": {
+            "bsonType": "double"
+          },
+          "capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Veneer Presses",
+  "sub_subcategory_code": "2.9.1",
+  "subcategory": "Wood Presses",
+  "subcategory_code": "2.9",
+  "version": "1.0"
+}

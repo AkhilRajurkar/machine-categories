@@ -1,0 +1,168 @@
+{
+  "_id": "metalworking_presses_mechanical",
+  "category": "Metalworking Machinery",
+  "subcategory": "Presses",
+  "sub_subcategory": "Mechanical Presses",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Metalworking Machinery"
+        ]
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Presses"
+        ]
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Mechanical Presses"
+        ]
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "pressing_force": {
+        "bsonType": "double"
+      },
+      "stroke_length": {
+        "bsonType": "double"
+      },
+      "working_area": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "max_material_thickness": {
+        "bsonType": "double"
+      },
+      "control_type": {
+        "bsonType": "string"
+      },
+      "strokes_per_minute": {
+        "bsonType": "int"
+      },
+      "drive_type": {
+        "bsonType": "string"
+      },
+      "clutch_type": {
+        "bsonType": "string"
+      },
+      "tooling": {
+        "bsonType": "object",
+        "properties": {
+          "die_height": {
+            "bsonType": "double"
+          },
+          "shut_height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "safety_features": {
+        "bsonType": "string"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "category_code": "1",
+  "subcategory_code": "1.9",
+  "sub_subcategory_code": "1.9.1"
+}

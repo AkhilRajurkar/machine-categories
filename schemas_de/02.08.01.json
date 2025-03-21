@@ -1,0 +1,217 @@
+{
+  "_id": "woodworking_lathes_manual_de",
+  "kategorie": "Holzbearbeitungsmaschinen",
+  "kategorie_code": "02",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzbearbeitungsmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzdrehmaschinen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Manuelle Drehmaschinen"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": "double"
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          },
+          "h\u00f6he": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "drehkapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_durchmesser": {
+            "bsonType": "double"
+          },
+          "max_l\u00e4nge": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "spindel": {
+        "bsonType": "object",
+        "properties": {
+          "geschwindigkeit": {
+            "bsonType": "double"
+          },
+          "leistung": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "steuerungstyp": {
+        "bsonType": "string"
+      },
+      "geschwindigkeitsbereich": {
+        "bsonType": "object",
+        "properties": {
+          "min": {
+            "bsonType": "double"
+          },
+          "max": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "spindelgewinde": {
+        "bsonType": "string"
+      },
+      "reitstock": {
+        "bsonType": "object",
+        "properties": {
+          "verfahrweg": {
+            "bsonType": "double"
+          },
+          "konus": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "werkzeugauflage": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "verstellung": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "staubabsaugung": {
+        "bsonType": "object",
+        "properties": {
+          "anschlussgr\u00f6\u00dfe": {
+            "bsonType": "double"
+          },
+          "kapazit\u00e4t": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "unterkategorie": "Holzdrehmaschinen",
+  "unterkategorie_code": "02.08",
+  "unterunterkategorie": "Manuelle Drehmaschinen",
+  "unterunterkategorie_code": "02.08.01",
+  "version": "1.0"
+}

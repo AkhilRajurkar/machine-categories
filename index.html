@@ -10,51 +10,66 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f8f9fa;
         }
         .container {
             display: flex;
             gap: 20px;
+            margin-bottom: 30px;
         }
         .category-section {
             flex: 1;
             padding: 15px;
-            background-color: #f5f5f5;
-            border-radius: 5px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .category-item {
             cursor: pointer;
-            padding: 8px;
+            padding: 10px;
             margin: 5px 0;
-            border-radius: 4px;
-            transition: background-color 0.2s;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
         }
         .category-item:hover {
-            background-color: #e0e0e0;
+            background-color: #f0f0f0;
+            border-color: #ddd;
         }
         .selected {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #e3f2fd;
+            color: #1976d2;
+            border-color: #90caf9;
         }
         .code {
             color: #666;
             font-size: 0.9em;
             margin-left: 10px;
+            font-family: monospace;
         }
         h2 {
             color: #333;
             margin-bottom: 15px;
+            font-size: 1.2em;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eee;
         }
         .empty-message {
             color: #666;
             font-style: italic;
+            padding: 10px;
+            text-align: center;
+            background-color: #f8f9fa;
+            border-radius: 4px;
         }
         .error-message {
-            color: #ff0000;
-            padding: 20px;
-            background-color: #ffe6e6;
-            border-radius: 4px;
+            color: #dc3545;
+            padding: 15px;
+            background-color: #f8d7da;
+            border-radius: 6px;
             margin: 10px 0;
             text-align: center;
+            border: 1px solid #f5c6cb;
         }
         .loading {
             color: #666;
@@ -72,11 +87,128 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             cursor: pointer;
+            transition: all 0.2s ease;
         }
         .language-selector button.active {
-            background-color: #4CAF50;
+            background-color: #1976d2;
             color: white;
-            border-color: #4CAF50;
+            border-color: #1976d2;
+        }
+        .schema-section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .schema-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #1976d2;
+            font-size: 1.1em;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e3f2fd;
+        }
+        .schema-content {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+            line-height: 1.5;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            overflow-x: auto;
+        }
+        .schema-property {
+            margin-bottom: 10px;
+        }
+        .schema-property-name {
+            color: #0d47a1;
+            font-weight: bold;
+        }
+        .schema-property-type {
+            color: #2e7d32;
+        }
+        .schema-property-required {
+            color: #c62828;
+            font-size: 0.9em;
+            margin-left: 5px;
+        }
+        .schema-loading {
+            color: #666;
+            font-style: italic;
+            text-align: center;
+            padding: 20px;
+        }
+        .schema-error {
+            color: #dc3545;
+            padding: 15px;
+            background-color: #f8d7da;
+            border-radius: 6px;
+            border: 1px solid #f5c6cb;
+        }
+        .schema-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .schema-table th {
+            background-color: #f8f9fa;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #dee2e6;
+            color: #1976d2;
+            font-weight: 600;
+        }
+        .schema-table td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+            vertical-align: top;
+        }
+        .schema-table tr:hover {
+            background-color: #f8f9fa;
+        }
+        .nested-properties {
+            margin-left: 20px;
+            border-left: 2px solid #e3f2fd;
+            padding-left: 10px;
+        }
+        .property-constraints {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 4px;
+        }
+        .enum-values {
+            color: #0d47a1;
+            font-family: monospace;
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .required-badge {
+            background-color: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-left: 6px;
+        }
+        .type-badge {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .schema-section-title {
+            color: #1976d2;
+            font-size: 1.1em;
+            font-weight: 600;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e3f2fd;
         }
     </style>
 </head>
@@ -99,6 +231,10 @@
             <h2>Sub-subcategories</h2>
             <div id="subsubcategories"></div>
         </div>
+    </div>
+    <div id="schema-section" class="schema-section" style="display: none;">
+        <div class="schema-title">Schema Information</div>
+        <div id="schema-content"></div>
     </div>
 
     <script>
@@ -155,6 +291,13 @@
             document.getElementById('de-btn').classList.toggle('active', lang === 'de');
             updateUILanguage();
             loadCategories();
+            
+            // If a sub-subcategory is selected, reload its schema with new language
+            const selectedSubSub = document.querySelector('#subsubcategories .selected');
+            if (selectedSubSub) {
+                const code = selectedSubSub.getAttribute('onclick').match(/'([^']+)'/)[1];
+                selectSubSubCategory(code);
+            }
         }
         
         function loadCategories() {
@@ -178,9 +321,10 @@
                     return response.json();
                 })
                 .then(data => {
+                    // Remove the filter to show all categories
                     categoriesData = data;
                     displayMainCategories();
-                    console.log(`Loaded ${data.length} categories for ${currentLanguage}`);
+                    console.log(`Loaded ${categoriesData.length} categories for ${currentLanguage}`);
                 })
                 .catch(error => {
                     console.error('Error loading categories:', error);
@@ -241,12 +385,222 @@
             const container = document.getElementById('subsubcategories');
             if (subCategory.subSubcategories && subCategory.subSubcategories.length > 0) {
                 container.innerHTML = subCategory.subSubcategories.map(subsub => `
-                    <div class="category-item">
+                    <div class="category-item" onclick="selectSubSubCategory('${mainCode}', '${subCode}', '${subsub.code}')">
                         ${subsub.name} <span class="code">${subsub.code}</span>
                     </div>
                 `).join('');
             } else {
                 container.innerHTML = '<div class="empty-message">No sub-subcategories available</div>';
+            }
+
+            // Hide schema section when selecting a subcategory
+            document.getElementById('schema-section').style.display = 'none';
+        }
+
+        function selectSubSubCategory(mainCode, subCode, subSubCode) {
+            console.log(`Selected sub-subcategory: ${subSubCode} (main: ${mainCode}, sub: ${subCode})`);
+            
+            // Clear previous selection
+            clearSelection('subsubcategories');
+            
+            // Add selection to clicked item
+            highlightSelected(`[onclick="selectSubSubCategory('${mainCode}', '${subCode}', '${subSubCode}')"]`);
+            
+            // Show schema section
+            const schemaSection = document.getElementById('schema-section');
+            const schemaContent = document.getElementById('schema-content');
+            schemaSection.style.display = 'block';
+            
+            // Show loading state
+            schemaContent.innerHTML = '<div class="schema-loading">Loading schema information...</div>';
+            
+            // Determine if we're on GitHub Pages
+            const isGitHubPages = window.location.hostname.includes('github.io');
+            console.log(`Running on GitHub Pages: ${isGitHubPages}`);
+            
+            if (isGitHubPages) {
+                // For GitHub Pages, fetch from static JSON files
+                const schemaUrl = `https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/schemas_${currentLanguage}/${subSubCode}.json`;
+                console.log(`Fetching schema from: ${schemaUrl}`);
+                
+                fetch(schemaUrl)
+                    .then(response => {
+                        if (!response.ok) {
+                            console.log(`Schema not found at ${schemaUrl}`);
+                            throw new Error('Schema not found');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log('Schema data received:', data);
+                        // Format and display schema
+                        const formattedData = formatSchemaDisplay(data);
+                        schemaContent.innerHTML = `<div class="schema-content">${formattedData}</div>`;
+                    })
+                    .catch(error => {
+                        console.log('Error fetching schema, trying fallback...', error);
+                        // Try fetching from API as a fallback
+                        const fallbackUrl = `https://api.github.com/repos/AkhilRajurkar/machine-categories/contents/schemas_${currentLanguage}/${subSubCode}.json`;
+                        console.log(`Trying fallback URL: ${fallbackUrl}`);
+                        
+                        fetch(fallbackUrl)
+                            .then(response => {
+                                if (!response.ok) {
+                                    console.log(`Schema not found at fallback URL`);
+                                    throw new Error('Schema not found in fallback location');
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                console.log('Fallback data received:', data);
+                                // GitHub API returns content as base64
+                                const content = atob(data.content);
+                                const jsonData = JSON.parse(content);
+                                const formattedData = formatSchemaDisplay(jsonData);
+                                schemaContent.innerHTML = `<div class="schema-content">${formattedData}</div>`;
+                            })
+                            .catch(err => {
+                                console.error('Both schema fetch attempts failed:', err);
+                                schemaContent.innerHTML = `<div class="schema-error">Error loading schema: ${error.message}</div>`;
+                            });
+                    });
+            } else {
+                // For local development, use the API
+                const apiUrl = `/api/schema/${currentLanguage}/${subSubCode}`;
+                console.log(`Fetching schema from API: ${apiUrl}`);
+                
+                fetch(apiUrl)
+                    .then(response => {
+                        if (!response.ok) {
+                            console.log('API returned error status');
+                            throw new Error('Schema not found');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log('Schema data received from API:', data);
+                        // Format and display schema
+                        const formattedData = formatSchemaDisplay(data);
+                        schemaContent.innerHTML = `<div class="schema-content">${formattedData}</div>`;
+                    })
+                    .catch(error => {
+                        console.error('Error fetching schema from API:', error);
+                        schemaContent.innerHTML = `<div class="schema-error">Error loading schema: ${error.message}</div>`;
+                    });
+            }
+        }
+
+        function formatSchemaDisplay(data) {
+            try {
+                // Remove MongoDB specific fields and format the output
+                const displayData = { ...data };
+                delete displayData._id;
+                delete displayData.category_code;
+                delete displayData.subcategory_code;
+                delete displayData.sub_subcategory_code;
+                delete displayData.kategorie_code;
+                delete displayData.unterkategorie_code;
+                delete displayData.unterunterkategorie_code;
+
+                let output = '<div class="schema-title">';
+                output += `${displayData.name || displayData.sub_subcategory || displayData.unterunterkategorie}</div>`;
+                
+                if (displayData.schema) {
+                    // Add required fields section
+                    if (displayData.schema.required && displayData.schema.required.length > 0) {
+                        output += '<div class="schema-section-title">Required Fields</div>';
+                        output += '<div class="required-fields">';
+                        output += displayData.schema.required.map(field => 
+                            `<span class="required-badge">${field}</span>`
+                        ).join(' ');
+                        output += '</div>';
+                    }
+
+                    // Add properties table
+                    if (displayData.schema.properties) {
+                        output += '<div class="schema-section-title">Properties</div>';
+                        output += '<table class="schema-table">';
+                        output += '<thead><tr><th>Property</th><th>Type</th><th>Constraints & Description</th></tr></thead><tbody>';
+                        
+                        Object.entries(displayData.schema.properties).forEach(([propName, propDetails]) => {
+                            output += '<tr>';
+                            
+                            // Property name column
+                            output += `<td><span class="schema-property-name">${propName}</span>`;
+                            if (displayData.schema.required && displayData.schema.required.includes(propName)) {
+                                output += '<span class="required-badge">Required</span>';
+                            }
+                            output += '</td>';
+                            
+                            // Type column
+                            output += '<td>';
+                            if (Array.isArray(propDetails.bsonType)) {
+                                output += `<span class="type-badge">${propDetails.bsonType.join(' | ')}</span>`;
+                            } else {
+                                output += `<span class="type-badge">${propDetails.bsonType}</span>`;
+                            }
+                            output += '</td>';
+                            
+                            // Constraints column
+                            output += '<td>';
+                            
+                            // Add enum values
+                            if (propDetails.enum) {
+                                output += '<div class="property-constraints">Allowed values: ';
+                                output += propDetails.enum.map(val => 
+                                    `<span class="enum-values">${val}</span>`
+                                ).join(', ');
+                                output += '</div>';
+                            }
+                            
+                            // Add numeric constraints
+                            if (propDetails.minimum !== undefined || propDetails.maximum !== undefined) {
+                                output += '<div class="property-constraints">';
+                                if (propDetails.minimum !== undefined) {
+                                    output += `Minimum: ${propDetails.minimum}`;
+                                }
+                                if (propDetails.maximum !== undefined) {
+                                    output += propDetails.minimum !== undefined ? ', ' : '';
+                                    output += `Maximum: ${propDetails.maximum}`;
+                                }
+                                output += '</div>';
+                            }
+                            
+                            // Handle nested objects
+                            if (propDetails.properties) {
+                                output += '<div class="nested-properties">';
+                                Object.entries(propDetails.properties).forEach(([nestedName, nestedDetails]) => {
+                                    output += `<div><span class="schema-property-name">${nestedName}</span>: `;
+                                    output += `<span class="type-badge">${
+                                        Array.isArray(nestedDetails.bsonType) 
+                                            ? nestedDetails.bsonType.join(' | ') 
+                                            : nestedDetails.bsonType
+                                    }</span>`;
+                                    
+                                    // Add nested enum values if present
+                                    if (nestedDetails.enum) {
+                                        output += '<div class="property-constraints">Allowed values: ';
+                                        output += nestedDetails.enum.map(val => 
+                                            `<span class="enum-values">${val}</span>`
+                                        ).join(', ');
+                                        output += '</div>';
+                                    }
+                                    output += '</div>';
+                                });
+                                output += '</div>';
+                            }
+                            
+                            output += '</td></tr>';
+                        });
+                        
+                        output += '</tbody></table>';
+                    }
+                }
+
+                return output;
+            } catch (error) {
+                console.error('Error formatting schema data:', error);
+                return '<div class="schema-error">Error formatting schema data</div>';
             }
         }
 

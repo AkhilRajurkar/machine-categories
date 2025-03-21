@@ -1,0 +1,217 @@
+{
+  "_id": "metalworking_sawing_vertical_band_de",
+  "kategorie": "Metallbearbeitungsmaschinen",
+  "unterkategorie": "S\u00e4ge- & Schneidemaschinen",
+  "unterunterkategorie": "Vertikale Bands\u00e4gen",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Metallbearbeitungsmaschinen"
+        ]
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "S\u00e4ge- & Schneidemaschinen"
+        ]
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Vertikale Bands\u00e4gen"
+        ]
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": "double"
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          },
+          "h\u00f6he": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "schnittkapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_breite": {
+            "bsonType": "double"
+          },
+          "max_h\u00f6he": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "s\u00e4geblatt": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          },
+          "geschwindigkeit": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "tischgr\u00f6\u00dfe": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "max_werkst\u00fcckgewicht": {
+        "bsonType": "double"
+      },
+      "tischneigung": {
+        "bsonType": "object",
+        "properties": {
+          "min": {
+            "bsonType": "double"
+          },
+          "max": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "ausladung": {
+        "bsonType": "double"
+      },
+      "vorschubsystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": "string"
+          },
+          "rate": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "blattspannung": {
+        "bsonType": "string"
+      },
+      "k\u00fchlsystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": "string"
+          },
+          "tankkapazit\u00e4t": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "steuerungstyp": {
+        "bsonType": "string"
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "unterkategorie_code": "1.7",
+  "unterunterkategorie_code": "1.7.2",
+  "kategorie_code": "1"
+}

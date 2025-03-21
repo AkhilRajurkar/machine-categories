@@ -1,0 +1,187 @@
+{
+  "_id": "metalworking_surface_solvent_cleaning_de",
+  "kategorie": "Metallbearbeitungsmaschinen",
+  "unterkategorie": "Oberfl\u00e4chenreinigung",
+  "unterunterkategorie": "L\u00f6semittelreinigungssysteme",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Metallbearbeitungsmaschinen"
+        ]
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Oberfl\u00e4chenbehandlung"
+        ]
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "L\u00f6semittelreinigungssysteme"
+        ]
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": "double"
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          },
+          "h\u00f6he": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "werkst\u00fcckkapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "max_breite": {
+            "bsonType": "double"
+          },
+          "max_h\u00f6he": {
+            "bsonType": "double"
+          },
+          "max_gewicht": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "steuerungstyp": {
+        "bsonType": "string"
+      },
+      "reinigungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "tankkapazit\u00e4t": {
+            "bsonType": "double"
+          },
+          "l\u00f6semitteltyp": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "heizleistung": {
+        "bsonType": "double"
+      },
+      "temperaturbereich": {
+        "bsonType": "object",
+        "properties": {
+          "min": {
+            "bsonType": "double"
+          },
+          "max": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "dampfentfettung": {
+        "bsonType": "string"
+      },
+      "destillationssystem": {
+        "bsonType": "string"
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "unterkategorie_code": "1.12",
+  "unterunterkategorie_code": "1.12.4",
+  "kategorie_code": "1"
+}

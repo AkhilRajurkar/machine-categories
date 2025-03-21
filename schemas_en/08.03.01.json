@@ -1,0 +1,185 @@
+{
+  "_id": "construction_mobile_cranes",
+  "category": "Construction Machinery",
+  "category_code": "08",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Construction Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Lifting Equipment"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Mobile Cranes"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_system": {
+        "bsonType": "object",
+        "properties": {
+          "engine_type": {
+            "bsonType": "string"
+          },
+          "horsepower": {
+            "bsonType": "double"
+          },
+          "fuel_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "lifting_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_load": {
+            "bsonType": "double"
+          },
+          "max_height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "crane_system": {
+        "bsonType": "object",
+        "properties": {
+          "boom_length_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "jib_length": {
+            "bsonType": "double"
+          },
+          "lifting_radius": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "mobility": {
+        "bsonType": "object",
+        "properties": {
+          "wheel_config": {
+            "bsonType": "string"
+          },
+          "travel_speed": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "counterweight": {
+        "bsonType": "double"
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Mobile Cranes",
+  "sub_subcategory_code": "08.03.01",
+  "subcategory": "Lifting Equipment",
+  "subcategory_code": "08.03",
+  "version": "1.0"
+}

@@ -1,0 +1,240 @@
+{
+  "_id": "metalworking_lathes_vertical_cnc",
+  "category": "Metalworking Machinery",
+  "subcategory": "Lathes",
+  "sub_subcategory": "Vertical CNC Lathes",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Metalworking Machinery"
+        ]
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Lathes"
+        ]
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Vertical CNC Lathes"
+        ]
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "operating_hours": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "swing_over_bed": {
+        "bsonType": "double"
+      },
+      "distance_between_centers": {
+        "bsonType": "double"
+      },
+      "max_spindle_speed": {
+        "bsonType": "int"
+      },
+      "spindle_power": {
+        "bsonType": "double"
+      },
+      "spindle_bore": {
+        "bsonType": "double"
+      },
+      "chuck_size": {
+        "bsonType": "double"
+      },
+      "tailstock": {
+        "bsonType": "object",
+        "properties": {
+          "has_tailstock": {
+            "bsonType": "bool"
+          }
+        }
+      },
+      "table_diameter": {
+        "bsonType": "double"
+      },
+      "max_workpiece_height": {
+        "bsonType": "double"
+      },
+      "max_workpiece_weight": {
+        "bsonType": "double"
+      },
+      "axes": {
+        "bsonType": "object",
+        "properties": {
+          "number": {
+            "bsonType": "int"
+          },
+          "x_travel": {
+            "bsonType": "double"
+          },
+          "z_travel": {
+            "bsonType": "double"
+          },
+          "rapid_traverse_rate": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "tool_turret": {
+        "bsonType": "object",
+        "properties": {
+          "capacity": {
+            "bsonType": "int"
+          },
+          "indexing_time": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "name": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "programming_language": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "memory_capacity": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "coolant_type": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "coolant_tank_capacity": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "chip_management": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "known_issues": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "category_code": "1",
+  "subcategory_code": "1.3",
+  "sub_subcategory_code": "1.3.2"
+}

@@ -1,0 +1,168 @@
+{
+  "_id": "metalworking_welding_tig_de",
+  "kategorie": "Metallbearbeitungsmaschinen",
+  "unterkategorie": "Schwei\u00dfausr\u00fcstung",
+  "unterunterkategorie": "TIG-Schwei\u00dfmaschinen",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Metallbearbeitungsmaschinen"
+        ]
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Schwei\u00dfausr\u00fcstung"
+        ]
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "TIG-Schwei\u00dfmaschinen"
+        ]
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": "double"
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          },
+          "h\u00f6he": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "schwei\u00dfstrom": {
+        "bsonType": "object",
+        "properties": {
+          "min": {
+            "bsonType": "double"
+          },
+          "max": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "einschaltdauer": {
+        "bsonType": "double"
+      },
+      "steuerungstyp": {
+        "bsonType": "string"
+      },
+      "stromtyp": {
+        "bsonType": "string"
+      },
+      "elektrodendurchmesser": {
+        "bsonType": "double"
+      },
+      "gastyp": {
+        "bsonType": "string"
+      },
+      "impulsfunktion": {
+        "bsonType": "string"
+      },
+      "k\u00fchlsystem": {
+        "bsonType": "string"
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "unterkategorie_code": "1.8",
+  "unterunterkategorie_code": "1.8.2",
+  "kategorie_code": "1"
+}

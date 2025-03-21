@@ -1,0 +1,185 @@
+{
+  "_id": "construction_concrete_pumps",
+  "category": "Construction Machinery",
+  "category_code": "08",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Construction Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Concrete Equipment"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Concrete Pumps"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_system": {
+        "bsonType": "object",
+        "properties": {
+          "engine_type": {
+            "bsonType": "string"
+          },
+          "horsepower": {
+            "bsonType": "double"
+          },
+          "fuel_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "capacity": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "pumping_system": {
+        "bsonType": "object",
+        "properties": {
+          "max_pumping_distance": {
+            "bsonType": "object",
+            "properties": {
+              "horizontal": {
+                "bsonType": "double"
+              },
+              "vertical": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "pump_pressure": {
+            "bsonType": "double"
+          },
+          "hopper_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "pump_type": {
+        "bsonType": "string",
+        "enum": [
+          "Boom Pump",
+          "Line Pump",
+          "Stationary"
+        ]
+      },
+      "boom_length": {
+        "bsonType": "double"
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Concrete Pumps",
+  "sub_subcategory_code": "08.04.02",
+  "subcategory": "Concrete Equipment",
+  "subcategory_code": "08.04",
+  "version": "1.0"
+}

@@ -1,0 +1,210 @@
+{
+  "_id": "metalworking_lathes_manual_lead_feed",
+  "category": "Metalworking Machinery",
+  "subcategory": "Lathes",
+  "sub_subcategory": "Manual Lead & Feed Spindle Lathes",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Metalworking Machinery"
+        ]
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Lathes"
+        ]
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Manual Lead & Feed Spindle Lathes"
+        ]
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "swing_over_bed": {
+        "bsonType": "double"
+      },
+      "distance_between_centers": {
+        "bsonType": "double"
+      },
+      "max_spindle_speed": {
+        "bsonType": "int"
+      },
+      "spindle_power": {
+        "bsonType": "double"
+      },
+      "spindle_bore": {
+        "bsonType": "double"
+      },
+      "chuck_size": {
+        "bsonType": "double"
+      },
+      "tailstock": {
+        "bsonType": "object",
+        "properties": {
+          "has_tailstock": {
+            "bsonType": "bool"
+          },
+          "quill_diameter": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "quill_travel": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "gear_speeds": {
+        "bsonType": "object",
+        "properties": {
+          "number_of_speeds": {
+            "bsonType": "int"
+          },
+          "speed_range": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "feed_rates": {
+        "bsonType": "object",
+        "properties": {
+          "longitudinal": {
+            "bsonType": "double"
+          },
+          "cross": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "threading_capacity": {
+        "bsonType": "string"
+      },
+      "coolant_type": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "coolant_tank_capacity": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "chip_management": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "known_issues": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "category_code": "1",
+  "subcategory_code": "1.3",
+  "sub_subcategory_code": "1.3.3"
+}

@@ -1,0 +1,223 @@
+{
+  "_id": "woodworking_other_drying_kilns_de",
+  "kategorie": "Holzbearbeitungsmaschinen",
+  "kategorie_code": "02",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzbearbeitungsmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Andere Holzbearbeitungsmaschinen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holztrockenkammern"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": "double"
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          },
+          "h\u00f6he": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "kapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "max_breite": {
+            "bsonType": "double"
+          },
+          "max_dicke": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "steuerungstyp": {
+        "bsonType": "string"
+      },
+      "trocknungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "volumen": {
+            "bsonType": "double"
+          },
+          "feuchtigkeitsreduktion": {
+            "bsonType": "object",
+            "properties": {
+              "start": {
+                "bsonType": "double"
+              },
+              "ende": {
+                "bsonType": "double"
+              }
+            }
+          }
+        }
+      },
+      "heizsystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": "string"
+          },
+          "temperaturbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "leistung": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "luftzirkulation": {
+        "bsonType": "object",
+        "properties": {
+          "ventilatorleistung": {
+            "bsonType": "double"
+          },
+          "luftstrom": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "trocknungszeit": {
+        "bsonType": "double"
+      },
+      "bel\u00fcftungssystem": {
+        "bsonType": "string"
+      },
+      "feuchtigkeitskontrolle": {
+        "bsonType": "string"
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "unterkategorie": "Andere Holzbearbeitungsmaschinen",
+  "unterkategorie_code": "02.11",
+  "unterunterkategorie": "Holztrockenkammern",
+  "unterunterkategorie_code": "02.11.02",
+  "version": "1.0"
+}

@@ -1,0 +1,226 @@
+{
+  "_id": "woodworking_presses_membrane_de",
+  "kategorie": "Holzbearbeitungsmaschinen",
+  "kategorie_code": "02",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzbearbeitungsmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzpressen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Membranpressen"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": "double"
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          },
+          "h\u00f6he": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "presskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "max_breite": {
+            "bsonType": "double"
+          },
+          "max_dicke": {
+            "bsonType": "double"
+          },
+          "max_druck": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "plattengr\u00f6\u00dfe": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": "double"
+          },
+          "breite": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "steuerungstyp": {
+        "bsonType": "string"
+      },
+      "membransystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": "string"
+          },
+          "druck": {
+            "bsonType": "double"
+          },
+          "temperaturbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          }
+        }
+      },
+      "vakuumpumpe": {
+        "bsonType": "object",
+        "properties": {
+          "kapazit\u00e4t": {
+            "bsonType": "double"
+          },
+          "leistung": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "zykluszeit": {
+        "bsonType": "double"
+      },
+      "heizsystem": {
+        "bsonType": "string"
+      },
+      "staubabsaugung": {
+        "bsonType": "object",
+        "properties": {
+          "anschlussgr\u00f6\u00dfe": {
+            "bsonType": "double"
+          },
+          "kapazit\u00e4t": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "unterkategorie": "Holzpressen",
+  "unterkategorie_code": "02.09",
+  "unterunterkategorie": "Membranpressen",
+  "unterunterkategorie_code": "02.09.02",
+  "version": "1.0"
+}
