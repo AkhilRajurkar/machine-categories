@@ -78,6 +78,36 @@
             color: white;
             border-color: #4CAF50;
         }
+        .schema-section {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+        .schema-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        .schema-content {
+            font-family: monospace;
+            white-space: pre-wrap;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #e9ecef;
+        }
+        .schema-loading {
+            color: #666;
+            font-style: italic;
+        }
+        .schema-error {
+            color: #dc3545;
+            padding: 10px;
+            background-color: #f8d7da;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
@@ -99,6 +129,10 @@
             <h2>Sub-subcategories</h2>
             <div id="subsubcategories"></div>
         </div>
+    </div>
+    <div id="schema-section" class="schema-section" style="display: none;">
+        <div class="schema-title">Schema Information</div>
+        <div id="schema-content"></div>
     </div>
 
     <script>
@@ -155,6 +189,13 @@
             document.getElementById('de-btn').classList.toggle('active', lang === 'de');
             updateUILanguage();
             loadCategories();
+            
+            // If a sub-subcategory is selected, reload its schema with new language
+            const selectedSubSub = document.querySelector('#subsubcategories .selected');
+            if (selectedSubSub) {
+                const code = selectedSubSub.getAttribute('onclick').match(/'([^']+)'/)[1];
+                selectSubSubCategory(code);
+            }
         }
         
         function loadCategories() {
@@ -241,12 +282,85 @@
             const container = document.getElementById('subsubcategories');
             if (subCategory.subSubcategories && subCategory.subSubcategories.length > 0) {
                 container.innerHTML = subCategory.subSubcategories.map(subsub => `
-                    <div class="category-item">
+                    <div class="category-item" onclick="selectSubSubCategory('${subsub.code}')">
                         ${subsub.name} <span class="code">${subsub.code}</span>
                     </div>
                 `).join('');
             } else {
                 container.innerHTML = '<div class="empty-message">No sub-subcategories available</div>';
+            }
+        }
+
+        function selectSubSubCategory(code) {
+            // Clear previous selection
+            clearSelection('subsubcategories');
+            
+            // Add selection to clicked item
+            highlightSelected(`[onclick="selectSubSubCategory('${code}')"]`);
+            
+            // Show schema section
+            const schemaSection = document.getElementById('schema-section');
+            const schemaContent = document.getElementById('schema-content');
+            schemaSection.style.display = 'block';
+            
+            // Show loading state
+            schemaContent.innerHTML = '<div class="schema-loading">Loading schema information...</div>';
+            
+            // Determine if we're on GitHub Pages
+            const isGitHubPages = window.location.hostname.includes('github.io');
+            
+            if (isGitHubPages) {
+                // For GitHub Pages, fetch from static JSON files
+                const schemaUrl = `https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/schemas_${currentLanguage}/${code}.json`;
+                
+                fetch(schemaUrl)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Schema not found');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        // Format and display schema
+                        schemaContent.innerHTML = `<div class="schema-content">${JSON.stringify(data, null, 2)}</div>`;
+                    })
+                    .catch(error => {
+                        // Try fetching from API as a fallback
+                        const fallbackUrl = `https://api.github.com/repos/AkhilRajurkar/machine-categories/contents/schemas_${currentLanguage}/${code}.json`;
+                        
+                        fetch(fallbackUrl)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('Schema not found in fallback location');
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                // GitHub API returns content as base64
+                                const content = atob(data.content);
+                                const jsonData = JSON.parse(content);
+                                schemaContent.innerHTML = `<div class="schema-content">${JSON.stringify(jsonData, null, 2)}</div>`;
+                            })
+                            .catch(err => {
+                                schemaContent.innerHTML = `<div class="schema-error">Error loading schema: ${error.message}</div>`;
+                            });
+                    });
+            } else {
+                // For local development, use the API
+                fetch(`/api/schema/${currentLanguage}/${code}`)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Schema not found');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        // Format and display schema
+                        schemaContent.innerHTML = `<div class="schema-content">${JSON.stringify(data, null, 2)}</div>`;
+                    })
+                    .catch(error => {
+                        schemaContent.innerHTML = `<div class="schema-error">Error loading schema: ${error.message}</div>`;
+                    });
             }
         }
 

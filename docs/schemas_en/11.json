@@ -1,0 +1,187 @@
+{
+  "_id": "energy_compressors_gas",
+  "category": "Energy & Power Plant Equipment",
+  "subcategory": "Compressors",
+  "sub_subcategory": "Gas Compressors",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Energy & Power Plant Equipment"
+        ]
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Compressors"
+        ]
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Gas Compressors"
+        ]
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "operating_hours": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "capacity": {
+        "bsonType": "object",
+        "properties": {
+          "flow_rate": {
+            "bsonType": "double"
+          },
+          "pressure_max": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "motor": {
+        "bsonType": "object",
+        "properties": {
+          "power": {
+            "bsonType": "double"
+          },
+          "speed": {
+            "bsonType": "int"
+          }
+        }
+      },
+      "cooling": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "coolant_flow": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "noise_level": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "gas_type": {
+        "bsonType": "string"
+      },
+      "discharge_temperature": {
+        "bsonType": "double"
+      },
+      "stages": {
+        "bsonType": "int",
+        "minimum": 1
+      },
+      "maintenance_history": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "known_issues": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "category_code": "11",
+  "subcategory_code": "11.02"
+}
