@@ -24,6 +24,19 @@ def load_json_file(file_path):
 def get_schema_from_static_file(language, code):
     """Get schema from static JSON file for GitHub Pages."""
     try:
+        # Remove any leading zeros from the code
+        code = code.lstrip('0')
+        
+        # Handle different code formats (e.g., "1.15.12" vs "1.15.12")
+        if '.' in code:
+            parts = code.split('.')
+            if len(parts) == 3:
+                # Format: X.YY.ZZ
+                code = f"{parts[0]}.{parts[1]}.{parts[2]}"
+            elif len(parts) == 2:
+                # Format: X.YY
+                code = f"{parts[0]}.{parts[1]}"
+        
         schema_dir = f'docs/schemas_{language}'
         schema_file = f'{code}.json'
         schema_path = os.path.join(schema_dir, schema_file)
@@ -34,7 +47,23 @@ def get_schema_from_static_file(language, code):
             if schema:
                 print(f"Found schema for code {code}")
                 return schema
-        print(f"No schema found at {schema_path}")
+            else:
+                print(f"Schema file exists but is empty or invalid: {schema_path}")
+        else:
+            print(f"No schema file found at {schema_path}")
+            # Try alternative code formats
+            alt_codes = [
+                f"{code}.json",
+                f"{code.zfill(2)}.json",
+                f"{code.replace('.', '_')}.json"
+            ]
+            for alt_code in alt_codes:
+                alt_path = os.path.join(schema_dir, alt_code)
+                if os.path.exists(alt_path):
+                    schema = load_json_file(alt_path)
+                    if schema:
+                        print(f"Found schema using alternative code: {alt_code}")
+                        return schema
         return None
     except Exception as e:
         print(f"Error loading static schema: {e}")
@@ -79,6 +108,7 @@ def get_schema(language, code):
                 schema = json.loads(json_util.dumps(schema))
                 if '_id' in schema:
                     del schema['_id']
+                print(f"Found schema in MongoDB for code {code}")
             else:
                 print(f"No schema found for code {code} in {language} collection")
                 return jsonify({'error': 'Schema not found'}), 404
@@ -100,7 +130,7 @@ def get_schema(language, code):
             }
         
         # Add debug information
-        print(f"Found schema for code {code}: {schema}")
+        print(f"Returning schema for code {code}")
         return jsonify(schema)
         
     except Exception as e:
