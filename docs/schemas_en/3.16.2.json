@@ -1,0 +1,235 @@
+{
+  "_id": "plastic_rubber_deep_drawing_machines",
+  "category": "Plastic & Rubber Machinery",
+  "category_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Plastic & Rubber Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Thermoforming Machinery"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Deep Drawing Machines"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_sheet_size": {
+            "bsonType": "object",
+            "properties": {
+              "length": {
+                "bsonType": "double"
+              },
+              "width": {
+                "bsonType": "double"
+              },
+              "thickness": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "deep_drawing_system": {
+        "bsonType": "object",
+        "properties": {
+          "max_draw_depth": {
+            "bsonType": "double"
+          },
+          "forming_force": {
+            "bsonType": "double"
+          },
+          "heating_zones": {
+            "bsonType": "int"
+          },
+          "cycle_time": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Forming deep shapes from plastic or rubber sheets",
+          "Producing trays, containers, or complex parts",
+          "Applying heat and pressure for precision",
+          "Supporting high-depth thermoforming"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "deep drawing thermoforming machine",
+          "plastic deep draw equipment",
+          "rubber forming press",
+          "thermoforming deep draw",
+          "European deep drawing machines"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "Illig (Germany)",
+          "Kiefel (Germany)",
+          "Geiss (Germany)",
+          "Gabler (Germany)",
+          "Amut (Italy)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "vacuum_system": {
+        "bsonType": "bool"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Deep Drawing Machines",
+  "sub_subcategory_code": "3.16.2",
+  "subcategory": "Thermoforming Machinery",
+  "subcategory_code": "3.16",
+  "version": "1.0"
+}

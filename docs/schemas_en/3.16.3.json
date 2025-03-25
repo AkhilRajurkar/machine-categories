@@ -1,0 +1,235 @@
+{
+  "_id": "plastic_rubber_roll_fed_thermoforming_machines",
+  "category": "Plastic & Rubber Machinery",
+  "category_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Plastic & Rubber Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Thermoforming Machinery"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Roll-Fed Thermoforming Machines"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_sheet_size": {
+            "bsonType": "object",
+            "properties": {
+              "length": {
+                "bsonType": "double"
+              },
+              "width": {
+                "bsonType": "double"
+              },
+              "thickness": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "roll_fed_system": {
+        "bsonType": "object",
+        "properties": {
+          "roll_width": {
+            "bsonType": "double"
+          },
+          "forming_speed": {
+            "bsonType": "double"
+          },
+          "max_forming_depth": {
+            "bsonType": "double"
+          },
+          "cutting_system": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Forming shapes from continuous plastic or rubber rolls",
+          "Producing high-speed items like cups or lids",
+          "Integrating heating, forming, and cutting",
+          "Supporting large-scale production"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "roll-fed thermoforming machine",
+          "plastic roll forming equipment",
+          "rubber roll thermoformer",
+          "high-speed thermoforming",
+          "European roll-fed thermoformers"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "Kiefel (Germany)",
+          "Illig (Germany)",
+          "GN Thermoforming (Netherlands)",
+          "Amut (Italy)",
+          "WM Thermoforming (Switzerland)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "roll_diameter": {
+        "bsonType": "double"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Roll-Fed Thermoforming Machines",
+  "sub_subcategory_code": "3.16.3",
+  "subcategory": "Thermoforming Machinery",
+  "subcategory_code": "3.16",
+  "version": "1.0"
+}

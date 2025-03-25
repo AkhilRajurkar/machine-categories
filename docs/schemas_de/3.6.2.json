@@ -1,0 +1,294 @@
+{
+  "_id": "plastic_rubber_coolers_de",
+  "kategorie": "Kunststoff- und Gummimaschinen",
+  "kategorie_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Kunststoff- und Gummimaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Heiz- und K\u00fchleinheiten"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "K\u00fchler"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_materialvolumen": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "k\u00fchlsystem": {
+        "bsonType": "object",
+        "properties": {
+          "k\u00fchlmethode": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "temperaturbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "k\u00fchlkapazit\u00e4t": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "k\u00fchlzonen": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          }
+        }
+      },
+      "funktionen": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Listet die Hauptfunktionen der Maschine auf",
+        "enum": [
+          "K\u00fchlen von Kunststoff- oder Gummiprodukten",
+          "Stabilisierung von Materialformen nach der Verarbeitung",
+          "Verhinderung von Verformungen",
+          "Unterst\u00fctzung schneller Produktionszyklen"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimierte Tags f\u00fcr die Indizierung durch Suchmaschinen",
+        "enum": [
+          "kunststoff-k\u00fchlmaschine",
+          "gummi-k\u00fchleinheit",
+          "industriek\u00fchler f\u00fcr kunststoffe",
+          "k\u00fchlausr\u00fcstung f\u00fcr gummi",
+          "europ\u00e4ische kunststoff-k\u00fchler"
+        ]
+      },
+      "europ\u00e4ische_hersteller": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Ma\u00dfgebliche europ\u00e4ische Hersteller f\u00fcr diesen Maschinentyp",
+        "enum": [
+          "Frigosystem (Italien)",
+          "Engel (\u00d6sterreich)",
+          "KraussMaffei (Deutschland)",
+          "Piovan (Italien)",
+          "Moretto (Italien)"
+        ]
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Halbautomatisch",
+          "Vollautomatisch"
+        ]
+      },
+      "k\u00fchlrate": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Heiz- und K\u00fchleinheiten",
+  "unterkategorie_code": "3.6",
+  "unterunterkategorie": "K\u00fchler",
+  "unterunterkategorie_code": "3.6.2",
+  "version": "1.0"
+}

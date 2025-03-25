@@ -1,0 +1,232 @@
+{
+  "_id": "plastic_rubber_heaters",
+  "category": "Plastic & Rubber Machinery",
+  "category_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Plastic & Rubber Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Heating & Cooling Units"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Heaters"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_material_volume": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "heating_system": {
+        "bsonType": "object",
+        "properties": {
+          "heating_method": {
+            "bsonType": "string"
+          },
+          "temperature_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "heating_capacity": {
+            "bsonType": "double"
+          },
+          "heating_zones": {
+            "bsonType": "int"
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Heating plastic or rubber materials",
+          "Preparing materials for molding or extrusion",
+          "Maintaining consistent temperatures",
+          "Supporting thermal processing"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "plastic heater machine",
+          "rubber heating unit",
+          "industrial heater for plastics",
+          "heating equipment for rubber",
+          "European plastic heaters"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "KraussMaffei (Germany)",
+          "Arburg (Germany)",
+          "Engel (Austria)",
+          "Dr. Boy (Germany)",
+          "Negri Bossi (Italy)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "temperature_accuracy": {
+        "bsonType": "double"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Heaters",
+  "sub_subcategory_code": "3.6.1",
+  "subcategory": "Heating & Cooling Units",
+  "subcategory_code": "3.6",
+  "version": "1.0"
+}

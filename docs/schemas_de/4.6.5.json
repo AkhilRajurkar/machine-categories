@@ -1,0 +1,294 @@
+{
+  "_id": "textile_embroidery_machines_de",
+  "kategorie": "Textilmaschinen",
+  "kategorie_code": "4",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Textilmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "N\u00e4h- und Bekleidungsmaschinen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Stickmaschinen"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Hervorragend",
+          "Gebraucht - Gut",
+          "Gebraucht - Ausreichend",
+          "\u00dcberholt",
+          "F\u00fcr Ersatzteile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_stoffbreite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "max_stoffdicke": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "sticksystem": {
+        "bsonType": "object",
+        "properties": {
+          "kopfanzahl": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "stichgeschwindigkeit": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "musterfl\u00e4che": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "fadenfarben": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          }
+        }
+      },
+      "funktionen": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Listet die Hauptfunktionen der Maschine auf",
+        "enum": [
+          "Erstellen dekorativer Stickmuster",
+          "Verzierung von Kleidungsst\u00fccken und Stoffen",
+          "Unterst\u00fctzung mehrfarbiger Designs",
+          "Verbesserung der Textil\u00e4sthetik"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimierte Tags f\u00fcr die Indizierung durch Suchmaschinen",
+        "enum": [
+          "Stickmaschine",
+          "Textilstickausr\u00fcstung",
+          "Bekleidungsdekorationsmaschine",
+          "Industrie-Stickerei",
+          "Europ\u00e4ische Stickmaschinen"
+        ]
+      },
+      "europ\u00e4ische_hersteller": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Ma\u00dfgebliche europ\u00e4ische Hersteller f\u00fcr diesen Maschinentyp",
+        "enum": [
+          "ZSK (Deutschland)",
+          "Tajima (Deutschland)",
+          "Melco (Schweiz)",
+          "Barudan (UK)",
+          "SWF (Deutschland)"
+        ]
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Halbautomatisch",
+          "Vollautomatisch"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "N\u00e4h- und Bekleidungsmaschinen",
+  "unterkategorie_code": "4.6",
+  "unterunterkategorie": "Stickmaschinen",
+  "unterunterkategorie_code": "4.6.5",
+  "version": "1.0"
+}

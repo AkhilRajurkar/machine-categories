@@ -1,0 +1,305 @@
+{
+  "_id": "textile_quilting_machines_de",
+  "kategorie": "Textilmaschinen",
+  "kategorie_code": "4",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Textilmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "N\u00e4h- und Bekleidungsmaschinen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Quiltmaschinen"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Hervorragend",
+          "Gebraucht - Gut",
+          "Gebraucht - Ausreichend",
+          "\u00dcberholt",
+          "F\u00fcr Ersatzteile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6.": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_stoffbreite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "max_stoffdicke": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "quiltsystem": {
+        "bsonType": "object",
+        "properties": {
+          "stichl\u00e4nge": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "geschwindigkeit": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "quiltfl\u00e4che": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "mustertypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "funktionen": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Listet die Hauptfunktionen der Maschine auf",
+        "enum": [
+          "N\u00e4hen von geschichteten Stoffen f\u00fcr Quilts",
+          "Herstellung gepolsterter Kleidungsst\u00fccke",
+          "Unterst\u00fctzung dekorativer Muster",
+          "Sicherstellung gleichm\u00e4\u00dfiger Quiltst\u00e4rke"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimierte Tags f\u00fcr die Indizierung durch Suchmaschinen",
+        "enum": [
+          "Quiltmaschine",
+          "Textilquiltausr\u00fcstung",
+          "Bekleidungspolstermaschine",
+          "Industrie-Quilten",
+          "Europ\u00e4ische Quiltmaschinen"
+        ]
+      },
+      "europ\u00e4ische_hersteller": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Ma\u00dfgebliche europ\u00e4ische Hersteller f\u00fcr diesen Maschinentyp",
+        "enum": [
+          "Gribetz (Deutschland)",
+          "N\u00e4hmaschinenfabrik (Deutschland)",
+          "PFAFF Industrial (Deutschland)",
+          "Oerlikon (Schweiz)",
+          "Martini (Italien)"
+        ]
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Halbautomatisch",
+          "Vollautomatisch"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "N\u00e4h- und Bekleidungsmaschinen",
+  "unterkategorie_code": "4.6",
+  "unterunterkategorie": "Quiltmaschinen",
+  "unterunterkategorie_code": "4.6.6",
+  "version": "1.0"
+}

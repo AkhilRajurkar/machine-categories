@@ -1,0 +1,282 @@
+{
+  "_id": "metalworking_3d_metal_printers_de",
+  "kategorie": "Metallbearbeitungsmaschinen",
+  "kategorie_code": "1",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Metallbearbeitungsmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Additive Fertigungsausr\u00fcstung"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "3D-Metallprinter"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "maximales_bauvolumen": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "h\u00f6he": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "drucksystem": {
+        "bsonType": "object",
+        "properties": {
+          "drucktechnologie": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schichtdickenbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "druckgeschwindigkeit": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "laserleistung": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "pulverhandhabung": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "baukammeratmosph\u00e4re": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "softwarekompatibilit\u00e4t": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Halbautomatisch",
+          "Vollautomatisch"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Additive Fertigungsausr\u00fcstung",
+  "unterkategorie_code": "1.17",
+  "unterunterkategorie": "3D-Metallprinter",
+  "unterunterkategorie_code": "1.17.1",
+  "version": "1.0"
+}

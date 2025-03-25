@@ -1,0 +1,234 @@
+{
+  "_id": "construction_skid_steer_loaders_de",
+  "kategorie": "Baumaschinen",
+  "kategorie_code": "08",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Baumaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Erdbewegungsger\u00e4te"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Kompaktlader"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "antriebssystem": {
+        "bsonType": "object",
+        "properties": {
+          "motortyp": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "pferdest\u00e4rke": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "kraftstoffkapazit\u00e4t": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "kapazit\u00e4t": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "ladesystem": {
+        "bsonType": "object",
+        "properties": {
+          "schaufelkapazit\u00e4t": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "hubh\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "nenntragf\u00e4higkeit": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "fahrgeschwindigkeit": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "anbauger\u00e4tekompatibilit\u00e4t": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Manuell",
+          "Halbautomatisch"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Erdbewegungsger\u00e4te",
+  "unterkategorie_code": "08.01",
+  "unterunterkategorie": "Kompaktlader",
+  "unterunterkategorie_code": "08.01.03",
+  "version": "1.0"
+}

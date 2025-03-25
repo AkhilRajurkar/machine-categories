@@ -1,0 +1,224 @@
+{
+  "_id": "plastic_rubber_spraying_machines",
+  "category": "Plastic & Rubber Machinery",
+  "category_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Plastic & Rubber Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Polyurethane Processing Machinery"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Spraying Machines"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_material_volume": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "spraying_system": {
+        "bsonType": "object",
+        "properties": {
+          "spray_method": {
+            "bsonType": "string"
+          },
+          "spray_rate": {
+            "bsonType": "double"
+          },
+          "spray_distance": {
+            "bsonType": "double"
+          },
+          "nozzle_type": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Spraying polyurethane coatings or foam",
+          "Applying insulation or waterproofing",
+          "Creating protective layers",
+          "Supporting large-surface applications"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "polyurethane spraying machine",
+          "pu spray equipment",
+          "industrial polyurethane sprayer",
+          "polyurethane foam sprayer",
+          "European spraying machines"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "Graco (Belgium)",
+          "Hennecke (Germany)",
+          "KraussMaffei (Germany)",
+          "Wiwa (Germany)",
+          "Gama (Spain)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "hose_length": {
+        "bsonType": "double"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Spraying Machines",
+  "sub_subcategory_code": "3.9.3",
+  "subcategory": "Polyurethane Processing Machinery",
+  "subcategory_code": "3.9",
+  "version": "1.0"
+}

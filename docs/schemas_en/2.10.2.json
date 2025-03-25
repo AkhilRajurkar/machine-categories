@@ -1,0 +1,232 @@
+{
+  "_id": "woodworking_ventilation_extraction",
+  "category": "Woodworking Machinery",
+  "category_code": "2",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Woodworking Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Dust Extraction Systems"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Ventilation & Extraction"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "airflow_capacity": {
+            "bsonType": "double"
+          },
+          "dust_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "ventilation_system": {
+        "bsonType": "object",
+        "properties": {
+          "fan_capacity": {
+            "bsonType": "double"
+          },
+          "ducting_diameter": {
+            "bsonType": "double"
+          },
+          "air_velocity_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "filter_included": {
+            "bsonType": "bool"
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Extracting dust and debris from woodworking areas",
+          "Ventilating large workshops",
+          "Maintaining clean air circulation",
+          "Supporting dust management in industrial settings"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "woodworking ventilation system",
+          "dust extraction for woodshops",
+          "industrial wood dust ventilator",
+          "woodworking air extraction equipment",
+          "European woodworking ventilation machines"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "Homag (Germany)",
+          "Sp\u00e4nex (Germany)",
+          "SCM Group (Italy)",
+          "Felder Group (Austria)",
+          "H\u00f6cker Polytechnik (Germany)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Automatic"
+        ]
+      },
+      "noise_level": {
+        "bsonType": "double"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Ventilation & Extraction",
+  "sub_subcategory_code": "2.10.2",
+  "subcategory": "Dust Extraction Systems",
+  "subcategory_code": "2.10",
+  "version": "1.0"
+}

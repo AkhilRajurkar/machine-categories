@@ -1,0 +1,283 @@
+{
+  "_id": "woodworking_filter_systems_de",
+  "kategorie": "Holzbearbeitungsmaschinen",
+  "kategorie_code": "2",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzbearbeitungsmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Staubabsaugsysteme"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Filtersysteme"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "luftstromkapazit\u00e4t": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "staubarten": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "filtersystem": {
+        "bsonType": "object",
+        "properties": {
+          "filterfl\u00e4che": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "filtrationswirkungsgrad": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "filtertyp": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "l\u00fcfterleistung": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "funktionen": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Listet die Hauptfunktionen der Maschine auf",
+        "enum": [
+          "Filtern von feinem Holzbearbeitungsstaub",
+          "Verbessern der Luftqualit\u00e4t in der Werkstatt",
+          "Reduzieren von Staubemissionen",
+          "Sch\u00fctzen der Gesundheit der Arbeiter durch effiziente Staubabsaugung"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimierte Tags f\u00fcr die Indizierung durch Suchmaschinen",
+        "enum": [
+          "Holzbearbeitungs-Filtersystem",
+          "Staubfilter f\u00fcr Holzbearbeitung",
+          "Luftfiltrationsausr\u00fcstung f\u00fcr Holzwerkst\u00e4tten",
+          "Feinstaubabsaugmaschine",
+          "Europ\u00e4ische Holzbearbeitungs-Staubfilter"
+        ]
+      },
+      "europ\u00e4ische_hersteller": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Ma\u00dfgebliche europ\u00e4ische Hersteller f\u00fcr diesen Maschinentyp",
+        "enum": [
+          "SCM Group (Italien)",
+          "Felder Group (\u00d6sterreich)",
+          "Homag (Deutschland)",
+          "Sp\u00e4nex (Deutschland)",
+          "H\u00f6cker Polytechnik (Deutschland)"
+        ]
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Manuell",
+          "Automatisch"
+        ]
+      },
+      "ger\u00e4uschpegel": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Staubabsaugsysteme",
+  "unterkategorie_code": "2.10",
+  "unterunterkategorie": "Filtersysteme",
+  "unterunterkategorie_code": "2.10.1",
+  "version": "1.0"
+}

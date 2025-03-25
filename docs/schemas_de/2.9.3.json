@@ -1,0 +1,333 @@
+{
+  "_id": "woodworking_veneer_manufacturing_machines_de",
+  "kategorie": "Holzbearbeitungsmaschinen",
+  "kategorie_code": "2",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzbearbeitungsmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Holzpressen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Furnierherstellungsmaschinen"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "maximale_werkst\u00fcckgr\u00f6\u00dfe": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "dicke": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "furniersystem": {
+        "bsonType": "object",
+        "properties": {
+          "presskraft": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "pressfl\u00e4che": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "temperaturbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "zykluszeitbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "funktionen": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Listet die Hauptfunktionen der Maschine auf",
+        "enum": [
+          "Pressen von Furnier auf Holzuntergr\u00fcnde",
+          "Verleimen von Furnier mit Hitze und Druck",
+          "Herstellen glatter Furnierplatten",
+          "Sicherstellen gleichm\u00e4\u00dfiger Haftung f\u00fcr hochwertige Oberfl\u00e4chen"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimierte Tags f\u00fcr die Indizierung durch Suchmaschinen",
+        "enum": [
+          "Furnierherstellungsmaschine",
+          "Holzbearbeitungs-Furnierpresse",
+          "Automatische Furnierverleimungsausr\u00fcstung",
+          "Furnierplattenproduktionsmaschinerie",
+          "Europ\u00e4ische Furnier-Holzbearbeitungsmaschinen"
+        ]
+      },
+      "europ\u00e4ische_hersteller": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Ma\u00dfgebliche europ\u00e4ische Hersteller f\u00fcr diesen Maschinentyp",
+        "enum": [
+          "Homag (Deutschland)",
+          "SCM Group (Italien)",
+          "IMA Schelling (Deutschland)",
+          "B\u00fcrkle (Deutschland)",
+          "Felder Group (\u00d6sterreich)"
+        ]
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Manuell",
+          "Halbautomatisch"
+        ]
+      },
+      "leimtyp": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Holzpressen",
+  "unterkategorie_code": "2.9",
+  "unterunterkategorie": "Furnierherstellungsmaschinen",
+  "unterunterkategorie_code": "2.9.3",
+  "version": "1.0"
+}

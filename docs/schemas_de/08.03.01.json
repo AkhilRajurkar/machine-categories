@@ -1,0 +1,256 @@
+{
+  "_id": "construction_mobile_cranes_de",
+  "kategorie": "Baumaschinen",
+  "kategorie_code": "08",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Baumaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Hebezeuge"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Mobilkrane"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "antriebssystem": {
+        "bsonType": "object",
+        "properties": {
+          "motortyp": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "pferdest\u00e4rke": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "kraftstoffkapazit\u00e4t": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "hebkapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "maximale_last": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "maximale_h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "kransystem": {
+        "bsonType": "object",
+        "properties": {
+          "auslegerl\u00e4ngenbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "ausziehbarer_ausleger": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "heb-radius": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "mobilit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "radkonfiguration": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "fahrgeschwindigkeit": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "gegengewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Manuell",
+          "Halbautomatisch"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Hebezeuge",
+  "unterkategorie_code": "08.03",
+  "unterunterkategorie": "Mobilkrane",
+  "unterunterkategorie_code": "08.03.01",
+  "version": "1.0"
+}

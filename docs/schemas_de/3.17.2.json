@@ -1,0 +1,305 @@
+{
+  "_id": "plastic_rubber_hot_plate_welding_machines_de",
+  "kategorie": "Kunststoff- und Gummimaschinen",
+  "kategorie_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Kunststoff- und Gummimaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Schwei\u00dfmaschinen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Hei\u00dfplattenschwei\u00dfmaschinen"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "verarbeitungskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "max_materialgr\u00f6\u00dfe": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "dicke": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "schwei\u00dfsystem": {
+        "bsonType": "object",
+        "properties": {
+          "plattentemperatur": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "schwei\u00dfzeit": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "plattengr\u00f6\u00dfe": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          },
+          "druckkraft": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "funktionen": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Listet die Hauptfunktionen der Maschine auf",
+        "enum": [
+          "Schwei\u00dfen gro\u00dfer Kunststoff- oder Gummiteile mit Hitze",
+          "Erstellen robuster und langlebiger Verbindungen",
+          "Unterst\u00fctzung gro\u00dffl\u00e4chiger Anwendungen",
+          "Sicherstellung gleichm\u00e4\u00dfiger Schwei\u00dffestigkeit"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimierte Tags f\u00fcr die Indizierung durch Suchmaschinen",
+        "enum": [
+          "hei\u00dfplattenschwei\u00dfmaschine",
+          "kunststoff-hei\u00dfplattenschwei\u00dfer",
+          "gummi-schwei\u00dfausr\u00fcstung",
+          "gro\u00dffl\u00e4chige schwei\u00dfmaschinen",
+          "europ\u00e4ische hei\u00dfplattenschwei\u00dfer"
+        ]
+      },
+      "europ\u00e4ische_hersteller": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Ma\u00dfgebliche europ\u00e4ische Hersteller f\u00fcr diesen Maschinentyp",
+        "enum": [
+          "Bielomatik (Deutschland)",
+          "Kiefel (Deutschland)",
+          "Frimo (Deutschland)",
+          "CEMAS (Italien)",
+          "Sirsi Metallisator (Italien)"
+        ]
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Halbautomatisch",
+          "Vollautomatisch"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Schwei\u00dfmaschinen",
+  "unterkategorie_code": "3.17",
+  "unterunterkategorie": "Hei\u00dfplattenschwei\u00dfmaschinen",
+  "unterunterkategorie_code": "3.17.2",
+  "version": "1.0"
+}

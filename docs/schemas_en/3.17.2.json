@@ -1,0 +1,240 @@
+{
+  "_id": "plastic_rubber_hot_plate_welding_machines",
+  "category": "Plastic & Rubber Machinery",
+  "category_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Plastic & Rubber Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Welding Machinery"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Hot Plate Welding Machines"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_material_size": {
+            "bsonType": "object",
+            "properties": {
+              "length": {
+                "bsonType": "double"
+              },
+              "width": {
+                "bsonType": "double"
+              },
+              "thickness": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "welding_system": {
+        "bsonType": "object",
+        "properties": {
+          "plate_temperature": {
+            "bsonType": "double"
+          },
+          "welding_time": {
+            "bsonType": "double"
+          },
+          "plate_size": {
+            "bsonType": "object",
+            "properties": {
+              "length": {
+                "bsonType": "double"
+              },
+              "width": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "pressure_force": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Welding large plastic or rubber parts with heat",
+          "Creating robust and durable joints",
+          "Supporting large-scale applications",
+          "Ensuring uniform weld strength"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "hot plate welding machine",
+          "plastic hot plate welder",
+          "rubber welding equipment",
+          "large-scale welding machinery",
+          "European hot plate welders"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "Bielomatik (Germany)",
+          "Kiefel (Germany)",
+          "Frimo (Germany)",
+          "CEMAS (Italy)",
+          "Sirsi Metallisator (Italy)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Hot Plate Welding Machines",
+  "sub_subcategory_code": "3.17.2",
+  "subcategory": "Welding Machinery",
+  "subcategory_code": "3.17",
+  "version": "1.0"
+}

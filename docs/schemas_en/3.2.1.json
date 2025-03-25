@@ -1,0 +1,203 @@
+{
+  "_id": "plastic_extrusion_pipe",
+  "category": "Plastic & Rubber Machinery",
+  "category_code": "3",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Plastic & Rubber Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Extrusion Machines"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Pipe Extruders"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "extrusion_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "output_rate": {
+            "bsonType": "double"
+          },
+          "screw_diameter": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "barrel": {
+        "bsonType": "object",
+        "properties": {
+          "length_to_diameter_ratio": {
+            "bsonType": "double"
+          },
+          "heating_zones": {
+            "bsonType": "int"
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "pipe_diameter": {
+        "bsonType": "object",
+        "properties": {
+          "min": {
+            "bsonType": "double"
+          },
+          "max": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "wall_thickness": {
+        "bsonType": "object",
+        "properties": {
+          "min": {
+            "bsonType": "double"
+          },
+          "max": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "die_head": {
+        "bsonType": "string"
+      },
+      "cooling_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "length": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "haul_off_speed": {
+        "bsonType": "double"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Pipe Extruders",
+  "sub_subcategory_code": "3.2.1",
+  "subcategory": "Extrusion Machines",
+  "subcategory_code": "3.2",
+  "version": "1.0"
+}

@@ -1,0 +1,280 @@
+{
+  "_id": "textile_spunbond_de",
+  "kategorie": "Textilmaschinen",
+  "kategorie_code": "4",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "maschinen_id",
+      "kategorie",
+      "unterkategorie",
+      "unterunterkategorie",
+      "hersteller",
+      "modell",
+      "herstellungsjahr"
+    ],
+    "properties": {
+      "maschinen_id": {
+        "bsonType": "string"
+      },
+      "kategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Textilmaschinen"
+        ]
+      },
+      "kategorie_code": {
+        "bsonType": "string"
+      },
+      "unterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Vliesstoffmaschinen"
+        ]
+      },
+      "unterkategorie_code": {
+        "bsonType": "string"
+      },
+      "unterunterkategorie": {
+        "bsonType": "string",
+        "enum": [
+          "Spunbond-Systeme"
+        ]
+      },
+      "unterunterkategorie_code": {
+        "bsonType": "string"
+      },
+      "hersteller": {
+        "bsonType": "string"
+      },
+      "modell": {
+        "bsonType": "string"
+      },
+      "herstellungsjahr": {
+        "bsonType": "int",
+        "minimum": 1900
+      },
+      "zustand": {
+        "bsonType": "string",
+        "enum": [
+          "Neu",
+          "Gebraucht - Ausgezeichnet",
+          "Gebraucht - Gut",
+          "Gebraucht - Akzeptabel",
+          "\u00dcberholt",
+          "F\u00fcr Teile"
+        ]
+      },
+      "seriennummer": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "betriebsstunden": {
+        "bsonType": [
+          "int",
+          "null"
+        ],
+        "minimum": 0
+      },
+      "gewicht": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "abmessungen": {
+        "bsonType": "object",
+        "properties": {
+          "l\u00e4nge": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "breite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "stromversorgung": {
+        "bsonType": "object",
+        "properties": {
+          "spannung": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequenz": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "verbrauch": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "produktionskapazit\u00e4t": {
+        "bsonType": "object",
+        "properties": {
+          "durchsatz": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "arbeitsbreite": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "materialtypen": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "steuerungssystem": {
+        "bsonType": "object",
+        "properties": {
+          "typ": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "schnittstelle": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "spunbond_system": {
+        "bsonType": "object",
+        "properties": {
+          "extruderanzahl": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "spinnkopfl\u00f6cher": {
+            "bsonType": [
+              "int",
+              "null"
+            ]
+          },
+          "filament_denier_bereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "vliesbildung": {
+        "bsonType": "string",
+        "enum": [
+          "Luftgelegt",
+          "Direktlage"
+        ]
+      },
+      "verbindungsmethode": {
+        "bsonType": "string",
+        "enum": [
+          "Thermisch",
+          "Chemisch",
+          "Mechanisch"
+        ]
+      },
+      "temperaturbereich": {
+        "bsonType": "object",
+        "properties": {
+          "min": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "max": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          }
+        }
+      },
+      "automatisierungsgrad": {
+        "bsonType": "string",
+        "enum": [
+          "Manuell",
+          "Halbautomatisch",
+          "Vollautomatisch"
+        ]
+      },
+      "wartungsgeschichte": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "bekannte_probleme": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
+      },
+      "hat_handb\u00fccher": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
+      }
+    }
+  },
+  "unterkategorie": "Vliesstoffmaschinen",
+  "unterkategorie_code": "4.5",
+  "unterunterkategorie": "Spunbond-Systeme",
+  "unterunterkategorie_code": "4.5.1",
+  "version": "1.0"
+}

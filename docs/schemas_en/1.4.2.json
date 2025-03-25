@@ -1,0 +1,206 @@
+{
+  "_id": "metalworking_grinding_external_cylindrical",
+  "category": "Metalworking Machinery",
+  "subcategory": "Grinding Machines",
+  "sub_subcategory": "External Cylindrical Grinding Machines",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Metalworking Machinery"
+        ]
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Grinding Machines"
+        ]
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "External Cylindrical Grinding Machines"
+        ]
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "grinding_wheel": {
+        "bsonType": "object",
+        "properties": {
+          "diameter": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "max_speed": {
+            "bsonType": "int"
+          }
+        }
+      },
+      "workpiece_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_length": {
+            "bsonType": "double"
+          },
+          "max_diameter": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "table_size": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "spindle_power": {
+        "bsonType": "double"
+      },
+      "center_height": {
+        "bsonType": "double"
+      },
+      "max_workpiece_weight": {
+        "bsonType": "double"
+      },
+      "axes": {
+        "bsonType": "object",
+        "properties": {
+          "x_travel": {
+            "bsonType": "double"
+          },
+          "z_travel": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "workpiece_spindle": {
+        "bsonType": "object",
+        "properties": {
+          "speed_range": {
+            "bsonType": "string"
+          },
+          "power": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "control_type": {
+        "bsonType": "string"
+      },
+      "coolant_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "tank_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "dust_extraction": {
+        "bsonType": "string"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "category_code": "1",
+  "subcategory_code": "1.4",
+  "sub_subcategory_code": "1.4.2"
+}

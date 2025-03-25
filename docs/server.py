@@ -21,6 +21,20 @@ def load_json_file(file_path):
         print(f"Error loading {file_path}: {e}")
         return None
 
+def get_schema_from_static_file(language, code):
+    """Get schema from static JSON file for GitHub Pages."""
+    try:
+        schema_dir = f'schemas_{language}'
+        schema_file = f'{code}.json'
+        schema_path = os.path.join(schema_dir, schema_file)
+        
+        if os.path.exists(schema_path):
+            return load_json_file(schema_path)
+        return None
+    except Exception as e:
+        print(f"Error loading static schema: {e}")
+        return None
+
 @app.route('/')
 def root():
     return send_from_directory('.', 'index.html')
@@ -41,45 +55,47 @@ def get_categories(language):
 @app.route('/api/schema/<language>/<code>')
 def get_schema(language, code):
     try:
-        # Select collection based on language
-        collection = english_collection if language == 'en' else german_collection
+        # First try to get schema from static file (for GitHub Pages)
+        schema = get_schema_from_static_file(language, code)
         
-        # Find the schema in MongoDB using the exact code
-        schema = collection.find_one({
-            "$or": [
-                {"sub_subcategory_code": code},
-                {"unterunterkategorie_code": code}
-            ]
-        })
-        
-        if schema:
-            # Convert MongoDB document to JSON and remove internal fields
-            schema_json = json.loads(json_util.dumps(schema))
-            if '_id' in schema_json:
-                del schema_json['_id']
-            
-            # Add SEO tags if not present
-            if 'seo_tags' not in schema_json:
-                schema_json['seo_tags'] = [
-                    schema_json.get('category', ''),
-                    schema_json.get('subcategory', ''),
-                    schema_json.get('sub_subcategory', ''),
-                    schema_json.get('sub_subcategory_code', '')
+        if not schema:
+            # If not found in static files, try MongoDB
+            collection = english_collection if language == 'en' else german_collection
+            schema = collection.find_one({
+                "$or": [
+                    {"sub_subcategory_code": code},
+                    {"unterunterkategorie_code": code}
                 ]
+            })
             
-            # Add manufacturer information if not present
-            if 'manufacturer_info' not in schema_json:
-                schema_json['manufacturer_info'] = {
-                    'european': False,  # Default value
-                    'certifications': []  # Default empty list
-                }
-            
-            # Add debug information
-            print(f"Found schema for code {code}: {schema_json}")
-            return jsonify(schema_json)
-        else:
-            print(f"No schema found for code {code} in {language} collection")
-            return jsonify({'error': 'Schema not found'}), 404
+            if schema:
+                schema = json.loads(json_util.dumps(schema))
+                if '_id' in schema:
+                    del schema['_id']
+            else:
+                print(f"No schema found for code {code} in {language} collection")
+                return jsonify({'error': 'Schema not found'}), 404
+        
+        # Add SEO tags if not present
+        if 'seo_tags' not in schema:
+            schema['seo_tags'] = [
+                schema.get('category', ''),
+                schema.get('subcategory', ''),
+                schema.get('sub_subcategory', ''),
+                schema.get('sub_subcategory_code', '')
+            ]
+        
+        # Add manufacturer information if not present
+        if 'manufacturer_info' not in schema:
+            schema['manufacturer_info'] = {
+                'european': False,  # Default value
+                'certifications': []  # Default empty list
+            }
+        
+        # Add debug information
+        print(f"Found schema for code {code}: {schema}")
+        return jsonify(schema)
+        
     except Exception as e:
         print(f"Error fetching schema: {str(e)}")
         return jsonify({'error': str(e)}), 500

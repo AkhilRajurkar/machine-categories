@@ -1,0 +1,198 @@
+{
+  "_id": "metalworking_sheetmetal_laser_cutting",
+  "category": "Metalworking Machinery",
+  "subcategory": "Sheet Metal Cutting",
+  "sub_subcategory": "Laser Cutting Machines",
+  "version": "1.0",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Metalworking Machinery"
+        ]
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Sheet Metal Machinery"
+        ]
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Laser Cutting Machines"
+        ]
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "working_area": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "max_material_thickness": {
+        "bsonType": "object",
+        "properties": {
+          "steel": {
+            "bsonType": "double"
+          },
+          "stainless_steel": {
+            "bsonType": "double"
+          },
+          "aluminum": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "control_type": {
+        "bsonType": "string"
+      },
+      "laser": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "power": {
+            "bsonType": "double"
+          },
+          "wavelength": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "cutting_speed": {
+        "bsonType": "double"
+      },
+      "positioning_accuracy": {
+        "bsonType": "double"
+      },
+      "axes": {
+        "bsonType": "object",
+        "properties": {
+          "x_travel": {
+            "bsonType": "double"
+          },
+          "y_travel": {
+            "bsonType": "double"
+          },
+          "z_travel": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "gas_assist": {
+        "bsonType": "string"
+      },
+      "coolant_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "tank_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "category_code": "1",
+  "subcategory_code": "1.18",
+  "sub_subcategory_code": "1.18.1"
+}

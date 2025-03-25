@@ -1,0 +1,221 @@
+{
+  "_id": "printing_perfect_binders",
+  "category": "Printing & Graphics Equipment",
+  "category_code": "07",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Printing & Graphics Equipment"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Postpress Equipment"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Perfect Binders"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "throughput": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "binding_system": {
+        "bsonType": "object",
+        "properties": {
+          "book_size_range": {
+            "bsonType": "object",
+            "properties": {
+              "width": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              },
+              "height": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              },
+              "thickness": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              }
+            }
+          },
+          "glue_type": {
+            "bsonType": "string",
+            "enum": [
+              "Hot Melt",
+              "Cold Glue",
+              "PUR"
+            ]
+          },
+          "clamping_stations": {
+            "bsonType": "int"
+          }
+        }
+      },
+      "drying_time": {
+        "bsonType": "double"
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Perfect Binders",
+  "sub_subcategory_code": "07.03.03",
+  "subcategory": "Postpress Equipment",
+  "subcategory_code": "07.03",
+  "version": "1.0"
+}

@@ -1,0 +1,175 @@
+{
+  "_id": "construction_skid_steer_loaders",
+  "category": "Construction Machinery",
+  "category_code": "08",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Construction Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Earth Moving Equipment"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Skid Steer Loaders"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_system": {
+        "bsonType": "object",
+        "properties": {
+          "engine_type": {
+            "bsonType": "string"
+          },
+          "horsepower": {
+            "bsonType": "double"
+          },
+          "fuel_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "capacity": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "loading_system": {
+        "bsonType": "object",
+        "properties": {
+          "bucket_capacity": {
+            "bsonType": "double"
+          },
+          "lift_height": {
+            "bsonType": "double"
+          },
+          "rated_operating_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "travel_speed": {
+        "bsonType": "double"
+      },
+      "attachment_compatibility": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Skid Steer Loaders",
+  "sub_subcategory_code": "08.01.03",
+  "subcategory": "Earth Moving Equipment",
+  "subcategory_code": "08.01",
+  "version": "1.0"
+}

@@ -1,0 +1,195 @@
+{
+  "_id": "textile_projectile_looms",
+  "category": "Textile Machinery",
+  "category_code": "4",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Textile Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Weaving Machines"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Projectile Looms"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "production_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "weaving_speed": {
+            "bsonType": "double"
+          },
+          "working_width": {
+            "bsonType": "double"
+          },
+          "fabric_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "projectile_system": {
+        "bsonType": "object",
+        "properties": {
+          "projectile_count": {
+            "bsonType": "int"
+          },
+          "projectile_speed": {
+            "bsonType": "double"
+          },
+          "weft_insertion_rate": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "reed_space": {
+        "bsonType": "double"
+      },
+      "shedding_system": {
+        "bsonType": "string",
+        "enum": [
+          "Dobby",
+          "Jacquard",
+          "Crank"
+        ]
+      },
+      "weft_colors": {
+        "bsonType": "int"
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Projectile Looms",
+  "sub_subcategory_code": "4.2.3",
+  "subcategory": "Weaving Machines",
+  "subcategory_code": "4.2",
+  "version": "1.0"
+}

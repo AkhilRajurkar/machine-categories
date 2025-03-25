@@ -1,0 +1,280 @@
+{
+  "_id": "woodworking_boring_machines",
+  "category": "Woodworking Machinery",
+  "category_code": "2",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Woodworking Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Drilling Machines"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Boring Machines"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_workpiece_size": {
+            "bsonType": "object",
+            "properties": {
+              "length": {
+                "bsonType": "double"
+              },
+              "width": {
+                "bsonType": "double"
+              },
+              "thickness": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "boring_system": {
+        "bsonType": "object",
+        "properties": {
+          "spindle_count": {
+            "bsonType": "int"
+          },
+          "spindle_speed_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "drilling_depth_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "drill_bit_diameter_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "working_area": {
+            "bsonType": "object",
+            "properties": {
+              "x_axis": {
+                "bsonType": "double"
+              },
+              "y_axis": {
+                "bsonType": "double"
+              },
+              "z_axis": {
+                "bsonType": "double"
+              }
+            }
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Precision drilling of dowel holes",
+          "Boring for furniture assembly joints",
+          "Multiple spindle drilling for efficiency",
+          "Adjustable depth boring for custom applications"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "woodworking boring machine",
+          "CNC wood boring equipment",
+          "precision dowel drilling machine",
+          "furniture boring machinery",
+          "European woodworking boring machines"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "Biesse (Italy)",
+          "SCM Group (Italy)",
+          "Homag (Germany)",
+          "IMA Schelling (Germany)",
+          "Felder Group (Austria)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "dust_collection": {
+        "bsonType": "bool"
+      },
+      "software_compatibility": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Boring Machines",
+  "sub_subcategory_code": "2.5.4",
+  "subcategory": "Drilling Machines",
+  "subcategory_code": "2.5",
+  "version": "1.0"
+}

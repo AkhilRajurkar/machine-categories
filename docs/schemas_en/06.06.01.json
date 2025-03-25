@@ -1,0 +1,213 @@
+{
+  "_id": "packaging_conventional_palletizers",
+  "category": "Packaging Machinery",
+  "category_code": "06",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Packaging Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Palletizing Machines"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Conventional Palletizers"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "throughput": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "palletizing_system": {
+        "bsonType": "object",
+        "properties": {
+          "pallet_size_range": {
+            "bsonType": "object",
+            "properties": {
+              "length": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              },
+              "width": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              }
+            }
+          },
+          "stack_height": {
+            "bsonType": "double"
+          },
+          "layer_pattern": {
+            "bsonType": "string",
+            "enum": [
+              "Column",
+              "Interlocked"
+            ]
+          }
+        }
+      },
+      "loading_method": {
+        "bsonType": "string",
+        "enum": [
+          "High-Level",
+          "Low-Level"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Conventional Palletizers",
+  "sub_subcategory_code": "06.06.01",
+  "subcategory": "Palletizing Machines",
+  "subcategory_code": "06.06",
+  "version": "1.0"
+}
