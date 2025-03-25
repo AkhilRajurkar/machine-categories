@@ -24,12 +24,17 @@ def load_json_file(file_path):
 def get_schema_from_static_file(language, code):
     """Get schema from static JSON file for GitHub Pages."""
     try:
-        schema_dir = f'schemas_{language}'
+        schema_dir = f'docs/schemas_{language}'
         schema_file = f'{code}.json'
         schema_path = os.path.join(schema_dir, schema_file)
         
+        print(f"Looking for schema at: {schema_path}")
         if os.path.exists(schema_path):
-            return load_json_file(schema_path)
+            schema = load_json_file(schema_path)
+            if schema:
+                print(f"Found schema for code {code}")
+                return schema
+        print(f"No schema found at {schema_path}")
         return None
     except Exception as e:
         print(f"Error loading static schema: {e}")
@@ -55,6 +60,8 @@ def get_categories(language):
 @app.route('/api/schema/<language>/<code>')
 def get_schema(language, code):
     try:
+        print(f"Requesting schema for language: {language}, code: {code}")
+        
         # First try to get schema from static file (for GitHub Pages)
         schema = get_schema_from_static_file(language, code)
         
