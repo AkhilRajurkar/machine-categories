@@ -309,22 +309,26 @@
 
             // For GitHub Pages deployment
             const isGitHubPages = window.location.hostname.includes('github.io');
+            console.log('Is GitHub Pages:', isGitHubPages);
             const apiUrl = isGitHubPages 
                 ? `https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories_${currentLanguage}.json`
                 : `/api/categories/${currentLanguage}`;
+            console.log('Loading categories from:', apiUrl);
 
             fetch(apiUrl)
                 .then(response => {
                     if (!response.ok) {
+                        console.error('Response not OK:', response.status, response.statusText);
                         throw new Error('Network response was not ok');
                     }
                     return response.json();
                 })
                 .then(data => {
-                    // Remove the filter to show all categories
+                    console.log('Raw categories data:', data);
                     categoriesData = data;
+                    console.log('Number of categories loaded:', categoriesData.length);
                     displayMainCategories();
-                    console.log(`Loaded ${categoriesData.length} categories for ${currentLanguage}`);
+                    console.log('Categories displayed');
                 })
                 .catch(error => {
                     console.error('Error loading categories:', error);
