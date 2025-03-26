@@ -7,10 +7,15 @@ from bson import json_util
 app = Flask(__name__, static_url_path='')
 
 # MongoDB connection
-client = MongoClient('mongodb+srv://rajurkarakhil:category123@category.hit1a.mongodb.net/?retryWrites=true&w=majority&appName=category')
-db = client['machinery_db']
-english_collection = db['ss_schemas']
-german_collection = db['ss_schemas_de']
+try:
+    client = MongoClient('mongodb+srv://rajurkarakhil:category123@category.hit1a.mongodb.net/?retryWrites=true&w=majority&appName=category')
+    db = client['machinery_db']
+    english_collection = db['ss_schemas']
+    german_collection = db['ss_schemas_de']
+    print("Successfully connected to MongoDB")
+except Exception as e:
+    print(f"Error connecting to MongoDB: {e}")
+    raise
 
 def load_json_file(file_path):
     try:
@@ -95,21 +100,30 @@ def get_schema(language, code):
         schema = get_schema_from_static_file(language, code)
         
         if not schema:
+            print(f"Schema not found in static files, trying MongoDB...")
             # If not found in static files, try MongoDB
             collection = english_collection if language == 'en' else german_collection
-            schema = collection.find_one({
-                "$or": [
-                    {"sub_subcategory_code": code},
-                    {"unterunterkategorie_code": code}
-                ]
-            })
+            print(f"Using collection: {collection.name}")
             
-            if schema:
-                schema = json.loads(json_util.dumps(schema))
-                if '_id' in schema:
-                    del schema['_id']
-                print(f"Found schema in MongoDB for code {code}")
-            else:
+            # Try different query patterns
+            query_patterns = [
+                {"sub_subcategory_code": code},
+                {"unterunterkategorie_code": code},
+                {"sub_subcategory_code": code.lstrip('0')},
+                {"unterunterkategorie_code": code.lstrip('0')}
+            ]
+            
+            for query in query_patterns:
+                print(f"Trying query: {query}")
+                schema = collection.find_one(query)
+                if schema:
+                    print(f"Found schema in MongoDB using query: {query}")
+                    schema = json.loads(json_util.dumps(schema))
+                    if '_id' in schema:
+                        del schema['_id']
+                    break
+            
+            if not schema:
                 print(f"No schema found for code {code} in {language} collection")
                 return jsonify({'error': 'Schema not found'}), 404
         
