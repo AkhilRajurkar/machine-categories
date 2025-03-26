@@ -283,8 +283,33 @@
     </div>
 
     <script>
+        // Configuration
+        const config = {
+            apiBasePath: '', // Empty string for relative URLs
+            schemaBasePath: '', // Empty string for relative URLs
+            languages: {
+                en: 'English',
+                de: 'German'
+            },
+            defaultLanguage: 'en'
+        };
+        
+        // Global variables
+        let categories = {};
+        let selectedSchema = null;
+        let currentLanguage = localStorage.getItem('selectedLanguage') || config.defaultLanguage;
+        
+        // Initialize the app when the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', initializeApp);
+        
+        // Main initialization function
+        function initializeApp() {
+            setupLanguageSelector();
+            setupTheme();
+            fetchCategories();
+        }
+        
         let categoriesData = [];
-        let currentLanguage = 'en';
         
         // Add UI translations
         const translations = {
@@ -358,27 +383,45 @@
 
             // For GitHub Pages deployment
             const isGitHubPages = window.location.hostname.includes('github.io');
-            const apiUrl = isGitHubPages 
-                ? `https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/categories_${currentLanguage}.json`
-                : `/api/categories/${currentLanguage}`;
+            
+            // Try different possible paths for categories
+            const possiblePaths = [
+                `categories_${currentLanguage}.json`,
+                `docs/categories_${currentLanguage}.json`
+            ];
 
-            fetch(apiUrl)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
+            // If GitHub Pages, also try the raw GitHub URL
+            if (isGitHubPages) {
+                possiblePaths.push(`https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/docs/categories_${currentLanguage}.json`);
+            }
+
+            // Function to try loading from each path
+            async function tryLoadCategories() {
+                for (const apiUrl of possiblePaths) {
+                    console.log(`Trying to load categories from: ${apiUrl}`);
+                    try {
+                        const response = await fetch(apiUrl);
+                        if (response.ok) {
+                            const data = await response.json();
+                            categoriesData = data;
+                            displayMainCategories();
+                            console.log(`Successfully loaded ${categoriesData.length} categories for ${currentLanguage} from ${apiUrl}`);
+                            return true;
+                        }
+                    } catch (error) {
+                        console.log(`Failed to load from ${apiUrl}:`, error);
                     }
-                    return response.json();
-                })
-                .then(data => {
-                    // Remove the filter to show all categories
-                    categoriesData = data;
-                    displayMainCategories();
-                    console.log(`Loaded ${categoriesData.length} categories for ${currentLanguage}`);
-                })
-                .catch(error => {
-                    console.error('Error loading categories:', error);
+                }
+                return false;
+            }
+
+            // Try all possible paths
+            tryLoadCategories().then(success => {
+                if (!success) {
+                    console.error('Error: Failed to load categories from any source');
                     document.getElementById('main-categories').innerHTML = errorMessage;
-                });
+                }
+            });
         }
 
         // Initial load
@@ -469,7 +512,7 @@
             
             if (isGitHubPages) {
                 // For GitHub Pages, fetch from static JSON files
-                const schemaUrl = `https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main/schemas_${currentLanguage}/${subSubCode}.json`;
+                const schemaUrl = `schemas_${currentLanguage}/${subSubCode}.json`;
                 console.log(`Fetching schema from: ${schemaUrl}`);
                 
                 fetch(schemaUrl)
@@ -488,29 +531,49 @@
                     })
                     .catch(error => {
                         console.log('Error fetching schema, trying fallback...', error);
-                        // Try fetching from API as a fallback
-                        const fallbackUrl = `https://api.github.com/repos/AkhilRajurkar/machine-categories/contents/schemas_${currentLanguage}/${subSubCode}.json`;
-                        console.log(`Trying fallback URL: ${fallbackUrl}`);
+                        // Try alternative path
+                        const alternativeUrl = `docs/schemas_${currentLanguage}/${subSubCode}.json`;
+                        console.log(`Trying alternative URL: ${alternativeUrl}`);
                         
-                        fetch(fallbackUrl)
+                        fetch(alternativeUrl)
                             .then(response => {
                                 if (!response.ok) {
-                                    console.log(`Schema not found at fallback URL`);
-                                    throw new Error('Schema not found in fallback location');
+                                    console.log(`Schema not found at alternative URL, trying API fallback`);
+                                    throw new Error('Schema not found at alternative URL');
                                 }
                                 return response.json();
                             })
                             .then(data => {
-                                console.log('Fallback data received:', data);
-                                // GitHub API returns content as base64
-                                const content = atob(data.content);
-                                const jsonData = JSON.parse(content);
-                                const formattedData = formatSchemaDisplay(jsonData);
+                                console.log('Alternative schema data received:', data);
+                                const formattedData = formatSchemaDisplay(data);
                                 schemaContent.innerHTML = `<div class="schema-content">${formattedData}</div>`;
                             })
-                            .catch(err => {
-                                console.error('Both schema fetch attempts failed:', err);
-                                schemaContent.innerHTML = `<div class="schema-error">Error loading schema: ${error.message}</div>`;
+                            .catch(altError => {
+                                console.log('Alternative path failed, trying GitHub API fallback...');
+                                // Try fetching from API as a fallback
+                                const fallbackUrl = `https://api.github.com/repos/AkhilRajurkar/machine-categories/contents/docs/schemas_${currentLanguage}/${subSubCode}.json`;
+                                console.log(`Trying fallback URL: ${fallbackUrl}`);
+                                
+                                fetch(fallbackUrl)
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            console.log(`Schema not found at fallback URL`);
+                                            throw new Error('Schema not found in fallback location');
+                                        }
+                                        return response.json();
+                                    })
+                                    .then(data => {
+                                        console.log('Fallback data received:', data);
+                                        // GitHub API returns content as base64
+                                        const content = atob(data.content);
+                                        const jsonData = JSON.parse(content);
+                                        const formattedData = formatSchemaDisplay(jsonData);
+                                        schemaContent.innerHTML = `<div class="schema-content">${formattedData}</div>`;
+                                    })
+                                    .catch(err => {
+                                        console.error('All schema fetch attempts failed:', err);
+                                        schemaContent.innerHTML = `<div class="schema-error">Error loading schema: ${error.message}</div>`;
+                                    });
                             });
                     });
             } else {
@@ -728,6 +791,49 @@
             const element = document.querySelector(selector);
             if (element) {
                 element.classList.add('selected');
+            }
+        }
+
+        // Function to fetch a schema for a given code
+        async function fetchSchema(code) {
+            try {
+                console.log(`Fetching schema for code: ${code}`);
+                
+                // Try different possible paths for the schema
+                const possiblePaths = [
+                    `schemas_${currentLanguage}/${code}.json`,
+                    `docs/schemas_${currentLanguage}/${code}.json`
+                ];
+                
+                // Try each path
+                for (const path of possiblePaths) {
+                    console.log(`Trying URL: ${path}`);
+                    try {
+                        const response = await fetch(path);
+                        if (response.ok) {
+                            console.log(`Schema found at: ${path}`);
+                            return await response.json();
+                        }
+                    } catch (pathError) {
+                        console.log(`Path ${path} failed:`, pathError);
+                    }
+                }
+                
+                // If all direct paths fail, try GitHub API
+                const fallbackUrl = `https://api.github.com/repos/AkhilRajurkar/machine-categories/contents/docs/schemas_${currentLanguage}/${code}.json`;
+                console.log(`Trying GitHub API fallback URL: ${fallbackUrl}`);
+                
+                const fallbackResponse = await fetch(fallbackUrl);
+                if (fallbackResponse.ok) {
+                    const data = await fallbackResponse.json();
+                    const content = atob(data.content);
+                    return JSON.parse(content);
+                }
+                
+                throw new Error("Schema not found in any location");
+            } catch (error) {
+                console.error("Error fetching schema:", error);
+                throw error;
             }
         }
     </script>
