@@ -65,61 +65,52 @@ def get_schema_from_static_file(language, code):
                 code = f"{parts[0]}.{parts[1]}"
             logger.debug(f"Formatted code: {code}")
         
-        # Try multiple schema directories
-        schema_dirs = [
-            f'docs/schemas_{language}',
-            f'schemas_{language}',
+        # Define base paths for schema files
+        base_paths = [
             os.path.join('docs', f'schemas_{language}'),
-            os.path.join('.', 'docs', f'schemas_{language}')
+            os.path.join('.', 'docs', f'schemas_{language}'),
+            f'schemas_{language}',  # Fallback to old path
         ]
         
-        for schema_dir in schema_dirs:
-            schema_file = f'{code}.json'
-            schema_path = os.path.join(schema_dir, schema_file)
+        # Try each base path
+        for base_path in base_paths:
+            # Try different file name formats
+            file_formats = [
+                f'{code}.json',
+                f'{code.zfill(2)}.json',
+                f'{code.replace(".", "_")}.json'
+            ]
             
-            logger.debug(f"Looking for schema at: {schema_path}")
-            if os.path.exists(schema_path):
-                schema = load_json_file(schema_path)
-                if schema:
-                    logger.info(f"Found schema for code {code} at {schema_path}")
-                    return schema
-                else:
-                    logger.warning(f"Schema file exists but is empty or invalid: {schema_path}")
-            else:
-                logger.debug(f"No schema file found at {schema_path}")
+            for file_format in file_formats:
+                full_path = os.path.join(base_path, file_format)
+                logger.debug(f"Trying path: {full_path}")
                 
-                # Try alternative code formats
-                alt_codes = [
-                    f"{code}.json",
-                    f"{code.zfill(2)}.json",
-                    f"{code.replace('.', '_')}.json",
-                    f"{code.replace('.', '')}.json"
-                ]
-                for alt_code in alt_codes:
-                    alt_path = os.path.join(schema_dir, alt_code)
-                    logger.debug(f"Trying alternative path: {alt_path}")
-                    if os.path.exists(alt_path):
-                        schema = load_json_file(alt_path)
-                        if schema:
-                            logger.info(f"Found schema using alternative code: {alt_code}")
-                            return schema
+                if os.path.exists(full_path):
+                    logger.info(f"Found schema file at: {full_path}")
+                    schema = load_json_file(full_path)
+                    if schema:
+                        logger.info(f"Successfully loaded schema for code {code}")
+                        return schema
+                    else:
+                        logger.warning(f"Schema file exists but could not be loaded: {full_path}")
         
-        logger.warning(f"No schema found in any location for code: {code}")
+        logger.warning(f"No schema found for code: {code} in any location")
         return None
+        
     except Exception as e:
-        logger.error(f"Error loading static schema: {e}", exc_info=True)
+        logger.error(f"Error in get_schema_from_static_file: {e}", exc_info=True)
         return None
 
 @app.route('/')
 def root():
-    return send_from_directory('.', 'index.html')
+    return send_from_directory('docs', 'index.html')
 
 @app.route('/api/categories/<language>')
 def get_categories(language):
     try:
         logger.info(f"Getting categories for language: {language}")
-        # Load the appropriate language file
-        filename = f'categories_{language}.json'
+        # Load from docs directory
+        filename = os.path.join('docs', f'categories_{language}.json')
         data = load_json_file(filename)
         if data:
             logger.info(f"Successfully retrieved categories for {language}")
