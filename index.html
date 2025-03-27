@@ -210,6 +210,43 @@
             padding-bottom: 5px;
             border-bottom: 2px solid #e3f2fd;
         }
+        .seo-section {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            border: 1px solid #e9ecef;
+        }
+        .seo-title {
+            color: #1976d2;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .seo-tag {
+            display: inline-block;
+            background-color: #e3f2fd;
+            color: #1976d2;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin: 4px;
+            font-size: 0.9em;
+        }
+        .manufacturer-section {
+            background-color: #fff3e0;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            border: 1px solid #ffe0b2;
+        }
+        .manufacturer-title {
+            color: #f57c00;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .manufacturer-info {
+            color: #e65100;
+            font-size: 0.95em;
+        }
     </style>
 </head>
 <body>
@@ -235,6 +272,14 @@
     <div id="schema-section" class="schema-section" style="display: none;">
         <div class="schema-title">Schema Information</div>
         <div id="schema-content"></div>
+        <div id="seo-section" class="seo-section">
+            <div class="seo-title">SEO Tags</div>
+            <div id="seo-tags"></div>
+        </div>
+        <div id="manufacturer-section" class="manufacturer-section">
+            <div class="manufacturer-title">Manufacturer Information</div>
+            <div id="manufacturer-info"></div>
+        </div>
     </div>
 
     <script>
@@ -248,20 +293,24 @@
                 mainCategories: 'Main Categories',
                 subcategories: 'Subcategories',
                 subSubcategories: 'Sub-subcategories',
-                selectMain: 'Select a main category',
-                selectSub: 'Select a subcategory',
-                loading: 'Loading categories...',
-                error: 'Error loading categories. Please try again later.'
+                schemaInfo: 'Schema Information',
+                seoTags: 'SEO Tags',
+                manufacturerInfo: 'Manufacturer Information',
+                noSchema: 'No schema available',
+                loading: 'Loading...',
+                error: 'Error loading schema'
             },
             de: {
                 title: 'Maschinenkategorien Browser',
                 mainCategories: 'Hauptkategorien',
                 subcategories: 'Unterkategorien',
                 subSubcategories: 'Unter-Unterkategorien',
-                selectMain: 'Wählen Sie eine Hauptkategorie',
-                selectSub: 'Wählen Sie eine Unterkategorie',
-                loading: 'Kategorien werden geladen...',
-                error: 'Fehler beim Laden der Kategorien. Bitte versuchen Sie es später erneut.'
+                schemaInfo: 'Schema-Information',
+                seoTags: 'SEO-Tags',
+                manufacturerInfo: 'Herstellerinformationen',
+                noSchema: 'Kein Schema verfügbar',
+                loading: 'Wird geladen...',
+                error: 'Fehler beim Laden des Schemas'
             }
         };
 
@@ -601,6 +650,72 @@
             } catch (error) {
                 console.error('Error formatting schema data:', error);
                 return '<div class="schema-error">Error formatting schema data</div>';
+            }
+        }
+
+        function displaySchema(schema) {
+            const schemaContent = document.getElementById('schema-content');
+            const seoTags = document.getElementById('seo-tags');
+            const manufacturerInfo = document.getElementById('manufacturer-info');
+            
+            if (!schema || !schema.schema) {
+                schemaContent.innerHTML = `<div class="schema-error">${translations[currentLanguage].noSchema}</div>`;
+                return;
+            }
+
+            // Display main schema information
+            let schemaHtml = '<table class="schema-table">';
+            schemaHtml += '<tr><th>Property</th><th>Type</th><th>Required</th><th>Constraints</th></tr>';
+            
+            const properties = schema.schema.properties;
+            for (const [propName, propInfo] of Object.entries(properties)) {
+                schemaHtml += '<tr>';
+                schemaHtml += `<td class="schema-property-name">${propName}</td>`;
+                schemaHtml += `<td class="schema-property-type">${propInfo.bsonType}</td>`;
+                schemaHtml += `<td>${schema.schema.required.includes(propName) ? '<span class="required-badge">Required</span>' : ''}</td>`;
+                
+                let constraints = [];
+                if (propInfo.enum) {
+                    constraints.push(`Enum: ${propInfo.enum.join(', ')}`);
+                }
+                if (propInfo.minimum !== undefined) {
+                    constraints.push(`Min: ${propInfo.minimum}`);
+                }
+                if (propInfo.maximum !== undefined) {
+                    constraints.push(`Max: ${propInfo.maximum}`);
+                }
+                
+                schemaHtml += `<td>${constraints.join('<br>')}</td>`;
+                schemaHtml += '</tr>';
+            }
+            schemaHtml += '</table>';
+            
+            schemaContent.innerHTML = schemaHtml;
+
+            // Display SEO tags if available
+            if (schema.seo_tags) {
+                let seoHtml = '';
+                schema.seo_tags.forEach(tag => {
+                    seoHtml += `<span class="seo-tag">${tag}</span>`;
+                });
+                seoTags.innerHTML = seoHtml;
+            } else {
+                seoTags.innerHTML = '<em>No SEO tags available</em>';
+            }
+
+            // Display manufacturer information if available
+            if (schema.manufacturer_info) {
+                let manufacturerHtml = '';
+                if (schema.manufacturer_info.european) {
+                    manufacturerHtml += '<div class="manufacturer-info">European Manufacturer</div>';
+                }
+                if (schema.manufacturer_info.certifications) {
+                    manufacturerHtml += '<div class="manufacturer-info">Certifications: ' + 
+                        schema.manufacturer_info.certifications.join(', ') + '</div>';
+                }
+                manufacturerInfo.innerHTML = manufacturerHtml;
+            } else {
+                manufacturerInfo.innerHTML = '<em>No manufacturer information available</em>';
             }
         }
 

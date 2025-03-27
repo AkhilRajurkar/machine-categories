@@ -32,13 +32,18 @@ def deploy_to_github_pages():
         # Create docs directory if it doesn't exist
         ensure_directory_exists('docs')
         
+        # Export schemas first
+        export_schemas('docs')
+        
         # Copy main files
         files_to_copy = [
             'index.html',
             'categories_en.json',
             'categories_de.json',
             'styles.css',
-            'script.js'
+            'script.js',
+            'server.py',  # Include server.py for API endpoints
+            'requirements.txt'  # Include requirements.txt for dependencies
         ]
         
         for file in files_to_copy:
@@ -60,6 +65,25 @@ def deploy_to_github_pages():
 <html>
 <head>
     <title>404 - Page Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #1976d2;
+        }
+        a {
+            color: #1976d2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <h1>404 - Page Not Found</h1>
@@ -67,6 +91,29 @@ def deploy_to_github_pages():
     <a href="/">Return to Home</a>
 </body>
 </html>
+""")
+        
+        # Create a README.md in the docs directory
+        with open('docs/README.md', 'w') as f:
+            f.write("""# Machine Categories Browser
+
+This is the deployed version of the Machine Categories Browser application.
+
+## Features
+- Browse machine categories in English and German
+- View detailed schema information
+- SEO tags for better searchability
+- Manufacturer information including European certifications
+- Responsive design for all devices
+
+## API Endpoints
+- `/api/categories/<language>` - Get categories for specified language
+- `/api/schema/<language>/<code>` - Get schema information for a specific category code
+
+## Local Development
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run the server: `python server.py`
+3. Open http://localhost:5000 in your browser
 """)
         
         print("Deployment preparation completed successfully!")
