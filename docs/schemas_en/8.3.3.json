@@ -1,0 +1,180 @@
+{
+  "_id": "construction_forklifts",
+  "category": "Construction Machinery",
+  "category_code": "8",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Construction Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Lifting Equipment"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Forklifts"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_system": {
+        "bsonType": "object",
+        "properties": {
+          "engine_type": {
+            "bsonType": "string"
+          },
+          "horsepower": {
+            "bsonType": "double"
+          },
+          "fuel_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "lifting_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_load": {
+            "bsonType": "double"
+          },
+          "max_height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "forklift_system": {
+        "bsonType": "object",
+        "properties": {
+          "fork_length": {
+            "bsonType": "double"
+          },
+          "mast_type": {
+            "bsonType": "string"
+          },
+          "turning_radius": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "mobility": {
+        "bsonType": "object",
+        "properties": {
+          "wheel_config": {
+            "bsonType": "string"
+          },
+          "travel_speed": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "attachment_compatibility": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        }
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Forklifts",
+  "sub_subcategory_code": "8.3.3",
+  "subcategory": "Lifting Equipment",
+  "subcategory_code": "8.3",
+  "version": "1.0"
+}

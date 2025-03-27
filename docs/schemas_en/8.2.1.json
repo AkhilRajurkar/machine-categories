@@ -1,0 +1,189 @@
+{
+  "_id": "construction_asphalt_pavers",
+  "category": "Construction Machinery",
+  "category_code": "8",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Construction Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Road Construction"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Asphalt Pavers"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_system": {
+        "bsonType": "object",
+        "properties": {
+          "engine_type": {
+            "bsonType": "string"
+          },
+          "horsepower": {
+            "bsonType": "double"
+          },
+          "fuel_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "capacity": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "paving_system": {
+        "bsonType": "object",
+        "properties": {
+          "paving_width_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "paving_thickness_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "hopper_capacity": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "travel_speed": {
+        "bsonType": "double"
+      },
+      "screed_type": {
+        "bsonType": "string"
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Asphalt Pavers",
+  "sub_subcategory_code": "8.2.1",
+  "subcategory": "Road Construction",
+  "subcategory_code": "8.2",
+  "version": "1.0"
+}

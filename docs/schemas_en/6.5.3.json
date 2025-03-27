@@ -1,0 +1,244 @@
+{
+  "_id": "packaging_kartoniervverpackungsmaschinen",
+  "category": "Packaging Machinery",
+  "category_code": "6",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Packaging Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Cartoning Machines"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Kartoniervverpackungsmaschinen"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "max_volume": {
+            "bsonType": "double"
+          },
+          "product_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "cartoning_system": {
+        "bsonType": "object",
+        "properties": {
+          "cartoning_method": {
+            "bsonType": "string"
+          },
+          "cartoning_speed": {
+            "bsonType": "double"
+          },
+          "carton_size_range": {
+            "bsonType": "object",
+            "properties": {
+              "min_length": {
+                "bsonType": "double"
+              },
+              "max_length": {
+                "bsonType": "double"
+              },
+              "min_width": {
+                "bsonType": "double"
+              },
+              "max_width": {
+                "bsonType": "double"
+              },
+              "min_height": {
+                "bsonType": "double"
+              },
+              "max_height": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "folding_mechanism": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "functions": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lists the primary functions of the machine",
+        "enum": [
+          "Cartoning products into boxes or cartons",
+          "Supporting versatile packaging applications",
+          "Ensuring secure carton closure",
+          "Handling various product types"
+        ]
+      },
+      "seo_tags": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "SEO-optimized tags for search engine indexing",
+        "enum": [
+          "kartoniervverpackungsmaschinen",
+          "industrial cartoning machine",
+          "packaging cartoning equipment",
+          "box packaging system",
+          "European cartoning machines"
+        ]
+      },
+      "manufacturers_european": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Prominent European manufacturers for this machine type",
+        "enum": [
+          "Bosch Packaging (Germany)",
+          "IMA (Italy)",
+          "Marchesini Group (Italy)",
+          "Uhlmann (Germany)",
+          "Cama Group (Italy)"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "carton_closing_method": {
+        "bsonType": "string"
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Kartoniervverpackungsmaschinen",
+  "sub_subcategory_code": "6.5.3",
+  "subcategory": "Cartoning Machines",
+  "subcategory_code": "6.5",
+  "version": "1.0"
+}

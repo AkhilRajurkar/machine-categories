@@ -1,0 +1,233 @@
+{
+  "_id": "packaging_horizontal_form_fill_seal",
+  "category": "Packaging Machinery",
+  "category_code": "6",
+  "schema": {
+    "bsonType": "object",
+    "required": [
+      "machine_id",
+      "category",
+      "subcategory",
+      "sub_subcategory",
+      "manufacturer",
+      "model",
+      "year_of_manufacture"
+    ],
+    "properties": {
+      "machine_id": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string",
+        "enum": [
+          "Packaging Machinery"
+        ]
+      },
+      "category_code": {
+        "bsonType": "string"
+      },
+      "subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Form-Fill-Seal Machines"
+        ]
+      },
+      "subcategory_code": {
+        "bsonType": "string"
+      },
+      "sub_subcategory": {
+        "bsonType": "string",
+        "enum": [
+          "Horizontal Form-Fill-Seal (HFFS)"
+        ]
+      },
+      "sub_subcategory_code": {
+        "bsonType": "string"
+      },
+      "manufacturer": {
+        "bsonType": "string"
+      },
+      "model": {
+        "bsonType": "string"
+      },
+      "year_of_manufacture": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "string",
+        "enum": [
+          "New",
+          "Used - Excellent",
+          "Used - Good",
+          "Used - Fair",
+          "Refurbished",
+          "For Parts"
+        ]
+      },
+      "serial_number": {
+        "bsonType": "string"
+      },
+      "operating_hours": {
+        "bsonType": "int"
+      },
+      "weight": {
+        "bsonType": "double"
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "properties": {
+          "length": {
+            "bsonType": "double"
+          },
+          "width": {
+            "bsonType": "double"
+          },
+          "height": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "power_supply": {
+        "bsonType": "object",
+        "properties": {
+          "voltage": {
+            "bsonType": "int"
+          },
+          "phase": {
+            "bsonType": "int",
+            "enum": [
+              1,
+              3
+            ]
+          },
+          "frequency": {
+            "bsonType": "int",
+            "enum": [
+              50,
+              60
+            ]
+          },
+          "consumption": {
+            "bsonType": "double"
+          }
+        }
+      },
+      "processing_capacity": {
+        "bsonType": "object",
+        "properties": {
+          "throughput": {
+            "bsonType": "double"
+          },
+          "material_types": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          }
+        }
+      },
+      "control_system": {
+        "bsonType": "object",
+        "properties": {
+          "type": {
+            "bsonType": "string"
+          },
+          "interface": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "ffs_system": {
+        "bsonType": "object",
+        "properties": {
+          "package_size_range": {
+            "bsonType": "object",
+            "properties": {
+              "length": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              },
+              "width": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              },
+              "height": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": "double"
+                  },
+                  "max": {
+                    "bsonType": "double"
+                  }
+                }
+              }
+            }
+          },
+          "film_width_range": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": "double"
+              },
+              "max": {
+                "bsonType": "double"
+              }
+            }
+          },
+          "filling_method": {
+            "bsonType": "string",
+            "enum": [
+              "Manual",
+              "Automatic",
+              "Piston"
+            ]
+          }
+        }
+      },
+      "sealing_method": {
+        "bsonType": "string",
+        "enum": [
+          "Heat Seal",
+          "Ultrasonic"
+        ]
+      },
+      "automation_level": {
+        "bsonType": "string",
+        "enum": [
+          "Manual",
+          "Semi-Automatic",
+          "Fully Automatic"
+        ]
+      },
+      "maintenance_history": {
+        "bsonType": "string"
+      },
+      "known_issues": {
+        "bsonType": "string"
+      },
+      "has_manuals": {
+        "bsonType": "bool"
+      }
+    }
+  },
+  "sub_subcategory": "Horizontal Form-Fill-Seal (HFFS)",
+  "sub_subcategory_code": "6.7.2",
+  "subcategory": "Form-Fill-Seal Machines",
+  "subcategory_code": "6.7",
+  "version": "1.0"
+}
