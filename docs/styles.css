@@ -1,0 +1,54 @@
+/* Machine Categories Browser Styles */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.category-section {
+    flex: 1;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.category-item {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+.category-item:hover {
+    background-color: #f0f0f0;
+    border-color: #ddd;
+}
+.selected {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border-color: #90caf9;
+}
+.language-selector {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.language-selector button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.language-selector button.active {
+    background-color: #1976d2;
+    color: white;
+    border-color: #1976d2;
+}
