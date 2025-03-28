@@ -1,7 +1,7 @@
 {
-  "_id": "printing_paper_folding_machines_de",
-  "kategorie": "Druck- und Grafikausr\u00fcstung",
-  "kategorie_code": "7",
+  "_id": "packaging_shrink_wrapping_machines_de",
+  "kategorie": "Verpackungsmaschinen",
+  "kategorie_code": "6",
   "schema": {
     "bsonType": "object",
     "required": [
@@ -20,7 +20,7 @@
       "kategorie": {
         "bsonType": "string",
         "enum": [
-          "Druck- und Grafikausr\u00fcstung"
+          "Verpackungsmaschinen"
         ]
       },
       "kategorie_code": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Umh\u00fcllungsmaschinen"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Schrumpfverpackungsmaschinen"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,78 +172,75 @@
           }
         }
       },
-      "faltungssystem": {
+      "verpackungssystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "folienbreitenbereich": {
             "bsonType": "object",
             "properties": {
-              "breite": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
               },
-              "l\u00e4nge": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
+          "schrumpftunnelgr\u00f6\u00dfe": {
+            "bsonType": "object",
+            "properties": {
+              "l\u00e4nge": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "breite": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "h\u00f6he": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
             }
           },
-          "faltstationen": {
-            "bsonType": [
-              "int",
-              "null"
-            ]
+          "temperaturbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "heizmethode": {
+        "bsonType": "string",
+        "enum": [
+          "Elektrisch",
+          "Gas",
+          "Infrarot"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -273,9 +270,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Umh\u00fcllungsmaschinen",
+  "unterkategorie_code": "6.3",
+  "unterunterkategorie": "Schrumpfverpackungsmaschinen",
+  "unterunterkategorie_code": "6.3.1",
   "version": "1.0"
 }

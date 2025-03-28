@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_digital_presses_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Druckpressen"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Digitale Druckpressen"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,7 +172,7 @@
           }
         }
       },
-      "faltungssystem": {
+      "drucksystem": {
         "bsonType": "object",
         "properties": {
           "bogengr\u00f6\u00dfenbereich": {
@@ -214,36 +214,26 @@
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
-          },
-          "faltstationen": {
+          "aufl\u00f6sung": {
             "bsonType": [
-              "int",
+              "double",
               "null"
+            ]
+          },
+          "farbf\u00e4higkeit": {
+            "bsonType": "string",
+            "enum": [
+              "Monochrom",
+              "Vollfarbe"
             ]
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "drucktechnologie": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -273,9 +263,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Druckpressen",
+  "unterkategorie_code": "7.1",
+  "unterunterkategorie": "Digitale Druckpressen",
+  "unterunterkategorie_code": "7.1.2",
   "version": "1.0"
 }

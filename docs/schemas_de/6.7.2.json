@@ -1,7 +1,7 @@
 {
-  "_id": "printing_paper_folding_machines_de",
-  "kategorie": "Druck- und Grafikausr\u00fcstung",
-  "kategorie_code": "7",
+  "_id": "packaging_horizontal_form_fill_seal_de",
+  "kategorie": "Verpackungsmaschinen",
+  "kategorie_code": "6",
   "schema": {
     "bsonType": "object",
     "required": [
@@ -20,7 +20,7 @@
       "kategorie": {
         "bsonType": "string",
         "enum": [
-          "Druck- und Grafikausr\u00fcstung"
+          "Verpackungsmaschinen"
         ]
       },
       "kategorie_code": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Form-Fill-Seal-Maschinen"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Horizontale Form-Fill-Seal (HFFS)"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,12 +172,29 @@
           }
         }
       },
-      "faltungssystem": {
+      "ffs_system": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "verpackungsgr\u00f6\u00dfenbereich": {
             "bsonType": "object",
             "properties": {
+              "l\u00e4nge": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": [
+                      "double",
+                      "null"
+                    ]
+                  },
+                  "max": {
+                    "bsonType": [
+                      "double",
+                      "null"
+                    ]
+                  }
+                }
+              },
               "breite": {
                 "bsonType": "object",
                 "properties": {
@@ -195,7 +212,7 @@
                   }
                 }
               },
-              "l\u00e4nge": {
+              "h\u00f6he": {
                 "bsonType": "object",
                 "properties": {
                   "min": {
@@ -214,36 +231,39 @@
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
+          "folienbreitenbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
             }
           },
-          "faltstationen": {
-            "bsonType": [
-              "int",
-              "null"
+          "f\u00fcllmethode": {
+            "bsonType": "string",
+            "enum": [
+              "Manuell",
+              "Automatisch",
+              "Kolben"
             ]
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "versiegelungsmethode": {
+        "bsonType": "string",
+        "enum": [
+          "W\u00e4rmeversiegelung",
+          "Ultraschall"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -273,9 +293,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Form-Fill-Seal-Maschinen",
+  "unterkategorie_code": "6.7",
+  "unterunterkategorie": "Horizontale Form-Fill-Seal (HFFS)",
+  "unterunterkategorie_code": "6.7.2",
   "version": "1.0"
 }

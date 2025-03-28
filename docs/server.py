@@ -5,6 +5,7 @@ import logging
 from datetime import datetime
 from pymongo import MongoClient
 from bson import json_util
+from flask_cors import CORS
 
 # Configure logging
 logging.basicConfig(
@@ -17,7 +18,15 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__, static_url_path='')
+# Initialize Flask app with proper static file configuration
+app = Flask(__name__, static_url_path='', static_folder='.')
+CORS(app, resources={
+    r"/*": {
+        "origins": "*",
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Authorization"]
+    }
+})
 
 # MongoDB connection
 try:
@@ -44,6 +53,14 @@ def load_json_file(file_path):
     except Exception as e:
         logger.error(f"Error loading {file_path}: {e}")
         return None
+
+def find_file_in_paths(filename, search_paths):
+    """Search for a file in multiple paths and return the first found path."""
+    for path in search_paths:
+        full_path = os.path.join(path, filename)
+        if os.path.exists(full_path):
+            return full_path
+    return None
 
 def get_schema_from_static_file(language, code):
     """Get schema from static JSON file for GitHub Pages."""
@@ -103,21 +120,53 @@ def get_schema_from_static_file(language, code):
 
 @app.route('/')
 def root():
-    return send_from_directory('docs', 'index.html')
+    """Serve the main index.html file"""
+    try:
+        # First try to serve from current directory
+        if os.path.exists('index.html'):
+            return send_from_directory('.', 'index.html')
+        # Then try from docs directory
+        elif os.path.exists(os.path.join('docs', 'index.html')):
+            return send_from_directory('docs', 'index.html')
+        else:
+            return "Index.html not found", 404
+    except Exception as e:
+        logger.error(f"Error serving index.html: {e}")
+        return str(e), 500
+
+@app.route('/static/<path:path>')
+def serve_static(path):
+    """Serve static files from both current directory and docs directory"""
+    try:
+        # First try to serve from current directory
+        if os.path.exists(path):
+            return send_from_directory('.', path)
+        # Then try from docs directory
+        elif os.path.exists(os.path.join('docs', path)):
+            return send_from_directory('docs', path)
+        else:
+            return f"File {path} not found", 404
+    except Exception as e:
+        logger.error(f"Error serving static file {path}: {e}")
+        return str(e), 500
 
 @app.route('/api/categories/<language>')
 def get_categories(language):
     try:
         logger.info(f"Getting categories for language: {language}")
-        # Load from docs directory
-        filename = os.path.join('docs', f'categories_{language}.json')
-        data = load_json_file(filename)
-        if data:
-            logger.info(f"Successfully retrieved categories for {language}")
-            return jsonify(data)
-        else:
-            logger.warning(f"Categories not found for language: {language}")
-            return jsonify({'error': 'Categories not found'}), 404
+        # Try both docs directory and current directory
+        filename = f'categories_{language}.json'
+        search_paths = ['docs', '.']
+        file_path = find_file_in_paths(filename, search_paths)
+        
+        if file_path:
+            data = load_json_file(file_path)
+            if data:
+                logger.info(f"Successfully retrieved categories for {language}")
+                return jsonify(data)
+        
+        logger.warning(f"Categories not found for language: {language}")
+        return jsonify({'error': 'Categories not found'}), 404
     except Exception as e:
         logger.error(f"Error getting categories: {e}", exc_info=True)
         return jsonify({'error': str(e)}), 500
@@ -186,4 +235,11 @@ def get_schema(language, code):
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000) 
+    try:
+        # Use port 8000 instead of 5000 to avoid conflicts with AirPlay
+        port = int(os.environ.get('PORT', 8000))
+        logger.info(f"Starting server on port {port}...")
+        app.run(debug=True, port=port, host='0.0.0.0')
+    except Exception as e:
+        logger.error(f"Failed to start server: {e}")
+        raise 

@@ -1,7 +1,7 @@
 {
-  "_id": "printing_paper_folding_machines_de",
-  "kategorie": "Druck- und Grafikausr\u00fcstung",
-  "kategorie_code": "7",
+  "_id": "packaging_powder_filling_machines_de",
+  "kategorie": "Verpackungsmaschinen",
+  "kategorie_code": "6",
   "schema": {
     "bsonType": "object",
     "required": [
@@ -20,7 +20,7 @@
       "kategorie": {
         "bsonType": "string",
         "enum": [
-          "Druck- und Grafikausr\u00fcstung"
+          "Verpackungsmaschinen"
         ]
       },
       "kategorie_code": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Abf\u00fcllmaschinen"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Pulverabf\u00fcllmaschinen"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,78 +172,53 @@
           }
         }
       },
-      "faltungssystem": {
+      "f\u00fcllsystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "beh\u00e4ltergr\u00f6\u00dfenbereich": {
             "bsonType": "object",
             "properties": {
-              "breite": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
               },
-              "l\u00e4nge": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
-          },
-          "faltstationen": {
+          "f\u00fcllk\u00f6pfe": {
             "bsonType": [
               "int",
               "null"
             ]
+          },
+          "f\u00fcllmethode": {
+            "bsonType": "string",
+            "enum": [
+              "Schneckenf\u00f6rderer",
+              "Volumetrisch",
+              "Gewichtsbasierend"
+            ]
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "trichterkapazit\u00e4t": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
+      },
+      "staubkontrolle": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -273,9 +248,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Abf\u00fcllmaschinen",
+  "unterkategorie_code": "6.1",
+  "unterunterkategorie": "Pulverabf\u00fcllmaschinen",
+  "unterunterkategorie_code": "6.1.2",
   "version": "1.0"
 }

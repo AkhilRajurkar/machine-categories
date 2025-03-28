@@ -1,7 +1,7 @@
 {
-  "_id": "printing_paper_folding_machines_de",
-  "kategorie": "Druck- und Grafikausr\u00fcstung",
-  "kategorie_code": "7",
+  "_id": "construction_forklifts_de",
+  "kategorie": "Baumaschinen",
+  "kategorie_code": "8",
   "schema": {
     "bsonType": "object",
     "required": [
@@ -20,7 +20,7 @@
       "kategorie": {
         "bsonType": "string",
         "enum": [
-          "Druck- und Grafikausr\u00fcstung"
+          "Baumaschinen"
         ]
       },
       "kategorie_code": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Hebezeuge"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Gabelstapler"
         ]
       },
       "unterunterkategorie_code": {
@@ -107,30 +107,22 @@
           }
         }
       },
-      "stromversorgung": {
+      "antriebssystem": {
         "bsonType": "object",
         "properties": {
-          "spannung": {
+          "motortyp": {
             "bsonType": [
-              "int",
+              "string",
               "null"
             ]
           },
-          "phase": {
-            "bsonType": "int",
-            "enum": [
-              1,
-              3
+          "pferdest\u00e4rke": {
+            "bsonType": [
+              "double",
+              "null"
             ]
           },
-          "frequenz": {
-            "bsonType": "int",
-            "enum": [
-              50,
-              60
-            ]
-          },
-          "verbrauch": {
+          "kraftstoffkapazit\u00e4t": {
             "bsonType": [
               "double",
               "null"
@@ -138,20 +130,20 @@
           }
         }
       },
-      "verarbeitungskapazit\u00e4t": {
+      "hebkapazit\u00e4t": {
         "bsonType": "object",
         "properties": {
-          "durchsatz": {
+          "maximale_last": {
             "bsonType": [
               "double",
               "null"
             ]
           },
-          "materialtypen": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
+          "maximale_h\u00f6he": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
           }
         }
       },
@@ -172,85 +164,57 @@
           }
         }
       },
-      "faltungssystem": {
+      "gabelstaplersystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
-            "bsonType": "object",
-            "properties": {
-              "breite": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
-              },
-              "l\u00e4nge": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
-              }
-            }
-          },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
-          },
-          "faltstationen": {
+          "gabeln_l\u00e4nge": {
             "bsonType": [
-              "int",
+              "double",
+              "null"
+            ]
+          },
+          "masttyp": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "drehradius": {
+            "bsonType": [
+              "double",
               "null"
             ]
           }
         }
       },
-      "papiergewichtsbreich": {
+      "mobilit\u00e4t": {
         "bsonType": "object",
         "properties": {
-          "min": {
+          "radkonfiguration": {
             "bsonType": [
-              "double",
+              "string",
               "null"
             ]
           },
-          "max": {
+          "fahrgeschwindigkeit": {
             "bsonType": [
               "double",
               "null"
             ]
           }
+        }
+      },
+      "anbauger\u00e4tekompatibilit\u00e4t": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
         }
       },
       "automatisierungsgrad": {
         "bsonType": "string",
         "enum": [
           "Manuell",
-          "Halbautomatisch",
-          "Vollautomatisch"
+          "Halbautomatisch"
         ]
       },
       "wartungsgeschichte": {
@@ -273,9 +237,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Hebezeuge",
+  "unterkategorie_code": "8.3",
+  "unterunterkategorie": "Gabelstapler",
+  "unterunterkategorie_code": "8.3.3",
   "version": "1.0"
 }

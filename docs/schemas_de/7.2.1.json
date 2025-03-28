@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_plate_making_machines_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Vordruckausr\u00fcstung"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Plattenherstellungsmaschinen"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,10 +172,10 @@
           }
         }
       },
-      "faltungssystem": {
+      "plattenherstellungssystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "plattengr\u00f6\u00dfenbereich": {
             "bsonType": "object",
             "properties": {
               "breite": {
@@ -214,36 +214,29 @@
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
-          },
-          "faltstationen": {
+          "aufl\u00f6sung": {
             "bsonType": [
-              "int",
+              "double",
               "null"
+            ]
+          },
+          "plattentyp": {
+            "bsonType": "string",
+            "enum": [
+              "Thermisch",
+              "Photopolymer",
+              "Analog"
             ]
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "verarbeitungsmethode": {
+        "bsonType": "string",
+        "enum": [
+          "CtP (Computer-zu-Platte)",
+          "Konventionell",
+          "Wasserlos"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -266,16 +259,16 @@
         ]
       },
       "hat_handb\u00fccher": {
-        "bsonType": [
+        "bson": [
           "bool",
           "null"
         ]
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Vordruckausr\u00fcstung",
+  "unterkategorie_code": "7.2",
+  "unterunterkategorie": "Plattenherstellungsmaschinen",
+  "unterunterkategorie_code": "7.2.1",
   "version": "1.0"
 }

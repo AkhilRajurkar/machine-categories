@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_film_extruders_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Filmausdr\u00fccker"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,78 +172,63 @@
           }
         }
       },
-      "faltungssystem": {
+      "extrusionssystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "folienbreitenbereich": {
             "bsonType": "object",
             "properties": {
-              "breite": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
               },
-              "l\u00e4nge": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
+          "folienst\u00e4rkenbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
             }
           },
-          "faltstationen": {
+          "d\u00fcsendurchmesser": {
             "bsonType": [
-              "int",
+              "double",
               "null"
             ]
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "extrudertyp": {
+        "bsonType": "string",
+        "enum": [
+          "Blown Film",
+          "Cast Film"
+        ]
+      },
+      "k\u00fchlmethode": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -275,7 +260,7 @@
   },
   "unterkategorie": "Papier- und Folienverarbeitung",
   "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterunterkategorie": "Filmausdr\u00fccker",
+  "unterunterkategorie_code": "7.4.3",
   "version": "1.0"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_folding_machines_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Nachdruckausr\u00fcstung"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Faltmaschinen"
         ]
       },
       "unterunterkategorie_code": {
@@ -273,9 +273,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Nachdruckausr\u00fcstung",
+  "unterkategorie_code": "7.3",
+  "unterunterkategorie": "Faltmaschinen",
+  "unterunterkategorie_code": "7.3.2",
   "version": "1.0"
 }

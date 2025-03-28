@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_bag_making_machines_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Beutelmachmaschinen"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,10 +172,10 @@
           }
         }
       },
-      "faltungssystem": {
+      "beutelmachsystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "beutelgr\u00f6\u00dfenbereich": {
             "bsonType": "object",
             "properties": {
               "breite": {
@@ -214,36 +214,38 @@
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
+          "folienbreitenbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
             }
           },
-          "faltstationen": {
-            "bsonType": [
-              "int",
-              "null"
+          "beuteltyp": {
+            "bsonType": "string",
+            "enum": [
+              "Flacher Beutel",
+              "Geblechter Beutel",
+              "Wicket-Beutel"
             ]
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "versiegelungsmethode": {
+        "bsonType": [
+          "string",
+          "null"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -275,7 +277,7 @@
   },
   "unterkategorie": "Papier- und Folienverarbeitung",
   "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterunterkategorie": "Beutelmachmaschinen",
+  "unterunterkategorie_code": "7.4.7",
   "version": "1.0"
 }

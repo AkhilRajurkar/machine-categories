@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_exposers_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Vordruckausr\u00fcstung"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Belichtungsger\u00e4te"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,10 +172,10 @@
           }
         }
       },
-      "faltungssystem": {
+      "belichtungssystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "belichtungsfl\u00e4chenbereich": {
             "bsonType": "object",
             "properties": {
               "breite": {
@@ -214,36 +214,38 @@
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
-          },
-          "faltstationen": {
-            "bsonType": [
-              "int",
-              "null"
+          "lichtquelle": {
+            "bsonType": "string",
+            "enum": [
+              "UV",
+              "Laser",
+              "Quecksilberlampe"
             ]
+          },
+          "belichtungszeitbereich": {
+            "bsonType": "object",
+            "properties": {
+              "min": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              },
+              "max": {
+                "bsonType": [
+                  "double",
+                  "null"
+                ]
+              }
+            }
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "vakuumsystem": {
+        "bsonType": [
+          "bool",
+          "null"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -273,9 +275,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Vordruckausr\u00fcstung",
+  "unterkategorie_code": "7.2",
+  "unterunterkategorie": "Belichtungsger\u00e4te",
+  "unterunterkategorie_code": "7.2.2",
   "version": "1.0"
 }

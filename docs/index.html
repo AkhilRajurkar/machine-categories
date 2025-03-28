@@ -4,38 +4,731 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Categories</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .category-section {
+            flex: 1;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .category-item {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+        }
+        .category-item:hover {
+            background-color: #f0f0f0;
+            border-color: #ddd;
+        }
+        .selected {
+            background-color: #e3f2fd;
+            color: #1976d2;
+            border-color: #90caf9;
+        }
+        .code {
+            color: #1976d2;
+            font-size: 0.9em;
+            margin-left: 10px;
+            font-family: monospace;
+            background-color: #e3f2fd;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #eee;
+        }
+        .empty-message {
+            color: #666;
+            font-style: italic;
+            padding: 10px;
+            text-align: center;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .error-message {
+            color: #dc3545;
+            padding: 15px;
+            background-color: #f8d7da;
+            border-radius: 6px;
+            margin: 10px 0;
+            text-align: center;
+            border: 1px solid #f5c6cb;
+        }
+        .loading {
+            color: #666;
+            padding: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+        .language-selector {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .language-selector button {
+            padding: 8px 16px;
+            margin-left: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .language-selector button.active {
+            background-color: #1976d2;
+            color: white;
+            border-color: #1976d2;
+        }
+        .schema-section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .schema-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #1976d2;
+            font-size: 1.1em;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e3f2fd;
+        }
+        .schema-content {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+            line-height: 1.5;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            overflow-x: auto;
+        }
+        .schema-property {
+            margin-bottom: 10px;
+        }
+        .schema-property-name {
+            color: #0d47a1;
+            font-weight: bold;
+        }
+        .schema-property-type {
+            color: #2e7d32;
+        }
+        .schema-property-required {
+            color: #c62828;
+            font-size: 0.9em;
+            margin-left: 5px;
+        }
+        .schema-loading {
+            color: #666;
+            font-style: italic;
+            text-align: center;
+            padding: 20px;
+        }
+        .schema-error {
+            color: #dc3545;
+            padding: 15px;
+            background-color: #f8d7da;
+            border-radius: 6px;
+            border: 1px solid #f5c6cb;
+        }
+        .schema-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .schema-table th {
+            background-color: #f8f9fa;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #dee2e6;
+            color: #1976d2;
+            font-weight: 600;
+        }
+        .schema-table td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+            vertical-align: top;
+        }
+        .schema-table tr:hover {
+            background-color: #f8f9fa;
+        }
+        .nested-properties {
+            margin-left: 20px;
+            border-left: 2px solid #e3f2fd;
+            padding-left: 10px;
+        }
+        .property-constraints {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 4px;
+        }
+        .enum-values {
+            color: #0d47a1;
+            font-family: monospace;
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .required-badge {
+            background-color: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            margin-left: 6px;
+        }
+        .type-badge {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .schema-section-title {
+            color: #1976d2;
+            font-size: 1.1em;
+            font-weight: 600;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e3f2fd;
+        }
+        .seo-section {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            border: 1px solid #e9ecef;
+        }
+        .seo-title {
+            color: #1976d2;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .seo-tag {
+            display: inline-block;
+            background-color: #e3f2fd;
+            color: #1976d2;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin: 4px;
+            font-size: 0.9em;
+        }
+        .manufacturer-section {
+            background-color: #fff3e0;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 15px;
+            border: 1px solid #ffe0b2;
+        }
+        .manufacturer-title {
+            color: #f57c00;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .manufacturer-info {
+            color: #e65100;
+            font-size: 0.95em;
+        }
+    </style>
 </head>
 <body>
     <h1>Machine Categories Browser</h1>
     <div class="language-selector">
-        <button id="btn-en" class="active">English</button>
-        <button id="btn-de">Deutsch</button>
+        <button onclick="switchLanguage('en')" id="en-btn" class="active">English</button>
+        <button onclick="switchLanguage('de')" id="de-btn">Deutsch</button>
     </div>
     <div class="container">
         <div class="category-section">
             <h2>Main Categories</h2>
-            <div id="main-categories">
-                <div class="loading">Loading categories...</div>
-            </div>
+            <div id="main-categories"></div>
         </div>
         <div class="category-section">
             <h2>Subcategories</h2>
-            <div id="subcategories">
-                <div class="empty-message">Select a main category</div>
-            </div>
+            <div id="subcategories"></div>
         </div>
         <div class="category-section">
             <h2>Sub-subcategories</h2>
-            <div id="sub-subcategories">
-                <div class="empty-message">Select a subcategory</div>
-            </div>
+            <div id="subsubcategories"></div>
         </div>
     </div>
-    <div class="schema-section">
+    <div id="schema-section" class="schema-section" style="display: none;">
         <div class="schema-title">Schema Information</div>
-        <div id="schema-info"></div>
+        <div id="schema-content"></div>
+        <div id="seo-section" class="seo-section">
+            <div class="seo-title">SEO Tags</div>
+            <div id="seo-tags"></div>
+        </div>
+        <div id="manufacturer-section" class="manufacturer-section">
+            <div class="manufacturer-title">Manufacturer Information</div>
+            <div id="manufacturer-info"></div>
+        </div>
     </div>
-    <script src="script.js"></script>
+
+    <script>
+        let categoriesData = [];
+        let currentLanguage = 'en';
+        
+        // Add UI translations
+        const translations = {
+            en: {
+                title: 'Machine Categories Browser',
+                mainCategories: 'Main Categories',
+                subcategories: 'Subcategories',
+                subSubcategories: 'Sub-subcategories',
+                schemaInfo: 'Schema Information',
+                seoTags: 'SEO Tags',
+                manufacturerInfo: 'Manufacturer Information',
+                noSchema: 'No schema available',
+                loading: 'Loading...',
+                error: 'Error loading schema'
+            },
+            de: {
+                title: 'Maschinenkategorien Browser',
+                mainCategories: 'Hauptkategorien',
+                subcategories: 'Unterkategorien',
+                subSubcategories: 'Unter-Unterkategorien',
+                schemaInfo: 'Schema-Information',
+                seoTags: 'SEO-Tags',
+                manufacturerInfo: 'Herstellerinformationen',
+                noSchema: 'Kein Schema verfügbar',
+                loading: 'Wird geladen...',
+                error: 'Fehler beim Laden des Schemas'
+            }
+        };
+
+        function updateUILanguage() {
+            const t = translations[currentLanguage];
+            document.title = t.title;
+            document.querySelector('h1').textContent = t.title;
+            document.querySelectorAll('h2')[0].textContent = t.mainCategories;
+            document.querySelectorAll('h2')[1].textContent = t.subcategories;
+            document.querySelectorAll('h2')[2].textContent = t.subSubcategories;
+            
+            // Update empty messages if they're showing
+            const subcat = document.getElementById('subcategories');
+            if (subcat.querySelector('.empty-message')) {
+                subcat.innerHTML = `<div class="empty-message">${t.selectMain}</div>`;
+            }
+            
+            const subsubcat = document.getElementById('subsubcategories');
+            if (subsubcat.querySelector('.empty-message')) {
+                subsubcat.innerHTML = `<div class="empty-message">${t.selectSub}</div>`;
+            }
+        }
+
+        function switchLanguage(lang) {
+            currentLanguage = lang;
+            document.getElementById('en-btn').classList.toggle('active', lang === 'en');
+            document.getElementById('de-btn').classList.toggle('active', lang === 'de');
+            updateUILanguage();
+            loadCategories();
+            
+            // If a sub-subcategory is selected, reload its schema with new language
+            const selectedSubSub = document.querySelector('#subsubcategories .selected');
+            if (selectedSubSub) {
+                const code = selectedSubSub.getAttribute('onclick').match(/'([^']+)'/)[1];
+                selectSubSubCategory(code);
+            }
+        }
+        
+        function loadCategories() {
+            const loadingMessage = '<div class="loading">Loading categories...</div>';
+            const errorMessage = '<div class="error-message">Error loading categories. Please try again later.</div>';
+
+            // Show loading message
+            document.getElementById('main-categories').innerHTML = loadingMessage;
+
+            // Determine if we're on GitHub Pages
+            const isGitHubPages = window.location.hostname.includes('github.io');
+            const baseUrl = isGitHubPages 
+                ? 'https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main'
+                : 'http://localhost:8000';
+            
+            const apiUrl = isGitHubPages 
+                ? `${baseUrl}/categories_${currentLanguage}.json`
+                : `${baseUrl}/api/categories/${currentLanguage}`;
+
+            console.log(`Loading categories from: ${apiUrl}`);
+
+            fetch(apiUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        console.error(`Failed to load categories: ${response.status} ${response.statusText}`);
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (!Array.isArray(data)) {
+                        console.error('Invalid data format received:', data);
+                        throw new Error('Invalid data format');
+                    }
+                    categoriesData = data;
+                    displayMainCategories();
+                    console.log(`Loaded ${categoriesData.length} categories for ${currentLanguage}`);
+                })
+                .catch(error => {
+                    console.error('Error loading categories:', error);
+                    document.getElementById('main-categories').innerHTML = errorMessage;
+                });
+        }
+
+        // Initial load
+        loadCategories();
+
+        function displayMainCategories() {
+            const container = document.getElementById('main-categories');
+            container.innerHTML = categoriesData.map(category => `
+                <div class="category-item" onclick="selectMainCategory('${category.code}')">
+                    ${category.name} <span class="code">${category.code || ''}</span>
+                </div>
+            `).join('');
+
+            const t = translations[currentLanguage];
+            document.getElementById('subcategories').innerHTML = 
+                `<div class="empty-message">${t.selectMain}</div>`;
+            document.getElementById('subsubcategories').innerHTML = 
+                `<div class="empty-message">${t.selectSub}</div>`;
+        }
+
+        function selectMainCategory(code) {
+            clearSelection('main-categories');
+            
+            const selectedCategory = categoriesData.find(cat => cat.code === code);
+            highlightSelected(`[onclick="selectMainCategory('${code}')"]`);
+            
+            const container = document.getElementById('subcategories');
+            container.innerHTML = selectedCategory.subcategories.map(subcat => `
+                <div class="category-item" onclick="selectSubCategory('${code}', '${subcat.code}')">
+                    ${subcat.name} <span class="code">${subcat.code || ''}</span>
+                </div>
+            `).join('');
+
+            document.getElementById('subsubcategories').innerHTML = '<div class="empty-message">Select a subcategory</div>';
+        }
+
+        function selectSubCategory(mainCode, subCode) {
+            clearSelection('subcategories');
+            
+            highlightSelected(`[onclick="selectSubCategory('${mainCode}', '${subCode}')"]`);
+            
+            const mainCategory = categoriesData.find(cat => cat.code === mainCode);
+            const subCategory = mainCategory.subcategories.find(sub => sub.code === subCode);
+            
+            const container = document.getElementById('subsubcategories');
+            if (subCategory.subSubcategories && subCategory.subSubcategories.length > 0) {
+                container.innerHTML = subCategory.subSubcategories.map(subsub => `
+                    <div class="category-item" onclick="selectSubSubCategory('${mainCode}', '${subCode}', '${subsub.code}')">
+                        ${subsub.name} <span class="code">${subsub.code || ''}</span>
+                    </div>
+                `).join('');
+            } else {
+                container.innerHTML = '<div class="empty-message">No sub-subcategories available</div>';
+            }
+
+            document.getElementById('schema-section').style.display = 'none';
+        }
+
+        function selectSubSubCategory(mainCode, subCode, subSubCode) {
+            console.log(`Selected sub-subcategory: ${subSubCode} (main: ${mainCode}, sub: ${subCode})`);
+            
+            // Clear previous selection
+            clearSelection('subsubcategories');
+            
+            // Add selection to clicked item
+            highlightSelected(`[onclick="selectSubSubCategory('${mainCode}', '${subCode}', '${subSubCode}')"]`);
+            
+            // Show schema section
+            const schemaSection = document.getElementById('schema-section');
+            const schemaContent = document.getElementById('schema-content');
+            schemaSection.style.display = 'block';
+            
+            // Show loading state
+            schemaContent.innerHTML = '<div class="schema-loading">Loading schema information...</div>';
+            
+            // Determine if we're on GitHub Pages
+            const isGitHubPages = window.location.hostname.includes('github.io');
+            const baseUrl = isGitHubPages 
+                ? 'https://raw.githubusercontent.com/AkhilRajurkar/machine-categories/main'
+                : 'http://localhost:8000';
+            
+            console.log(`Running on GitHub Pages: ${isGitHubPages}`);
+            
+            const apiUrl = isGitHubPages 
+                ? `${baseUrl}/schemas_${currentLanguage}/${subSubCode}.json`
+                : `${baseUrl}/api/schema/${currentLanguage}/${subSubCode}`;
+            
+            console.log(`Fetching schema from: ${apiUrl}`);
+            
+            fetch(apiUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        console.log('API returned error status');
+                        throw new Error('Schema not found');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Schema data received:', data);
+                    // Format and display schema
+                    const formattedData = formatSchemaDisplay(data);
+                    schemaContent.innerHTML = `<div class="schema-content">${formattedData}</div>`;
+                })
+                .catch(error => {
+                    console.error('Error fetching schema:', error);
+                    schemaContent.innerHTML = `<div class="schema-error">Error loading schema: ${error.message}</div>`;
+                });
+        }
+
+        function formatSchemaDisplay(data) {
+            try {
+                // Keep MongoDB specific fields but remove _id
+                const displayData = { ...data };
+                delete displayData._id;
+
+                let output = '<div class="schema-title">';
+                output += `${displayData.name || displayData.sub_subcategory || displayData.unterunterkategorie}`;
+                
+                // Add category codes if available
+                if (displayData.category_code || displayData.kategorie_code) {
+                    output += ` <span class="code">${displayData.category_code || displayData.kategorie_code}</span>`;
+                }
+                if (displayData.subcategory_code || displayData.unterkategorie_code) {
+                    output += ` <span class="code">${displayData.subcategory_code || displayData.unterkategorie_code}</span>`;
+                }
+                if (displayData.sub_subcategory_code || displayData.unterunterkategorie_code) {
+                    output += ` <span class="code">${displayData.sub_subcategory_code || displayData.unterunterkategorie_code}</span>`;
+                }
+                output += '</div>';
+
+                // Add category information section
+                output += '<div class="schema-section-title">Category Information</div>';
+                output += '<table class="schema-table">';
+                output += '<thead><tr><th>Level</th><th>Code</th></tr></thead><tbody>';
+                
+                // Main category
+                if (displayData.category_code || displayData.kategorie_code) {
+                    output += `<tr>
+                        <td>Main Category</td>
+                        <td><span class="code">${displayData.category_code || displayData.kategorie_code}</span></td>
+                    </tr>`;
+                }
+                
+                // Subcategory
+                if (displayData.subcategory_code || displayData.unterkategorie_code) {
+                    output += `<tr>
+                        <td>Subcategory</td>
+                        <td><span class="code">${displayData.subcategory_code || displayData.unterkategorie_code}</span></td>
+                    </tr>`;
+                }
+                
+                // Sub-subcategory
+                if (displayData.sub_subcategory_code || displayData.unterunterkategorie_code) {
+                    output += `<tr>
+                        <td>Sub-subcategory</td>
+                        <td><span class="code">${displayData.sub_subcategory_code || displayData.unterunterkategorie_code}</span></td>
+                    </tr>`;
+                }
+                output += '</tbody></table>';
+                
+                if (displayData.schema) {
+                    // Add required fields section
+                    if (displayData.schema.required && displayData.schema.required.length > 0) {
+                        output += '<div class="schema-section-title">Required Fields</div>';
+                        output += '<div class="required-fields">';
+                        output += displayData.schema.required.map(field => 
+                            `<span class="required-badge">${field}</span>`
+                        ).join(' ');
+                        output += '</div>';
+                    }
+
+                    // Add properties table
+                    if (displayData.schema.properties) {
+                        output += '<div class="schema-section-title">Properties</div>';
+                        output += '<table class="schema-table">';
+                        output += '<thead><tr><th>Property</th><th>Type</th><th>Constraints & Description</th></tr></thead><tbody>';
+                        
+                        Object.entries(displayData.schema.properties).forEach(([propName, propDetails]) => {
+                            output += '<tr>';
+                            
+                            // Property name column
+                            output += `<td><span class="schema-property-name">${propName}</span>`;
+                            if (displayData.schema.required && displayData.schema.required.includes(propName)) {
+                                output += '<span class="required-badge">Required</span>';
+                            }
+                            output += '</td>';
+                            
+                            // Type column
+                            output += '<td>';
+                            if (Array.isArray(propDetails.bsonType)) {
+                                output += `<span class="type-badge">${propDetails.bsonType.join(' | ')}</span>`;
+                            } else {
+                                output += `<span class="type-badge">${propDetails.bsonType}</span>`;
+                            }
+                            output += '</td>';
+                            
+                            // Constraints column
+                            output += '<td>';
+                            
+                            // Add enum values
+                            if (propDetails.enum) {
+                                output += '<div class="property-constraints">Allowed values: ';
+                                output += propDetails.enum.map(val => 
+                                    `<span class="enum-values">${val}</span>`
+                                ).join(', ');
+                                output += '</div>';
+                            }
+                            
+                            // Add numeric constraints
+                            if (propDetails.minimum !== undefined || propDetails.maximum !== undefined) {
+                                output += '<div class="property-constraints">';
+                                if (propDetails.minimum !== undefined) {
+                                    output += `Minimum: ${propDetails.minimum}`;
+                                }
+                                if (propDetails.maximum !== undefined) {
+                                    output += propDetails.minimum !== undefined ? ', ' : '';
+                                    output += `Maximum: ${propDetails.maximum}`;
+                                }
+                                output += '</div>';
+                            }
+                            
+                            // Handle nested objects
+                            if (propDetails.properties) {
+                                output += '<div class="nested-properties">';
+                                Object.entries(propDetails.properties).forEach(([nestedName, nestedDetails]) => {
+                                    output += `<div><span class="schema-property-name">${nestedName}</span>: `;
+                                    output += `<span class="type-badge">${
+                                        Array.isArray(nestedDetails.bsonType) 
+                                            ? nestedDetails.bsonType.join(' | ') 
+                                            : nestedDetails.bsonType
+                                    }</span>`;
+                                    
+                                    // Add nested enum values if present
+                                    if (nestedDetails.enum) {
+                                        output += '<div class="property-constraints">Allowed values: ';
+                                        output += nestedDetails.enum.map(val => 
+                                            `<span class="enum-values">${val}</span>`
+                                        ).join(', ');
+                                        output += '</div>';
+                                    }
+                                    output += '</div>';
+                                });
+                                output += '</div>';
+                            }
+                            
+                            output += '</td></tr>';
+                        });
+                        
+                        output += '</tbody></table>';
+                    }
+                }
+
+                return output;
+            } catch (error) {
+                console.error('Error formatting schema data:', error);
+                return '<div class="schema-error">Error formatting schema data</div>';
+            }
+        }
+
+        function displaySchema(schema) {
+            const schemaContent = document.getElementById('schema-content');
+            const seoTags = document.getElementById('seo-tags');
+            const manufacturerInfo = document.getElementById('manufacturer-info');
+            
+            if (!schema || !schema.schema) {
+                schemaContent.innerHTML = `<div class="schema-error">${translations[currentLanguage].noSchema}</div>`;
+                return;
+            }
+
+            // Display main schema information
+            let schemaHtml = '<table class="schema-table">';
+            schemaHtml += '<tr><th>Property</th><th>Type</th><th>Required</th><th>Constraints</th></tr>';
+            
+            const properties = schema.schema.properties;
+            for (const [propName, propInfo] of Object.entries(properties)) {
+                schemaHtml += '<tr>';
+                schemaHtml += `<td class="schema-property-name">${propName}</td>`;
+                schemaHtml += `<td class="schema-property-type">${propInfo.bsonType}</td>`;
+                schemaHtml += `<td>${schema.schema.required.includes(propName) ? '<span class="required-badge">Required</span>' : ''}</td>`;
+                
+                let constraints = [];
+                if (propInfo.enum) {
+                    constraints.push(`Enum: ${propInfo.enum.join(', ')}`);
+                }
+                if (propInfo.minimum !== undefined) {
+                    constraints.push(`Min: ${propInfo.minimum}`);
+                }
+                if (propInfo.maximum !== undefined) {
+                    constraints.push(`Max: ${propInfo.maximum}`);
+                }
+                
+                schemaHtml += `<td>${constraints.join('<br>')}</td>`;
+                schemaHtml += '</tr>';
+            }
+            schemaHtml += '</table>';
+            
+            schemaContent.innerHTML = schemaHtml;
+
+            // Display SEO tags if available
+            if (schema.seo_tags) {
+                let seoHtml = '';
+                schema.seo_tags.forEach(tag => {
+                    seoHtml += `<span class="seo-tag">${tag}</span>`;
+                });
+                seoTags.innerHTML = seoHtml;
+            } else {
+                seoTags.innerHTML = '<em>No SEO tags available</em>';
+            }
+
+            // Display manufacturer information if available
+            if (schema.manufacturer_info) {
+                let manufacturerHtml = '';
+                if (schema.manufacturer_info.european) {
+                    manufacturerHtml += '<div class="manufacturer-info">European Manufacturer</div>';
+                }
+                if (schema.manufacturer_info.certifications) {
+                    manufacturerHtml += '<div class="manufacturer-info">Certifications: ' + 
+                        schema.manufacturer_info.certifications.join(', ') + '</div>';
+                }
+                manufacturerInfo.innerHTML = manufacturerHtml;
+            } else {
+                manufacturerInfo.innerHTML = '<em>No manufacturer information available</em>';
+            }
+        }
+
+        function clearSelection(containerId) {
+            const items = document.getElementById(containerId).getElementsByClassName('category-item');
+            Array.from(items).forEach(item => item.classList.remove('selected'));
+        }
+
+        function highlightSelected(selector) {
+            const element = document.querySelector(selector);
+            if (element) {
+                element.classList.add('selected');
+            }
+        }
+    </script>
 </body>
 </html> 

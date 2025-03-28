@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_paper_cutting_machines_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Papierschneidemaschinen"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,58 +172,26 @@
           }
         }
       },
-      "faltungssystem": {
+      "schneidesystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
-            "bsonType": "object",
-            "properties": {
-              "breite": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
-              },
-              "l\u00e4nge": {
-                "bsonType": "object",
-                "properties": {
-                  "min": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  },
-                  "max": {
-                    "bsonType": [
-                      "double",
-                      "null"
-                    ]
-                  }
-                }
-              }
-            }
-          },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
-          },
-          "faltstationen": {
+          "schneidebreite": {
             "bsonType": [
-              "int",
+              "double",
               "null"
+            ]
+          },
+          "schneidetiefe": {
+            "bsonType": [
+              "double",
+              "null"
+            ]
+          },
+          "klingentyp": {
+            "bsonType": "string",
+            "enum": [
+              "Gerade",
+              "Rotierend"
             ]
           }
         }
@@ -275,7 +243,7 @@
   },
   "unterkategorie": "Papier- und Folienverarbeitung",
   "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterunterkategorie": "Papierschneidemaschinen",
+  "unterunterkategorie_code": "7.4.1",
   "version": "1.0"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": "printing_paper_folding_machines_de",
+  "_id": "printing_perfect_binders_de",
   "kategorie": "Druck- und Grafikausr\u00fcstung",
   "kategorie_code": "7",
   "schema": {
@@ -29,7 +29,7 @@
       "unterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papier- und Folienverarbeitung"
+          "Nachdruckausr\u00fcstung"
         ]
       },
       "unterkategorie_code": {
@@ -38,7 +38,7 @@
       "unterunterkategorie": {
         "bsonType": "string",
         "enum": [
-          "Papierfaltmaschinen"
+          "Perfektbinder"
         ]
       },
       "unterunterkategorie_code": {
@@ -172,10 +172,10 @@
           }
         }
       },
-      "faltungssystem": {
+      "bindesystem": {
         "bsonType": "object",
         "properties": {
-          "bogengr\u00f6\u00dfenbereich": {
+          "buchgr\u00f6\u00dfenbereich": {
             "bsonType": "object",
             "properties": {
               "breite": {
@@ -195,7 +195,24 @@
                   }
                 }
               },
-              "l\u00e4nge": {
+              "h\u00f6he": {
+                "bsonType": "object",
+                "properties": {
+                  "min": {
+                    "bsonType": [
+                      "double",
+                      "null"
+                    ]
+                  },
+                  "max": {
+                    "bsonType": [
+                      "double",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "dicke": {
                 "bsonType": "object",
                 "properties": {
                   "min": {
@@ -214,13 +231,15 @@
               }
             }
           },
-          "faltarten": {
-            "bsonType": "array",
-            "items": {
-              "bsonType": "string"
-            }
+          "klebertyp": {
+            "bsonType": "string",
+            "enum": [
+              "Hot Melt",
+              "Kaltkleber",
+              "PUR"
+            ]
           },
-          "faltstationen": {
+          "klemmstationen": {
             "bsonType": [
               "int",
               "null"
@@ -228,22 +247,11 @@
           }
         }
       },
-      "papiergewichtsbreich": {
-        "bsonType": "object",
-        "properties": {
-          "min": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          },
-          "max": {
-            "bsonType": [
-              "double",
-              "null"
-            ]
-          }
-        }
+      "trocknungszeit": {
+        "bsonType": [
+          "double",
+          "null"
+        ]
       },
       "automatisierungsgrad": {
         "bsonType": "string",
@@ -273,9 +281,9 @@
       }
     }
   },
-  "unterkategorie": "Papier- und Folienverarbeitung",
-  "unterkategorie_code": "7.4",
-  "unterunterkategorie": "Papierfaltmaschinen",
-  "unterunterkategorie_code": "7.4.2",
+  "unterkategorie": "Nachdruckausr\u00fcstung",
+  "unterkategorie_code": "7.3",
+  "unterunterkategorie": "Perfektbinder",
+  "unterunterkategorie_code": "7.3.3",
   "version": "1.0"
 }
